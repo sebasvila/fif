@@ -1,0 +1,20 @@
+---
+title: 'Add a magnet to the oil drain plug'
+date: 2013-08-11T11:21:00.004+02:00
+draft: false
+slug: "add-magnet-to-oil-drain-plug"
+tags: 
+- leinen LZ4SB
+---
+
+
+#### this is good my friend, great posts, all the best ...
+[Unknown](https://www.blogger.com/profile/05422094810613761323 "noreply@blogger.com") - <time datetime="2013-08-21T12:13:07.501+02:00">Aug 3, 2013</time>
+
+
+this is good my friend, great posts, all the best and success in your future.  
+  
+\-  
+  
+[filler plugs](http://teplast.com/oil_filter_plugs.html) | [oil filler plugs](http://teplast.com/oil_filter_plugs.html) | [oil filler](http://teplast.com/oil_filter_plugs.html)
+<hr />
