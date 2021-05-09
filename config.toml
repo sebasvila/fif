@@ -5,7 +5,7 @@ title = "Ferro i Fusta"
 theme = "hugo-tranquilpeak-theme"
 # disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
-paginate = 7
+paginate = 8
 canonifyurls = true
 
 [permalinks]
