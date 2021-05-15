@@ -14,6 +14,6 @@ mogrify -filter Triangle \
         -define png:compression-strategy=1 \
         -define png:exclude-chunk=all \
         -interlace none \
-        -colorspace sRGB $1
+        -colorspace sRGB $@
 
 # reduce pp/*.png
