@@ -7,7 +7,6 @@ coverImage: /fotos/unclass/quorn-full.png
 tags:
 ---
 
-
 An interesting machine any workshop needs is a tool grinder. In the
 net it's possible to find information about many home made tool
 grinders (or tool grinding gigs). Most of the designs have known names
@@ -83,7 +82,9 @@ The Worden
 ----------
 
 
-A design similar to that of Kennet but simpler. It is mostly built by using steel plate and the spindle is avoided by directly using the motor shaft.
+A design similar to that of Kennet but simpler. It is mostly built by
+using steel plate and the spindle is avoided by directly using the
+motor shaft.
 
 
 *    [http://www.jeffree.co.uk/Pages/worden/worden.htm](http://www.jeffree.co.uk/Pages/worden/worden.htm)
