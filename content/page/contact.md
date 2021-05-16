@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Contact me"
 date: 2021-05-16T16:33:39+02:00
 categories:
 - category
@@ -10,49 +10,33 @@ showActions:    false
 #thumbnailImage: //example.com/image.jpg
 ---
 
+I don't have comments on this site as they're difficult to manage and
+take up too much time. I'd rather concentrate on producing content
+than managing comments.
 
-Fusta i Ferro Blog
-==================
+Instead of leaving a comment, feel free to contact me instead. I will
+be happy to hear from you!
 
-Contact the author
-------------------
-
-
-<form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
+<form name="contact" style="margin-top:2em" action="/thank-you/" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
-
-<!-- Text input-->
-    <div class="form-group">
-        <label class="col-md-4 control-label" for="Name"></label>
-        <div class="col-md-4">
-            <input id="contact-form-name" name="Name" type="text" placeholder="Name" class="form-control input-md" required="" autocomplete="off">
-        </div>
+    <div style="margin: 1em">
+        <label class="post" for="Name">Your name</label>
+            <input style="width:85%" id="contact-form-name" name="Name" type="text" placeholder="Name" required="" autocomplete="off">
     </div>
-
-<!-- Text input-->
-    <div class="form-group">
-        <label class="col-md-4 control-label" for="Email"></label>
-        <div class="col-md-4">
-            <input id="contact-form-email" name="Email" type="email" placeholder="Email Address" class="form-control input-md" required="" autocomplete="off">
-        </div>
+    <div style="margin: 1em">
+        <label class="post" for="Email">Your email</label>
+            <input style="width:85%" id="contact-form-email" name="Email" type="email" placeholder="Email Address" required="" autocomplete="off">
     </div>
-
-<!-- Text input-->
-    <div class="form-group">
-        <label class="col-md-4 control-label" for="Subject"></label>
-        <div class="col-md-4">
-            <input id="contact-form-subject" name="Subject" type="text" placeholder="Subject" class="form-control input-md" required="" autocomplete="off">
-        </div>
+    <div style="margin: 1em">
+        <label class="post" for="Subject">What's about?</label>
+            <input style="width:85%" id="contact-form-subject" name="Subject" type="text" placeholder="Subject" required="" autocomplete="off">
     </div>
-
-<!-- Textarea -->
-    <div class="form-group">
-        <label class="col-md-4 control-label" for=""></label>
-        <textarea class="form-control" id="contact-form-message" name="Message" placeholder="What's up?" rows="8"></textarea>
+    <div style="margin: 1em">
+        <label class="post" for="">Tell me</label>
+        <textarea style="width:85%; padding: 1ex; border-width: 1px;
+    border-radius: 6px; resize: none" id="contact-form-message" name="Message" placeholder="What's up?" rows="8"></textarea>
     </div>
-
-<!-- Button -->
-    <div class="form-group">
-        <button type="submit" value="Submit" id="Form-submit">Submit</button>
+    <div style="margin: 1em">
+        <button type="submit" class="" value="Submit" id="Form-submit">Submit</button>
     </div>
 </form>

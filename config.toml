@@ -1,12 +1,12 @@
 baseURL = "https://fif.viri.cat/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Ferro i Fusta"
+title = "Fusta i Ferro"
 theme = "hugo-tranquilpeak-theme"
 # disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 8
-canonifyurls = true
+canonifyurls = false
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -58,10 +58,17 @@ canonifyurls = true
   url = "/archives"
 [[menu.main]]
   weight = 5
+  identifier = "contact"
+  name = "Contact me"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
+  url = "/page/contact"
+[[menu.main]]
+  weight = 6
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
+
 
 # [[menu.links]]
 #   weight = 1
@@ -199,3 +206,7 @@ canonifyurls = true
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
   # [params.footer]
   #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+
+[markup.goldmark.renderer]
+  unsafe= true
+
