@@ -18,7 +18,7 @@ canonifyurls = true
 
 [author]
   name = "sBs"
-  bio = "An unusual computer scientist working on dirty ang greasy machines"
+  bio = "An unusual computer scientist working on dirty and greasy machines"
   #job = "Your job title"
   location = "Catalunya"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
