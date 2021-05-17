@@ -1,21 +1,18 @@
 ---
 title: "Contact me"
 date: 2021-05-16T16:33:39+02:00
-categories:
-- category
-- subcategory
 comments:       false
 showMeta:       false
 showActions:    false
 #thumbnailImage: //example.com/image.jpg
 ---
 
-I don't have comments on this site as they're difficult to manage and
-take up too much time. I'd rather concentrate on producing content
-than managing comments.
+I don't have comments enabled on this site as they're difficult to
+manage and take up too much time. I'd rather concentrate on producing
+content than managing comments.
 
-Instead of leaving a comment, feel free to contact me instead. I will
-be happy to hear from you!
+Instead of leaving a comment, feel free to contact me. I will be happy
+to hear from you!
 
 <form name="contact" style="margin-top:2em"
       action="/thank-you/" method="POST"
@@ -46,7 +43,7 @@ be happy to hear from you!
             id="contact-form-message" name="Message"
             placeholder="What's up?" rows="8"></textarea>
     </div>
-    <div data-netlify-recaptcha="true"></div>
+    <div style="margin: 1em" data-netlify-recaptcha="true"></div>
     <div style="margin: 1em">
         <button type="submit" class="" value="Submit" id="Form-submit">Submit</button>
     </div>
