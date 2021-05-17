@@ -9,11 +9,9 @@ tags:
 ---
 
 
-After a [request from Chris
-Maron](https://fusta-i-ferro.blogspot.com/2013/09/the-boley-leinen-lz4-is-ready.html?showComment=1556275452066#c874147789862261279),
-in this entry I report about the Boley-Leinen LZ4SB carriage stops. I
-would like the entry to be sufficiently detailed to allow anyone to
-reproduce the original stops.
+After a request from Chris Maron, in this entry I report about the
+Boley-Leinen LZ4SB carriage stops. I would like the entry to be
+sufficiently detailed to allow anyone to reproduce the original stops.
   
 Sadly, I have no cross slide stops. If you, beloved reader, have these
 stops, I invite you to report about them and let me know!
@@ -28,60 +26,30 @@ to allow the bed protector to slide through it. Following, you will
 find some pictures and a dimensioned sketch of the left stop. The
 right stop is symmetric.
   
-First some general pictures:  
-  
-
+First some general pictures:
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060268.JPG" thumbnail-with="75%" >}}
 
-  
-
-
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060269.JPG" thumbnail-with="75%" >}}
 
-  
-
-
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060272.JPG" thumbnail-with="75%" >}}
-
   
-  
-Detailed pictures of the left stop, included some exploded views:  
-  
-
+Detailed pictures of the left stop, included some exploded views:
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060263.JPG" thumbnail-with="75%" >}}
 
-  
-
-
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060264.JPG" thumbnail-with="75%" >}}
-
-  
-
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060265.JPG" thumbnail-with="75%" >}}
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060261.JPG" thumbnail-with="75%" >}}
 
-  
-
-
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060262.JPG" thumbnail-with="75%" >}}
-
   
   
-  
-  
-  
-Finally the hand made sketch of the left stop:  
-  
-
+Finally the hand made sketch of the left stop:
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060266.JPG" thumbnail-with="75%" >}}
-
-  
-
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060267.JPG" thumbnail-with="75%" >}}
 
