@@ -4,7 +4,7 @@ defaultContentLanguage = "en-us"
 title = "Fusta i Ferro"
 theme = "hugo-tranquilpeak-theme"
 # disqusShortname = "hugo-tranquilpeak-theme"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-W3C1EV9Z83"
 paginate = 8
 canonifyurls = false
 
