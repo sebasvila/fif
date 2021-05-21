@@ -1,6 +1,5 @@
 ---
-title: "Making reglus drilling bushes"
-description: "Drill bushes for the Reglus jig"
+title: "Make reglus drill bushings"
 date: 2021-01-17
 tags: ["reglus", "turning"]
 coverImage: /fotos/reglus/hard-turning-2.jpg
