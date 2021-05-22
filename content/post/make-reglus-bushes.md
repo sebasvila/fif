@@ -21,13 +21,13 @@ These are the most salient characteristics of this project:
 
 * Dimensioning. I got the main dimensioning from other bushingss in
   the set and adapted them to the hole dimension. Here you can get a
-  [dimensioned drawing](/pfds/dolla-reglus.pdf) of a Reglus bushing.
+  [dimensioned drawing](/pdfs/dolla-reglus.pdf) of a Reglus bushing.
 
 * Bushings where hard-turned to size after being hardened to cope with
   dimension changes induced by heat treatment.
 
 After cutting the steel bar to required length, the part is rougly
-turned and the top hole drilled. 
+turned and the top hole drilled.
 
 {{< image classes="fig-100 clear"
           src="/fotos/reglus/turning-reglus-bushing.jpg" >}}
@@ -41,7 +41,7 @@ drilling, however, should be done with care to remain concentric.
 
 {{< image classes="fig-100 clear"
           src="/fotos/reglus/drilled-reglus-bushing.jpg" >}}
-		  
+
 After that, bushings where chamfered as required and stamp marked with
 the size. Next operation was hardening. The quenching medium was oil
 and the home owen were used to tempering them at 200ºC. This was the
@@ -68,8 +68,7 @@ process.
 New bushings mounted on the drilling gig look as follows.
 
 {{< image classes="fig-100 clear"
-          src="/fotos/reglus/mounted-bushing-top.jpg" >}} 
-		  
+          src="/fotos/reglus/mounted-bushing-top.jpg" >}}
+
 {{< image classes="fig-100 clear"
           src="/fotos/reglus/mounted-bushing-bottom.jpg" >}}
-		  
