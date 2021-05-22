@@ -4,6 +4,10 @@ date: 2021-01-17
 tags: ["reglus", "turning"]
 coverImage: /fotos/reglus/hard-turning-2.jpg
 draft: false
+keywords:
+- Reglus
+- O2 steel
+- hard-turning
 description: "Shows how is made a steel drill bushing for the Reglus drilling jig by turning and hardening"
 ---
 
