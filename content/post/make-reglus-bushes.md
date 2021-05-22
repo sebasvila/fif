@@ -4,6 +4,7 @@ date: 2021-01-17
 tags: ["reglus", "turning"]
 coverImage: /fotos/reglus/hard-turning-2.jpg
 draft: false
+description: "Shows how is made a steel drill bushing for the Reglus drilling jig by turning and hardening"
 ---
 
 
@@ -17,7 +18,7 @@ post shows how drilling bushings where made.
 These are the most salient characteristics of this project:
 
 * Material. I choosed O2 steel. Easy to mechanize and harden. Hard
-  enough after thermical treatment.
+  enough after thermical treatement.
 
 * Dimensioning. I got the main dimensioning from other bushingss in
   the set and adapted them to the hole dimension. Here you can get a
