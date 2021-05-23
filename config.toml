@@ -25,7 +25,7 @@ canonifyurls = false
   #gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "/fotos/ceba.png"
+  picture = "/author-photo.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "sebasvilam"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -105,7 +105,7 @@ canonifyurls = false
   syntaxHighlighter = "highlight.js"
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
-  clearReading = true
+  clearReading = false
 
   # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo".
   # If false it will flat categories.
@@ -135,7 +135,7 @@ canonifyurls = false
   # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
   # and use relative url : `images/cover.jpg`
   coverImage = "/cover-photo.jpg"
-
+  # coverSize  = partial
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
 
