@@ -1,23 +1,28 @@
 ---
 title: "Make reglus drill bushings"
 date: 2021-01-17
-tags: ["reglus", "turning"]
 coverImage: /fotos/reglus/hard-turning-2.jpg
-draft: false
+tags:
+- reglus
+- turning
+categories:
+- workshop
+- metalworking
 keywords:
 - Reglus
 - O2 steel
 - hard-turning
-description: "Shows how is made a steel drill bushing for the Reglus drilling jig by turning and hardening"
+draft: false
 ---
-
-
-# Make some drill bushings for the Reglus jig
 
 Because of reasons, I needed to cross drill some shafts with some
 weird diameters. I own an old imperial Reglus drilling jig but I
 didn't have the required bushings. I decided to make some of them. This
 post shows how drilling bushings where made.
+
+<!--more-->
+
+# Project characteristics
 
 These are the most salient characteristics of this project:
 
@@ -30,6 +35,8 @@ These are the most salient characteristics of this project:
 
 * Bushings where hard-turned to size after being hardened to cope with
   dimension changes induced by heat treatment.
+
+# Procedure
 
 After cutting the steel bar to required length, the part is rougly
 turned and the top hole drilled.
@@ -52,10 +59,10 @@ the size. Next operation was hardening. The quenching medium was oil
 and the home owen were used to tempering them at 200ºC. This was the
 result:
 
-{{< image classes="fig-100 clear"
+{{< image classes="fig-50"
           src="/fotos/reglus/hardened-bushing-1.jpg" >}}
 
-{{< image classes="fig-100 clear"
+{{< image classes="fig-50 clear"
           src="/fotos/reglus/hardened-bushing-2.jpg" >}}
 
 Finally, the external diameter of the bushing is hard-turned to
@@ -64,16 +71,16 @@ diameter changes and to provide an excellent surface finish to the
 gripping face. Below, you can see some pictures of the hard-turning
 process.
 
-{{< image classes="fig-100 clear"
+{{< image classes="fig-50"
           src="/fotos/reglus/hard-turning-1.jpg" >}}
 
-{{< image classes="fig-100 clear"
+{{< image classes="fig-50 clear"
           src="/fotos/reglus/hard-turning-2.jpg" >}}
 
 New bushings mounted on the drilling gig look as follows.
 
-{{< image classes="fig-100 clear"
+{{< image classes="fig-50"
           src="/fotos/reglus/mounted-bushing-top.jpg" >}}
 
-{{< image classes="fig-100 clear"
+{{< image classes="fig-50 clear"
           src="/fotos/reglus/mounted-bushing-bottom.jpg" >}}

@@ -6,25 +6,26 @@ slug: "worner-b13-alignment-and-geometry"
 coverImage: "/fotos/worner-b13/taula-control-B13.png"
 tags:
 - Wörner B13
+- measuring
 categories:
 - workshop
-- machines
-- Wörner-B13
+- metalworking
 ---
 
+In this post I show the result of carrying a sequence of tests to the
+rebuild Wörner drilling press to check its accuracy. I took an Aciera
+10 drilling machine inspection chart as a reference. Both machines are
+of similar size and Aciera quality is second to none.
+
+<!--more-->
 
 The factors that make a machine to "work smoothly" are many: rigidity,
 weight, ergonomy, power, sensitivity,... Between them, the working
-precision is of utmost importance.  Testing procedures as those
-proposed by Schlesinger in its famous book try to determine the
+precision is of utmost importance. Testing procedures, as those
+proposed by Schlesinger in its famous book, try to determine the
 overall state of a metalworking machine by measuring some critical
-points. Testing tables abridged these measures for a kind of machine.
-
-
-In this post I show the result of carrying a sequence of tests to the
-rebuild Wörner drilling press. I took and Aciera 10 driiling machine
-test table as a reference. Both machines are of similar size and
-Aciera quality is second to none.
+parameters. Testing tables exist that abridged the required measures for a
+kind of machine tool.
 
 
 The results obtained are shown [in this doc](/pdfs/taula-control-b13.pdf).
