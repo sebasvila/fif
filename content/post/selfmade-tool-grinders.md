@@ -5,14 +5,20 @@ draft: false
 slug: "selfmade-tool-grinders"
 coverImage: /fotos/unclass/quorn-full.png
 tags:
+- grinding
+keywords:
+- tool grinders
+- quorn
+- Brooks-Stent
+- Worden
 ---
 
 An interesting machine any workshop needs is a tool grinder. In the
 net it's possible to find information about many home made tool
 grinders (or tool grinding gigs). Most of the designs have known names
-usually due to the design author. This blog entry is the result of
+related to the design author. This blog entry is the result of
 collecting some of the designs to build a small tool grinder for the
-workshop. Any suggestion about a missing design will be attended ;-).
+workshop. Any suggestion about a missing design will be considered ;-).
 
 
 The Quorn design
