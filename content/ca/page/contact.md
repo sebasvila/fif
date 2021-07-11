@@ -1,0 +1,50 @@
+---
+title: "Contacteu amb mi"
+date: 2021-05-16T16:33:39+02:00
+comments:       false
+showMeta:       false
+showActions:    false
+#thumbnailImage: //example.com/image.jpg
+---
+
+En aquest web no trobareu els comentaris activats. Són complicats de
+gestionar i s'enduen massa temps. Més m'estimo concentrar els esforços
+en escriure nous articles que en gestionar comentaris.
+
+En comptes de deixar un comentari, envieu-me sense pensar-vos-ho un
+missatge. Em fareu feliç.
+
+<form name="contact" style="margin-top:2em"
+      action="/thank-you/" method="POST"
+      data-netlify="true" data-netlify-recaptcha="true">
+    <input type="hidden" name="form-name" value="contact" />
+    <div style="margin: 1em">
+        <label class="post" for="Name">El vostre nom</label>
+        <input style="width:85%" id="contact-form-name"
+            name="Name" type="text" placeholder="Nom"
+            required="" autocomplete="off">
+    </div>
+    <div style="margin: 1em">
+        <label class="post" for="Email">El vostre email</label>
+        <input style="width:85%" id="contact-form-email"
+            name="Email" type="email" placeholder="Adreça email"
+            required="" autocomplete="off">
+    </div>
+    <div style="margin: 1em">
+        <label class="post" for="Subject">De què voleu parlar?</label>
+        <input style="width:85%" id="contact-form-subject"
+            name="Subject" type="text" placeholder="Assumpte"
+            required="" autocomplete="off">
+    </div>
+    <div style="margin: 1em">
+        <label class="post" for="">Digueu-me</label>
+        <textarea style="width:85%; padding: 1ex; border-width: 1px;
+            border-radius: 6px; resize: none"
+            id="contact-form-message" name="Message"
+            placeholder="Parleu!" rows="8"></textarea>
+    </div>
+    <div style="margin: 1em" data-netlify-recaptcha="true"></div>
+    <div style="margin: 1em">
+        <button type="submit" class="" value="Submit" id="Form-submit">Envieu!</button>
+    </div>
+</form>
