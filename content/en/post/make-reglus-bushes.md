@@ -12,6 +12,8 @@ keywords:
 - Reglus
 - O2 steel
 - hard-turning
+- PCBN
+- Polycristaline Boron Nitride
 draft: false
 ---
 

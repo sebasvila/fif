@@ -4,14 +4,16 @@ date: 2021-01-17
 coverImage: /fotos/reglus/hard-turning-2.jpg
 tags:
 - reglus
-- tornejar
+- tecno#tornejat
 categories:
 - taller
 - mecanització
 keywords:
 - Reglus
 - acer O2
-- tornejat-dur
+- tornejat dur
+- PCBN
+- Polycristaline Boron Nitride
 draft: false
 ---
 

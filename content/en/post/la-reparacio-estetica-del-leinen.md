@@ -1,78 +1,80 @@
 ---
-title: 'La reparació estètica del Leinen '
+title: 'Recover the Leinen lathe original look'
 date: 2013-03-15T18:51:00.001+01:00
 draft: false
 slug: "la-reparacio-estetica-del-leinen"
 coverImage: /fotos/leinen-lz4sb/P1040545.JPG
-tags: 
+tags:
 - leinen LZ4SB
-- buggy
+- tech#painting
+keywords:
+- Boley Leinen LZ4SB
+- Drehbank
+- Lathe
+- Paint
 ---
 
+An important task during the Leinen lathe refurbishing is to recover
+it's original aesthetics. This a time consuming process if you want a
+quality result. These are the main tasks:
 
-Entre altres feines de restauració, una feina fonamental en el torn Leinen és l'acabat estètic. El procés de restauració estètic és laboriós si es vol un acabat durable, fidel  i de primera qualitat. Essencialment comporta les següents tasques:  
-
-
-*   Neteja, desoxidat i polit de les superfícies descobertes: manetes, volants, superfícies lluents, etc.
-*   Preparat i repintat de les superfícies pintades originals.
-
-
-Tractament de superfícies lluents
----------------------------------
+* Clean and remove rust of surfaces
+* Polish the surfaces
+* Prepare the surfaces to be painted
+* Paint
 
 
-El tractament que s'aplica segueix els següents passos:  
+# Working with the shiny surfaces
 
+The procedure applied to recover the shiny surfaces is as follows:
 
-1.  Desengreixat i neteja: usant diversos tipus de dissolvents segons el cas: gasoli, benzina i KH-7.
-2.  Si cal, neteja de la capa d'òxid amb un ús suau del raspall rotatiu d'acer muntat sobre la màquina de foradar de sobretaula. En superfícies molt polides en les que no es volen marques del raspall es pot actuar amb vinagre. Se suca un drap amb vinagre i, amb cura, es va xopant la peça i fregant-la fins que s'elimina el rovell.
-3.  Polit amb pasta de polir per a material metal·lic i disc de cotó. Usem [pasta Pferd](http://www.pferdusa.com/products/204t/204t03P.html) de color verd.
-4.  Repolit amb pasta de polit acabat mirall i disc de cotó. Usem [pasta Pferd](http://www.pferdusa.com/products/204t/204t03P.html) de color rosa.
+1. Degrease and clean it. Diverse solvents can be used depending on
+   the case. Mostly use diesel oil, petrol, or current kitchen
+   degreasers.
+2. If needed, remove the rust. This can be done by mechanical methods
+   using a inox rotary brush. In the case the part is highly polished,
+   you can use vinegar. Soak a rag in vinegar and cover the surface
+   with it. Rub the part with it until rust removed.
+3. Polish the part using polishing paste and a polishing disk (of
+   cotton of fiber depending on needs). Finish always with pink
+   polishing paste to a mirror finish. [Pferd
+   pastes](https://www.pferd.com/media/PDF-US/tool-manual/katalog-4-wzh23-en-usa-ca_web.pdf) can be
+   used.
 
-
-El procés és lent però el resultat  és excepcional. Aquí podeu veure algunes manetes del devantal abans de set tractades:  
-
+The procedure is slow but really good results are achieved. Note the
+following picture of the apron:
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040304.JPG" thumbnail-with="75%" >}}
 
-  
-i després de ser restaurades:  
-
+and then, some of the parts of the apron after being recovered:
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040545.JPG" thumbnail-with="75%" >}}
 
-  
-
-
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040548.JPG" thumbnail-with="75%" >}}
 
-  
 
+# Paint works
 
-Repintat
---------
+The procedure to overhaul the painted parts follows the next steps:
 
+1. Clean and degrease the parts as explained in the previous section.
+2. Protect holes, plates, shiny parts and all kind of stuff which
+   should be maintained unpainted. Cover them using good quality
+   masking tape.
+3. Evaluate the overall state of the putty layers. If it is
+   impregnated by oil or exhibits bad adherence or there are cracks in
+   the surface, it is better to remove the putty until steel is
+   uncovered. Apply two components carbody putty again to smooth the
+   parts. Smooth the putty with decreasing grain sandpaper.
+4. Paint a coating layer with filler.
+5. To achieve a really smooth finish the filler using wet sandpaper
+   of very fine grain.
+6. Finally apply tow coats of two components polyurethane enamel. Use
+   a very fine foam roller: it results in a nice finish without the
+   problems of an air gun.
 
- El procés de pintat segueix els següents passos:  
-
-
-1.  Després de desmontar, neteja i desengreixat.
-2.  Es protegeixen  forats i altres parts amb cinta de pintor.
-3.  Si l'estat de l'emmassillat és bo, es refà amb pasta de carrosser de dos components els forats i s'anivella i perfila. 
-4.  Si l'estat del fons és dolent: està descloscat, esquerdat, etc. cal treure'l rascant a fons fins deixar el metall descobert. S'aplica imprimació al metall net i posteriorment pasta de carrosser.
-5.  Es poleix a fons amb paper de vidre de gra 80 perfilant els cantos, plans, etc.
-6.  S'aplica aparell a tota la superfície.
-7.  Es poleix lleugerament amb paper de vidre de gra molt fi (320 o 400).
-8.  S'apliquen dues capes d'esmalt de poliuretà de dos components amb rodet d'escuma de picat molt fi.
-
-
-  
-El resultat són peces com aquestes:  
-
+The result are parts as follow:
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040449.JPG" thumbnail-with="75%" >}}
-
-  
-
 
 {{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040450.JPG" thumbnail-with="75%" >}}
