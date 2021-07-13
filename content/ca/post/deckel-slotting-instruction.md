@@ -4,7 +4,7 @@ date: 2021-07-05
 coverImage: "/fotos/unclass/slotting-head-deckel.png"
 tags:
 - schaublin
-- tecno#mortasat
+- tecno.mortasat
 categories:
 - biblioteca
 keywords:

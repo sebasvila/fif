@@ -4,7 +4,7 @@ date: 2021-01-17
 coverImage: /fotos/reglus/hard-turning-2.jpg
 tags:
 - reglus
-- tecno#tornejat
+- tecno.tornejat
 categories:
 - taller
 - mecanització
@@ -14,6 +14,7 @@ keywords:
 - tornejat dur
 - PCBN
 - Polycristaline Boron Nitride
+
 draft: false
 ---
 

@@ -6,7 +6,7 @@ slug: "la-reparacio-estetica-del-leinen"
 coverImage: /fotos/leinen-lz4sb/P1040545.JPG
 tags:
 - leinen LZ4SB
-- tech#painting
+- tech.painting
 keywords:
 - Boley Leinen LZ4SB
 - Drehbank

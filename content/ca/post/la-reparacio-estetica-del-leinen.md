@@ -6,7 +6,7 @@ slug: "la-reparacio-estetica-del-leinen"
 coverImage: /fotos/leinen-lz4sb/P1040545.JPG
 tags:
 - leinen LZ4SB
-- tecno#pintura
+- tecno.pintura
 categories:
 - taller
 - màquines
