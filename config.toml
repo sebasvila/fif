@@ -16,22 +16,40 @@ canonifyurls = false
   category = "categories"
   archive = "archives"
 
-[author]
+[languages.en-us.author]
   name = "sBs"
-  bio = "An unusual computer scientist working on dirty and greasy machines"
   #job = "Your job title"
-  location = "Catalunya"
-  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  #gravatarEmail = "thibaud.lepretre@gmail.com"
-  # Your profile picture
-  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   picture = "/author-photo.png"
-  # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "sebasvilam"
-  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
-  # googlePlus = "+ThibaudLepretre"
+  bio = "An unusual computer scientist working on dirty and greasy machines"
+  location = "Catalonia"
 
+[languages.ca.author]
+  name = "sBs"
+  #job = "Your job title"
+  picture = "/author-photo.png"
+  twitter = "sebasvilam"
+     bio = "Un informàtic poc habitual que treballa amb màquines brutes i greixoses"
+     location = "Catalunya"
+
+
+[languages]
+  [languages.en-us]
+     languageName = "English"
+     title = "Fusta i Ferro"
+     contentDir = "content/en"
+     weight = 1
+  [languages.ca]
+     languageName = "Catalan"
+     title = "Fusta i Ferro"
+     contentDir = "content/ca"
+     weight = 2
+     dateFormat = "2 January 2006"
+
+
+#
 # Menu Configuration
+#
 [[menu.main]]
   weight = 1
   identifier = "home"
@@ -59,7 +77,7 @@ canonifyurls = false
 [[menu.main]]
   weight = 5
   identifier = "contact"
-  name = "Contact me"
+  name = "Contact"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
   url = "/page/contact"
 [[menu.main]]
@@ -68,6 +86,8 @@ canonifyurls = false
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
+
+
 
 
 # [[menu.links]]
@@ -102,7 +122,7 @@ canonifyurls = false
 
   # Syntax highlighter, possible choice between: "highlight.js" (recommanded) and "prism.js" (experimental)
   # You can comment it to disable syntax highlighting
-  syntaxHighlighter = "highlight.js"
+#  syntaxHighlighter = "highlight.js"
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = false
