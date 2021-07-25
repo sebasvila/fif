@@ -13,7 +13,7 @@ keywords:
 - Singer
 - Kohler
 - nähnorm 100
-draft: true
+draft: false
 ---
 
 Old mechanical sewing machines are a true gift: robust, nice,
