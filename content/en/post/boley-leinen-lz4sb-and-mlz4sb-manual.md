@@ -5,6 +5,8 @@ draft: false
 slug: "boley-leinen-lz4sb-and-mlz4sb-manual"
 tags:
 - leinen LZ4SB
+categories:
+- library
 ---
 
 
