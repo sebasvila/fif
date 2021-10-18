@@ -4,6 +4,7 @@ date: 2021-07-05
 coverImage: "/fotos/unclass/slotting-head-deckel.png"
 tags:
 - schaublin
+- tech.slotting
 categories:
 - library
 keywords:

@@ -4,7 +4,7 @@ date: 2021-01-17
 coverImage: /fotos/reglus/hard-turning-2.jpg
 tags:
 - reglus
-- turning
+- tech.turning
 categories:
 - workshop
 - metalworking
@@ -12,6 +12,8 @@ keywords:
 - Reglus
 - O2 steel
 - hard-turning
+- PCBN
+- Polycristaline Boron Nitride
 draft: false
 ---
 
