@@ -7,6 +7,7 @@ theme = "hugo-tranquilpeak-theme"
 googleAnalytics = "G-W3C1EV9Z83"
 paginate = 8
 canonifyurls = false
+enableEmoji = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
