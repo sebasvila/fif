@@ -13,7 +13,7 @@ keywords:
 - thermal treatment
 - pattern plate
 - straight edge
-draft: true
+draft: false
 ---
 
 During the last months I've been helping Luke Rickert ---of
