@@ -47,6 +47,9 @@ plate dimensions. The plates where reworked to be reused.
 
 {{< image classes="fig-100 clear"  src="/fotos/foneria/plaques.jpg" >}}
 
+The plate dimensions, in this case, are written to this
+[blueprint](/pdfs/mold-plate-dimensions.pdf).
+
 Luke designed some runners and some risers to complete the plates for
 the vices and also mechanized two more plates for the straight
 edges. After gluing all the parts and smoothing them this was the
@@ -90,7 +93,7 @@ grey iron parts cast:
 {{< image classes="fig-100 clear"  src="/fotos/foneria/cargol-1.jpg" >}}
 {{< image classes="fig-100 clear"  src="/fotos/foneria/cargol-2.jpg" >}}
 {{< image classes="fig-100 clear"  src="/fotos/foneria/se-1.jpg" >}}
-
+{{< figure classes="fig-100 clear"  src="/fotos/foneria/se-metro.jpg" >}}
 
 # Stress relieving the straight edges
 
