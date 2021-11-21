@@ -85,3 +85,44 @@ will be required to replace all of the conducts.
 {{< image classes="fig-100 center clear" src="bad-conduct.jpg" >}}
 
 # Clean the motors, suports and parts
+
+I begin by cleaning the fast forward limit switch. It was full of a
+greasy grime that I stripped down using [CRC Lectra
+Clean](https://www.crcindustries.com/products/lectra-clean-174-heavy-duty-electrical-parts-degreaser-19-wt-oz.html). The
+liquid, a mix of hydrocarbons, is effective but solves the exterior
+paint. Probably exterior paint was weakened by years of oil
+contact. This is a picture of the dismantled switch:
+
+{{< image classes="fig-100 center clear" src="final-carrera.jpg" >}}
+
+Cleaning the motors was not a so simple task. In the one hand,
+choosing a water based cleaning fluid is not recommended because it
+can induce internal humidity; in the other, using a solvent based
+product can remove the wiring varnish. It seems that specific products
+like Lectra Clean can be appropiate, but previous experience with the
+switch and its paint make me undecided. After reading about others
+experience, I gave an opportunity to Lectra Clean and with utmost care
+I cleaned the motors. The aestethical result was satisfactory. I put
+the motors at the sun to be fully dried. A very small oily residue
+accumulated on the bottom. I wish that wiring isolation had not being
+altered. Dismantling the motors allowed me to inspect the bearings,
+clean and regrease them. Below there is a picture of the main motor
+fully disassembled after being cleaned and dryed.
+
+{{< image classes="fig-100 center clear" src="clean-motor.jpg" >}}
+
+The electrical conducts should also be replaced. I choosed [Adaptaflex
+SP
+conduct](https://new.abb.com/low-voltage/products/conduit-fittings/adaptaflex/flexible-metallic-conduit-systems/metallic-conduits/type-sp)
+as the replacement. Unfortunately the fittings where PG standard: that
+means that the leftovers will not be easy to use. However, the new
+conducts and its fittings were really appealing as you can see in the
+following pictures:
+
+{{< image classes="fig-100 center clear" src="tubs1.jpg" >}}
+{{< image classes="fig-100 center clear" src="tubs2.jpg" >}}
+
+The fast forward pedal was also cleaned and its parts derusted. Here
+you can see the subset of pedal parts including its switch:
+
+{{< image classes="fig-100 center clear" src="pedal.jpg" >}}
