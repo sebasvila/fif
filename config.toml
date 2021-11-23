@@ -1,6 +1,6 @@
 baseURL = "https://fif.viri.cat/"
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "Fusta i Ferro"
 theme = "hugo-tranquilpeak-theme"
 # disqusShortname = "hugo-tranquilpeak-theme"
@@ -8,6 +8,8 @@ googleAnalytics = "G-W3C1EV9Z83"
 paginate = 8
 canonifyurls = false
 enableEmoji = true
+contentDir = "content/en"
+
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -17,7 +19,8 @@ enableEmoji = true
   category = "categories"
   archive = "archives"
 
-[languages.en-us.author]
+#[languages.en-us.author]
+[author]
   name = "sBs"
   #job = "Your job title"
   picture = "/author-photo.png"
@@ -25,27 +28,27 @@ enableEmoji = true
   bio = "An unusual computer scientist working on dirty and greasy machines"
   location = "Catalonia"
 
-[languages.ca.author]
-  name = "sBs"
-  #job = "Your job title"
-  picture = "/author-photo.png"
-  twitter = "sebasvilam"
-     bio = "Un informàtic poc habitual que treballa amb màquines brutes i greixoses"
-     location = "Catalunya"
+# [languages.ca.author]
+#   name = "sBs"
+#   #job = "Your job title"
+#   picture = "/author-photo.png"
+#   twitter = "sebasvilam"
+#      bio = "Un informàtic poc habitual que treballa amb màquines brutes i greixoses"
+#      location = "Catalunya"
 
 
-[languages]
-  [languages.en-us]
-     languageName = "English"
-     title = "Fusta i Ferro"
-     contentDir = "content/en"
-     weight = 1
-  [languages.ca]
-     languageName = "Catalan"
-     title = "Fusta i Ferro"
-     contentDir = "content/ca"
-     weight = 2
-     dateFormat = "2 January 2006"
+# [languages]
+#   [languages.en-us]
+#      languageName = "English"
+#      title = "Fusta i Ferro"
+#      contentDir = "content/en"
+#      weight = 1
+#   [languages.ca]
+#      languageName = "Catalan"
+#      title = "Fusta i Ferro"
+#      contentDir = "content/ca"
+#      weight = 2
+#      dateFormat = "2 January 2006"
 
 
 #
