@@ -3,3 +3,4 @@ Disallow: /categories/
 Disallow: /tags/
 Disallow: /archives/
 Disallow: index.xml
+Sitemap: https://fif.viri.cat/sitemap.xml
