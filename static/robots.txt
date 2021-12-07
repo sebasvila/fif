@@ -1,6 +1,10 @@
+Sitemap: https://fif.viri.cat/sitemap.xml
+
 User-agent: *
 Disallow: /categories/
 Disallow: /tags/
 Disallow: /archives/
 Disallow: index.xml
-Sitemap: https://fif.viri.cat/sitemap.xml
+
+User-agent: Googlebot
+Disallow: /*index.xml$
