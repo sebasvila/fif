@@ -3,14 +3,15 @@ title: "Slotting head tooling"
 date: 2021-07-05
 coverImage: "/fotos/unclass/slotting-head-deckel.png"
 tags:
-- schaublin
 - tech.slotting
+- schaublin-13
 categories:
 - library
 keywords:
 - slotting head
 - friedrich deckel
 - mortaisage
+- tools for slotting
 description: "Technical instructions for slotting head work from Deckel"
 draft: false
 ---

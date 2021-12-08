@@ -5,7 +5,6 @@ draft: false
 slug: "antoni-pujantell-lathe"
 coverImage: /fotos/torn-AP/P1060160.JPG
 tags:
-- tech.turning
 - sold-out
 categories:
 - workshop
