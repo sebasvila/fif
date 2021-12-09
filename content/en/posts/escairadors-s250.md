@@ -5,11 +5,14 @@ draft: false
 slug: "escairadors-s250"
 coverImage: /fotos/escairadora/DSC07761.jpg
 tags:
-- buggy
 - tech.woodworking
+- tech.painting
+- tech.casting
+- tech.turning
 categories:
-- workshop
-- projects
+- machine overhauling
+keywords:
+- Contractor's cabinet saw
 ---
 
 The contractor's cabinet saw with sliding table S250 ---made in
@@ -17,7 +20,11 @@ Italy--- was bought to the woodworking tools trader [Miquel
 Martínez](http://www.miquelmartinez.com) almost as scrap. The seller
 was really fair and honest and never tryed to hide the real problems
 of the machine. However, I was heavily interested in this given its
-dimensions and overall buildin quality. Moving the machine at home was
+dimensions and overall buildin quality.
+
+<!-- more -->
+
+Moving the machine at home was
 done by the seller itself.  This machine is mainly built as a sturdy
 steel plate cabinet that supports a cast iron top where the 250mm saw
 tilting mechanisms are attached. The machine was clearly abused and
@@ -56,241 +63,149 @@ supports were broken.
 
 # Dismantling the saw
 
-En primer lloc es procedeix al desmuntar la màquina. La màquina (que
-té un pes notable) es mou sota un ternal de cadenes fent-la lliscar
-per sobre de passamans engreixats com es veu a la imatge.
-
+I first dismantle the machine. The saw, which is rather heavy, is
+moved using a chain hoist and using greased flat bars to slide it
+over. See the next picture.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07724.jpg" >}}
 
-
-Després, usant el ternal de cadena es desmonta la taula i la caixa de
-la serra. La taula va collada a l'armari per sota i s'arrepenja damunt
-d'unes volanderes de goma que compensen les deformacions del suport
-sense afectar a la taula. Es diposita i es gira el conjunt sobre uns
-cavallets per poder separar el grup de la serra de la taula.
-
+Helped by the hoist, I take out the saw table. The table is bolted to
+the cabinet with rubber washes between both parts to compensate for
+deformities. The table is turned over a couple of sawhorses.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07730.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07732.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07752.jpg" >}}
 
-
-Es desmunta tot el grup de la serra i es netegen els visenfins, els
-coixinets, etc. Es treu el suport del motor i es desmunta el motor per
-comprovar l'estat en que es troba. Els coixinets de l'eix de la serra
-resulten estar molt gastats. Es desmunta l'eix de la serra i se
-substitueixen per uns de nous:
-
+Next, the saw moving mechanism is taken apart and cleaned. I separate
+the motor and the saw shaft. The saw shaft bearings are replaced.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07754.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07757.jpg" >}}
 
+# Motor
 
-
-
-### Recondicionat
-
-
-#### Motor
-
-
-El motor de la serra estava cremat i les corretges en mal estat. Se
-substitueix el motor per un nou motor ABB i les corretges per un nou
-parell de corretges. En les fotos següents hi podeu veure el motor
-antic (de fabricació italiana) i el nou ABB amb la doble politja ja
-muntada:
-
+Motor was burned as the seller told me before. A new ABB motor and a
+set of new belts where mounted. The pictures below show the original
+(italian made) motor an the new one.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07797.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07798.jpg" >}}
 
 
+# The saw shaft
 
-
-#### Eix de la serra
-
-
-L'eix de la serra va suportat per dos coixinets de boles tancats. Els
-que hi ha es noten gastats al tacte i canten una mica. Es decideix
-substituïr-los per uns de nous. En les següents fotografies hi ha
-l'eix en el seu suport, l'eix desmuntat i per ultim l'eix
-recondicionat i amb els nous coixinets:
-
+The saw shaft was supported by two closed bearings. I replaced them by
+a couple of new ones. Next pictures show the saw shaft in distinct
+phases.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07755.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07757.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07759.jpg" >}}
 
 
+# Shaft lock bar
 
-
-
-
-#### Barra de bloqueig
-
-
-Per bloquejar l'eix quan es canvia la serra cal una barreta que
-s'insereix en els forats que s'observen sobre la politja de
-l'eix. Aquesta barreta no hi era. En fem una d'un tall de barrot
-d'acer suau rebaixant-la a mida al torn i donant-li tremp amb l'ajuda
-del bufador d'oxiacetilè. Les següents fotos mostren alguns aspectes
-del procés i la barra de bloqueig acabada:
-
-
-
+To lock the saw shaft when you change the saw blade you should use a
+specific bar that fits some holes over the shaft pulley. I turned a
+lock bar from steel and heat treated it using the oxiacetilene
+blowtorch. The following pictures illustrate this process.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07760.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07761.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07762.jpg" >}}
 
 
+# Repair the tilt handle shaft
 
-
-#### Eix de la maneta d'inclinació
-
-
-La maneta d'inclinar la serra actua mitjançant un eix que surt per la
-banda dreta de l'operador. Aquest eix té un con en un extrem i el
-vis-sens-fi en l'altre. La maneta és de ferro fos i no hi és. L'eix
-està severament tort. Possiblement un cop va trencar la maneta i va
-torçar l'eix. Per adreçar-lo l'escalfem puntualment al soplt i el
-treballem damunt l'enclusa. Una vegada adreçat a vista, sobre el torn
-refem el con prenent com a model el con de l'eix d'alçar la serra, que
-està en bones condicions. Es repassa el con fins deixar-lo immaculat i
-també la rosca que colla la maneta. Teniu algunes fotos d'aquest
-procés a continuació:
-
+The tilting handle shaft protrudes at the left of the cabinet but
+there is no handle there. Just a bent shaft tappered connection
+appears in place. It seems that an important blow had broken the
+handle and bent the axle. The handle should be of cast steel not
+unlike the blade elevation wheel. I first repair the shaft. I try to
+straighten it by heating it and hammering it straight again on the
+anvil. Then, I turn it perfect again with the same geometry that the
+elevation shaft. See the next pictures.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07764.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07765.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07766.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07767.jpg" >}}
 
 
+# Sliding carriage supports
 
+The saw carriage moves over a steel roun bar supported by a tunnable
+bearing based supports. The two supports are cast iron and are
+broken. There ara traces of having been welded time ago. Thus, they
+should be broken several times. To overhaul these supports will be the
+most complex task of all the project.
 
-#### Suports del carro d'escairar
-
-
-El carro d'escairar es mou sobre un barrot d'acer ajudat d'uns suports
-que, bàsicament, ofereixen recolzament en tres petits coixinets de
-boles. Els suports són de fosa i estan trencats. No sembla la primera
-vegada que es trenquen atès que es veuen traces de soldadures
-anteriors. Cal fer-ne uns de nous. És la reparació més complicada del
-recondicionament. Cal mesurar i definir les cotes dels suports a
-partir de les restes existents, una vegada traçat el plànol cal
-construïr el model per fondre els suports i, posteriorment mecanitzar
-les peces foses. Seguidament hi ha algunes fotografies de tot aquest
-procés. La fosa es va fer a [Fonería
-Martínez](http://fundicionmartinez.com/menu_cat.HTM), que s'avenen a
-fer sèries úniques sense cap inconvenient. En algunes apareixen els
-models de la maneta que mancava, que també es va haver de fondre.
-
-
-
+I first made a carefull blueprint using the parts remaining. After
+that a wood pattern was made to cast a new set of supports. Casting
+was done at [Fonería
+Martínez](http://fundicionmartinez.com). After that, parts should be
+precisely mechanized on the milling machine. Next pictures document
+all this process. Note that it will show also the pattern for the
+missing tilt handle.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07641.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07832.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07913.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07886.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/00001.jpg" >}}
 
 
+# Blade box cover plate
 
-
-
-
-### Tapa de la caixa del disc
-
-
-La tapa de la caixa del disc no hi era. Se'n fa una a mida de planxa:
-
+The blade box cover plate was missing. I cut a nee one from steel plate.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07796.jpg" >}}
 
 
+# Feet and wheels
 
-
-#### Suports i rodes
-
-
-S'afegeigen peus antivibració i unes rodes desmuntables per facilitar
-el seu transport. Es mecanitzen els eixos de les rodes de manera que
-es puguin treure quan la maquina ja està a lloc. En la foto es veu el
-mecanitzat a la llimadora dels plans per a la clau. La segona foto
-mostra els suports els peu si les rodes ja en el seu lloc.
-
+We add rubber feet and wheels to make easier to move it. The wheels
+shafts can be screwed in and ou to allow wheels to be removed
+easily. In the pictures you will see the shaper cutting some flats to
+the wheel shafts.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07812.jpg" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07817.jpg" >}}
 
 
+# Finishing and paint
 
-
-#### Pintura i acabats
-
-
-Finalment es decapa, treu el rovell i repinta amb imprimació el
-suport. També s'hi afegeixen peus antivibració i unes rodes
-desmuntables per facilitar el transport pel taller. L'interior es
-pinta amb imprimació vermella i es deixa sense capa final d'acabat. La
-part exterior es trccta amb més cura: s'imprima amb gris, s'empasta i
-poleix convenientment. Es finalitza amb dues capes d'esmalt a dos
-colors: blanc trencat i lila.  A continuació hi ha algunes fotos del
-procés: primer el muntatge de la taula i després la maquina
-completament imprimada.
-
+Finally, the machine is derusted and the old paint scraped. New
+painting process includes applying primer, sanding it, and lackering
+with two colors. This ends the project with an fully operating
+machine.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07821.jpg" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07901.jpg" >}}
 
-
-### La màquina completament restaurada
-
-
-Aquí teniu la màquina totalment restaurada. Funciona com un rellotge i
-és estable i precisa en els talls si s'ajusta convenientment.
-
+This is the finished machine, It works like a clock. It's stable ans
+precise. A pleasure to work with.
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/P1020976.JPG" >}}
 
-
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/P1020971.JPG" >}}
-
 
 {{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/P1020969.JPG" >}}
