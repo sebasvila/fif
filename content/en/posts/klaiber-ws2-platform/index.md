@@ -6,7 +6,6 @@ tags:
 - tech.welding
 - klaiber-ws2
 categories:
-- workshop
 - projects
 keywords:
 - Klaiber WS2

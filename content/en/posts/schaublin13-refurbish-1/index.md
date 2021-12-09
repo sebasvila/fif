@@ -9,6 +9,8 @@ categories:
 - machines
 keywords:
 - Schaublin 13
+- Motor servicing
+- Electrical conduct
 draft: false
 ---
 
@@ -18,6 +20,9 @@ Long time ago I bought a Schaublin 13 milling machine to Peter at
 Chomienne FP30]({{< relref cincinatti-chomienne-fp >}}). The
 machine remained stored for many months and finally it arrived the
 time to face its refurbishing.
+
+In this post I face the service of the motors and rework the
+electrical conducts.
 
 <!--more-->
 

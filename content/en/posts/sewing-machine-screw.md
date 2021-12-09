@@ -5,7 +5,6 @@ coverImage: "/fotos/unclass/singer-screw-5.jpg"
 tags:
 - tech.turning
 categories:
-- workshop
 - projects
 keywords:
 - sewing machine

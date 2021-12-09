@@ -5,12 +5,14 @@ draft: false
 slug: "selfmade-tool-grinders"
 coverImage: /fotos/unclass/quorn-full.png
 tags:
-- grinding
+- tech.grinding
 keywords:
 - tool grinders
 - quorn
 - Brooks-Stent
 - Worden
+categories:
+- library
 ---
 
 An interesting machine any workshop needs is a tool grinder. In the

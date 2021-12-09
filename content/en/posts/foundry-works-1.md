@@ -5,7 +5,6 @@ coverImage: "/fotos/foneria/cargol-1.jpg"
 tags:
 - tech.casting
 categories:
-- workshop
 - projects
 keywords:
 - foundry

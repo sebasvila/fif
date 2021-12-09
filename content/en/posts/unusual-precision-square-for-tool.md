@@ -7,9 +7,12 @@ coverImage: /fotos/leinen-lz4sb/P1050433.JPG
 tags:
 - tech.turning
 - klaiber-ws2
+- tools
 categories:
-- workshop
 - projects
+keywords:
+- Precision square
+- Grinding jigs
 ---
 
 
