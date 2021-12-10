@@ -5,8 +5,8 @@ coverImage: "elevation.jpg"
 tags:
 - schaublin-13
 categories:
-- workshop
-- machines
+- machine overhauling
+- schaublin 13
 keywords:
 - Schaublin 13
 - Motor servicing

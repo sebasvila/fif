@@ -7,15 +7,13 @@ coverImage: "/fotos/worner-b13/20200216_122902.jpg"
 tags:
 - Wörner B13
 categories:
-- workshop
-- machines
+- machine overhauling
 - Wörner B13
 ---
 
 
 This is how the drilling machine return spring looks when I opened the
 cover:
-
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200216_122902.jpg" thumbnail-with="75%" >}}
 
@@ -28,7 +26,6 @@ you will see next). These are the pictures of the empty cup, the
 spring, and the modified shaft. Originally the internal attachment was
 means of a pin in the shaft while now it uses a slitted shaft.
 
-
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200219_070430.jpg" thumbnail-with="75%" >}}
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200512_202343.jpg" thumbnail-with="75%" >}}
@@ -40,10 +37,8 @@ Springs Valles](https://www.springsvalles.com/ca/) according to [this
 specifications](/pdfs/molla-retorn.pdf). They made it in a week. This
 is a picture of new and old springs:
 
-
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200608_180342.jpg" thumbnail-with="75%" >}}
 
 Finally, the new spring was mounted in the receiving cup:
-
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200608_182859.jpg" thumbnail-with="75%" >}}

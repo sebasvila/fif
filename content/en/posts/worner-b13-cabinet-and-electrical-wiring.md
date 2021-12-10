@@ -5,11 +5,15 @@ slug: worner-b13-cabinet-and-electrical-wiring.html
 coverImage: "/fotos/moble-worner/20200913_194752.jpg"
 tags:
 - Wörner B13
-- woodworking
-- electricity
+- tech.electricity
+- tech.woodworking
 categories:
-- workshop
-- woodworking
+- machine overhauling
+- Wörner B13
+keywords:
+- ball bearing drawer slides
+- steel frame
+- VDF
 draft: false
 ---
 

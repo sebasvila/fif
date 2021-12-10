@@ -6,8 +6,7 @@ tags:
 - reglus
 - tech.turning
 categories:
-- workshop
-- metalworking
+- projects
 keywords:
 - Reglus
 - O2 steel

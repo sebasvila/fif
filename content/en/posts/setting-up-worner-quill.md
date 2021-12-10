@@ -7,8 +7,11 @@ coverImage: "/fotos/worner-b13/20200524_211705.jpg"
 tags:
 - Wörner B13
 categories:
-- workshop
-- machines
+- machine overhauling
+- Wörner B13
+keywords:
+- precision bearings
+- bearings greasing
 - Wörner B13
 ---
 

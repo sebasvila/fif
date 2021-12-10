@@ -7,8 +7,8 @@ draft: false
 tags:
 - Wörner B13
 categories:
-- workshop
-- machines
+- machine overhauling
+- Wörner B13
 ---
 
 
@@ -17,9 +17,9 @@ remains to do some final testing, some woodworking to take profit of
 the supporting structure and to mount the electrical controls. These
 will be the next steps.
 
+<!-- more -->
 
 There are a couple of pictures of the finished machine:
-
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200621_195150.jpg" thumbnail-with="75%" >}}
 

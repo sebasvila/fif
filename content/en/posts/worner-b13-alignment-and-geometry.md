@@ -8,8 +8,13 @@ tags:
 - Wörner B13
 - measuring
 categories:
-- workshop
-- metalworking
+- machine overhauling
+- wörner B13
+keywords:
+- machine tool testing
+- Schlesinger
+- inspection chart
+- Wörner
 ---
 
 In this post I show the result of carrying a sequence of tests to the

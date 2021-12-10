@@ -5,10 +5,12 @@ draft: false
 coverImage: "/fotos/worner-b13/20200518_194605.jpg"
 tags:
 - Wörner B13
+- tech.turning
 categories:
-- workshop
-- machines
+- machine overhauling
 - Wörner B13
+keywords:
+- steel blackening
 ---
 
 
@@ -18,21 +20,19 @@ to clear metal or try to recover original black coating. I found
 interesting to experiment with those cold blackening solutions and
 give them a try. What follows is the resulting experience.
 
+<!-- more -->
 
 The parts to be processed were:
-
 
 *   The screw plug of the quill retention.
 *   The handle and bearing support of the belt tensioning pinion.
 *   The thumb screw of the feed lever.
 *   The return spring cover.
 
-
 The thumb screw was missing and a new one was made in the lathe some
 days before. Following, there is a picture of the cleaned spring
 cover. This is not the original spring cover but a replacement made
 after some previous reparation.
-
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200507_173214.jpg" thumbnail-with="75%" >}}
 
@@ -43,16 +43,13 @@ cleaned with a home degreaser. After that, the blackening process was
 exactly done as required in the product instructions. I used deionized
 cleaning water between each step.
 
-
 The result was good enough. A nice black finish was formed and its
 resistance was better that I expected. I would say that depending on
 the steel characteristics things go better or worse. This is said
 clearly in the product datasheet. Overall, the results exceeded my
 previous expectatives.
 
-
 These are some pictures of the parts after being blackened.
-
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200507_175523.jpg" thumbnail-with="75%" >}}
 
@@ -61,6 +58,5 @@ These are some pictures of the parts after being blackened.
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200518_194605.jpg" thumbnail-with="75%" >}}
 
 This is belt tensioning handle mounted on the drill head:
-
 
 {{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200518_203356.jpg" thumbnail-with="75%" >}}

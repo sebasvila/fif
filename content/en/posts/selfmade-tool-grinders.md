@@ -89,16 +89,15 @@ An easier design that the previous ones.
 The Worden
 ----------
 
-
 A design similar to that of Kennet but simpler. It is mostly built by
 using steel plate and the spindle is avoided by directly using the
 motor shaft.
 
 
-*    [http://www.jeffree.co.uk/Pages/worden/worden.htm](http://www.jeffree.co.uk/Pages/worden/worden.htm)
+* [http://www.jeffree.co.uk/Pages/worden/worden.htm](http://www.jeffree.co.uk/Pages/worden/worden.htm)
 
 
-Grinder gigs
+Grinder jigs
 ------------
 
 
