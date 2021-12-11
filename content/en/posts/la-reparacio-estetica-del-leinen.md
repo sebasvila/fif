@@ -12,6 +12,9 @@ keywords:
 - Drehbank
 - Lathe
 - Paint
+categories:
+- machine overhauling
+- boley leinen LZ4SB
 ---
 
 An important task during the Leinen lathe refurbishing is to recover

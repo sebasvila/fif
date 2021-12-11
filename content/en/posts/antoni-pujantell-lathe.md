@@ -7,8 +7,7 @@ coverImage: /fotos/torn-AP/P1060160.JPG
 tags:
 - sold-out
 categories:
-- workshop
-- machines
+- sold-out machines
 keywords:
 - Antoni Pujantell
 - lathe
@@ -16,8 +15,7 @@ keywords:
 ---
 
 
-The Antoni Pujantell AP lathe
------------------------------
+# The Antoni Pujantell AP lathe
 
 I have been a proud owner of an AP lathe (AP being the initials of the
 maker: Antoni Pujantell). This lathe is the first machine tool that
@@ -35,20 +33,15 @@ exist yet and I don't have significant recordings of all this task
 other that my father working on the lathe few months after being
 recovered:
 
-
 {{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060177.JPG" thumbnail-with="75%" >}}
-
 
 This post is a tribute to all this work we enjoyed so much.
 
 
-The lathe characteristics
--------------------------
-
+# The lathe characteristics
 
 The AP lathe is a production machine heavily built. Main dimensions
 are:
-
 
 *   1000mm between centers
 *   250mm turn over the carriage
@@ -64,11 +57,9 @@ are:
 *   8 slots Norton box for imperial threading
 
 
-Some illustrated notes
-----------------------
+# Some illustrated notes
 
-
-### The spindle drive
+## The spindle drive
 
 The spindle is driven by a gear train enclosed in the lathe
 headstock. Lubrication is provided by oil bath that also lubricates
@@ -85,8 +76,8 @@ its bad state. The best image we have after treatment is this one:
 
 {{< image classes="fig-100 clear"  src="/fotos/torn-AP/placa-marxes.jpg" thumbnail-with="75%" >}}
 
-### The Norton box
 
+## The Norton box
 
 The lathe comes with a imperial leadscrew driven by a Norton box
 providing the following relations (the item number corresponds to the
@@ -117,8 +108,7 @@ These are the pictures of the box:
 The third lever on the top of the box switches on/off the feed rod and the leadscrew.
 
 
-### Other pictures
-
+## Other pictures
 
 {{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060145.JPG" thumbnail-with="75%" >}}
 
@@ -136,8 +126,8 @@ The third lever on the top of the box switches on/off the feed rod and the leads
 
 {{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060148.JPG" thumbnail-with="75%" >}}
 
-### The AP leaves the garage
 
+## The AP leaves the garage
 
 It's really sad. The Pujantell leaved the garage after so many years
 working with it. I wish many hours of joy to the new owner. This is a
@@ -146,8 +136,7 @@ picture of the lathe being loaded by a tailgate.
 {{< image classes="fig-100 clear"  src="/fotos/torn-AP/tor-ap-sortida.jpg" thumbnail-with="75%" >}}
 
 
-### Literature about this lathe
-
+## Literature about this lathe
 
 I know no printed literature of this lathe. Any hint will be
 welcome. It's worth to note that exists a brochure for a next
