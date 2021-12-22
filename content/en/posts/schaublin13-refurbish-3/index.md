@@ -1,7 +1,7 @@
 ---
 title: "Schaublin 13 Refurbish (3)"
 date: 2021-12-21T20:26:00
-coverImage: "knob2.png"
+coverImage: "knob2.jpg"
 tags:
 - schaublin-13
 categories:
@@ -25,7 +25,7 @@ axis. While feeds are commanded from a kind of «joystick» on the
 console front, the speeds gearbox is located on the machine back as
 you can see in the next picture:
 
-{{< image classes="fig-100 center clear" src="feed-gearbox.png" >}}
+{{< image classes="fig-100 center clear" src="feed-gearbox.jpg" >}}
 
 Note the black knob: it's used to change the feed speeds of the table
 movements. It has two ranges and a number of speeds in each range. In
@@ -36,12 +36,12 @@ gear. In the last picture, you can see the curved form of the machine
 main shell that protects the power shaft. Seen from the interior this
 is the shaft:
 
-{{< image classes="fig-100 center clear" src="feed-shaft.png" >}}
+{{< image classes="fig-100 center clear" src="feed-shaft.jpg" >}}
 
 And this is the gearbox pulley ---that is belted to main motor---
 while being pulled off:
 
-{{< image classes="fig-100 center clear" src="pulley.png" >}}
+{{< image classes="fig-100 center clear" src="pulley.jpg" >}}
 
 The gearbox rotates around the power shaft axis. This movement allows
 to tension the motor belt. This can be seen on the first picture.
@@ -65,11 +65,11 @@ The following picture shows a detail of the special locking screw. The
 stell ball pushes the screw interior, expanding the screw diameter and
 locking it:
 
-{{< image classes="fig-100 center clear" src="locking-screw.png" >}}
+{{< image classes="fig-100 center clear" src="locking-screw.jpg" >}}
 
 The gearbox after being pulled out:
 
-{{< image classes="fig-100 center clear" src="gearbox.png" >}}
+{{< image classes="fig-100 center clear" src="gearbox.jpg" >}}
 
 # Service the knob o-ring
 
@@ -78,7 +78,7 @@ screw and pull the knob apart. The knob is mounted over a double shaft
 to actuate over the two speed ranges. This is an exploded picture of
 the knob-shaft assembly:
 
-{{< image classes="fig-100 center clear" src="knob.png" >}}
+{{< image classes="fig-100 center clear" src="knob.jpg" >}}
 
 The current o-ring was of size 23 x 2,5. However, the Freudenberg
 calculator gives a thicker dimension. I replaced it by a new o-ring of
@@ -86,4 +86,4 @@ the same dimensions that the current one. It is on smooth fit range
 but could be enough. The next pricture shows the knob assembly being
 pushed again into the gearbox:
 
-{{< image classes="fig-100 center clear" src="knob2.png" >}}
+{{< image classes="fig-100 center clear" src="knob2.jpg" >}}
