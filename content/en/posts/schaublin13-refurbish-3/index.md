@@ -80,9 +80,10 @@ the knob-shaft assembly:
 
 {{< image classes="fig-100 center clear" src="knob.png" >}}
 
-The current o-ring was of size. However, the Freudenberg calculator
-gives a better dimension of XXX. I replaced it by a new o-ring of the
-same dimensions that the current one. The next pricture shows the knob
-assembly being pushed again into the gearbox:
+The current o-ring was of size 23 x 2,5. However, the Freudenberg
+calculator gives a thicker dimension. I replaced it by a new o-ring of
+the same dimensions that the current one. It is on smooth fit range
+but could be enough. The next pricture shows the knob assembly being
+pushed again into the gearbox:
 
 {{< image classes="fig-100 center clear" src="knob2.png" >}}
