@@ -75,10 +75,14 @@ This is the set of drawers after being assembled:
 
 # Install the drawers and its slides
 
-The drawers will use full extensions drawer slides from [](). These
-slides have tight tolerances to assure a smooth feeling when opening
-and closing the drawers. Thus, cabinets and drawers where cut ans
-assembled  with utmost care to guarantee these tolerances. The first
+The drawers will use full extensions drawer slides from [Thomas
+Regout](https://www.thomasregout-telescopicslides.com). These slides
+have tight tolerances to assure a smooth feeling when opening and
+closing the drawers. Thus, cabinets and drawers where cut and
+assembled with utmost care to guarantee these tolerances. An
+[installation
+manual](https://www.thomasregout-telescopicslides.com/IManager/MediaLink/822/86201/13515/0/)
+from Thomas Regout gives some advice about the tolerances. The first
 check of the slides showed a nice fitting.
 
 {{< image classes="fig-100 center clear" src="fitting-test.jpg" >}}
