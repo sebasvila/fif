@@ -31,7 +31,7 @@ undesired rotation is observed when the Y displacement is reversed.
 
 # Scraping practice and basic tools
 
-First action was to gather some needed tools and learn to get flat
+First action was to gather some new tools and learn to get flat
 surfaces by scraping. Tools are essential to further investigate were
 the real problem is in the ram ways. Scraping is essential to get some
 of the tools at a reasonable price and to refurbish the ways after the
@@ -43,8 +43,7 @@ in this post and write a specific post in some weeks.
 Finally, after some months, I ended with a slight experience in
 scraping and some useful tools. Mainly a precision surface plate, a
 magnetic master square, some straight edges, scrapers, scraper
-grinding tool, and spotting ink. Below, there are some pictures of
-them.
+grinding tool, and spotting ink.
 
 
 # First tests with the new tools
