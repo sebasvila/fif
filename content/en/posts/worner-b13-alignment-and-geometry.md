@@ -33,7 +33,7 @@ parameters. Testing tables exist that abridged the required measures for a
 kind of machine tool.
 
 
-The results obtained are shown [in this doc](/pdfs/taula-control-b13.pdf).
+The results obtained are shown [in this doc](/pdfs/taula-control-B13.pdf).
 
 
 You can see that runout of the spindle is perfectly under the
