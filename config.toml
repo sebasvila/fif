@@ -89,7 +89,7 @@ contentDir = "content/en"
   weight = 1
   identifier = "instagram"
   name = "Instagram"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-instagram\" aria-hidden=\"true\"></i>"
   url = "https://www.instagram.com/fustaiferroblog"
 [[menu.misc]]
   weight = 1

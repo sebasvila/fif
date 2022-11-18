@@ -2,6 +2,9 @@
 
 DIM=1024
 
+
+
+
 mogrify -filter Triangle \
         -define filter:support=2 \
         -auto-orient \
