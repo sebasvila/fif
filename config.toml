@@ -85,12 +85,21 @@ contentDir = "content/en"
 #   name = "GitHub"
 #   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
 #   url = "https://github.com/kakawait"
+
 [[menu.links]]
   weight = 1
   identifier = "instagram"
-  name = "Instagram"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-instagram\" aria-hidden=\"true\"></i>"
+  name = "Instagram profile"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-instagram\" aria-hidden=\"true\"></i>"
   url = "https://www.instagram.com/fustaiferroblog"
+
+[[menu.links]]
+  weight = 1
+  identifier = "youtube"
+  name = "Youtube channel"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-youtube\" aria-hidden=\"true\"></i>"
+  url = "https://www.youtube.com/channel/UCgIrjNwV1WSzm-t1qfCrDfA"
+
 [[menu.misc]]
   weight = 1
   identifier = "rss"
