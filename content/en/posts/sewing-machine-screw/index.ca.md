@@ -3,7 +3,7 @@ title: "Cargols per Màquina de Cosir"
 date: 2021-07-25T00:21:01+02:00
 coverImage: "/fotos/unclass/singer-screw-5.jpg"
 tags:
-- tecno.tornejat
+- tech.tornejat
 categories:
 - taller
 - projectes
