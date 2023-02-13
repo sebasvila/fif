@@ -14,6 +14,7 @@ keywords:
 - Schaublin 13
 - Paint
 - Schaublin color
+- Iwata
 draft: false
 ---
 
@@ -27,16 +28,16 @@ the original coating where possible.
 
 The machine has a three colors scheme.
 
-1. There is an «internal» coating that is used to protect the non
-   visible interiors: the main casting interior, the internal faces of
-   the sliding apron, etc. This is a kind of aluminium based coating
-   of a thick aspect. I cannot precisely identify it.
+1. There is an «internal» coating that is used to protect the hidden
+   interiors: the main casting interior, the internal faces of the
+   sliding apron, etc. This is a kind of aluminium based coating of a
+   thick feeling. I cannot precisely identify it.
 
 2. There is a plain grey that is used along the main column and
    support. The coating is non-sensible to the solvent test. Thus it
    is a king of resistent coating. It exhibits a good aspect apart
    from the chips tray, that is moderately affected by the use. The
-   precise grey is a difficult matte. For sure it is no RAL color
+   precise grey is a difficult matter. For sure it is no RAL color
    according to may chart.
 
 3. There is also a hammered effect coating that is used along the
@@ -46,8 +47,9 @@ The machine has a three colors scheme.
    a pure silver. It has a hue with some green component and maybe
    other tertiary components. This gives a more «sophisticated» feel.
 
-4. The handles color cannot be appreciated. The use have eroded all
+4. The color of the handles cannot be appreciated. The use have eroded all
    traces of it. In some sense it remembers the internal coating.
+
 
 # The coating scheme to be used
 

@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la Schaublin 13 (7): pintura"
+title: "Restauració de la fresadora Schaublin 13 (7): pintura"
 slug: sv13-ref-7
 date: 2023-01-07T10:05:00
 coverImage: "mostra-color.jpg"
@@ -13,6 +13,7 @@ keywords:
 - Fresadora
 - Schaublin 13
 - Pintura
+- Iwata
 - Color Schaublin
 draft: false
 ---
@@ -20,7 +21,7 @@ draft: false
 
 En aquest post parlem de com recuperar l'aspecte original de la
 fresadora Schaublin 13. Ho farem mirant de preservar els colors i les
-distribucions originals i, fins a cert punt, el recobriment original
+distribucions originals i, fins a cert punt, la pintura original
 sempre que sigui possible.
 
 <!--més-->
@@ -30,7 +31,7 @@ sempre que sigui possible.
 La màquina té un esquema de tres colors.
 
 1. Hi ha un recobriment «intern» que s'utilitza per protegir els
-   interiors no visibles: l'interior del bastidor principal, les cares
+   interiors no visibles: l'interior de la columna, les cares
    internes del davantal i la taula, etc. Aquest és un tipus de
    recobriment amb aspecte d'alumini i textura gruixuda. No el puc
    identificar amb precisió.
@@ -44,36 +45,37 @@ La màquina té un esquema de tres colors.
    de colors RAL.
 
 3. També hi ha una pintura d'efecte martelé que es fa servir en el
-   davantal, les taules, el capçar, l'armari electric, etc. També es
+   davantal, les taules, el capçal, l'armari electric, etc. També es
    fa servir en alguns accessoris. En moltes publicacions això es
-   descriu com a color plata, però ---almenys a la meva màquina--- no
+   descriu com a color plata, però ---si més no a la meva màquina--- no
    és exactament un color plata pur. Té una tonalitat amb algun
    component verd i potser altres components terciaris. Això dóna una
-   sensació més "sofisticada".
+   sensació més «sofisticada».
 
-4. El color de les manetes no es pot apreciar. L'ús n'ha erosionat tot
+4. El color dels volants no es pot apreciar. L'ús n'ha erosionat tot
    rastre. S'intueix quelcom semblant al recobriment intern.
 
 
-# L'esquema de recobriment que s'ha d'utilitzar
+# L'esquema de pintura que es farà servir
 
 S'ha decidir refer la pintura seguint aquest camí:
 
-1. La pintura interna es tornarà a refer només en casos
-   especials. Segur que l'interior de la màquina no es tornarà a
-   pintar. On sigui necessari, faré servir el mateix recobriment que
-   en el cas de les nanses.
+1. La pintura de dins es tornarà a refer només en casos
+   especials. Segur que l'interior de la màquina no caldrà tornar-lo a
+   pintar. On sigui necessari, faré servir el mateix esmalt que en el
+   cas dels volants.
 
-2. El gris llis el determinarà el proveïdor de pintura per obtenir el
-   color més semblant a l'original. Vull utilitzar esmalt de poliuretà
-   2K per tenir un recobriment resistent als productes químics.
+2. Pel gris llis es farà servir esmalt de poliuretà 2K i pel color el
+   proveïdor de pintura mirarà de determinar el color més semblant a
+   l'original. Fer servir poliuretà 2K permet un recobriment resistent
+   als productes químics i les ratllades.
 
-3. Les peces de pintura martelé es recobriran amb una barreja
-   preparada per mi mateix per a què coincideixi amb el color
-   original. Faré servir un producte tipus "Hammerite". Té una bona
-   resistència i és fàcil d'aplicar.
+3. Les peces de pintura martelé es pintaran amb una barreja preparada
+   per mi mateix per a què s'acosti al color original. Faré servir un
+   producte tipus "Hammerite". Té una bona resistència i és fàcil
+   d'aplicar.
 
-4. Les nanses es pintaran amb un acabat llis lluent tipus «Hammerite»
+4. Els volants es pintaran amb un acabat llis lluent tipus «Hammerite»
    d'un color gris clar.
 
 
@@ -82,10 +84,10 @@ S'ha decidir refer la pintura seguint aquest camí:
 La pintura martelé triada és una barreja de «gris plata» i «verde
 seda».  [Oxiron
 martelé](https://www.titanlux.es/en/productos/producto/hammered-oxiron-indoors-outdoors-metallic-gloss-hammered). Només
-es va afegir una petita quantitat de verd per aproximar-se al to
-original de Schaublin. El resultat és força bo. Es va aplicar pintura
-amb pinzell. La imatge següent mostra el suport de la maneta de l'eix
-Z després de pintat.
+es va afegir una petita quantitat de verd al gris per aproximar-se al
+to original de Schaublin. El resultat és prou bo. Es va aplicar
+pintura amb pinzell. La imatge següent mostra el suport de la maneta
+de l'eix Z després del pintat.
 
 {{< image classes="fig-100 centre clar" src="brac-z.jpg" >}}
 
@@ -112,16 +114,16 @@ de color «gris perla». La imatge següent mostra la maneta de l'eix Z.
 
 # El to gris principal
 
-El to gris principal de la màquina es va determinar contra un
-mostruari extens per la gent de Torrents Autocolor, que és el meu
-proveïdor habitual productes de pintura. Es va trobar un to molt
+La gent de Torrents Autocolor, que és el meu proveïdor habitual
+productes de pintura, van determinar el to gris principal de la
+màquina fent servir un mostruari extens. Es va trobar un to molt
 semblant, però no perfecte. Per prova-ho, van preparar una petita
 ampolla d'esmalt amb tapa de pinzell:
 
 {{< image classes="fig-100 centre clear" src="ampolleta.jpg" >}}
 
-Aplicat sobre la pinta original, el resultat és molt proper com es veu
-en aquesta imatge:
+Aplicat sobre la pintura original, el resultat és molt proper com es
+pot veure en la següent foto:
 
 {{< image classes="fig-100 center clear" src="mostra-color.jpg" >}}
 
@@ -149,9 +151,9 @@ brillantor.
 
 Les llaunes premesclades s'omplen amb la base de PUR, l'enduridor i un
 component que evita l'efecte de l'enduridor fins que es ruixa la
-pintura. EL pot té molt durada molt temps en bones condicions. La
+pintura. El pot té una vida llarga en bones condicions. La
 pintura es va aplicar prou bé. El resultat, però, va ser
-inquietant. Després d'un llarg període de curat, el recobriment era
+inquietant. Després d'un llarg període de curat, la capa era
 molt sensible als agents químics i no gaire resistent a les
 ratllades. Fins i tot una gota d'alcohol va poder dissoldre la
 capa. Jo diria que va ser pitjor que l'esmalt alquídic habitual.
@@ -164,13 +166,13 @@ del pot. Això fa que aquest tipus de pots sigui fàcil de
 reconèixer. En aquest cas, l'experiment va tenir molt més èxit. El
 recobriment s'assecava més ràpid ---encara que no molt ràpid---, i
 després del temps de curat el recobriment era molt més resistent a les
-ratllades i habitual productes químics. Tanmateix, les llaunes són
-molt cares, el recobriment no tan dur com sol ser un PUR barrejat a
-casa i la durada del pot una vegada barrejat és curt ---dura uns
-dies---.
+ratllades i als productes químics habituals. Tanmateix, les llaunes
+són molt cares, el recobriment no és tan dur com sol ser un PUR
+barrejat a casa i la durada del pot una vegada barrejat és més curta
+---dura uns dies---.
 
-La imatge següent mostra la part inferior d'un pot dels darrers: podeu
-veure el mecanisme per destruir la mampara interna i activar
+La imatge següent mostra la part inferior d'un pot del darrer tipus:
+podeu veure el mecanisme per destruir la mampara interna i activar
 l'enduridor.
 
 {{< image classes="fig-100 centre clar" src="pot-2k.jpg" >}}
@@ -181,36 +183,37 @@ clàssic procediment de barrejar-ho jo mateix i pintar amb pistola.
 
 # Pistoles de pintura i compressor
 
-Fa temps que tinc una certa experiència utilitzant una pistola de
-gravetat. Vaig aplicar vernís PUR a molts dels meus mobles. El
+Fa temps que vaig tenir una certa experiència utilitzant una pistola
+de gravetat. Vaig aplicar vernís PUR a molts dels meus mobles. El
 resultat va ser prou bo, però vaig aprendre que necessiten un flux
 d'aire important per aconseguir bons resultats. En aquesta àrea, però,
-les coses han millorat: la relació de transferència de les pìstoles
+les coses han millorat: la relació de transferència de les pistoles
 (pintura aplicada vs pintura gastada) és molt millor, parcialment per
-la normativa ambiental. Em vaig proposar doncs trobar una pistola
+la normativa ambiental. Em vaig proposar doncs trobar una pistola de
 gravetat petita, de baix cabal i d'alta relació de transferència per
 substituir la meva vella Sata.
 
 Després de llegir i mirar aquí i allà vaig optar per una pistola
 [Iwata
 AZ4](https://anest-iwata.com.au/products/spray-guns/gravityspraygun/az4). A
-la primera vista, quan va arribar, es va confirmar que no és la
-pistola més ben acabada ni feta amb el millor material en
-absolut. Vaig comprar-al amb el nas de tipus AZ1 d'1,3 mm. Malgrat la
-qualitat, la pistola és impressionant quan s'utilitza. A 1 bar
-pulveritza molt bé i fa que sigui fàcil aconseguir acabats molt bons i
-suaus.  El consum d'aire és realment baix. Un compressor d'1 KW és
-absolutament suficient per abastar la pistola. Té una mida de vano
-perfectament escaient per pintar màquines petites i mitjanes com les
-que estem acostumats a revisar. La relació de transferència és molt
-bona i gairebé no fa boira de pintura. Realment és recomanable.
+la primera vista, quan va arribar, es va confirmar el que deien les
+crítiques. No és la pistola més ben acabada ni feta amb el millor
+material en absolut. Vaig comprar-al amb el nas de tipus AZ1 d'1,3
+mm. Malgrat la qualitat, la pistola és impressionant quan
+s'utilitza. A 1 bar pulveritza molt bé i fa que sigui fàcil aconseguir
+acabats molt bons i suaus.  El consum d'aire és realment baix. Un
+compressor d'1 KW és absolutament suficient per abastar la pistola. Té
+una mida de vano de l'ordre de 10 cm, perfectament escaient per pintar
+màquines petites i mitjanes com les que estem acostumats a revisar. La
+relació de transferència és molt bona i gairebé no fa boira de
+pintura. Realment és recomanable.
 
 {{< image classes="fig-100 centre clar" src="iwata-az4.jpg" >}}
 
 Per a provar la pistola, he donat una nova capa de pintura a la
 làmpada Waldmann de la fresadora. Abans, ja l'havia fet servir per a
-provar el sprays de PUR. El resultat va ser molt satisfactori. Es pot
-veure a les següents imatges.
+provar el sprays de PUR. El resultat de la prova amb la pistola ha
+sigut molt satisfactori. Es pot veure a les següents imatges.
 
 {{< image classes="fig-100 centre clar" src="waldmann-1.jpg" >}}
 
