@@ -221,7 +221,7 @@ contentDir = "content/en"
   weight = 1
   identifier = "instagram"
   name = "Instagram"
-  pre = "<i class=\"sidebar-button-icon fa fa-brands fa-instagram\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-instagram\"></i>"
   url = "https://www.instagram.com/fustaiferroblog"
 [[languages.en-us.menu.misc]]
   weight = 1
@@ -285,7 +285,7 @@ contentDir = "content/en"
   weight = 1
   identifier = "instagram"
   name = "Instagram"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-instagram\"></i>"
   url = "https://www.instagram.com/fustaiferroblog"
 [[languages.ca.menu.misc]]
   weight = 1
