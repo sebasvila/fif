@@ -1,14 +1,21 @@
 baseURL = "https://fif.viri.cat/"
 languageCode = "en"
 defaultContentLanguage = "en-us"
+
 title = "Fusta i Ferro"
 theme = "hugo-tranquilpeak-theme"
-# disqusShortname = "hugo-tranquilpeak-theme"
 googleAnalytics = "G-W3C1EV9Z83"
 paginate = 8
 canonifyurls = false
 enableEmoji = true
 contentDir = "content/en"
+
+[author]
+  name = "sBs"
+  location = "Catalonia"
+  picture = "/author-photo.png"
+  twitter = "sebasvilam"
+  bio = "An unusual computer engineer working on dirty and greasy machines"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -18,85 +25,14 @@ contentDir = "content/en"
   category = "categories"
   archive = "archives"
 
-[author]
-  name = "sBs"
-  #job = "Your job title"
-  picture = "/author-photo.png"
-  twitter = "sebasvilam"
-  bio = "An unusual computer scientist working on dirty and greasy machines"
-  location = "Catalonia"
 
-# [languages]
-#   [languages.en-us]
-#      languageName = "English"
-#      title = "Fusta i Ferro"
-#      contentDir = "content/en"
-#      weight = 1
-#   [languages.ca]
-#      languageName = "Catalan"
-#      title = "Fusta i Ferro"
-#      contentDir = "content/ca"
-#      weight = 2
-#      dateFormat = "2 January 2006"
+
+
 
 
 #
 # Menu Configuration
 #
-[[menu.main]]
-  weight = 1
-  identifier = "home"
-  name = "Home"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
-  url = "/"
-[[menu.main]]
-  weight = 2
-  identifier = "categories"
-  name = "Categories"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
-  url = "/categories"
-[[menu.main]]
-  weight = 3
-  identifier = "tags"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
-  url = "/tags"
-[[menu.main]]
-  weight = 4
-  identifier = "archives"
-  name = "Archives"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
-  url = "/archives"
-[[menu.main]]
-  weight = 5
-  identifier = "contact"
-  name = "Contact"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-envelope\" aria-hidden=\"true\"></i>"
-  url = "/page/contact"
-[[menu.main]]
-  weight = 6
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
-  url = "/#about"
-# [[menu.links]]
-#   weight = 1
-#   identifier = "github"
-#   name = "GitHub"
-#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-#   url = "https://github.com/kakawait"
-[[menu.links]]
-  weight = 1
-  identifier = "instagram"
-  name = "Instagram"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
-  url = "https://www.instagram.com/fustaiferroblog"
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
-  url = "/index.xml"
 
 
 [params]
@@ -204,10 +140,10 @@ contentDir = "content/en"
   # Comment and uncomment to enable or disable sharing options
   # If you wanna add a sharing option, read user documentation :
   # Tranquilpeak configuration > Theme configuration > sharing-options
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fab fa-facebook-square"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+  #[[params.sharingOptions]]
+  #    name = "Facebook"
+  #    icon = "fab fa-facebook-square"
+  #   url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
   [[params.sharingOptions]]
     name = "Twitter"
@@ -229,4 +165,143 @@ contentDir = "content/en"
 
 [markup.goldmark.renderer]
   unsafe= true
+
+
+##################################################
+# Llengues
+##################################################
+
+
+[languages]
+
+#### ANGLES
+
+[languages.en-us]
+      languageName = "English"
+      title = "Fusta i Ferro"
+      weight = 1
+
+[[languages.en-us.menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
+  url = "/"
+[[languages.en-us.menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
+  url = "/categories"
+[[languages.en-us.menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Tags"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+  url = "/tags"
+[[languages.en-us.menu.main]]
+  weight = 4
+  identifier = "archives"
+  name = "Archives"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
+  url = "/archives"
+[[languages.en-us.menu.main]]
+  weight = 5
+  identifier = "contact"
+  name = "Contact"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-envelope\" aria-hidden=\"true\"></i>"
+  url = "/page/contact"
+[[languages.en-us.menu.main]]
+  weight = 6
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
+  url = "/#about"
+[[languages.en-us.menu.links]]
+  weight = 1
+  identifier = "instagram"
+  name = "Instagram"
+  pre = "<i class=\"sidebar-button-icon fa fa-brands fa-instagram\"></i>"
+  url = "https://www.instagram.com/fustaiferroblog"
+[[languages.en-us.menu.misc]]
+  weight = 1
+  identifier = "lang"
+  name = "En Català"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-language\" aria-hidden=\"true\"></i>"
+  url = "../ca/"
+[[languages.en-us.menu.misc]]
+  weight = 2
+  identifier = "rss"
+  name = "RSS"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+  url = "/index.xml"
+
+
+#### CATALA
+
+[languages.ca]
+      languageName = "Català"
+      title = "Fusta i Ferro"
+      weight = 2
+      dateFormat = "2 January 2006"
+
+[[languages.ca.menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
+  url = "/"
+[[languages.ca.menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
+  url = "/categories"
+[[languages.ca.menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Etiquetes"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+  url = "/tags"
+[[languages.ca.menu.main]]
+  weight = 4
+  identifier = "archives"
+  name = "Arxiu"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
+  url = "/archives"
+[[languages.ca.menu.main]]
+  weight = 5
+  identifier = "contact"
+  name = "Contacte"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-envelope\" aria-hidden=\"true\"></i>"
+  url = "/page/contact"
+[[languages.ca.menu.main]]
+  weight = 6
+  identifier = "about"
+  name = "Sobre"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
+  url = "/#about"
+[[languages.ca.menu.links]]
+  weight = 1
+  identifier = "instagram"
+  name = "Instagram"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
+  url = "https://www.instagram.com/fustaiferroblog"
+[[languages.ca.menu.misc]]
+  weight = 1
+  identifier = "lang"
+  name = "In English"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-language\" aria-hidden=\"true\"></i>"
+  url = "../en-us/"
+[[languages.ca.menu.misc]]
+  weight = 2
+  identifier = "rss"
+  name = "RSS"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+  url = "/index.xml"
+
+
+
+
+
 
