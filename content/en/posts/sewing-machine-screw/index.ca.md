@@ -1,7 +1,7 @@
 ---
 title: "Cargols per Màquina de Cosir"
 date: 2021-07-25T00:21:01+02:00
-coverImage: "/fotos/unclass/singer-screw-5.jpg"
+coverImage: "singer-screw-5.jpg"
 tags:
 - tech.tornejat
 categories:
@@ -56,8 +56,8 @@ Després d'una mica de feina al torn, es va fer un cargol d'acord amb
 les especificacions de Singer que, feliçment, s'ajustava perfectament.
 A continuació podeu veure algunes fotos de la màquina i el nou cargol.
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-1.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-2.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-3.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-4.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-5.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-1.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-2.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-3.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-4.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-5.jpg" >}}

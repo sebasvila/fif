@@ -1,7 +1,7 @@
 ---
 title: "Sewing Machine Screw"
 date: 2021-07-25T00:21:01+02:00
-coverImage: "/fotos/unclass/singer-screw-5.jpg"
+coverImage: "singer-screw-5.jpg"
 tags:
 - tech.turning
 categories:
@@ -48,8 +48,8 @@ After some work on the lathe, a new screw was made following the
 specifications that fitted satisfactorily to the machine. Following
 you can see some pictures of the screw and the sewing machine.
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-1.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-2.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-3.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-4.jpg" >}}
-{{< image classes="fig-100 clear"  src="/fotos/unclass/singer-screw-5.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-1.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-2.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-3.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-4.jpg" >}}
+{{< image classes="fig-100 clear"  src="singer-screw-5.jpg" >}}
