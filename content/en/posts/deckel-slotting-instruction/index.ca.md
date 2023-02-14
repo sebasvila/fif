@@ -16,7 +16,7 @@ description: "Instruccions tècniques pel treball amb el capçal de mortasar de 
 draft: false
 ---
 
-Temps enrera Vaig trobar en algun lloc una nota tècnica de Deckel prou
+Temps enrera vaig trobar en algun lloc una nota tècnica de Deckel prou
 interesant sobre el treball a la fresadora universal amb el capçal de
 mortasar. Com penso que pot ser d'interès general el comparteixo tot
 seguit:
