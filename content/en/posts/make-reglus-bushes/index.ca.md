@@ -1,10 +1,10 @@
 ---
 title: "Fer unes guies per foradar Reglus"
 date: 2021-01-17
-coverImage: /fotos/reglus/hard-turning-2.jpg
+coverImage: hard-turning-2.jpg
 tags:
 - reglus
-- tecno.tornejat
+- tech.tornejat
 categories:
 - taller
 - mecanització
@@ -33,7 +33,7 @@ foradar a mida per l'utillatge Reglus.
 
 * Dimensionat. Les dimensions s'han obtingut de les altres guies i
   s'han adaptat a les dimensions del forat a fer. Aquí podeu
-  baixar-vos un [plànol acotat](/pdfs/dolla-reglus.pdf) d'una guia
+  baixar-vos un [plànol acotat](dolla-reglus.pdf) d'una guia
   Reglus.
 
 * Les guies es vàren mecanitzar deixant el diàmetre exterior
@@ -47,7 +47,7 @@ tornejar la forma principal i foradar el forat superior, que dóna
 accés al forat de centrat.
 
 {{< image classes="fig-100 clear"
-          src="/fotos/reglus/turning-reglus-bushing.jpg" >}}
+          src="turning-reglus-bushing.jpg" >}}
 
 Després, es practica el centrat del forat crític i es forada. La guia
 es mecanitza usant una pinça per mantenir la precisió de centrat i no
@@ -56,10 +56,10 @@ al voltant dels 0,01mm d'excentricitat màxima. Per mantenir el centrat
 del forat guia cal ser curós amb aquesta operació.
 
 {{< image classes="fig-100 clear"
-          src="/fotos/reglus/drilling-reglus-bushing.jpg" >}}
+          src="drilling-reglus-bushing.jpg" >}}
 
 {{< image classes="fig-100 clear"
-          src="/fotos/reglus/drilled-reglus-bushing.jpg" >}}
+          src="drilled-reglus-bushing.jpg" >}}
 
 El següent pas consisteix en xamfranar els cantos necessaris i marcar
 amb els números de cop la dimensió. Posteriorment, es trempa a uns 800
@@ -67,10 +67,10 @@ amb els números de cop la dimensió. Posteriorment, es trempa a uns 800
 aquestes imatges:
 
 {{< image classes="fig-50"
-          src="/fotos/reglus/hardened-bushing-1.jpg" >}}
+          src="hardened-bushing-1.jpg" >}}
 
 {{< image classes="fig-50 clear"
-          src="/fotos/reglus/hardened-bushing-2.jpg" >}}
+          src="hardened-bushing-2.jpg" >}}
 
 Per acabar, es torneja la guia entre puntes al diàmetre exterior
 corresponent. En ser una operació de tornejat dur (amb eina de
@@ -81,15 +81,15 @@ tèrmic. A continuació podeu veure algunes imatges del procés de
 tornejar dur.
 
 {{< image classes="fig-50"
-          src="/fotos/reglus/hard-turning-1.jpg" >}}
+          src="hard-turning-1.jpg" >}}
 
 {{< image classes="fig-50 clear"
-          src="/fotos/reglus/hard-turning-2.jpg" >}}
+          src="hard-turning-2.jpg" >}}
 
 Les noves guies muntades en l'utillatge de foradar Reglus:
 
 {{< image classes="fig-50"
-          src="/fotos/reglus/mounted-bushing-top.jpg" >}}
+          src="mounted-bushing-top.jpg" >}}
 
 {{< image classes="fig-50 clear"
-          src="/fotos/reglus/mounted-bushing-bottom.jpg" >}}
+          src="mounted-bushing-bottom.jpg" >}}
