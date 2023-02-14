@@ -3,7 +3,7 @@ title: 'Overhauling the cabinet saw S250'
 date: 2010-07-18T10:48:00.000+02:00
 draft: false
 slug: "escairadors-s250"
-coverImage: /fotos/escairadora/DSC07761.jpg
+coverImage: DSC07761.jpg
 tags:
 - tech.woodworking
 - tech.painting
@@ -38,8 +38,8 @@ told me. Overhauling it will be a nice project.
 
 This is the saw looking when arrived at the garage:
 
-{{< figure classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07637.jpg" >}}
-{{< figure classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07644.jpg" >}}
+{{< figure classes="fig-100 clear" thumbnail-with="75%" src="dsc07637.jpg" >}}
+{{< figure classes="fig-100 clear" thumbnail-with="75%" src="dsc07644.jpg" >}}
 
 At first sight, the saw do not has major problems. A deep inspection
 after arriving home finds the following issues:
@@ -67,24 +67,24 @@ I first dismantle the machine. The saw, which is rather heavy, is
 moved using a chain hoist and using greased flat bars to slide it
 over. See the next picture.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07724.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07724.jpg" >}}
 
 Helped by the hoist, I take out the saw table. The table is bolted to
 the cabinet with rubber washes between both parts to compensate for
 deformities. The table is turned over a couple of sawhorses.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07730.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07730.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07732.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07732.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07752.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07752.jpg" >}}
 
 Next, the saw moving mechanism is taken apart and cleaned. I separate
 the motor and the saw shaft. The saw shaft bearings are replaced.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07754.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07754.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07757.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07757.jpg" >}}
 
 # Motor
 
@@ -92,9 +92,9 @@ Motor was burned as the seller told me before. A new ABB motor and a
 set of new belts where mounted. The pictures below show the original
 (italian made) motor an the new one.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07797.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07797.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07798.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07798.jpg" >}}
 
 
 # The saw shaft
@@ -103,11 +103,11 @@ The saw shaft was supported by two closed bearings. I replaced them by
 a couple of new ones. Next pictures show the saw shaft in distinct
 phases.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07755.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07755.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07757.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07757.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07759.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07759.jpg" >}}
 
 
 # Shaft lock bar
@@ -117,11 +117,11 @@ specific bar that fits some holes over the shaft pulley. I turned a
 lock bar from steel and heat treated it using the oxiacetilene
 blowtorch. The following pictures illustrate this process.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07760.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07760.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07761.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07761.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07762.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07762.jpg" >}}
 
 
 # Repair the tilt handle shaft
@@ -135,13 +135,13 @@ straighten it by heating it and hammering it straight again on the
 anvil. Then, I turn it perfect again with the same geometry that the
 elevation shaft. See the next pictures.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07764.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07764.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07765.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07765.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07766.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07766.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07767.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07767.jpg" >}}
 
 
 # Sliding carriage supports
@@ -160,22 +160,22 @@ precisely mechanized on the milling machine. Next pictures document
 all this process. Note that it will show also the pattern for the
 missing tilt handle.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/dsc07641.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07641.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07832.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07832.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07913.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07913.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07886.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07886.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/00001.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="00001.jpg" >}}
 
 
 # Blade box cover plate
 
-The blade box cover plate was missing. I cut a nee one from steel plate.
+The blade box cover plate was missing. I cut a new one from steel plate.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07796.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07796.jpg" >}}
 
 
 # Feet and wheels
@@ -185,9 +185,9 @@ shafts can be screwed in and ou to allow wheels to be removed
 easily. In the pictures you will see the shaper cutting some flats to
 the wheel shafts.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07812.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07812.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07817.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07817.jpg" >}}
 
 
 # Finishing and paint
@@ -197,15 +197,15 @@ painting process includes applying primer, sanding it, and lackering
 with two colors. This ends the project with an fully operating
 machine.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07821.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07821.jpg" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/DSC07901.jpg" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07901.jpg" >}}
 
 This is the finished machine, It works like a clock. It's stable ans
 precise. A pleasure to work with.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/P1020976.JPG" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020976.JPG" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/P1020971.JPG" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020971.JPG" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="/fotos/escairadora/P1020969.JPG" >}}
+{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020969.JPG" >}}
