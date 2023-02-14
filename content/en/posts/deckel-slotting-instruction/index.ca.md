@@ -1,10 +1,10 @@
 ---
 title: "Eines pel capçal de mortasar"
 date: 2021-07-05
-coverImage: "/fotos/unclass/slotting-head-deckel.png"
+coverImage: "slotting-head-deckel.png"
 tags:
 - schaublin
-- tecno.mortasat
+- tech.mortasat
 categories:
 - biblioteca
 keywords:
@@ -23,4 +23,4 @@ seguit:
 
 <!-- content --->
 
-[Deckel Butlletin technique 2/72: «Travaux de mortaisage sur machines FP»](/pdfs/deckel-2-72.pdf)
+[Deckel Butlletin technique 2/72: «Travaux de mortaisage sur machines FP»](deckel-2-72.pdf)

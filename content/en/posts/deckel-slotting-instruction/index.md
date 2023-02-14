@@ -1,7 +1,7 @@
 ---
 title: "Slotting head tooling"
 date: 2021-07-05
-coverImage: "/fotos/unclass/slotting-head-deckel.png"
+coverImage: "slotting-head-deckel.png"
 tags:
 - tech.slotting
 - schaublin-13
@@ -23,4 +23,4 @@ notice about how to work with the slotting head on an universal
 milling machine. I guess it could be of general interest and thus
 I share it:
 
-[Deckel Butlletin technique 2/72: «Travaux de mortaisage sur machines FP»](/pdfs/deckel-2-72.pdf)
+[Deckel Butlletin technique 2/72: «Travaux de mortaisage sur machines FP»](deckel-2-72.pdf)
