@@ -19,7 +19,7 @@ During the last months I've been helping Luke Rickert ---of
 [Elisenberg Engineering](https://www.elisenbergengineering.com)--- to move
 forward a foundry project. I had a limited experience on foundry
 business that comes from the [rebuilding of a cabinet saw]({{< relref
-"escairadors-s250">}}) and Luke's project became a really
+"escairadora-s250">}}) and Luke's project became a really
 interesting experience.
 
 All begins when Luke asked me about foundries in Catalonia. He
