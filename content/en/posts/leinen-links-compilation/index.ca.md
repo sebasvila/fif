@@ -31,6 +31,3 @@ Boley Leinen LZ4.
   * [Arribada del torn Leinen MLZ4S](http://www.bymm.de/documents/54/Welcome_Leinen_MLZ4S_V1_4.pdf)
   * [Reacondicionat del torn Leinen MLZ4S](http://www.bymm.de/documents/55/Restauration_Leinen_MLZ4S_V1_16_Teil2.pdf)
   * [Correcció de la geometria del torn Leinen MLZ4S](http://www.bymm.de/documents/59/Restauration_Leinen_MLZ4S_V1_49_Teil3_small.pdf)
-
-
-{{< image classes="fig-100 clear"  src="/fotos/" >}}
