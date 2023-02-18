@@ -8,7 +8,7 @@ googleAnalytics = "G-W3C1EV9Z83"
 paginate = 8
 canonifyurls = false
 enableEmoji = true
-contentDir = "content/en"
+contentDir = "content"
 
 [author]
   name = "sBs"
