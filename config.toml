@@ -1,6 +1,5 @@
 baseURL = "https://fif.viri.cat/"
-languageCode = "en"
-defaultContentLanguage = "en-us"
+defaultContentLanguage = "en"
 
 title = "Fusta i Ferro"
 theme = "hugo-tranquilpeak-theme"
@@ -176,60 +175,61 @@ contentDir = "content"
 
 #### ANGLES
 
-[languages.en-us]
-      languageName = "English"
-      title = "Fusta i Ferro"
-      weight = 1
+[languages.en]
+  languageCode = "en"
+  languageName = "English"
+  title = "Fusta i Ferro"
+  weight = 1
 
-[[languages.en-us.menu.main]]
+[[languages.en.menu.main]]
   weight = 1
   identifier = "home"
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
   url = "/"
-[[languages.en-us.menu.main]]
+[[languages.en.menu.main]]
   weight = 2
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
   url = "/categories"
-[[languages.en-us.menu.main]]
+[[languages.en.menu.main]]
   weight = 3
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
   url = "/tags"
-[[languages.en-us.menu.main]]
+[[languages.en.menu.main]]
   weight = 4
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
   url = "/archives"
-[[languages.en-us.menu.main]]
+[[languages.en.menu.main]]
   weight = 5
   identifier = "contact"
   name = "Contact"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-envelope\" aria-hidden=\"true\"></i>"
   url = "/page/contact"
-[[languages.en-us.menu.main]]
+[[languages.en.menu.main]]
   weight = 6
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
   url = "/#about"
-[[languages.en-us.menu.links]]
+[[languages.en.menu.links]]
   weight = 1
   identifier = "instagram"
   name = "Instagram"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-instagram\"></i>"
   url = "https://www.instagram.com/fustaiferroblog"
-[[languages.en-us.menu.misc]]
+[[languages.en.menu.misc]]
   weight = 1
   identifier = "lang"
   name = "En Català"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-language\" aria-hidden=\"true\"></i>"
   url = "../ca/"
-[[languages.en-us.menu.misc]]
+[[languages.en.menu.misc]]
   weight = 2
   identifier = "rss"
   name = "RSS"
@@ -240,10 +240,11 @@ contentDir = "content"
 #### CATALA
 
 [languages.ca]
-      languageName = "Català"
-      title = "Fusta i Ferro"
-      weight = 2
-      dateFormat = "2 January 2006"
+  languageCode = "ca"
+  languageName = "Català"
+  title = "Fusta i Ferro"
+  weight = 2
+  dateFormat = "2 January 2006"
 
 [[languages.ca.menu.main]]
   weight = 1
@@ -292,7 +293,7 @@ contentDir = "content"
   identifier = "lang"
   name = "In English"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-language\" aria-hidden=\"true\"></i>"
-  url = "../en-us/"
+  url = "../en/"
 [[languages.ca.menu.misc]]
   weight = 2
   identifier = "rss"
