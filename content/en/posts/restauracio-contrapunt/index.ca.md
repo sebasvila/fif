@@ -1,16 +1,15 @@
 ---
 title: 'Restauració del contrapunt'
-date: 2012-09-15T18:42:00.001+02:00
+date: 2012-09-16T18:42:00.001+02:00
 draft: false
-slug: "comencem-restaurar-el-contrapunt"
-coverImage: /fotos/unclass/P1030743.JPG
+slug: "restaurar-contrapunt"
+coverImage: P1030743.JPG
 tags:
-- leinen LZ4SB
-- untranslated
-- tech.painting
+- leinen-lz4sb
+- tech.pintura
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+- restauració de màquines
+- leinen LZ4SB
 ---
 
 Comencem per restaurar el contrapunt, que sembla estar en prou bon
@@ -22,7 +21,7 @@ excèntrica. La fixació de l'eix usa dues mitges llunes clàssiques. La
 L'ajustat entre el suport i l'eix és molt bo, especialment en
 l'inici. Després de desmuntar-lo íntegrament:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1030601.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1030601.JPG" thumbnail-with="75%" >}}
 
 Una vegada desmuntat s'observen alguna petita anomalia. Especialment
 hi ha un cert desgast en la zona en la que les femelles d'ajustatge
@@ -57,8 +56,8 @@ comprovar el color original. La pintura s'ha de tintar exprofeso  amb
 una màquina tintomètrica. Després d'aplicar a brotxa la capa d'acabat
 i montar el contrapunt de nou:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1030744.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1030744.JPG" thumbnail-with="75%" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1030747.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1030747.JPG" thumbnail-with="75%" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1030743.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1030743.JPG" thumbnail-with="75%" >}}
