@@ -3,13 +3,12 @@ title: 'Primeres impressions'
 date: 2012-09-15T17:59:00.001+02:00
 draft: false
 slug: "primeres-impressions"
-coverImage: /fotos/unclass/P1030593.JPG
+coverImage: P1030593.JPG
 tags:
-- leinen LZ4SB
-- untranslated
+- leinen-lz4sb
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+- restauració de màquines
+- leinen LZ4SB
 ---
 
 
@@ -36,4 +35,4 @@ arribat:
 7.  Falten alguns espàrrecs que fan de tap en els forats roscats per
     accessoris sobre el carro
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1030593.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1030593.JPG" thumbnail-with="75%" >}}

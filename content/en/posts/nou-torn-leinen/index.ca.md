@@ -19,6 +19,8 @@ n'apareix una al tractant de maquinària
 [Ferrimaq](http://www.ferrimaq.com/Maquinaria-de-ocasion.html) de
 l'Hospitalet de Llobregat. Increïble!
 
+<!--more-->
+
 Després de posar-se d'acord fa cap al taller de casa: una nova màquina
 fantàstica per restaurar!
 
