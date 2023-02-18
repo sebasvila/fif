@@ -5,14 +5,13 @@ coverImage: "singer-screw-5.jpg"
 tags:
 - tech.tornejat
 categories:
-- taller
 - projectes
 keywords:
-- màquina de cosir
-- cargol
+- Màquina de cosir
+- Cargol
 - Singer
 - Kohler
-- nähnorm 100
+- Nähnorm 100
 draft: false
 ---
 

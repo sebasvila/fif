@@ -2,8 +2,8 @@
 title: 'Recover the Leinen lathe original look'
 date: 2013-03-15T18:51:00.001+01:00
 draft: false
-slug: "la-reparacio-estetica-del-leinen"
-coverImage: /fotos/leinen-lz4sb/P1040545.JPG
+slug: "estetica-del-leinen"
+coverImage: P1040545.JPG
 tags:
 - leinen LZ4SB
 - tech.painting
@@ -26,6 +26,7 @@ quality result. These are the main tasks:
 * Prepare the surfaces to be painted
 * Paint
 
+<!--more-->
 
 # Working with the shiny surfaces
 
@@ -47,13 +48,13 @@ The procedure applied to recover the shiny surfaces is as follows:
 The procedure is slow but really good results are achieved. Note the
 following picture of the apron:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040304.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040304.JPG" thumbnail-with="75%" >}}
 
 and then, some of the parts of the apron after being recovered:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040545.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040545.JPG" thumbnail-with="75%" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040548.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040548.JPG" thumbnail-with="75%" >}}
 
 
 # Paint works
@@ -78,6 +79,6 @@ The procedure to overhaul the painted parts follows the next steps:
 
 The result are parts as follow:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040449.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040449.JPG" thumbnail-with="75%" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040450.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040450.JPG" thumbnail-with="75%" >}}

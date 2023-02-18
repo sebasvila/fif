@@ -11,8 +11,11 @@ tags:
 - tech.turning
 categories:
 - machine overhauling
+- other
 keywords:
 - Contractor's cabinet saw
+- Foundry works
+- Machine rebuilding
 ---
 
 The contractor's cabinet saw with sliding table S250 ---made in

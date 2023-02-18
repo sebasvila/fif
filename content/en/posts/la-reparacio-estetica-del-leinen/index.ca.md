@@ -2,19 +2,19 @@
 title: 'La reparació estètica del Leinen '
 date: 2013-03-15T18:51:00.001+01:00
 draft: false
-slug: "la-reparacio-estetica-del-leinen"
-coverImage: /fotos/leinen-lz4sb/P1040545.JPG
+slug: "estetica-del-leinen"
+coverImage: P1040545.JPG
 tags:
 - leinen LZ4SB
-- tecno.pintura
+- tech.pintura
 categories:
-- taller
-- màquines
+- restauració de màquines
+- leinen LZ4SB
 keywords:
 - Boley Leinen LZ4SB
 - Torn
 - Restauració
-- Pintura
+- Pintura poliuretà
 ---
 
 Entre altres feines de restauració, una feina fonamental en el torn
@@ -25,6 +25,8 @@ Essencialment comporta les següents tasques:
 *   Neteja, desoxidat i polit de les superfícies descobertes: manetes,
     volants, superfícies lluents, etc.
 *   Preparat i repintat de les superfícies pintades originals.
+
+<!--more-->
 
 
 # Tractament de superfícies lluents
@@ -51,13 +53,13 @@ El procés és lent però el resultat és excepcional. Aquí podeu veure
 algunes manetes del devantal abans de set tractades:
 
 {{< image classes="fig-100 clear"
-src="/fotos/leinen-lz4sb/P1040304.JPG" thumbnail-with="75%" >}}
+src="P1040304.JPG" thumbnail-with="75%" >}}
 
 i després de ser restaurades:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040545.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040545.JPG" thumbnail-with="75%" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040548.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040548.JPG" thumbnail-with="75%" >}}
 
 
 # Repintat
@@ -81,6 +83,6 @@ El procés de pintat segueix els següents passos:
 
 El resultat són peces com aquestes:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040449.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040449.JPG" thumbnail-with="75%" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040450.JPG" thumbnail-with="75%" >}}
+{{< image classes="fig-100 clear"  src="P1040450.JPG" thumbnail-with="75%" >}}

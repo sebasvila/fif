@@ -7,11 +7,11 @@ tags:
 categories:
 - projects
 keywords:
-- sewing machine
-- screw
+- Sewing machine
+- Screw
 - Singer
 - Kohler
-- nähnorm 100
+- Nähnorm 100
 draft: false
 ---
 

@@ -6,8 +6,7 @@ tags:
 - reglus
 - tech.tornejat
 categories:
-- taller
-- mecanització
+- projectes
 keywords:
 - Reglus
 - acer O2

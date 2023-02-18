@@ -11,6 +11,7 @@ tags:
 - tech.tornejat
 categories:
 - restauració de màquines
+- altres
 keywords:
 - Escairadora
 - Serra de disc
