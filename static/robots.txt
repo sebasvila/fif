@@ -4,7 +4,7 @@ User-agent: *
 Disallow: /categories/
 Disallow: /tags/
 Disallow: /archives/
-Disallow: index.xml
+Disallow: /*index.xml$
 
 User-agent: Googlebot
 Disallow: /*index.xml$
