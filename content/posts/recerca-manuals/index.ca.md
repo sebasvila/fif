@@ -1,20 +1,24 @@
 ---
-title: 'A la recerca dels manuals'
+title: 'Cercant els manuals del torn'
 date: 2012-09-15T23:31:00.001+02:00
 draft: false
-slug: "a-la-recerca-dels-manuals"
+slug: "cerca-manuals"
 tags:
 - leinen LZ4SB
-- untranslated
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+- restauració de màquines
+- leinen LZ4SB
+keywords:
+- Boley Leinen LZ4SB
+- Manuals
 ---
 
 
 El torn ha arribat, com és habitual, sense cap tipus de
 documentació. En alguns llocs de la xarxa hi ha còpies parcials de
 documentacions d'altres torns similars.
+
+<!--more-->
 
 Unes converses amb Tony de [lathes.uk](http://www.lathes.co.uk/)
 acaben amb la compra d'un set de documents per al torn Leinen LZ4S,
