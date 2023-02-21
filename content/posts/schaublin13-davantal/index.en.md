@@ -13,7 +13,7 @@ keywords:
 - Schaublin 13
 - Traverse feeds
 - Sliding guides
-draft: true
+draft: false
 ---
 
 This post explains the disassembly of the milling machine knee

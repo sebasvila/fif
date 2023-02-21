@@ -13,7 +13,7 @@ keywords:
 - Schaublin 13
 - Avenç automàtic
 - Guies
-draft: true
+draft: false
 ---
 
 En aquesta entrada comento el desmuntat del davantal de la fresadora i
