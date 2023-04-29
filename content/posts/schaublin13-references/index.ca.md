@@ -1,22 +1,22 @@
 ---
-title: "Schaublin 13 library"
+title: "Biblioteca Schaublin 13"
 date: 2021-12-08
 coverImage: "old-catalogue.png"
 tags:
 - schaublin-13
 categories:
-- library
+- biblioteca
 keywords:
 - Schaublin 13
 draft: false
 ---
 
-A list of interesting resources around the net about Schaublin 13
-milling machines. Permanent work in progress :smile:.
+Aqui hi trobareu una llista de recursos interessants sobre la
+fresadora Schaublin 13. Permanentment «en construcció» :smile:.
 
 <!--more-->
 
-# Blog posts
+# Entrades de blog
 
 * [Schaublin 13 remise en état](https://www.usinages.com/threads/schaublin-13-remise-en-etat.141181)
 * [Schaublin 13 Questions](https://www.usinages.com/threads/schaublin-13-questions.56928)
@@ -27,12 +27,12 @@ milling machines. Permanent work in progress :smile:.
 * [Schaublin 13 - Roulement de broche](https://www.usinages.com/threads/schaublin-13-roulement-de-broche.152935)
 * [A mon tour: Schaublin 13](https://www.usinages.com/threads/a-mon-tour-schaublin-13.128235)
 
-# Manuals and catalogs
+# Manuals i catàlegs
 
 * [Anglo-Swiss Tools](http://anglo-swiss-tools.co.uk/schaublin-13-milling-machine)
 * [Lathes.co.uk store](https://store.lathes.co.uk/print/ms480e)
 * [Manuals at Passion-Usinages](https://passion-usinages.forumgratuit.org/t983-schaublin-13)
 
-# Other pages
+# Altres recursos
 
 * [Lathes.co.uk page](http://www.lathes.co.uk/schaublinmiller)
