@@ -220,3 +220,26 @@ sigut molt satisfactori. Es pot veure a les següents imatges.
 {{< image classes="fig-100 centre clar" src="waldmann-2.jpg" >}}
 
 {{< image classes="fig-100 centre clar" src="waldmann-3.jpg" >}}
+
+
+# La pintura del cos principal
+
+Al final, he pintat el cos principal de la fresadora. Primer la bassa
+de recollida de l'oli, que s'ha preparat i pintat amb un parell de
+capes. Després, tot el cos ---inclosa la bassa--- que s'ha preparat i
+pintat amb un parell de capes de PU 2K. Tot seguit podeu veure algunes
+fotos del procés.
+
+{{< image classes="fig-100 center clear" src="bassa-1.jpg" >}}
+{{< image classes="fig-100 center clear" src="bassa-2.jpg" >}}
+{{< image classes="fig-100 center clear" src="bassa-3.jpg" >}}
+
+{{< image classes="fig-100 center clear" src="cos-1.jpg" >}}
+{{< image classes="fig-100 center clear" src="cos-2.jpg" >}}
+{{< image classes="fig-100 center clear" src="cos-3.jpg" >}}
+{{< image classes="fig-100 center clear" src="cos-4.jpg" >}}
+{{< image classes="fig-100 center clear" src="tapa-1.jpg" >}}
+
+Aquest és el resultat.
+
+{{< image classes="fig-100 center clear" src="cos-6.jpg" >}}

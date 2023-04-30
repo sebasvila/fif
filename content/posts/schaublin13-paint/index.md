@@ -200,3 +200,25 @@ pictures.
 {{< image classes="fig-100 center clear" src="waldmann-2.jpg" >}}
 
 {{< image classes="fig-100 center clear" src="waldmann-3.jpg" >}}
+
+
+# Paint the main casting
+
+Finally, I painted all the main casting. First, the oil bassin is
+prepared and painted. Then, all the casting ---including the bassin--
+is prepared and painted with two layers of 2K PU coating. Below, you
+can see some pictires of the overall process.
+
+{{< image classes="fig-100 center clear" src="bassa-1.jpg" >}}
+{{< image classes="fig-100 center clear" src="bassa-2.jpg" >}}
+{{< image classes="fig-100 center clear" src="bassa-3.jpg" >}}
+
+{{< image classes="fig-100 center clear" src="cos-1.jpg" >}}
+{{< image classes="fig-100 center clear" src="cos-2.jpg" >}}
+{{< image classes="fig-100 center clear" src="cos-3.jpg" >}}
+{{< image classes="fig-100 center clear" src="cos-4.jpg" >}}
+{{< image classes="fig-100 center clear" src="tapa-1.jpg" >}}
+
+This is the result.
+
+{{< image classes="fig-100 center clear" src="cos-6.jpg" >}}
