@@ -2,7 +2,7 @@
 title: "Schaublin 13 refurbish (7): assemble"
 slug: sv13-ref-8
 date: 2023-04-30T11:36:00
-coverImage: "mostra-color.jpg"
+coverImage: "motors-1.jpg"
 tags:
 - schaublin-13
 categories:
