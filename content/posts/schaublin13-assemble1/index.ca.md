@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la fresadora Schaublin 13 (7): muntatge"
+title: "Restauració de la fresadora Schaublin 13 (8): muntatge"
 slug: sv13-ref-8
 date: 2023-04-30T11:36:00
 coverImage: "motors-1.jpg"
