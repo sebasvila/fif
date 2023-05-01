@@ -15,7 +15,7 @@ keywords:
 - Fresadora
 - Schaublin 13
 - Fer un espiell de nivell d'oli
-- Marca resistent a l'oli
+- Resistència a l'oli
 draft: false
 ---
 
