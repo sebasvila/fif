@@ -1,5 +1,5 @@
 ---
-title: "Entada de plantilla"
+title: "Entrada de plantilla"
 slug: plantilla
 date: 2023-04-30T21:36:00
 coverImage: ""
