@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la Schaublin 13 (11): manteniment de la bomba"
+title: "Schaublin 13 refurbish (11): service the pump"
 slug: sv13-pump
 date: 2023-05-06T14:11:00
 coverImage: "bomba.jpg"
