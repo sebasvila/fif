@@ -1,73 +1,63 @@
 ---
-title: "Entrada de plantilla"
-slug: plantilla
-date: 2023-04-30T21:36:00
-coverImage: ""
+title: "Schaublin 13: caixa connexions"
+slug: sv13-conbox
+date: 2023-06-05T19:52:00
+coverImage: "marcat2.jpg"
 tags:
 - schaublin-13
+- tech.electricitat
+- tech.soldadura
 categories:
 - restauració de màquines
 keywords:
 - Fresadora
-draft: true
+- Fer caixa de planxa
+- Fer caixa connexions
+draft: false
 ---
 
-Prefaci
+En el camí de renova la Schaublin 13, és bon moment per endreçar el
+suport de la làmpada i la seva connexió. La làmpada es fixa en el
+lateral de la màquina i, a l'interior, una caixeta de connexions fóra
+molt desitjable. He fet una caixa a mida de planxa de ferro.
 
 <!--more-->
 
-# Tags
+Començo marcant amb una certa precisió una planxa de gruixa mitjana i
+la tallo amb una serra de mà. Els cantos s'han foradat prèviament per
+facilitar el doblegat.
 
-<!-- technologies used -->
-- tech.fusteria
-- tech.pintura
-- tech.tornejat
-- tech.electricitat
-- tech.fresat
-- tech.soldadura
-- tech.foneria
-- tech.rectificat
-- tech.mortasat
-- tech.mesura
+{{< image classes="fig-100 center clear" src="planxa.jpg" >}}
+{{< image classes="fig-100 center clear" src="marcat.jpg" >}}
+{{< image classes="fig-100 center clear" src="marcat1.jpg" >}}
+{{< image classes="fig-100 center clear" src="marcat2.jpg" >}}
+{{< image classes="fig-100 center clear" src="retallat.jpg" >}}
 
-<!-- main machines -->
-- leinen-lz4sb
-- schaublin-13
-- wörner-b13
-- klaiber-ws2
-- uniz-hacksaw
+Després, es fan els doblecs sobre el cargol de ferrer ajudant-se d'un
+martell lleuger. Els darrers doblecs necessitaran ajudar-se d'alguns
+passamans que permetin passar dins la caixa tal i com es veu a les
+següents fotos.
 
-<!-- other tags -->
-- venuda
-- projectes
-- eines
+{{< image classes="fig-100 center clear" src="doblegat1.jpg" >}}
+{{< image classes="fig-100 center clear" src="doblegat2.jpg" >}}
+{{< image classes="fig-100 center clear" src="doblegat3.jpg" >}}
 
-<!-- to be removed in the future -->
-- reglus
-- uniz
-- waldmann
+El següent pas és soldar les arestes de la caixa. Ho fem amb el soplet
+d'autògena.
 
+{{< image classes="fig-100 center clear" src="soldat.jpg" >}}
 
-# Categories (and subcategories)
+Finalment, es forada la caixa i es repoleixen les costures amb la
+llima. Només falten unes mans de pintura.
 
-- biblioteca
-- restauració de màquines
-    - boley leinen LZ4SB
-    - schaublin 13
-    - uniz hacksaw
-    - wörner B13
-    - altres
-- projectes
-- màquines venudes
-- eines
+{{< image classes="fig-100 center clear" src="pintat1.jpg" >}}
+{{< image classes="fig-100 center clear" src="pintat2.jpg" >}}
 
-# Keywords
+La caixa la cargolarem per la banda interior de la màquina aprofitant
+els mateixos forats passants que es fan servir per collar el suport de
+la làmpada. Amb aquesta caixeta, la connexió queda més endreçada i el
+tub elèctric amb els cables molt més ben fixat.
 
-Just for SEO
-
-
-<!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
-
-{{< youtube id="k38Vl8QqrZE" >}}
--->
+{{< image classes="fig-100 center clear" src="muntat2.jpg" >}}
+{{< image classes="fig-100 center clear" src="muntat3.jpg" >}}
+{{< image classes="fig-100 center clear" src="muntat4.jpg" >}}

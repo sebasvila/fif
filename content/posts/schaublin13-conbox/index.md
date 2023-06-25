@@ -13,7 +13,7 @@ keywords:
 - Milling machine
 - Steel sheet box making
 - Junction box making
-draft: true
+draft: false
 ---
 
 In the way of renovate the Schaublin 13, it is time to manage the lamp
