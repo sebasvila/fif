@@ -17,7 +17,7 @@ draft: false
 ---
 
 A la bomba de l'oli de la fresadora Schaublin 13 li cal un
-manteniment. Ara que el diposit d'oli és buit i és fàcile de treure és
+manteniment. Ara que el diposit d'oli és buit i és fàcil de treure és
 un bon moment.
 
 <!--more-->
