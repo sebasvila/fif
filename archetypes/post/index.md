@@ -4,7 +4,7 @@ slug: template
 date: {{ .Date }}
 coverImage: ""
 tags:
-<!-- technologies used -->
+# technologies used
 - tech.woodworking
 - tech.painting
 - tech.turning
@@ -15,15 +15,16 @@ tags:
 - tech.grinding
 - tech.slotting
 - tech.measuring
+- tech.scraping
 
-<!-- main machines -->
+# main machines
 - leinen-lz4sb
 - schaublin-13
 - wörner-b13
 - klaiber-ws2
 - uniz-hacksaw
 
-<!-- other tags -->
+# other tags
 - sold-out
 - projects
 - tools
@@ -39,7 +40,6 @@ categories:
 - projects
 - sold-out machines
 - tools
-
 
 keywords:
 -

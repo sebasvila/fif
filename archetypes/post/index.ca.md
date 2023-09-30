@@ -1,9 +1,10 @@
+---
 title: "{{ replace .Name "-" " " | title }}"
 slug: plantilla
 date: {{ .Date }}
 coverImage: ""
 tags:
-<!-- technologies used -->
+# technologies used
 - tech.fusteria
 - tech.pintura
 - tech.tornejat
@@ -14,15 +15,16 @@ tags:
 - tech.rectificat
 - tech.mortasat
 - tech.mesura
+- tech.rasquetat
 
-<!-- main machines -->
+# main machines
 - leinen-lz4sb
 - schaublin-13
 - wörner-b13
 - klaiber-ws2
 - uniz-hacksaw
 
-<!-- other tags -->
+# other tags
 - venuda
 - projectes
 - eines
