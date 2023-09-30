@@ -30,16 +30,18 @@ tags:
 - tools
 
 categories:
+# simples
 - library
-- machine overhauling
-    - boley leinen LZ4SB
-    - schaublin 13
-    - uniz hacksaw
-    - wörner B13
-    - other
 - projects
 - sold-out machines
 - tools
+# dos nivells
+- machine overhauling
+- boley leinen LZ4SB
+- schaublin 13
+- uniz hacksaw
+- wörner B13
+- other
 
 keywords:
 -

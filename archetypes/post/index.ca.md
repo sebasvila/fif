@@ -31,15 +31,16 @@ tags:
 
 categories:
 - biblioteca
-- restauració de màquines
-    - boley leinen LZ4SB
-    - schaublin 13
-    - uniz hacksaw
-    - wörner B13
-    - altres
 - projectes
 - màquines venudes
 - eines
+# bi-nivells (primer item obligat)
+- restauració de màquines
+- boley leinen LZ4SB
+- schaublin 13
+- uniz hacksaw
+- wörner B13
+- altres
 
 keywords:
 -
