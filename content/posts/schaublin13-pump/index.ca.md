@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la Schaublin 13 (11): manteniment de la bomba"
+title: "Schaublin 13: manteniment de la bomba"
 slug: sv13-pump
 date: 2023-05-06T14:11:00
 coverImage: "bomba.jpg"
@@ -9,7 +9,7 @@ categories:
 - restauració de maquinària
 - schaublin 13
 keywords:
-- Frasadors
+- Fresadora
 - Bomba d'engreix
 - Bomba d'oli
 - Junta tòrica
