@@ -10,9 +10,10 @@ tags:
 
 categories:
 - machine overhauling
-  - schaublin 13
+- schaublin 13
 
 keywords:
+- Milling machine
 - Schaublin 13
 - geometry overhauling
 - scraping slideways

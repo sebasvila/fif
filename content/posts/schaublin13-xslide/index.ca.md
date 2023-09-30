@@ -4,17 +4,18 @@ slug: sv13-lslide
 date: 2023-09-26T19:17:09+02:00
 coverImage: "long-slide-grinded.jpg"
 tags:
- - tech.tornejat
- - tech.mesura
- - tech.rasquetat
- - schaublin-13
+- tech.tornejat
+- tech.mesura
+- tech.rasquetat
+- schaublin-13
 categories:
- - restauració de màquines
-    - schaublin 13
+- restauració de màquines
+- schaublin 13
 keywords:
- - Schaublin 13
- - Reconstrucció de la geometria
- - Rasquetat de les guies
+- Fresadora
+- Schaublin 13
+- Reconstrucció de la geometria
+- Rasquetat de les guies
 draft: false
 ---
 
