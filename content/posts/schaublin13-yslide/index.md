@@ -22,7 +22,7 @@ keywords:
 - Milling machine
 - Spindle head
 
-draft: true
+draft: false
 ---
 
 Next step in the SV13 overhauling path has been to end the horizontal
