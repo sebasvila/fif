@@ -1,21 +1,15 @@
 ---
 title: "Schaublin 13: Horizontal spindle head"
-slug: template
+slug: sv13-horispindle
 date: 2023-09-26T19:17:37+02:00
 coverImage: "runout-spindle.jpg"
 tags:
-# technologies used
 - tech.painting
 - tech.measuring
-
-# main machines
 - schaublin-13
-
-# other tags
-
 categories:
 - machine overhauling
-    - schaublin 13
+- schaublin 13
 
 keywords:
 - Schaublin 13
@@ -68,8 +62,10 @@ the reference.
 {{< image classes="fig-100 center clear" src="escaire-2.jpg" >}}
 {{< image classes="fig-100 center clear" src="escaire-1.jpg" >}}
 
-Finally a very good fitting and geometry is achieved: no more than 3µm
-of deviation can be measured.
+Finally a very good fitting and geometry is achieved: no more than 2µm
+of deviation can be measured as shown in the next video:
+
+{{< youtube id="vY8h9i9H2V0" >}}
 
 # The feed screw
 
@@ -110,7 +106,7 @@ From this, it is interesting to observe this ring:
 By turning the slotted screw, the length of this separator ring
 increases or decreases. This allows to slightly move the feed screw
 bevel gear to adjust the contact with its mating. The set screw of
-this ring is turned from the bottom side of the heade slideway. The
+this ring is turned from the bottom side of the head slideway. The
 adjusting procedure should be done with all the gearing assembled. A
 special key should be made to ajust the ring:
 
@@ -134,7 +130,7 @@ As usual, the horizontal head is beautyfied by smoothing its surface
 and later on spraying the lacker. Next picture shows the head just
 after sprying the color coat.
 
-{{< image classes="fig-100 center clear" src="escaire-2.jpg" >}}
+{{< image classes="fig-100 center clear" src="pintant-1.jpg" >}}
 
 
 # Spindle bearings maintenance
