@@ -128,7 +128,7 @@ it. How can oil end on this screw?
 
 As usual, the horizontal head is beautyfied by smoothing its surface
 and later on spraying the lacker. Next picture shows the head just
-after sprying the color coat.
+after spraying the color coat.
 
 {{< image classes="fig-100 center clear" src="pintant-1.jpg" >}}
 
