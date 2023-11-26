@@ -153,13 +153,14 @@ and a new relube. However, this is easy to do in the future if needed.
 
 After assembling again the spindle, the bearings should be
 preloaded. The manual suggests a 10µm preloading and tells how to
-achieve by screwing a given angle the adjusting nut of the spindle.
-I followed this procedure. First, the nut was screwed until no lateral
-play can be measured. I assumed this is are the '0 preload
-point'. After that, a turn as told by the manual followed. This
-resulted on a no play spindle and am internal runout of 2µm.
+achieve by screwing a given angle the adjusting nut of the spindle.  I
+followed this procedure. First, the nut was screwed until no lateral
+play can be measured. I assumed this is the «0 preload point». After
+that, the screw is turned by a small controlled fraction as told by
+the manual. This resulted on a no play spindle and an internal runout
+of less than 2µm. The next video shows the test:
 
-{{< image classes="fig-100 center clear" src="runout-spindle.jpg" >}}
+{{< youtube id="xkdtYOPH5oc" >}}
 
 
 

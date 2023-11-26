@@ -15,7 +15,7 @@ categories:
 keywords:
 - Schaublin 13
 - Fresadora
-- Capçal 
+- Capçal
 ---
 
 El següent pas en la reparació de la SV13 ha estat acabar el capçal
@@ -55,7 +55,7 @@ estar lleugerament deprimit i el contacte preferent és en els extrems.
 Segueixen dues fotografies que mostren com mesurar l'ortogonalitat del
 capçal respecte la taula (de fet els traus de la taula). En aquest cas
 es fa servir un escaire de precisió alineat en els traus de la taula fent
-servir uns blocs patró. 
+servir uns blocs patró.
 
 {{< image classes="fig-100 center clear" src="escaire-2.jpg" >}}
 {{< image classes="fig-100 center clear" src="escaire-1.jpg" >}}
@@ -165,9 +165,10 @@ punt de precàrrega 0 es donava quan el joc lateral era pràcticament
 inapreciable. A partir d'aquest punt, es va donar una precàrrega de
 10µm seguint el procediment que indica el manual. Això resulta en un
 joc lateral inapreciable i un TIR en el con interior del portaeines
-menor que 2µm.
+menor que 2µm com s'aprecia en el següent video:
 
-{{< image classes="fig-100 center clear" src="runout-spindle.jpg" >}}
+{{< youtube id="xkdtYOPH5oc" >}}
+
 
 
 
