@@ -12,7 +12,7 @@ categories:
 keywords:
 - fresadora metall
 - reciclat de plàstic
-draft: true
+draft: false
 ---
 
 No hi ha res que molesti més en una màquina que les pèrdues d'oli que

@@ -14,8 +14,7 @@ categories:
 keywords:
 - milling machine
 - plastic recycling
-
-draft: true
+draft: false
 ---
 
 Nothing annoys more to me that a machine loosing oil and spilling it
