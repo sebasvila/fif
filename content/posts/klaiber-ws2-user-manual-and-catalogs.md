@@ -1,6 +1,6 @@
 ---
 title: 'Klaiber WS2 user manual and brochure'
-date: 2015-09-08T20:55:00.002+02:00
+date: 2015-09-08
 draft: false
 slug: "klaiber-ws2-user-manual-and-catalogs"
 tags:
