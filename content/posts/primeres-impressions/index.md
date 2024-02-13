@@ -8,7 +8,7 @@ tags:
 - leinen-lz4sb
 categories:
 - machine overhauling
-- leinen LZ4SB
+- boley leinen LZ4SB
 keywords:
 - Lathe
 - Boley Leinen

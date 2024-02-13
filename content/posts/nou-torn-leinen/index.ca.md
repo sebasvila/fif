@@ -8,7 +8,9 @@ tags:
 - leinen-lz4sb
 categories:
 - restauració de màquines
-- leinen LZ4SB
+- boley leinen LZ4SB
+keywords:
+- torn mecànic
 ---
 
 

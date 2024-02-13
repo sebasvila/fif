@@ -7,10 +7,10 @@ tags:
 - leinen LZ4SB
 categories:
 - machine overhauling
-- leinen LZ4SB
+- boley leinen LZ4SB
 keywords:
-- Boley Leinen LZ4SB
 - Manuals
+- lathe
 ---
 
 The lathe arrived, as usual, without any kind of documentation. In

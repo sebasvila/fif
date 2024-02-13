@@ -9,10 +9,11 @@ tags:
 - tech.painting
 categories:
 - machine overhauling
-- leinen LZ4SB
+- boley leinen LZ4SB
 keywords:
-- Boley Leinen
+- lathe
 - Polyurethane coating
+- tailstock
 ---
 
 

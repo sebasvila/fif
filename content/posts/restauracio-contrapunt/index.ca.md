@@ -9,7 +9,11 @@ tags:
 - tech.pintura
 categories:
 - restauració de màquines
-- leinen LZ4SB
+- boley leinen LZ4SB
+keywords:
+- torn mecànic
+- pintura
+- contrapunt
 ---
 
 Comencem per restaurar el contrapunt, que sembla estar en prou bon
