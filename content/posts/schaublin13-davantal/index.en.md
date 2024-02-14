@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 (6): knee"
+title: "Schaublin 13: knee"
 slug: sv13-ref-6
 date: 2022-11-30T18:00:00
 coverImage: "sense-carro-x.jpg"

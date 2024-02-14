@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (2): variator"
+title: "Schaublin 13: Reeves drive"
 slug: sv13-ref-2
 date: 2021-12-03T00:56:13+01:00
 coverImage: "pulley1.jpg"

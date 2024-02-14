@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (10): O-ring replacement"
+title: "Schaublin 13: o-ring replacement"
 slug: sv13-orings
 date: 2023-05-02T08:00:00
 coverImage: "orings.jpg"

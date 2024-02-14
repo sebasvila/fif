@@ -6,7 +6,7 @@ coverImage: "bomba.jpg"
 tags:
 - schaublin-13
 categories:
-- restauració de maquinària
+- restauració de màquines
 - schaublin 13
 keywords:
 - Fresadora

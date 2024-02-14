@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (4): ram testing"
+title: "Schaublin 13: ram testing"
 slug: sv13-ref-4
 date: 2021-12-29T12:21:00
 coverImage: "test-horitzontal1.jpg"

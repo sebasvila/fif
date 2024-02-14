@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (9): oil level sight glass"
+title: "Schaublin 13: oil level sight glass"
 slug: sv13-ref-9
 date: 2023-04-30T21:36:00
 coverImage: "final.jpg"

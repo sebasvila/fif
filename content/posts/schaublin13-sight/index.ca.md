@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la Schaublin 13 (9): espiell del nivell d'oli"
+title: "Schaublin 13: espiell del nivell d'oli"
 slug: sv13-ref-9
 date: 2023-04-30T21:36:00
 coverImage: "final.jpg"

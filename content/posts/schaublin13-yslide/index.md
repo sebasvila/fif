@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13: Horizontal spindle head"
+title: "Schaublin 13: horizontal spindle head"
 slug: sv13-horispindle
 date: 2023-09-26T19:17:37+02:00
 coverImage: "runout-spindle.jpg"

@@ -1,5 +1,5 @@
 ---
-title: "Schaublin13: variator oil pan"
+title: "Schaublin 13: Reeves drive oil pan"
 slug: sv13-oilpan
 date: 2023-11-28T19:58:07+01:00
 coverImage: "recollidor-1.jpg"

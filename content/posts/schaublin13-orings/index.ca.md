@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la Schaublin 13 (10): canvi de tòriques"
+title: "Schaublin 13: canvi de tòriques"
 slug: sv13-orings
 date: 2023-05-02T08:00:00
 coverImage: "orings.jpg"

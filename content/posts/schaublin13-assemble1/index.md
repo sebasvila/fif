@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (8): assemble"
+title: "Schaublin 13: assemble"
 slug: sv13-ref-8
 date: 2023-04-30T11:36:00
 coverImage: "motors-1.jpg"

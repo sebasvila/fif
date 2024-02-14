@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (3): feed gearbox"
+title: "Schaublin 13: feed gearbox"
 slug: sv13-ref-3
 date: 2021-12-21T20:26:00
 coverImage: "knob2.jpg"

@@ -1,5 +1,5 @@
 ---
-title: "Schaublin13: capçal horitzontal"
+title: "Schaublin 13: capçal horitzontal"
 slug: sv13-horispindle
 date: 2023-09-26T19:17:37+02:00
 coverImage: "runout-spindle.jpg"

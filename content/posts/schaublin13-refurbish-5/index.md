@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (5): ram refurbish"
+title: "Schaublin 13: ram refurbish"
 slug: sv13-ref-5
 date: 2022-09-02T18:21:00
 coverImage: "portada.jpg"

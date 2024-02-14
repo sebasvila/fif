@@ -1,5 +1,5 @@
 ---
-title: "Restauració de la fresadora Schaublin 13 (7): pintura"
+title: "Schaublin 13: pintura"
 slug: sv13-ref-7
 date: 2023-01-07T10:05:00
 coverImage: "mostra-color.jpg"

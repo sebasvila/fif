@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13 refurbish (7): renew coating"
+title: "Schaublin 13: renew coating"
 slug: sv13-ref-7
 date: 2023-01-07T10:05:00
 coverImage: "mostra-color.jpg"
