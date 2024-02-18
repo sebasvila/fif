@@ -16,7 +16,9 @@ keywords:
 - milling machine
 - gear noise
 - gear rattle
-draft: true
+- variable speed driver
+- belt tension
+draft: false
 ---
 
 By some reason I thought since the begining of the overhauling that
@@ -89,10 +91,15 @@ I asked Schaublin for a spare of the sliding gear. They answered that
 they have no spares now although its not unusual to have some of
 them. The spare part includes the main shaft and the sliding gear all
 together. The price was high but I thought it is more or less
-appropriate. The kindly give me the drawing of the bearing with its
+appropriate. They kindly gave me the drawing of the bearing with its
 tolerances.
 
-{{< figure src="schaublin-drawing.jpg" >}}
+<!-- {{< figure src="schaublin-drawing.jpg" >}} -->
+
+The drawing spicified the material as bronze «Duralit 110» which
+should be a specific foundry reference. I didn't find a catalog of
+Duralite bronzes but indirectly, some docs found let me know that
+Duralit 110 is equivalent to Rg7 bronze.
 
 I turned a new bearing according to the drawing. More in the tight
 side of the tolerance. Replaced the worn bearing and assembled again
@@ -301,6 +308,45 @@ production».
 All this reasoning conduced me to think in a single important cause:
 the velocity fluctuation of the drive system, that is the Reeves
 variable speed driver of the machine.
+
+
+# Finally, the belts
+
+Having concluded that the cause would be the variable speed belt
+driver, I checked again the pulleys alignment and its shape. I saw no
+fault. Following, I tried to modify the belts tension. By some
+intuition I first increased the tension in small steps with no
+success. After that, I proceed by decreasing the tension until reached
+a point where the rattle dissapeared. Alehop!! Incredible...
+
+The next video, shows clearly the rattling noise before tweaking the
+belt tension. Note that only the two involved gears are in the gearbox
+and there is no oil. In the next video, the belt tension was
+modified. The rattle disappeared and only in the very low range of
+speed can be heared (by the end of the video).
+
+{{< youtube id="a07g1CW5SYY" >}}
+
+{{< youtube id="KByugHNjJhw" >}}
+
+It seems that the optimum belt tension is critical to assure a smooth
+circular motion.
+
+
+
+# To wrap up
+
+This has been a very odd adventure with a happy end. All began with
+the unexpected noise during the first run of the machine. The cause
+was discovered soon: the heavily worn out bronze bearing. I had high
+hopes on the replacement of the bearing. The result, however, become
+upsetting: a heavy noise remained (that some time after I discovered
+it should be described as rattle). This pushed myself to a kind of
+crazy race to understand what was the cause: measuring, mounting,
+unmouting, reading,... At the end, the cause was really simple: too
+much tension on the belts. Many weeks, and many work to end in a
+so easy thing. A big experience after all.
+
 
 
 

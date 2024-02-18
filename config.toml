@@ -9,6 +9,8 @@ canonifyurls = false
 enableEmoji = true
 contentDir = "content"
 
+# enableMissingTranslationPlaceholders = true
+
 [author]
   name = "sBs"
   location = "Catalonia"
@@ -226,7 +228,7 @@ contentDir = "content"
   url = "https://www.instagram.com/fustaiferroblog"
 [[languages.en.menu.misc]]
   weight = 1
-  identifier = "lang"
+  identifier = "other-lang"
   name = "En Català"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-language\" aria-hidden=\"true\"></i>"
   url = "../ca/"
@@ -291,7 +293,7 @@ contentDir = "content"
   url = "https://www.instagram.com/fustaiferroblog"
 [[languages.ca.menu.misc]]
   weight = 1
-  identifier = "lang"
+  identifier = "other-lang"
   name = "In English"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-language\" aria-hidden=\"true\"></i>"
   url = "../en/"
