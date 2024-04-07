@@ -1,6 +1,7 @@
 ---
 title: "Slotting head tooling"
 date: 2021-07-05
+slug: slot-head-tooling
 coverImage: "slotting-head-deckel.png"
 tags:
 - tech.slotting

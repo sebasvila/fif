@@ -1,6 +1,7 @@
 ---
 title: "Eines pel capçal de mortasar"
 date: 2021-07-05
+slug: slot-head-tooling
 coverImage: "slotting-head-deckel.png"
 tags:
 - schaublin-13
