@@ -1,6 +1,7 @@
 ---
 title: "Make reglus drill bushings"
 date: 2021-01-17
+slug: reglus-bushings
 coverImage: hard-turning-2.jpg
 tags:
 - reglus
