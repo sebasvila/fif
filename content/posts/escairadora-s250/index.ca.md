@@ -1,5 +1,5 @@
 ---
-title: 'Escairadora (contractor''s cabinet saw) S250'
+title: 'Escairadora S250'
 date: 2010-07-18T10:48:00.000+02:00
 draft: false
 slug: "escairadors-s250"
