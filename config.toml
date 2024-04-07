@@ -1,5 +1,6 @@
 baseURL = "https://fif.viri.cat/"
 defaultContentLanguage = "en"
+# defaultContentLanguageInSubdir = true
 
 title = "Fusta i Ferro"
 theme = "hugo-tranquilpeak-theme"
