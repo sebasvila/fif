@@ -17,27 +17,23 @@ keywords:
 ---
 
 
-Let's start by restoring the tailstock, which seems to be in pretty
-good condition. Tailstock is unusual since it is designed in such a
-way that the barrel remains fully supported despite its position. It's
-a typical construction of some precision machines. The tailstock is
-fixed to the bed using a lever that acts on a cam lock. The spindle
-is locked by  classic crescents. The fit of the barrel is very
-good, especially in the first part of the displacement.  After fully
-disassembling it:
+Let's start by refurbishing the tailstock, which seems to be in pretty
+good condition. The tailstock is designed in such a way that its quill
+remains fully supported despite its position. It's a typical
+construction of some precision machines. The tailstock is fixed to the
+bed using a lever that acts on a cam lock. The quill is locked by a
+usual half-moon clamps. The fit of the quill is very good, especially
+in the first part of the displacement.  After fully disassembling it:
 
 {{< image classes="fig-100 clear"  src="P1030601.JPG" thumbnail-with="75%" >}}
 
-Once disassembled, some small anomalies are observed. There is some
-wear in the area where the adjusting nuts they rub on their
-support. This is the point where pressure is applied when, for
-example, it is pressed against the part being machined. At the moment
-we will write this detail on the "pending" list and will address it
-further.
+Once disassembled, we saw that there is some wear in the spindle screw
+nuts support. This is the bearing surface that gets most of the
+pressure when working. At the moment we will write this detail on the
+"pending" list and we will address it later.
 
 We proceed to carefully clean the metal parts. We followed the next
-technique so as not to damage any of the original textures such as
-roughness of the original machining of the parts:
+technique to avoid any damage of the original part textures:
 
 1. Degreased with equal parts diesel+gasoline mixture.
 2. Cleaning the oxidized surfaces with vinegar (carefully) and the
@@ -59,7 +55,7 @@ The supplier of paint products was Torrents Autocolor. The paint hue
 chosen is [RAL 7031](http://ralcolor.net/ral-7031-blue-grey.php),
 after checking the original color. The paint must be tinted exprofeso
 with a tintometric machine. After applying the finishing layer with a
-brush and assemble the tailstock again:
+brush and assemble the tailstock again this is the result:
 
 {{< image classes="fig-100 clear"  src="P1030744.JPG" thumbnail-with="75%" >}}
 
