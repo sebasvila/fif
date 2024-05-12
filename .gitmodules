@@ -1,3 +1,4 @@
 [submodule "themes/hugo-tranquilpeak-theme"]
 	path = themes/hugo-tranquilpeak-theme
 	url = https://github.com/sebasvila/hugo-tranquilpeak-theme.git
+	branch = canvis_locals
