@@ -2,10 +2,12 @@
 title: 'Boley-Leinen LZ4SB Carriage Stops'
 date: 2019-05-14T13:47:00.000+02:00
 draft: false
-slug: "boley-leinen-lz4sb-carriage-stops"
-coverImage: /fotos/leinen-lz4sb/P1060264.JPG
+slug: "lz4sb-stops"
+coverImage: P1060264.JPG
 tags:
  - leinen-lz4sb
+categories:
+ - library
 ---
 
 
@@ -28,30 +30,53 @@ right stop is symmetric.
   
 First some general pictures:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060268.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060268.JPG"
+	alt="Boley-Leinen LZ4SB carriage stop in-situ"
+	>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060269.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060269.JPG"
+	alt="Boley-Leinen LZ4SB carriage stop in-situ"
+	>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060272.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060272.JPG"
+	alt="Boley-Leinen LZ4SB carriage stop in-situ"
+	>}}
   
 Detailed pictures of the left stop, included some exploded views:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060263.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060263.JPG" 
+	alt="Boley-Leinen LZ4SB carriage stop detail"
+	>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060264.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060264.JPG" 
+	alt="Boley-Leinen LZ4SB carriage stop detail"
+	>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060265.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060265.JPG" 
+	alt="Boley-Leinen LZ4SB carriage stop detail"
+	>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060261.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060261.JPG" 
+	alt="Boley-Leinen LZ4SB carriage stop exploded view (A)"
+	>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060262.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060262.JPG" 
+	alt="Boley-Leinen LZ4SB carriage stop exploded view (B)"
+	>}}
+
   
   
 Finally the hand made sketch of the left stop:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060266.JPG" thumbnail-with="75%" >}}
+{{< figure 
+	src="P1060266.JPG" 
+	alt="Dimensioned drawing of Boley-Leinen LZ4SB carriage stops (A)"
+>}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1060267.JPG" thumbnail-with="75%" >}}
+{{< figure 
+	src="P1060267.JPG" 
+	alt="Dimensioned drawing of Boley-Leinen LZ4SB carriage stops (B)"
+>}}
 
   
 Did you find it useful?
