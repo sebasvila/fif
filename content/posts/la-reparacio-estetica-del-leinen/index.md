@@ -15,6 +15,7 @@ keywords:
 categories:
 - machine overhauling
 - boley leinen LZ4SB
+lastmod: 2024-05-13
 ---
 
 An important task during the Leinen lathe refurbishing is to recover
@@ -42,8 +43,7 @@ The procedure applied to recover the shiny surfaces is as follows:
 3. Polish the part using polishing paste and a polishing disk (of
    cotton of fiber depending on needs). Finish always with pink
    polishing paste to a mirror finish. [Pferd
-   pastes](https://www.pferd.com/media/PDF-US/tool-manual/katalog-4-wzh23-en-usa-ca_web.pdf) can be
-   used.
+   pastes](https://us.pferd.com/en/polishing-paste) can be used.
 
 The procedure is slow but really good results are achieved. Note the
 following picture of the apron:

@@ -15,6 +15,7 @@ keywords:
 - Torn
 - Restauració
 - Pintura poliuretà
+lastmod: 2024-05-13
 ---
 
 Entre altres feines de restauració, una feina fonamental en el torn
@@ -43,7 +44,7 @@ El tractament que s'aplica segueix els següents passos:
     s'elimina el rovell.
 3.  Polit amb pasta de polir per a material metal·lic i disc de
     cotó. Usem [pasta
-    Pferd](https://www.pferd.com/media/PDF-US/tool-manual/katalog-4-wzh23-en-usa-ca_web.pdf)
+    Pferd](https://us.pferd.com/en/polishing-paste)
     de color verd.
 4.  Repolit amb pasta de polit acabat mirall i disc de cotó. Usem
     [pasta Pferd](http://www.pferdusa.com/products/204t/204t03P.html)
