@@ -1,5 +1,5 @@
 ---
-title: "Schaublin 13: Rebuild Electrical Cabinet"
+title: "Schaublin 13: Rebuild the Electrical Cabinet"
 slug: sv13elect
 date: 2024-05-26T20:35:24+02:00
 coverImage: "placa-entrada.jpg"
@@ -68,7 +68,7 @@ painting the cabinet, I followed these steps:
 8. **Configured and programmed the new VFDs according to their
    required functions.**
 
-{{< image classes="fig-50 center clear" 
+{{< figure
 	src="placa-1.jpg" 
 	title="The electrical control plate almost rewired" >}}
 
@@ -90,8 +90,9 @@ painting the cabinet, I followed these steps:
    source unit for the control circuit.
    
 
-{{< image classes="fig-50 center clear" 
-	src="armari-1.jpg" 
+{{< figure 
+	src="armari-1.jpg"
+	loading="lazy"
 	title="Finishing the connection of the motors in the cabinet" >}}
 	
 # Wiring scheme #
