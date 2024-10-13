@@ -2,7 +2,7 @@ baseURL = "https://fif.viri.cat/"
 defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir = true
 
-title = "Fusta i Ferro"
+title = "Fusta i Ferro Blog"
 theme = "hugo-tranquilpeak-theme"
 googleAnalytics = "G-W3C1EV9Z83"
 paginate = 8
@@ -17,10 +17,11 @@ contentDir = "content"
   location = "Catalonia"
   picture = "/author-photo.png"
   twitter = "sebasvilam"
-  bio = "An unusual computer engineer working on dirty and greasy machines"
+  bio = "An unusual software engineer working on dirty and greasy machines"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
+#  posts = "/:year/:slug/"
 
 [taxonomies]
   tag = "tags"
@@ -72,7 +73,7 @@ contentDir = "content"
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "A site about high standards metalworking and woordworking"
+  description = "High quality metalworking and woordworking"
 
   # Customization
   # Define the behavior of the sidebar
@@ -120,7 +121,7 @@ contentDir = "content"
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
+  favicon = "/favicons/favicon-96x96.png"
 
   # Header configuration
   # The link at the right of the header is customizable
@@ -190,7 +191,7 @@ contentDir = "content"
 [languages.en]
   languageCode = "en"
   languageName = "English"
-  title = "Fusta i Ferro"
+  title = "Fusta i Ferro Blog"
   dateFormat = "January 2, 2006"
   weight = 1
 
@@ -255,7 +256,7 @@ contentDir = "content"
 [languages.ca]
   languageCode = "ca"
   languageName = "Català"
-  title = "Fusta i Ferro"
+  title = "Fusta i Ferro Blog"
   weight = 2
   dateFormat = "2 January 2006"
 
