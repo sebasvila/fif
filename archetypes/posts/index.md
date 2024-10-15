@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 slug: template
-date: {{ .Date }}
+date: {{ now.Format "2006-01-02" }}
 coverImage: ""
 tags:
 # technologies used
@@ -16,6 +16,7 @@ tags:
 - tech.slotting
 - tech.measuring
 - tech.scraping
+- tech.drilling
 
 # main machines
 - leinen-lz4sb
@@ -55,7 +56,7 @@ Preface
 
 
 <!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original.jpg" loading="lazy">}}
 
-{{< youtube id="k38Vl8QqrZE" >}}
+{{< youtube k38Vl8QqrZE >}}
 -->

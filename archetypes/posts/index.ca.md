@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 slug: plantilla
-date: {{ .Date }}
+date: {{ now.Format "2006-01-02" }}
 coverImage: ""
 tags:
 # technologies used
@@ -16,6 +16,7 @@ tags:
 - tech.mortasat
 - tech.mesura
 - tech.rasquetat
+- tech.foradat
 
 # main machines
 - leinen-lz4sb
@@ -51,8 +52,10 @@ Prefaci
 
 <!--more-->
 
-<!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
 
-{{< youtube id="k38Vl8QqrZE" >}}
+
+<!--
+{{< figure src="original.jpg" loading="lazy">}}
+
+{{< youtube k38Vl8QqrZE >}}
 -->
