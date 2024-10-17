@@ -1,7 +1,8 @@
 ---
 title: "Schaublin 13: canvi de tòriques"
 slug: sv13-orings
-date: 2023-05-02T08:00:00
+date: 2023-05-02
+lastmod: 2024-10-17
 coverImage: "orings.jpg"
 tags:
 - schaublin-13
@@ -14,14 +15,14 @@ keywords:
 draft: false
 ---
 
-Al anar restaurant la fresadora Scahublin 13, també aprofitem per
+Al anar restaurant la fresadora Schaublin 13, també aprofitem per
 canviar les tòriques més importants. Els plànols originals les
-referencien d'una forma críptica. Finalemnt trobem la relació entre
+referencien d'una forma críptica. Finalment trobem la relació entre
 les referències i les mides.
 
 <!--more-->
 
-El manual de la schaublin 13 fa servir referències de tipus PRP-ddd on
+El manual de la Schaublin 13 fa servir referències de tipus PRP-ddd on
 ddd és un número de tres dígits. Ens n'hem adonat que el número
 correspon a la sèrie numerada de tòriques de l'estàndard SAE
 AS568. Això ens ha permès revisar les tòriques canviades i posar-hi
