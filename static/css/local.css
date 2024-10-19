@@ -1,5 +1,20 @@
-.markdown figure figcaption h4 {
+div#blog article .post-content figure figcaption h4 {
   font-size: 1.4rem;
   font-style: normal;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
+div#blog article .post-content figure figcaption p {
+  font-size: 1.3rem;
+  font-style: normal;
   font-weight: lighter;
+  margin-top: -0.5em;
+  line-height: 2.2ex;
+}
+
+
+body #blog #header .header-title .header-title-link {
+    font-weight: 800;
+    font-size: 2rem;
 }
