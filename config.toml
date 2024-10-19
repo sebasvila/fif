@@ -69,7 +69,7 @@ contentDir = "content"
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "High quality metalworking and woordworking"
+  description = "High quality blog about the metalworking and woordworking projects I carry on. Interested on traditional precission techniques. Overhauling of high quality european machines."
 
   # Customization
   # Define the behavior of the sidebar
@@ -85,7 +85,7 @@ contentDir = "content"
   #    extra large screen and large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 1
+  sidebarBehavior = 4
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed
   # up loading of pages. There is many free CDN like Cloudinary or you
