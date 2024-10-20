@@ -11,25 +11,23 @@ tags:
 - schaublin-13
 - wörner-b13
 - tools
-
 categories:
 - projects
-
 keywords:
 - Kaiser Piccolo
 - boring head
 - automatic facing
 - diacator
-draft: true
+draft: false
 ---
 
 
-The Kaiser Piccolo is exquisitely made small boring head with boring
-and automatic facing functions. I got a ISO30 one in a very nice
-condition together with a bunch of tooling. When tested it performed
-very fine but I couldn't switch easily between facing and boring
-(marked as P and A in the head, maybe for the french «planage» and
-«alésage»). It needs to be serviced to cope with this jam.
+The Kaiser Piccolo is an exquisitely made mid sized boring head with
+boring and automatic facing functions. I got a ISO30 one in a very
+nice condition together with a bunch of tooling. When tested it
+performed very fine but I couldn't switch easily between facing and
+boring (marked as P and A in the head, maybe for the french «planage»
+and «alésage»). It needs to be serviced to cope with this jam.
 
 <!--more-->
 
@@ -65,7 +63,6 @@ case it mounts an ISO 30 shank.
 	title="Detail of the Kaiser Piccolo boring head" >}}
 
 
-
 ## The Boring Head P-A Switch is Locked 
 
 My boring head looks like the P-A switching ring is locked into A
@@ -78,9 +75,9 @@ The head should be serviced to solve this lock.
 ## How to Take Kaiser Piccolo Apart?
 
 The first challenge is to take apart the head. After a search in some
-forums and a fruitful talk with a XX, the mistery was discovered: head
-should be taken apart by untighting a special flat nut that is on top
-of the head.
+forums and a fruitful talk with Charles, the mistery was discovered:
+head should be taken apart by untighting a special flat nut that is on
+top of the head.
 
 First, then, the ISO 30 shank should be removed from the STP
 taper. This is easy to do by just tightening the ISO 30 shank in the
@@ -176,6 +173,8 @@ cone of the head.
 {{< figure src="clau-2.jpg"
 	loading="lazy"
 	title="The special wrench for Kaiser Piccolo (top side)" >}}
+
+
 
 
 ## Take Apart the Boring Head
@@ -290,4 +289,51 @@ make easy drilling it again if needed.
 
 ## How Does The Head Work
 
+{{< figure src="gearing.jpg"
+	loading="lazy"
+	title="A sketch of the internal mechanisms of the Kaiser Piccolo" >}}
+
+The main gear is a stepped gear. The exterior gears engage the rack of
+the head slide. Then when main gear turns, it moves the slide. The
+central part of the main gear engages the third ring internal
+gear. Both form a crossed gear system where one of the gears is an
+internal one. Thus, when you turn the third ring the internal gear
+force the main gear to rotate and the slide to move.
+
+The two small pinions are on the same shaft but there is a clutch
+mechanism that allows them to turn independently or jointly. This
+clutch is actuated by the top ring (not shown in the drawing). When
+the top ring is in A position (boring) pinions are independent each
+other. However, when top ring is in P position (automatic facing)
+pinions are joined.
+
+The 52 teeth gear is attached to the boring head shaft. Thus, in
+position P and the second ring steady in a position, when the shaft
+turns so does the pinion set. Because the third ring gear count 50
+teeth, there is a differential action and, every turn of the head
+shaft the 50 teeth gear doesn't turn a full revolution but a bit less:
+exactly 1/50 of revolution less. This means that the third ring has
+been displaced 1/50 of revolution. Hence, the slide has been displaced
+the proportional distance.
+
+This big reduction effect allows a worker to fix the second ring with
+the retaining stick applying a slight pressure. At the same time, to
+avoid destroying the head, a friction clutch connects the 50 teeth
+gear with the internal gear of third ring. Instead of forcing too much
+the mechanism, if the slide becomes jammed, the friction clutch
+slides. This is also the effect of the stops in the boring head.
+
+
+
 ## Interesting References
+
+Some references that can be useful:
+
+- Some PM with Charles (Demoniakteam at PassionUsinages), that
+  helped me to understand how to take apart the
+  head. https://passion-usinages.forumgratuit.org/t1399-tete-a-aleser-kaiser
+- This post of Arnljot Seem
+   https://www.instagram.com/p/B0V0FuWIZZy
+- This thread on Metalworkforums
+  https://metalworkforums.com/f65/t180755-disecting-imperial-majesty
+- https://passion-usinages.forumgratuit.org/t9973-tete-a-aleser-kaiser-piccolo
