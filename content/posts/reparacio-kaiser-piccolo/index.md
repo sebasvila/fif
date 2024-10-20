@@ -2,7 +2,7 @@
 title: "Kaiser Piccolo Boring Head Repair"
 slug: kaiser-piccolo-repair
 date: 2024-10-14
-coverImage: "rodament-superior.jpg"
+coverImage: "head-4.jpg"
 tags:
 - tech.turning
 - tech.milling
@@ -16,7 +16,10 @@ categories:
 - projects
 
 keywords:
--
+- Kaiser Piccolo
+- boring head
+- automatic facing
+- diacator
 draft: true
 ---
 
@@ -52,6 +55,16 @@ recognized by its small rotary switch between boring and facing
 functions. I own a new version one with an STP shank. This is a Kaiser
 specific shank used as an interface to other standard shanks. In this
 case it mounts an ISO 30 shank.
+
+{{< figure src="head-1.jpg"
+	loading="lazy"
+	title="A picture of the Kaiser Piccolo boring head" >}}
+
+{{< figure src="head-3.jpg"
+	loading="lazy"
+	title="Detail of the Kaiser Piccolo boring head" >}}
+
+
 
 ## The Boring Head P-A Switch is Locked 
 
@@ -118,6 +131,10 @@ trigonometry will do the job.
 {{< figure src="mesura-cc.jpg"
 	loading="lazy"
 	title="Measuring the distance between holes using drills" >}}
+	
+{{< figure src="calcul.jpg"
+	loading="lazy"
+	title="Calculation of special wrench main distances" >}}
 
 The result is that the centers of the pin holes are on a 30mm circle
 centered on the head shaft. With this in mind, I turned a kind of
@@ -127,7 +144,11 @@ through using a divider on the Schaublin 13.
 {{< figure src="centrant-clau-2.jpg"
 	loading="lazy"
 	title="Align the part center using the Diacator alignment gauge" >}}
-	
+
+{{< figure src="centrant-clau-1.jpg"
+	loading="lazy"
+	title="A detail of the alignment process" >}}
+
 {{< figure src="puntejant.jpg"
 	loading="lazy"
 	title="Spot the drilling points of the wrench" >}}
@@ -157,19 +178,23 @@ cone of the head.
 	title="The special wrench for Kaiser Piccolo (top side)" >}}
 
 
-## Be Carefull With the Bearing Balls
+## Take Apart the Boring Head
 
 Now the Kaiser Piccolo head can be taken apart. It is usefull to mark
 the original position of the nut to be tightened appropiately when
 mounted again. Then, just grip it on the vice and unscrew slighty the
-top nut until can be turned by hand. Do not unscrew it completely!
+top nut until can be turned by hand. 
 
-Inside the head there are a couple of ball bearings that will fall
-when you unscrew it. Thus, it's very interesting to work on the head
-maintaining it in a plastic container that voids losing balls. With
-this care, just unscrew the nut and the head rings will be freeded and
-the top bearing will appear. Preserve the steel balls in a secure
-container using tweezers. There are 54 balls of 2mm.
+{{< alert warning >}}
+Do not unscrew the nut completely! Inside the head there are a 
+couple of ball bearings that will fall off when you unscrew it.
+{{< /alert >}}
+
+It's very interesting to work on the head maintaining it in a plastic
+container that avoids losing balls. With this care, just unscrew the
+nut and the head rings will be freeded and the top bearing will
+appear. Preserve the steel balls in a secure container using
+tweezers. There are 54 balls of 2mm.
 
 {{< figure src="femella-superior.jpg"
 	loading="lazy"
