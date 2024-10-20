@@ -69,7 +69,10 @@ contentDir = "content"
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "High quality blog about the metalworking and woordworking projects I carry on. Interested on traditional precission techniques. Overhauling of high quality european machines."
+  description = "High quality blog about the metalworking and \
+  woordworking projects I carry out. Traditional precision \
+  techniques. Fine tooling. Overhauling of high quality european
+  machines."
 
   # Customization
   # Define the behavior of the sidebar
