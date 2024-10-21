@@ -31,43 +31,6 @@
 {{ end }}
 {{ end }}
 
-
-<!-- Facebook extensions to OpenGraph -->
-<!-- Timestamps for blog posts -->
-
-<!--
-{{ if .IsPage }}
-
-{{ if not .PublishDate.IsZero }}
-<meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05" }}">
-{{ end }}
-{{ if not .Lastmod.IsZero }}
-<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05" }}">
-{{ end }}
-{{ if not .ExpiryDate.IsZero }}
-<meta property="article:expiration_time" content="{{ .ExpiryDate.Format "2006-01-02T15:04:05" }}">
-{{ end }}
--->
-
-<!-- Keywords for blog posts-->
-
-<!--
-{{ with .Params.categories }}
-{{ range $v := . }}
-<meta property="article:section" content="{{ $v }}">
-{{ end }}
-{{ end }}
-
-{{ with .Params.tags }}
-{{ range $v := . }}
-<meta property="article:tag" content="{{ $v }}">
-{{ end }}
-{{ end }}
-
-{{ end }}
--->
-
-
 <!-- twitter info -->
 
 <meta name="twitter:card" content="summary">
@@ -80,26 +43,3 @@
 <meta name="twitter:creator" content="@{{ .Site.Author.twitter }}">
 {{ end }}
 
-<!-- facebook info -->
-
-{{ with .Site.Params.fbAppId }}
-<meta property="fb:app_id" content="{{ . }}">
-{{ end }}
-{{ with .Site.Params.fbAdminIds }}
-{{ range . }}
-<meta property="fb:admins" content="{{ . }}">
-{{ end }}
-{{ end }}
-
-<!-- Image for OpenGraph and Twitter -->
-
-
-
-<!--
-
-{{ with .Params.thumbnailImage }}
-  <meta property="og:image" content="{{ . | absURL }}">
-  <meta property="twitter:image" content="{{ . | absURL }}">
-{{ end }}
-
--->
