@@ -28,3 +28,9 @@ HUGO_VERSION = "0.111.3"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/en/*"
+to = "/:splat"
+status = 200
+
