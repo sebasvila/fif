@@ -1,6 +1,6 @@
 baseURL = "https://fif.viri.cat/"
 defaultContentLanguage = "en"
-# defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = true
 
 title = "Fusta i Ferro Blog"
 theme = "hugo-tranquilpeak-theme"
@@ -20,8 +20,8 @@ contentDir = "content"
   bio = "An unusual software engineer working on dirty and greasy machines"
 
 [permalinks]
-  posts = "/:year/:month/:slug/"
-#  posts = "/:year/:slug/"
+#  posts = "/:year/:month/:slug/"
+  posts = "/posts/:year/:slug/"
 
 [taxonomies]
   tag = "tags"
@@ -87,7 +87,7 @@ contentDir = "content"
   #    extra large screen and large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 4
+  sidebarBehavior = 5
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed
   # up loading of pages. There is many free CDN like Cloudinary or you

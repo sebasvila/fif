@@ -1,0 +1,54 @@
+{{- if .Params.coverimage -}}
+  {{- with .Resources.GetMatch ( .Params.coverimage ) -}}
+    {{- $.Scratch.Set "coverImage" (.RelPermalink) -}}
+  {{- else -}}
+    {{- $.Scratch.Set "coverImage" (.Params.coverimage) -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ if eq .Section "posts" }}
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ .Title }},
+    {{- if .Params.coverimage }}
+    "image": {{ $.Scratch.Get "coverImage" | absURL }}
+    {{- end }},
+    "datePublished": {{ .PublishDate }},
+    "dateModified": {{ .Lastmod }},
+    "author": {
+      "@type": "Person",
+      "name": {{ .Site.Author.name }},
+    },
+    "mainEntityOfPage": { 
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}" 
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ .Site.Title }},
+      "url": {{ absURL "/" }},
+      {{- with ($.Scratch.Get "authorPicture") }}
+      "logo": {{ . }},
+      }
+      {{- end }}
+    },
+    "description": {{ .Summary | plainify | safeHTML }},
+}
+{{ else }}
+{  
+  "@context":"http://schema.org",
+  "@type":"WebSite",
+  "@id":"{{ .Site.BaseURL }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Author.name }},
+  },
+  "name":"{{ .Site.Title }}",
+  "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+  "url":"{{ .Permalink }}",
+  "keywords":"[{{ with .Keywords }}{{ delimit . ", " }}{{ end }}{{ if .Site.Params.keywords }}, {{ delimit .Site.Params.keywords ", " }}{{ end }}]"
+}
+{{ end }}
+</script>
