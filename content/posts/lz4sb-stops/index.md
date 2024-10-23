@@ -1,6 +1,6 @@
 ---
 title: 'Boley-Leinen LZ4SB Carriage Stops'
-date: 2019-05-14T13:47:00.000+02:00
+date: 2019-05-14
 draft: false
 slug: "lz4sb-stops"
 coverImage: P1060264.JPG
@@ -8,7 +8,6 @@ tags:
  - leinen-lz4sb
 categories:
  - library
-lastmod: 2024-5-13
 ---
 
 
@@ -32,52 +31,40 @@ right stop is symmetric.
 First some general pictures:
 
 {{< figure src="P1060268.JPG"
-	alt="Boley-Leinen LZ4SB carriage stop in-situ"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop in-situ" >}}
 
 {{< figure src="P1060269.JPG"
-	alt="Boley-Leinen LZ4SB carriage stop in-situ"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop in-situ" >}}
 
 {{< figure src="P1060272.JPG"
-	alt="Boley-Leinen LZ4SB carriage stop in-situ"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop in-situ" >}}
   
 Detailed pictures of the left stop, included some exploded views:
 
 {{< figure src="P1060263.JPG" 
-	alt="Boley-Leinen LZ4SB carriage stop detail"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop detail" >}}
 
 {{< figure src="P1060264.JPG" 
-	alt="Boley-Leinen LZ4SB carriage stop detail"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop detail" >}}
 
 {{< figure src="P1060265.JPG" 
-	alt="Boley-Leinen LZ4SB carriage stop detail"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop detail" >}}
 
 {{< figure src="P1060261.JPG" 
-	alt="Boley-Leinen LZ4SB carriage stop exploded view (A)"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop exploded view (A)" >}}
 
 {{< figure src="P1060262.JPG" 
-	alt="Boley-Leinen LZ4SB carriage stop exploded view (B)"
-	>}}
+	alt="Boley-Leinen LZ4SB carriage stop exploded view (B)" >}}
 
-  
-  
 Finally the hand made sketch of the left stop:
 
 {{< figure 
 	src="P1060266.JPG" 
-	alt="Dimensioned drawing of Boley-Leinen LZ4SB carriage stops (A)"
->}}
+	alt="Dimensioned drawing of Boley-Leinen LZ4SB carriage stops (A)" >}}
 
 {{< figure 
 	src="P1060267.JPG" 
-	alt="Dimensioned drawing of Boley-Leinen LZ4SB carriage stops (B)"
->}}
+	alt="Dimensioned drawing of Boley-Leinen LZ4SB carriage stops (B)" >}}
 
   
 Did you find it useful?

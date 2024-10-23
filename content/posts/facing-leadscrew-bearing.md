@@ -1,6 +1,6 @@
 ---
 title: 'Facing the leadscrew bearing'
-date: 2013-08-21T17:06:00.001+02:00
+date: 2013-08-21
 draft: false
 slug: "facing-leadscrew-bearing"
 coverImage: /fotos/leinen-lz4sb/P1040963.JPG
@@ -25,12 +25,12 @@ adjusting stud is turned in a lathe. This will guide the bearing when
 clamped to the table. The following picture shows the part clamped on
 the table and the damaged bearing surface while centering the hole:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040960.JPG" thumbnail-with="75%" >}}
+{{< figure src="/fotos/leinen-lz4sb/P1040960.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040959.JPG" thumbnail-with="75%" >}}
+{{< figure src="/fotos/leinen-lz4sb/P1040959.JPG" >}}
 
 After the slight facing operation this is the result:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040963.JPG" thumbnail-with="75%" >}}
+{{< figure src="/fotos/leinen-lz4sb/P1040963.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040962.JPG" thumbnail-with="75%" >}}
+{{< figure src="/fotos/leinen-lz4sb/P1040962.JPG" >}}
