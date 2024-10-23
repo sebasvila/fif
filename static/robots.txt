@@ -1,9 +1,10 @@
 Sitemap: https://fif.viri.cat/sitemap.xml
 
 User-agent: *
-Disallow: /page/contact
+Disallow: /en/page/contact
+Disallow: /ca/page/contact
 
 User-agent: Googlebot
-Disallow: /page/contact/
+Disallow: /en/page/contact/
 Disallow: /ca/page/contact/
 
