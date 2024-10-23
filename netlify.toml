@@ -29,8 +29,43 @@ HUGO_VERSION = "0.111.3"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+#
+# Redireccions del cas català
+#
 [[redirects]]
-from = "/en/*"
-to = "/:splat"
-status = 200
+from = "/ca/:year/:month/:slug"
+to = "/ca/posts/:year/:slug"
+status = 301
+
+#
+# Redireccions del cas anglès
+#
+[[redirects]]
+from = "/tags/*"
+to = "/en/tags/:splat"
+status = 301
+
+[[redirects]]
+from = "/categories/*"
+to = "/en/categories/:splat"
+status = 301
+
+[[redirects]]
+from = "/archives/*"
+to = "/en/archives/:splat"
+status = 301
+
+[[redirects]]
+# captura '/page/2' paginats de la pagina principal
+# captura '/page/contact' pàgines ordinàries
+from = "/page/*"
+to = "/en/page/:splat"
+status = 301
+
+[[redirects]]
+# elimina el mes dels posts
+# afegeix el 'posts' a URL
+from = "/:year/:month/:slug"
+to = "/en/posts/:year/:slug"
+status = 301
 

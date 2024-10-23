@@ -1,3 +1,9 @@
+<!-- mark noindex pages: all the taxonomies and non-first paged pages -->
+{{- if or (.Data.Singular) (and (.Paginator) (.Paginator.HasPrev)) }}
+<meta name="robots" content="noindex">
+{{- end }}
+
+
 <!-- Base metainfo -->
 
 <meta charset="UTF-8">
