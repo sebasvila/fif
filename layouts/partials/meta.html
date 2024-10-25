@@ -12,7 +12,7 @@
 <meta name="generator" content="Hugo {{ hugo.Version }} with theme Tranquilpeak 0.5.3-BETA-tunned">
 <meta name="author" content="{{ .Site.Author.name }}">
 <meta name="keywords" content="{{ delimit (partial "kwlist.html" .) "," }}">
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="description" content="{{- if .Description -}}{{- .Description -}}{{- else if .IsPage -}}{{- .Summary -}}{{- else -}}{{- .Site.Params.description -}}{{- end -}}">
 
 <!-- OpenGraph Metadata -->
 
