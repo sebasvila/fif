@@ -1,0 +1,15 @@
+{{/* Returns a slice of all keywords (global + local) */}}
+
+{{ $kwslice := slice }}
+{{ if .Keywords }}
+  {{ $kwslice = (.Keywords | append .Site.Params.keywords) }}
+{{ else }}
+  {{ $kwslice = (.Site.Params.keywords) }}
+{{ end }}
+
+{{ $allkw := slice  }}
+{{ range $kw := $kwslice }}
+  {{ $allkw = $allkw | append $kw }}
+{{ end }}
+
+{{ return $allkw }}

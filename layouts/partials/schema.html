@@ -7,7 +7,7 @@
 {{- end -}}
 
 <script type="application/ld+json">
-{{ if eq .Section "posts" }}
+{{- if eq .Section "posts" }}
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -24,7 +24,7 @@
     },
     "mainEntityOfPage": { 
       "@type": "WebPage",
-      "@id": "{{ .Permalink }}" 
+      "@id": {{ .Permalink }},
     },
     "publisher": {
       "@type": "Organization",
@@ -35,20 +35,21 @@
       {{- end }}
     },
     "description": {{ .Summary | plainify | safeHTML }},
-}
+    "keywords" : {{ partial "kwlist.html"  . }},
+  }
 {{ else }}
-{  
-  "@context":"http://schema.org",
-  "@type":"WebSite",
-  "@id":"{{ .Site.BaseURL }}",
-  "author": {
-    "@type": "Person",
-    "name": {{ .Site.Author.name }},
-  },
-  "name":"{{ .Site.Title }}",
-  "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
-  "url":"{{ .Permalink }}",
-  "keywords":"[{{ with .Keywords }}{{ delimit . ", " }}{{ end }}{{ if .Site.Params.keywords }}, {{ delimit .Site.Params.keywords ", " }}{{ end }}]"
-}
-{{ end }}
+  {  
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "@id": {{ .Site.BaseURL }},
+    "author": {
+      "@type": "Person",
+      "name": {{ .Site.Author.name }},
+    },
+    "name":"{{ .Site.Title }}",
+    "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "url": {{ .Permalink }},
+    "keywords": {{ partial "kwlist.html" . }},
+  }
+{{- end -}}
 </script>
