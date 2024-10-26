@@ -28,8 +28,8 @@ transportada amablement pel meu germà
 Aquí us deixo un parell de fotos de la màquina acabada d’arribar:
 
 {{< figure src="P1040361.JPG" 
-    title="Descarregant la serra Unix de la furgoneta" >}}
+    title="Descarregant la serra Uniz de la furgoneta" >}}
 
 {{< figure src="P1040392.JPG" 
-    title="La serra mecànica Unix acabada d'arribar al taller" >}}
+    title="La serra mecànica Uniz acabada d'arribar al taller" >}}
 

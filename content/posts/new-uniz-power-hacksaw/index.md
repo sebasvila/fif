@@ -25,7 +25,7 @@ transported by my brother [Jordi](http://www.argotphoto.com/).
 I left here a couple of pictures of the machine just arrived:
 
 {{< figure src="P1040361.JPG" 
-    title="Unloading the Unix saw from the van" >}}
+    title="Unloading the Uniz saw from the van" >}}
 
 {{< figure src="P1040392.JPG" 
-    title="Unix hacksaw just arrived at the workshop" >}}
+    title="Uniz hacksaw just arrived at the workshop" >}}
