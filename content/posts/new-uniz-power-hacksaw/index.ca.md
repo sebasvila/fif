@@ -1,17 +1,17 @@
 ---
-title: 'Nova serra de va-i-bé Uniz'
+title: 'Nova serra de vaivé Uniz'
 date: 2013-02-27
 draft: false
 slug: "new-uniz-power-hacksaw"
 coverImage: P1040392.JPG
 tags:
-- uniz-hacksaw
+- serra uniz
 categories:
 - restauració de màquines
 - serra uniz
 keywords:
 - serra mecànica
-- serra de va-i-bé
+- serra de vaivé
 - Uniz 14
 ---
 
