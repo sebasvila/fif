@@ -38,6 +38,15 @@ contentDir = "content"
   changeFreq = 'monthly'
 
 
+
+[outputs]
+  home = ['html']
+  posts = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
+
+
 #
 # Menu Configuration
 #
@@ -251,7 +260,7 @@ contentDir = "content"
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
-  url = "/index.xml"
+  url = "/posts/index.xml"
 
 
 #### CATALA
@@ -322,7 +331,7 @@ contentDir = "content"
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
-  url = "/index.xml"
+  url = "/posts/index.xml"
 
 
 

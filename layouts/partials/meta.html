@@ -1,6 +1,8 @@
 <!-- mark noindex pages: all the taxonomies and non-first paged pages -->
 {{- if or (.Data.Singular) (and (.Paginator) (.Paginator.HasPrev)) }}
 <meta name="robots" content="noindex">
+{{- else -}}
+{{ printf `<link rel=%q type=%q href=%q title=%q>` "alternate" "application/rss+xml" ("/posts/index.xml"| absLangURL) site.Title | safeHTML }}
 {{- end }}
 
 
@@ -29,11 +31,11 @@
     {{ else }}
       {{ $.Scratch.Set "coverImage" (.Params.coverimage) }}
     {{ end }}
-<meta property="og:image" content="{{ $.Scratch.Get "coverImage" | absURL }}">
+<meta property="og:image" content="{{ $.Scratch.Get "coverImage" | absLangURL }}">
   {{ end }}
 {{ else }}
 {{ if .Site.Author.picture }}
-<meta property="og:image" content="{{ .Site.Author.picture | absURL }}">
+<meta property="og:image" content="{{ .Site.Author.picture | absLangURL }}">
 {{ end }}
 {{ end }}
 
