@@ -18,3 +18,12 @@ body #blog #header .header-title .header-title-link {
     font-weight: 800;
     font-size: 2rem;
 }
+
+body #blog.home .post-header-cover.text-center {
+    height: 30%;
+}
+
+body #blog nav#sidebar,
+html body #about {
+    background: rgb(19,51,36);
+}

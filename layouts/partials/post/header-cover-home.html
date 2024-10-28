@@ -1,0 +1,14 @@
+{{ if .Params.coverimage }}
+<div class="post-header-cover
+              {{ if .Params.metaalignment }}text-{{ .Params.metaalignment }}{{ else }}text-left{{ end }}
+              {{ with .Params.coversize }}post-header-cover--{{ . }}{{ end }}"
+       style="background-image:url('{{ .Resources.GetMatch .Params.coverimage | default .Params.coverimage }}')"
+       data-behavior="{{ $.Scratch.Get "sidebarBehavior" }}">
+  <div class="post-header main-content-wrap {{ if $.Params.metaalignment }}text-{{ $.Params.metaalignment }}{{ else }}text-left{{ end }}">
+    <h1 class="post-title">{{- $.Title -}}</h1>
+    <div class="postShorten-meta post-meta">
+    {{ .Site.Param "description" }}
+    </div>
+  </div>
+</div>
+{{ end }}
