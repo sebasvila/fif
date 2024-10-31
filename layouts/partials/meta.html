@@ -2,7 +2,7 @@
 {{- if or (.Data.Singular) (and (.Paginator) (.Paginator.HasPrev)) }}
 <meta name="robots" content="noindex">
 {{- else -}}
-{{ printf `<link rel=%q type=%q href=%q title=%q>` "alternate" "application/rss+xml" ("/posts/index.xml"| absLangURL) site.Title | safeHTML }}
+{{ printf `<link rel=%q type=%q href=%q title=%q>` "alternate" "application/rss+xml" ("index.xml"| absLangURL) site.Title | safeHTML }}
 {{- end }}
 
 

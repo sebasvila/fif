@@ -40,8 +40,8 @@ contentDir = "content"
 
 
 [outputs]
-  home = ['html']
-  posts = ['html', 'rss']
+  home = ['html','rss']
+  posts = ['html']
   taxonomy = ['html']
   term = ['html']
 
