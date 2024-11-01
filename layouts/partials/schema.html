@@ -6,8 +6,56 @@
   {{- end -}}
 {{- end -}}
 
+
 <script type="application/ld+json">
-{{- if eq .Section "posts" }}
+{{- if .Scratch.Get "taxonomy_home" -}}
+  {{/* this a home page of a taxononmy */}}
+  {  
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": {{ .Permalink }},
+    "inLanguage": {{ .Lang }},
+    "name":"{{ .Title }}",
+    "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "keywords": {{ partial "kwlist.html" . }},
+    "author": {
+      "@type": "Person",
+      "name": {{ .Site.Author.name }},
+      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "url": {{ absURL "/" }},
+      {{- with ($.Scratch.Get "authorPicture") }}
+      "logo": {{ . }}
+      {{- end }}
+    },
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement":
+      [
+        {{- $i := 1 }}
+        {{- range .Ancestors.Reverse }}
+          {
+            "@type": "ListItem",
+            "position": {{ $i }},
+            "name": "{{ .Title | safeJS }}",
+            "item": {{ .Permalink }}
+          },
+          {{- $i = add $i 1 -}}
+        {{ end }}
+          {
+            "@type": "ListItem",
+            "position": {{ $i }},
+            "name": "{{ .Title | safeJS }}",
+            "item": {{ .Permalink }}
+          }
+        ]
+      }
+  }
+{{- else if eq .Section "posts" }}
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -21,10 +69,11 @@
     "author": {
       "@type": "Person",
       "name": "{{ .Site.Author.name }}",
+      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
     },
     "mainEntityOfPage": { 
       "@type": "WebPage",
-      "@id": {{ .Permalink }},
+      "@id": {{ .Permalink }}
     },
     "publisher": {
       "@type": "Organization",
@@ -35,21 +84,21 @@
       {{- end }}
     },
     "description": {{ .Summary | plainify | safeHTML }},
-    "keywords" : {{ partial "kwlist.html"  . }},
+    "keywords" : {{ partial "kwlist.html"  . }}
   }
 {{ else }}
   {  
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "@id": {{ .Site.BaseURL }},
+    "url": {{ .Permalink }},
     "author": {
       "@type": "Person",
       "name": {{ .Site.Author.name }},
+      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
     },
     "name":"{{ .Site.Title }}",
     "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
-    "url": {{ .Permalink }},
-    "keywords": {{ partial "kwlist.html" . }},
+    "keywords": {{ partial "kwlist.html" . }}
   }
 {{- end -}}
 </script>

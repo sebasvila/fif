@@ -1,9 +1,17 @@
-<!-- mark noindex pages: all the taxonomies and non-first paged pages -->
-{{- if or (.Data.Singular) (and (.Paginator) (.Paginator.HasPrev)) }}
+<!-- mark noindex pages:
+     all the taxonomies but term home
+     and non-first paged pages -->
+{{- if .Scratch.Get "taxonomy_home" -}}
+
+{{- else if or (.Data.Singular) (and (.Paginator) (.Paginator.HasPrev)) }}
 <meta name="robots" content="noindex">
-{{- else -}}
+{{- end -}}
+
+<!-- RSS for home pages only -->
+
+{{- if .IsHome -}}
 {{ printf `<link rel=%q type=%q href=%q title=%q>` "alternate" "application/rss+xml" ("index.xml"| absLangURL) site.Title | safeHTML }}
-{{- end }}
+{{- end -}}
 
 
 <!-- Base metainfo -->
