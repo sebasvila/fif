@@ -8,8 +8,23 @@
 
 
 <script type="application/ld+json">
-{{- if .Scratch.Get "taxonomy_home" -}}
-  {{/* this a home page of a taxononmy */}}
+{{- if .IsHome -}}
+  {{/* this is home page(s) of site */}}
+  {  
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": {{ .Permalink }},
+    "author": {
+      "@type": "Person",
+      "name": {{ .Site.Author.name }},
+      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
+    },
+    "name":"{{ .Site.Title }}",
+    "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "keywords": {{ partial "kwlist.html" . }}
+  }
+{{- else if .Scratch.Get "taxonomy_home" -}}
+  {{/* this is home page of a taxonomy term */}}
   {  
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -56,6 +71,7 @@
       }
   }
 {{- else if eq .Section "posts" }}
+  {{/* this a post page */}}
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -85,20 +101,50 @@
     },
     "description": {{ .Summary | plainify | safeHTML }},
     "keywords" : {{ partial "kwlist.html"  . }}
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement":
+      [
+        {{- $i := 1 }}
+        {{- range .Ancestors.Reverse }}
+          {
+            "@type": "ListItem",
+            "position": {{ $i }},
+            "name": "{{ .Title | safeJS }}",
+            "item": {{ .Permalink }}
+          },
+          {{- $i = add $i 1 -}}
+        {{ end }}
+          {
+            "@type": "ListItem",
+            "position": {{ $i }},
+            "name": "{{ .Title | safeJS }}",
+            "item": {{ .Permalink }}
+          }
+        ]
+      }
   }
-{{ else }}
+{{- else -}}
+  {{/* other pages */}}
   {  
     "@context": "http://schema.org",
-    "@type": "WebSite",
+    "@type": "WebPage",
     "url": {{ .Permalink }},
+    "name": {{ .Title }},
     "author": {
       "@type": "Person",
       "name": {{ .Site.Author.name }},
       "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
     },
-    "name":"{{ .Site.Title }}",
-    "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
-    "keywords": {{ partial "kwlist.html" . }}
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "url": {{ absURL "/" }},
+      {{- with ($.Scratch.Get "authorPicture") }}
+      "logo": {{ . }}
+      {{- end }}
+     }
   }
-{{- end -}}
+{{- end }}
 </script>
