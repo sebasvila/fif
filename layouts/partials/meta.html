@@ -25,7 +25,6 @@
 <meta name="description" content="{{- if .Description -}}{{- .Description -}}{{- else if .IsPage -}}{{- .Summary -}}{{- else -}}{{- .Site.Params.description -}}{{- end -}}">
 
 <!-- OpenGraph Metadata -->
-
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
@@ -33,29 +32,28 @@
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:locale" content="{{ .Lang }}">
 {{ if .IsPage }}
-  {{ if .Params.coverimage }}
-    {{ with .Resources.GetMatch ( .Params.coverimage ) }}
-      {{ $.Scratch.Set "coverImage" (.RelPermalink) }}
-    {{ else }}
+  {{- if .Params.coverimage -}}
+    {{- with .Resources.GetMatch ( .Params.coverimage ) -}}
+      {{- $.Scratch.Set "coverImage" (.RelPermalink) -}}
+    {{- else -}}
       {{ $.Scratch.Set "coverImage" (.Params.coverimage) }}
-    {{ end }}
+    {{- end -}}
 <meta property="og:image" content="{{ $.Scratch.Get "coverImage" | absLangURL }}">
-  {{ end }}
-{{ else }}
-{{ if .Site.Author.picture }}
+  {{- end -}}
+{{- else -}}
+{{- if .Site.Author.picture -}}
 <meta property="og:image" content="{{ .Site.Author.picture | absLangURL }}">
-{{ end }}
-{{ end }}
+{{- end -}}
+{{- end }}
 
 <!-- twitter info -->
-
 <meta name="twitter:card" content="summary">
-{{ with .Site.Author.twitter }}
+{{- with .Site.Author.twitter }}
 <meta name="twitter:site" content="@{{ . }}">
-{{ end }}
-{{ if .Params.twitter }}
+{{ end -}}
+{{- if .Params.twitter }}
 <meta name="twitter:creator" content="@{{ .Params.twitter }}">
-{{ else if .Site.Author.twitter }}
+{{- else if .Site.Author.twitter -}}
 <meta name="twitter:creator" content="@{{ .Site.Author.twitter }}">
-{{ end }}
+{{ end -}}
 
