@@ -1,0 +1,43 @@
+#+STARTUP: overview
+#+TITLE: Pendents del site
+
+* TODO Pensar i organitzar
+:PROPERTIES:
+:Effort:   10:00
+:END:
+:LOGBOOK:
+CLOCK: [2024-10-31 dj. 16:48]--[2024-10-31 dj. 16:51] =>  0:03
+:END:
+
+* DONE Uns sol feed de RSS pel site en comptes de per pàgina
+:LOGBOOK:
+CLOCK: [2024-10-31 dj. 17:10]--[2024-10-31 dj. 17:25] =>  0:15
+:END:
+
+* TODO Continuar les traduccions i consolidació
+* TODO Les metadades schema.org per les pagines de taxonomies
+* TODO Pàgines principals de tags (categories)
+:LOGBOOK:
+CLOCK: [2024-10-31 dj. 23:01]--[2024-10-31 dj. 23:10] =>  0:09
+CLOCK: [2024-10-31 dj. 17:25]--[2024-10-31 dj. 19:25] =>  2:00
+:END:
+Falten coses:
+- Fer el mateix per a les categories
+- Repensar la manera d'organitzar, si cal
+
+* TODO Nous continguts
+* TODO Generar i usar imatges petites pels índexs
+* TODO Generar i usar variants d'imatge ràpides
+
+* Resum de temps
+#+BEGIN: clocktable :scope file
+#+CAPTION: Clock summary at [2024-10-31 dj. 19:26]
+| Headline                                |   Time |
+|-----------------------------------------+--------|
+| *Total time*                            | *2:18* |
+|-----------------------------------------+--------|
+| Pensar i organitzar                     |   0:03 |
+| Uns sol feed de RSS pel site en...      |   0:15 |
+| Pàgines principals de tags (categories) |   2:00 |
+#+END:
+
