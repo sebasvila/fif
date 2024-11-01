@@ -1,6 +1,8 @@
 #+STARTUP: overview
 #+TITLE: Pendents del site
 
+* Docs interessants
+- [[https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading][Com tractar llistes paginades]]
 * TODO Pensar i organitzar
 :PROPERTIES:
 :Effort:   10:00
@@ -15,8 +17,16 @@ CLOCK: [2024-10-31 dj. 17:10]--[2024-10-31 dj. 17:25] =>  0:15
 :END:
 
 * TODO Continuar les traduccions i consolidació
-* TODO Les metadades schema.org per les pagines de taxonomies
-* TODO Pàgines principals de tags (categories)
+* DONE Les metadades schema.org per les pagines de taxonomies
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+CLOCK: [2024-11-01 dv. 17:25]--[2024-11-01 dv. 17:34] =>  0:09
+CLOCK: [2024-11-01 dv. 15:34]--[2024-11-01 dv. 17:02] =>  1:28
+CLOCK: [2024-11-01 dv. 15:33]--[2024-11-01 dv. 15:33] =>  0:00
+:END:
+* DONE Pàgines principals de tags (categories)
 :LOGBOOK:
 CLOCK: [2024-10-31 dj. 23:01]--[2024-10-31 dj. 23:10] =>  0:09
 CLOCK: [2024-10-31 dj. 17:25]--[2024-10-31 dj. 19:25] =>  2:00
@@ -28,16 +38,24 @@ Falten coses:
 * TODO Nous continguts
 * TODO Generar i usar imatges petites pels índexs
 * TODO Generar i usar variants d'imatge ràpides
+* TODO Review general de schema.org per enriquir
+* TODO Afegir estratègies prefetch
+- https://web.dev/learn/performance/resource-hints
+- https://addyosmani.com/blog/prefetching/
+- Especialment per a la imatge de fons i las seguent pàgina quan hi ha
+  paginació.
+  
 
 * Resum de temps
 #+BEGIN: clocktable :scope file
-#+CAPTION: Clock summary at [2024-10-31 dj. 19:26]
+#+CAPTION: Clock summary at [2024-11-01 dv. 17:37]
 | Headline                                |   Time |
 |-----------------------------------------+--------|
-| *Total time*                            | *2:18* |
+| *Total time*                            | *4:04* |
 |-----------------------------------------+--------|
 | Pensar i organitzar                     |   0:03 |
 | Uns sol feed de RSS pel site en...      |   0:15 |
-| Pàgines principals de tags (categories) |   2:00 |
+| Les metadades schema.org per les...     |   1:37 |
+| Pàgines principals de tags (categories) |   2:09 |
 #+END:
 
