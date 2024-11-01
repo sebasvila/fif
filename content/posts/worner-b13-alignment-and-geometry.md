@@ -6,7 +6,7 @@ slug: "worner-b13-alignment-and-geometry"
 coverImage: "/fotos/worner-b13/taula-control-B13.png"
 tags:
 - Wörner B13
-- measuring
+- tech.measuring
 categories:
 - machine overhauling
 - wörner B13
