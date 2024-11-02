@@ -52,7 +52,7 @@
       "itemListElement":
       [
         {{- $i := 1 }}
-        {{- range .Ancestors.Reverse }}
+        {{- range after 1 .Ancestors.Reverse }}
           {
             "@type": "ListItem",
             "position": {{ $i }},
@@ -107,7 +107,7 @@
       "itemListElement":
       [
         {{- $i := 1 }}
-        {{- range .Ancestors.Reverse }}
+        {{- range after 1 .Ancestors.Reverse }}
           {
             "@type": "ListItem",
             "position": {{ $i }},
