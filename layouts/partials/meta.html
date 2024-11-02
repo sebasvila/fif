@@ -7,6 +7,12 @@
 <meta name="robots" content="noindex">
 {{- end -}}
 
+
+<!-- preload: cover image -->
+{{ with .Params.coverimage }}
+<link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/jpg">
+{{ end }}
+
 <!-- RSS for home pages only -->
 
 {{- if .IsHome -}}
