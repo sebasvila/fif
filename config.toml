@@ -15,7 +15,7 @@ contentDir = "content"
 [author]
   name = "sBs"
   location = "Catalonia"
-  picture = "/author-photo.png"
+  picture = "/author-photo.webp"
   twitter = "sebasvilam"
   bio = "An unusual software engineer working on dirty and greasy machines"
 

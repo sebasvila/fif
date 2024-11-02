@@ -9,9 +9,14 @@
 
 
 <!-- preload: cover image -->
-{{ with .Params.coverimage }}
-<link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/jpg">
-{{ end }}
+{{ if .Params.coverimage -}}
+<link rel="preload" fetchpriority="high" as="image" href="{{ .Scratch.Get "coverImage" }}"
+      type="image/{{- strings.TrimPrefix "." (path.Ext (.Scratch.Get "coverImage")) -}}">
+{{- end }}
+{{ with .Site.Author.picture -}}
+<link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/webp">
+{{- end }}
+
 
 <!-- RSS for home pages only -->
 
@@ -39,17 +44,12 @@
 <meta property="og:locale" content="{{ .Lang }}">
 {{ if .IsPage }}
   {{- if .Params.coverimage -}}
-    {{- with .Resources.GetMatch ( .Params.coverimage ) -}}
-      {{- $.Scratch.Set "coverImage" (.RelPermalink) -}}
-    {{- else -}}
-      {{ $.Scratch.Set "coverImage" (.Params.coverimage) }}
-    {{- end -}}
-<meta property="og:image" content="{{ $.Scratch.Get "coverImage" | absLangURL }}">
+    <meta property="og:image" content="{{ $.Scratch.Get "coverImage" | absLangURL }}">
   {{- end -}}
 {{- else -}}
-{{- if .Site.Author.picture -}}
-<meta property="og:image" content="{{ .Site.Author.picture | absLangURL }}">
-{{- end -}}
+  {{- if .Site.Author.picture -}}
+    <meta property="og:image" content="{{ .Scratch.Get "authorPicture" }}">
+  {{- end -}}
 {{- end }}
 
 <!-- twitter info -->
