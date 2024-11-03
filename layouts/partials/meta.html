@@ -8,11 +8,7 @@
 {{- end -}}
 
 
-<!-- preload: cover image -->
-{{ if .Params.coverimage -}}
-<link rel="preload" fetchpriority="high" as="image" href="{{ .Scratch.Get "coverImage" }}"
-      type="image/{{- strings.TrimPrefix "." (path.Ext (.Scratch.Get "coverImage")) -}}">
-{{- end }}
+<!-- preload images -->
 {{ with .Site.Author.picture -}}
 <link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/webp">
 {{- end }}

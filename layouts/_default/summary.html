@@ -28,7 +28,7 @@ and format optimized. The default is the author picture
         <a href="{{ .Permalink }}" aria-label="{{ if i18n "global.open_post" }}{{ i18n "global.open_post" }}: {{ .Title }}{{ end }}">
 	  {{ end }}
         <div class="postShorten-thumbnailimg">
-	  <img src="{{ ((.Scratch.Get "thumbimage").Fill "140x140 q100 webp").RelPermalink }}">
+	  <img src="{{ ((.Scratch.Get "thumbimage").Fill "140x140 q100 webp").RelPermalink }}" loading="lazy">
         </div>
       </a>
     {{ end }}
@@ -69,7 +69,7 @@ and format optimized. The default is the author picture
   <a href="{{ .Permalink }}"
      aria-label="{{ if i18n "global.open_post" }}{{ i18n "global.open_post" }}: {{ .Title }}{{ end }}">
       <div class="postShorten-thumbnailimg">
-	  <img src="{{ ((.Scratch.Get "thumbimage").Fill "140x140 q100 webp").RelPermalink }}">
+	  <img src="{{ ((.Scratch.Get "thumbimage").Fill "140x140 q100 webp").RelPermalink }}" loading="lazy">
       </div>
     </a>
   {{ end }}
