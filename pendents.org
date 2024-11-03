@@ -8,6 +8,7 @@
 :Effort:   10:00
 :END:
 :LOGBOOK:
+CLOCK: [2024-11-03 dg. 16:30]--[2024-11-03 dg. 17:15] =>  0:45
 CLOCK: [2024-10-31 dj. 16:48]--[2024-10-31 dj. 16:51] =>  0:03
 :END:
 
@@ -36,26 +37,33 @@ Falten coses:
 - Repensar la manera d'organitzar, si cal
 
 * TODO Nous continguts
-* TODO Generar i usar imatges petites pels índexs
+* DONE Generar i usar imatges petites pels índexs
 * TODO Generar i usar variants d'imatge ràpides
+* DONE Afegir estratègies prefetch
 * TODO Review general de schema.org per enriquir
-* TODO Afegir estratègies prefetch
 - https://web.dev/learn/performance/resource-hints
 - https://addyosmani.com/blog/prefetching/
 - Especialment per a la imatge de fons i las seguent pàgina quan hi ha
   paginació.
-  
+* TODO Imatges responsive
+:LOGBOOK:
+CLOCK: [2024-11-03 dg. 19:19]--[2024-11-03 dg. 19:28] =>  0:09
+CLOCK: [2024-11-03 dg. 17:15]--[2024-11-03 dg. 18:31] =>  1:16
+:END:
+- https://cloudfour.com/thinks/responsive-images-101-definitions/
+Breakings a: 767 (son 450), 1023, 1279 
 
 * Resum de temps
 #+BEGIN: clocktable :scope file
-#+CAPTION: Clock summary at [2024-11-01 dv. 17:37]
+#+CAPTION: Clock summary at [2024-11-03 dg. 18:32]
 | Headline                                |   Time |
 |-----------------------------------------+--------|
-| *Total time*                            | *4:04* |
+| *Total time*                            | *6:05* |
 |-----------------------------------------+--------|
-| Pensar i organitzar                     |   0:03 |
+| Pensar i organitzar                     |   0:48 |
 | Uns sol feed de RSS pel site en...      |   0:15 |
 | Les metadades schema.org per les...     |   1:37 |
 | Pàgines principals de tags (categories) |   2:09 |
+| Imatges responsive                      |   1:16 |
 #+END:
 
