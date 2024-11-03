@@ -23,6 +23,10 @@ body #blog.home .post-header-cover.text-center {
     height: 30%;
 }
 
+body #blog .post-header-cover.text-left {
+    height: 30%;
+}
+
 body #blog nav#sidebar,
 html body #about {
     background: rgb(19,51,36);
