@@ -9,6 +9,8 @@ paginate = 8
 canonifyurls = false
 enableEmoji = true
 contentDir = "content"
+assetDir = "static"
+
 
 # enableMissingTranslationPlaceholders = true
 
