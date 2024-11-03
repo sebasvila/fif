@@ -26,13 +26,26 @@
   {{- .Scratch.Set "authorPicture" (absURL .Site.Author.picture) -}}
 {{- end -}}
 
-<!-- prepare the good path for cover-image: global or in a bundle-->
+{{/*
+prepare the good path for cover-image: global or in a bundle
+get the rel-link into 'coverImage' and the image resource in 'coverImgObj'
+assume that site coverimage is always dark enough (don't filter it)
+*/}}
 {{- if .Params.coverimage -}}
-  {{- with .Resources.GetMatch ( .Params.coverimage ) -}}
-    {{- $.Scratch.Set "coverImage" (.RelPermalink) -}}
-  {{- else -}}
-    {{- $.Scratch.Set "coverImage" (.Params.coverimage) -}}
-  {{- end -}}
+  {{ $coverimg := .Resources.GetMatch .Params.coverimage |
+                  default (resources.Get .Params.coverimage) }}
+  {{- .Scratch.Set "coverImage" ($coverimg.RelPermalink) -}}
+  {{ $width := $coverimg.Width }}
+
+  {{ if eq (path.BaseName $coverimg.RelPermalink) 
+           (path.BaseName .Site.Params.coverimage) }}
+    {{ $coverimg := $coverimg.Fill (printf "%dx%d webp" $width 250) }}
+    {{- .Scratch.Set "coverImgObj" $coverimg -}} 
+  {{ else }} 
+    {{ $coverimg := $coverimg.Fill (printf "%dx%d webp" $width 250) |
+                    images.Filter (images.Brightness -40) }}
+    {{- .Scratch.Set "coverImgObj" $coverimg -}}
+  {{ end }}
 {{- end -}}
 
 

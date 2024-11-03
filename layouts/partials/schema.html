@@ -1,10 +1,3 @@
-{{- if .Params.coverimage -}}
-  {{- with .Resources.GetMatch ( .Params.coverimage ) -}}
-    {{- $.Scratch.Set "coverImage" (.RelPermalink) -}}
-  {{- else -}}
-    {{- $.Scratch.Set "coverImage" (.Params.coverimage) -}}
-  {{- end -}}
-{{- end -}}
 
 
 <script type="application/ld+json">

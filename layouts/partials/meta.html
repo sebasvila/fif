@@ -12,6 +12,9 @@
 {{ with .Site.Author.picture -}}
 <link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/webp">
 {{- end }}
+{{ with .Scratch.Get "coverImgObj" -}}
+<link rel="preload" fetchpriority="high" as="image" href="{{ .RelPermalink }}" type="image/webp">
+{{- end }}
 
 
 <!-- RSS for home pages only -->

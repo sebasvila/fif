@@ -1,11 +1,8 @@
 {{ if .Params.coverimage }}
-{{ $coverimg := .Resources.GetMatch .Params.coverimage | default (resources.Get .Params.coverimage) }}
-{{ $width := $coverimg.Width }}
-{{ $coverimg := $coverimg.Fill (printf "%dx%d webp" $width 250) | images.Filter (images.Brightness -40) }}
   <div class="post-header-cover
               {{ if .Params.metaalignment }}text-{{ .Params.metaalignment }}{{ else }}text-left{{ end }}
               {{ with .Params.coversize }}post-header-cover--{{ . }}{{ end }}"
-       style="background-image:url('{{ $coverimg.RelPermalink }}')"
+       style="background-image:url('{{ (.Scratch.Get "coverImgObj").RelPermalink }}')"
        data-behavior="{{ $.Scratch.Get "sidebarBehavior" }}">
     {{ if or (eq .Params.covermeta "in") (not .Params.covermeta) }}
       {{ partial "post/header.html" . }}
