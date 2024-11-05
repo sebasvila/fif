@@ -8,7 +8,6 @@ tags:
  - leinen-lz4sb
 categories:
  - biblioteca
-lastmod: 2024-5-13
 ---
 
 Després que Chris Maron m'ho demanés, en aquesta nota publico la

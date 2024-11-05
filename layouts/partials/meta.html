@@ -1,11 +1,14 @@
 <!-- mark noindex pages:
      all the taxonomies but term home
      and non-first paged pages -->
-{{- if .Scratch.Get "taxonomy_home" -}}
-
-{{- else if or (.Data.Singular) (and (.Paginator) (.Paginator.HasPrev)) }}
+{{/* {{- if .Scratch.Get "taxonomy_home" -}} */}}
+{{- if collections.In .Kind (slice "section" "taxonomy") }}
+<meta name="robots" content="noindex">
+{{- else if (strings.FindRE `/page/[0-9]+$` .RelPermalink) }}
 <meta name="robots" content="noindex">
 {{- end -}}
+
+
 
 
 <!-- preload images -->

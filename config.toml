@@ -43,7 +43,7 @@ assetDir = "static"
 
 [outputs]
   home = ['html','rss']
-  posts = ['html']
+  section = ['html']
   taxonomy = ['html']
   term = ['html']
 
