@@ -57,12 +57,12 @@ templates are rendering a list.
   {{- $pages := where site.RegularPages "Section" "posts" -}}
   {{- $paginator := (.Paginate $pages 6) -}}
   {{- .Store.Set "paginator" $paginator -}}
-  {{- or (eq $paginator.PageNumber 1) (.Store.Set "paged" true) -}}
+  {{- $tmp := or (eq $paginator.PageNumber 1) (.Store.Set "paged" true)  -}}
 {{- else if eq .Kind "term" -}}
   {{- $pages := where .Data.Pages "Section" "posts" -}}
   {{- $paginator := (.Paginate $pages 6) -}}
   {{- .Store.Set "paginator" $paginator -}}
-  {{- or (eq $paginator.PageNumber 1) (.Store.Set "paged" true) -}}
+  {{- $tmp := or (eq $paginator.PageNumber 1) (.Store.Set "paged" true)  -}}
 {{- end -}}
 
 
