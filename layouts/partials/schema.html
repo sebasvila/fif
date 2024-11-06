@@ -1,4 +1,7 @@
-
+{{ $href := .Permalink }}
+{{ with .Store.Get "paginator" }}
+  {{ $href = .URL | absURL }}
+{{ end }}
 
 <script type="application/ld+json">
 {{- if .IsHome -}}
@@ -6,7 +9,7 @@
   {  
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": {{ .Permalink }},
+    "url": {{ $href }},
     "author": {
       "@type": "Person",
       "name": {{ .Site.Author.name }},
@@ -21,7 +24,7 @@
   {  
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "url": {{ .Permalink }},
+    "url": {{ $href }},
     "inLanguage": {{ .Lang }},
     "name":"{{ .Title }}",
     "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
@@ -123,7 +126,7 @@
   {  
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "url": {{ .Permalink }},
+    "url": {{ $href }},
     "name": {{ .Title }},
     "author": {
       "@type": "Person",

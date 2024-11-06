@@ -39,14 +39,11 @@ assetDir = "static"
 [sitemap]
   changeFreq = 'monthly'
 
-
-
 [outputs]
   home = ['html','rss']
   section = ['html']
   taxonomy = ['html']
   term = ['html']
-
 
 
 #

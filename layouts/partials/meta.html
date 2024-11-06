@@ -1,27 +1,24 @@
-<!-- mark noindex pages:
-     all the taxonomies but term home
-     and non-first paged pages -->
-{{/* {{- if .Scratch.Get "taxonomy_home" -}} */}}
-{{- if collections.In .Kind (slice "section" "taxonomy") }}
+{{ $href := .Permalink }}
+{{ with .Store.Get "paginator" }}
+  {{ $href = .URL | absURL }}
+{{ end }}
+
+{{/*******************************************
+Mark noindex pages
+********************************************/}}
+{{- if and (not .IsHome) (ne .Kind "term") (ne .Section "posts") }}
 <meta name="robots" content="noindex">
-{{- else if (strings.FindRE `/page/[0-9]+$` .RelPermalink) }}
-<meta name="robots" content="noindex">
-{{- end -}}
-
-
-
+{{- end }}
 
 <!-- preload images -->
-{{ with .Site.Author.picture -}}
+{{- with .Site.Author.picture -}}
 <link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/webp">
 {{- end }}
 {{ with .Scratch.Get "coverImgObj" -}}
-<link rel="preload" fetchpriority="high" as="image" href="{{ .RelPermalink }}" type="image/webp">
+<link rel="preload" fetchpriority="high" as="image" href="{{ .Permalink }}" type="image/webp">
 {{- end }}
 
-
 <!-- RSS for home pages only -->
-
 {{- if .IsHome -}}
 {{ printf `<link rel=%q type=%q href=%q title=%q>` "alternate" "application/rss+xml" ("index.xml"| absLangURL) site.Title | safeHTML }}
 {{- end -}}
@@ -40,7 +37,7 @@
 <!-- OpenGraph Metadata -->
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:url" content="{{ $href }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:locale" content="{{ .Lang }}">
