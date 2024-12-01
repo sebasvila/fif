@@ -2,7 +2,7 @@
 title: Kaiser Piccolo Howto
 slug: kaiser-piccolo-howto
 date: 2024-11-01
-# coverImage: /cover-image.jpg
+coverImage: /caixa1.jpg
 tags: [tech.milling, tools]
 categories: [library]
 keywords: [boring head, boring, facing]
@@ -16,6 +16,9 @@ Preface
 # Works that can be done #
 
 # Know the boring head #
+
+{{< figure src="capcal.jpg"
+	title="Boring head and its parts" >}}
 
 These are the main parts of the boring head (see the previous figure).
 
@@ -79,7 +82,7 @@ a batch of parts that can be attached in the same precise
 position. Just bore the first part to size and, when in the final
 position, move the end stop.
 
-{{< youtube 4Cx3wohKlT8 >}}
+{{< youtube d_rijcRVyzg >}}
 
 # Facing or counterboring
 
@@ -133,7 +136,7 @@ Push the small control pin to the left. When the slide approaches the
 end of travel the pin will be pushed by the stop. After sliding back
 the tool, you can check if the slide traveled to end.
 
-{{< youtube d_rijcRVyzg >}}
+{{< youtube 4Cx3wohKlT8 >}}
 
 # Turning pegs
 # Tooling
