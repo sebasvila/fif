@@ -2,20 +2,21 @@
 title: Kaiser Piccolo Howto
 slug: kaiser-piccolo-howto
 date: 2024-11-01
-coverImage: /caixa1.jpg
+coverImage: caixa1.jpg
 tags: [tech.milling, tools]
 categories: [library]
 keywords: [boring head, boring, facing]
 draft: true
 ---
 
-Preface
+This post shows the kind of works that can be done with a Kaiser
+Piccolo boring head. It includes the usual boring work but also the
+facing work usind the automatic travel of the head and an example of
+peg turning. The usual boring head tooling is also reviewed.
 
 <!--more-->
 
-# Works that can be done #
-
-# Know the boring head #
+# The boring head parts #
 
 {{< figure src="capcal.jpg"
 	title="Boring head and its parts" >}}
@@ -139,5 +140,15 @@ the tool, you can check if the slide traveled to end.
 {{< youtube 4Cx3wohKlT8 >}}
 
 # Turning pegs
+
+The boring head can also be used to turn pegs on the milling
+machine. Sometimes this can be advantadgeous when parts have complex
+shapes. Next video shows the Kaiser Piccolo in a peg turning work on a
+Schaublin 13. Head descent is driven by hand using the slow motion
+feed of the milling head.
+
+{{< youtube 8aSZnLB883g >}}
+
+
 # Tooling
 
