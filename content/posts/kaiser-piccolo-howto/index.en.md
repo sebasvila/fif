@@ -6,7 +6,7 @@ coverImage: caixa1.jpg
 tags: [tech.milling, tools]
 categories: [library]
 keywords: [boring head, boring, facing]
-draft: true
+draft: false
 ---
 
 This post shows the kind of works that can be done with a Kaiser
@@ -152,3 +152,27 @@ feed of the milling head.
 
 # Tooling
 
+The Kaiser Piccolo comes with a wood box to store the head, the keys
+and the tooling. The picture below shows it.
+
+{{< figure src="caixa2.jpg"
+	title="Boring head storage box and tooling" >}}
+
+The tooling comprises:
+
+- A set of indexable tools for boring and for facing of different sizes.
+- A set of HSS tools for bring and facing, some of them for small
+  diameter bores.
+- Some tools for chamfering the holes.
+- A set of square (6x6mm) tools holders. This includes some extension
+  tubes to work in deep conditions.
+- Some square (6x6mm) HSS and HM tools. Including some recessing tools.
+- A set of reduction bushes for small cylindrical shank cutters
+
+The following pictures show some of these tools and toolholders.
+
+{{< figure src="eines1.jpg"
+	title="Extension toolholders and indexable tools" >}}
+
+{{< figure src="eines2.jpg"
+	title="Square bits holder set and some tools" >}}
