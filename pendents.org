@@ -52,6 +52,10 @@ CLOCK: [2024-11-03 dg. 17:15]--[2024-11-03 dg. 18:31] =>  1:16
 :END:
 - https://cloudfour.com/thinks/responsive-images-101-definitions/
 Breakings a: 767 (son 450), 1023, 1279 
+* TODO Pagina o post amb altres webs interessants
+Que enllacin a altres webs d'aficionats o similars que paga la pena
+seguir per la raó que sigui.
+- https://www.metallum.shop/
 
 * Resum de temps
 #+BEGIN: clocktable :scope file
