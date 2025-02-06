@@ -16,6 +16,7 @@ mecànica i aspectes relacionats.
 <!--more-->
 
 #. [Conrad's stuff](https://conradhoffman.com/CRH01.htm)
+#. [Metallum](https://www.metallum.shop)
 
 
 <!--

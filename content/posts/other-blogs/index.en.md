@@ -17,6 +17,8 @@ arts and related stuff.
 <!--more-->
 
 #. [Conrad's stuff](https://conradhoffman.com/CRH01.htm)
+#. [Metallum](https://www.metallum.shop)
+
 
 <!--
 {{< figure src="original.jpg" loading="lazy">}}
