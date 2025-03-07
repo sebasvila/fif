@@ -6,7 +6,7 @@ coverImage: "kaiser-sliding-stop.jpg"
 tags: [tech.measuring, tools]
 categories: [library]
 keywords: [Big Kaiser, boring head parts, sketch]
-draft: true
+draft: false
 ---
 
 This is an annotated sketch of the Kaiser Piccolo sliding stop. I
