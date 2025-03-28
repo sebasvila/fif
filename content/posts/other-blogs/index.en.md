@@ -18,6 +18,7 @@ arts and related stuff.
 
 #. [Conrad's stuff](https://conradhoffman.com/CRH01.htm)
 #. [Metallum](https://www.metallum.shop)
+#. [Frank Ford's pages](http://www.frets.com/HomeShopTech/hstpages.html)
 
 
 <!--
