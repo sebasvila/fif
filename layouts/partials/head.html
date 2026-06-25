@@ -32,6 +32,36 @@ get the rel-link into 'coverImage' and the image resource in 'coverImgObj'
 assume that site coverimage is always dark enough (don't filter it)
 ***********************************************************************/}}
 {{- if .Params.coverimage -}}
+  {{ $coverimg := .Resources.GetMatch .Params.coverimage | default (resources.Get .Params.coverimage) }}
+  
+  {{- if $coverimg -}}
+    {{- .Scratch.Set "coverImage" ($coverimg.RelPermalink) -}}
+    
+    {{/* 1. Ensure it is an image and NOT an SVG before processing */}}
+    {{ $isProcessable := and (eq $coverimg.MediaType.MainType "image") (ne $coverimg.MediaType.SubType "svg") }}
+    
+    {{ if $isProcessable }}
+      {{ $width := $coverimg.Width }}
+      
+      {{ if eq (path.BaseName $coverimg.RelPermalink) (path.BaseName .Site.Params.coverimage) }}
+        {{/* Notice the '=' instead of ':=' to modify the outer variable */}}
+        {{ $coverimg = $coverimg.Fill (printf "%dx%d webp" $width 250) }}
+      {{ else }} 
+        {{/* Safely step through processing to avoid passing nil to the filter */}}
+        {{ $processed := $coverimg.Fill (printf "%dx%d webp" $width 250) }}
+        {{ if $processed }}
+          {{ $coverimg = $processed.Filter (images.Brightness -40) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    
+    {{/* Saves the fully processed image (or the original SVG/fallback if unprocessable) */}}
+    {{- .Scratch.Set "coverImgObj" $coverimg -}}
+  {{- end -}}
+{{- end -}}
+
+{{/*****
+{{- if .Params.coverimage -}}
   {{ $coverimg := .Resources.GetMatch .Params.coverimage |
                   default (resources.Get .Params.coverimage) }}
   {{- .Scratch.Set "coverImage" ($coverimg.RelPermalink) -}}
@@ -47,6 +77,7 @@ assume that site coverimage is always dark enough (don't filter it)
     {{- .Scratch.Set "coverImgObj" $coverimg -}}
   {{ end }}
 {{- end -}}
+*********/}}
 
 {{/***************************
 Common paginator environment.
