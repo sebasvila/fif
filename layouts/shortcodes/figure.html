@@ -1,42 +1,55 @@
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default (.Get "caption") -}}
+{{- $caption := .Get "caption" -}}
+{{- $title := .Get "title" -}}
+{{- $class := .Get "class" -}}
+{{- $link := .Get "link" -}}
 
-  {{- $u := urls.Parse (.Get "src") -}}
-  {{- $src := $u.String -}}
-  {{- if not $u.IsAbs -}}
-    {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
-      {{- $src = .RelPermalink -}}
-    {{- end -}}
-  {{- end -}}
+{{/* Busquem la imatge dins del Page Bundle */}}
+{{- $img := .Page.Resources.GetMatch $src -}}
+{{- if not $img -}}
+  {{- $img = resources.Get $src -}}
+{{- end -}}
 
-  {{- if .Get "link" -}}
-  <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-  {{- else -}}  
-  <a href="{{$src}}" rel="Full figure" aria-label="Make it bigger" >
-  {{- end -}}
-
+<figure{{ with $class }} class="{{ . }}"{{ end }}>
+  {{ if $link }}<a href="{{ $link }}">{{ end }}
   
-  <img src="{{ $src }}"
-    {{- if or (.Get "alt") (.Get "caption") }}
-    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" | default "" | markdownify | plainify }}: {{ .Get "caption"| markdownify| plainify }}{{ end }}"
-    {{- end -}}
-    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-    {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-    {{- with (.Get "loading" | default "lazy")}} loading="{{ . }}"{{ end -}}
-  ><!-- Closing img tag -->
-  </a>
-  {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-    <figcaption>
-      {{ with (.Get "title") -}}
-        <h4>{{ . }}</h4>
+  {{- if $img -}}
+    {{/* --- LÒGICA D'IMATGES RESPONSIVES --- */}}
+    {{- $widths := slice 480 768 1024 -}}
+    {{- $srcset := slice -}}
+    
+    {{- range $widths -}}
+      {{- if lt . $img.Width -}}
+        {{- $resized := $img.Resize (printf "%dx webp" .) -}}
+        {{- $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink .) -}}
       {{- end -}}
-      {{- if or (.Get "caption") (.Get "attr") -}}<p>
-        {{- .Get "caption" | markdownify -}}
-        {{- with .Get "attrlink" }}
-          <a href="{{ . }}">
-        {{- end -}}
-        {{- .Get "attr" | markdownify -}}
-        {{- if .Get "attrlink" }}</a>{{ end }}</p>
-      {{- end }}
+    {{- end -}}
+    
+    {{/* Imatge per defecte (mida màxima de seguretat) */}}
+    {{- $fallback := $img.Resize "1024x webp" -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" $fallback.RelPermalink $fallback.Width) -}}
+
+    <img src="{{ $fallback.RelPermalink }}"
+         srcset="{{ delimit $srcset ", " }}"
+         sizes="(max-width: 768px) 100vw, 1024px"
+         {{ with $alt }}alt="{{ . }}"{{ end }}
+         {{ with $title }}title="{{ . }}"{{ end }}
+         loading="lazy"
+         decoding="async">
+  {{- else -}}
+    {{/* Fallback si és una imatge externa (URL de fora) o si no es troba */}}
+    <img src="{{ $src | safeURL }}" {{ with $alt }}alt="{{ . }}"{{ end }} {{ with $title }}title="{{ . }}"{{ end }}>
+  {{- end -}}
+
+  {{ if $link }}</a>{{ end }}
+  
+  {{- if or $caption (.Get "attr") -}}
+    <figcaption>
+      {{ with $caption }}<p>{{ . | markdownify }}</p>{{ end }}
+      {{ with (.Get "attr") }}
+        <span>{{ if (.Get "attrlink") }}<a href="{{ .Get "attrlink" }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}</span>
+      {{ end }}
     </figcaption>
-  {{- end }}
+  {{- end -}}
 </figure>
