@@ -3,7 +3,7 @@ title: 'Wörner B13 alignment and geometry'
 date: 2020-10-14T20:20:00.002+02:00
 draft: false
 slug: "worner-b13-alignment-and-geometry"
-coverImage: "/fotos/worner-b13/taula-control-B13.png"
+coverImage: "taula-control-B13.png"
 tags:
 - Wörner B13
 - tech.measuring
