@@ -50,15 +50,15 @@ La següent foto mostra el contacte del regle d'ajustat durant el
 procés de rasquetat. Es pot veure que el centre comença a
 estar lleugerament deprimit i el contacte preferent és en els extrems.
 
-{{< image classes="fig-100 center clear" src="regle.jpg" >}}
+{{< figure src="regle" >}}
 
 Segueixen dues fotografies que mostren com mesurar l'ortogonalitat del
 capçal respecte la taula (de fet els traus de la taula). En aquest cas
 es fa servir un escaire de precisió alineat en els traus de la taula fent
 servir uns blocs patró.
 
-{{< image classes="fig-100 center clear" src="escaire-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="escaire-1.jpg" >}}
+{{< figure src="escaire-2.jpg" >}}
+{{< figure src="escaire-1.jpg" >}}
 
 La geometria aconseguida és prou bona amb una alineació millor que les
 2µm en tot el recorregut.
@@ -82,9 +82,9 @@ uniforme i perfecta de greix. En el cas dels engranatges, es van
 engreixar amb la pasta Kluber Altemp Q NB 50, que té una naturalesa
 molt adhesiva i permanent.
 
-Tot seguit hi ha lagunes fotos del conjunt. Primer el subconjunt que
-suporta la maneta de sobre el capçal. L'eixa acaba en un engranatge
-cònis espiroidal que condueix el cargol. L'engranatge helicoidal del
+Tot seguit hi ha algunes fotos del conjunt. Primer el subconjunt que
+suporta la maneta de sobre el capçal. L'eix acaba en un engranatge
+cònic espiroidal que condueix el cargol. L'engranatge helicoidal del
 mig, és conduït (o condueix) per l'eix de la maneta lateral.
 
 {{< image classes="fig-100 center clear" src="maneta-superior-1.jpg"

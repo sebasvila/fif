@@ -2,7 +2,7 @@
 title: "Microscopi de mesura Zeiss"
 slug: zeiss-tm-micro
 date: 2026-04-12
-coverImage: ""
+coverImage: "rosca-iso.webp"
 tags:
 - tech.pintura
 - tech.tornejat
@@ -35,7 +35,7 @@ dispositiu híbrid en el que les mides es prenen tant mecànicament com
 es van dexar de fabricar cap els anys 1970. En aquesta entrada es
 documenta com es posa a punt un d'aquests microscopis, fabricat a
 l'Alemanya de l'Est, en bones condicions però amb un manteniment
-escas.
+deficient.
 
 <!--more-->
 
@@ -55,6 +55,31 @@ precisa de l'objecte en un pla concret de l'ocular. En aquest pla, hi
 ha grabades escales, perfils o altres elements que faciliten la
 mesura.
 
+{{< figure src="microscopi-1.webp" 
+    caption="Microscopi amb el palpador òptic muntat" 
+>}}
+
+Com es veu a la figura anterior, el microscopi el conforma una base
+sòlida sobre la que es munta una taula XY desplaçada per
+micròmetres. Sobre la taula cartesiana, una taula giratòria. La base
+també suporta un tub de microscopi amb objectius intercanviables i
+oculars dotats de graella de mesura també intercanviables. A la
+fotografia anterior hi ha muntat un ocular goniomètric i un palpador
+òptic superposat a l'objectiu.
+
+Algunes imatges de detall:
+
+{{< figure src="tub-microscopi" 
+           caption=`El tub del miscrocopi. A la part de baix l'anell d'enfocament 
+		            fi de l'objectiu. A la part de dalt l'ocular goniomètric amb el 
+					seu petit microscopi per a llegir l'angle.`
+					>}}
+
+{{< figure src="taula" 
+           caption=`La taula XY. S'hi veuen les guies Y i el micròmetre de desplaçament
+		   en la direcció Y. També es veu la taula rotativa amb el nònius de mesura de l'angle.`
+           >}}
+
 Acompanyen al microscopi un conjunt extens d'accessoris que amplien i
 complementen la seva funcionalitat. Es podrien dividir en:
 * Accessoris de suport pels espècimens a mesurar.
@@ -63,6 +88,7 @@ complementen la seva funcionalitat. Es podrien dividir en:
 * Epi-il·luminador (també de camp fosc) per treballar amb llum reflectida.
 * Palpador de mesura òptic.
 * Centrador de coincidència per a localitzar forats i altres característiques.
+
 
 # El manual
 
@@ -106,7 +132,19 @@ llibertat. Resten bloquejats:
 * El botó de fixació de la taula rotativa
   
 Alguns dels accessoris també pateixen els mateixos problemes però
-aquests ja es tractaran en un altre nota.
+aquests es tractaran en un altre nota.
+
+L'altre problema rellevant és la obsolescència del sistema
+d'enllumenat. A més de que el microscopi es va comprar sense la font
+d'alimentació original, està dissenyat per a fer servir bombetes
+hal·lògenes «de precissió» ---que ara mateix són difícils
+d'aconseguir--- i tenen una vida útil afitada. Fóra interessant,
+doncs, actualitzar el sistema d'il·luminació a tecnologia lED.
+
+
+# Treballs de reconstrucció
+
+## El greix solidificat
 
 Aquest problema és motiu de debat habitual en els fòrums de
 microscoscopia i restauració d'aparells de precissió. Per exemple,
@@ -130,6 +168,8 @@ grabats en escales.  Cal, doncs, actuar amb extrema suavitat i tacte
 en la neteja. No hi ha una recepta universal sinó una tècnica concreta
 per a cada situació.
 
+
+
 La regla fonamental és aplicar les tècniques més suaus possibles i
 incrementar l'agressivitat només si és imprescindible. Per exemple, en
 el cas de productes dissolvents, la seqüència (de menys a més) podria
@@ -137,6 +177,41 @@ ser alcohol isopropílic--white spirit--acetona. Pero no és
 generalitzable! en algunes laques poden ser sensibles a l'alcohol i no
 pel white spirit, per exemple. Sempre és prudent provar amb cura
 abans.
+
+## Greix esmorteïdor
+
+Tothom recorda la sensació tàctil de precissió i suavitat dels
+mecanismes d'enfocament dels objectius de qualitat de les càmeres
+analògiques. Més enllà de la precisió amb que ajusten les rosques que
+mouen els objectius, el gran secret és el greix esmorteïdor: greix
+lubricant d'alta viscositat que s'utilitza en enginyeria i mecànica
+per reduir el soroll, les vibracions i per donar una sensació de
+resistència «suau» i controlada en components mòbils. Són tipicament
+els greixos emprats en potenciòmetres, càmeres, tubs optics i, en
+viscositats més elevades, tapes de descens suau en mobiliari.
+
+En el cas que ens ocupa, són imprescindibles per lubricar els tubs
+òptics i altres mecanismes que volen un tacte suau i delicat, com ara
+la taula circular.
+
+En tot el projecte s'han fet servir els greixos sintètics Tribosyn 320
+comprats a [NewgateSimms](https://newgatesimms.com). Es interessant el
+«Damping Grease Trial Pack», que permet adquirir una petita quantitat
+---però suficient--- de diferents viscositats. 
+
+{{< figure src="tribosyn-320.webp" >}}
+
+Les viscositats emprades són més aviat les lleugeres. Depèn del
+mecanisme i la seva funció s'han triat viscositats més grans o més
+petites.
+
+## Neteja del vidre òptic
+
+
+
+
+## Eines especials
+
 
 
 
