@@ -197,14 +197,16 @@ assetDir = "static"
   languageCode = "en"
   languageName = "English"
   title = "Fusta i Ferro Blog"
-  dateFormat = "January 2, 2006"
   weight = 1
+
+[languages.en.params]
+  dateFormat = "January 2, 2006"
+  keywords = ["metalworking", "machine tools", "workshop", "fine tools"]
   description = """\
     A blog about my metalworking projects. Focuses, among others, on traditional precision \
     working techniques, fine tools, measuring devices or metalworking machines. \
     Overhauling of high quality european machines. Enjoying workshop practices. \
     Sometimes writing about woodworking."""
-  keywords = ["metalworking", "machine tools", "workshop", "fine tools"]
 
 [[languages.en.menu.main]]
   weight = 1
@@ -269,13 +271,17 @@ assetDir = "static"
   languageName = "Català"
   title = "Fusta i Ferro Blog"
   weight = 2
+
+[languages.ca.params]
   dateFormat = "2 January 2006"
+  keywords = ["mecànica", "màquines eina", "precissió", "taller", "eines de qualitat"]
   description = """\
     Un blog sobre els meus projectes de mecànica. Centrat, entre altres, en les tècniques \
     tradicionals del treball de precissió, les eines selectes, els aparells de mesura i la \
     maquinària en general. Restauració de màquines-eina europees d'alta qualitat. \
     Gaudint amb la feina al taller. A vegades també escric sobre ebenisteria."""
-  keywords = ["mecànica", "màquines eina", "precissió", "taller", "eines de qualitat"]
+
+
 
 [[languages.ca.menu.main]]
   weight = 1
