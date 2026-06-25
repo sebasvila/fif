@@ -27,37 +27,37 @@ Començo marcant amb una certa precisió una planxa de gruixa mitjana i
 la tallo amb una serra de mà. Els cantos s'han foradat prèviament per
 facilitar el doblegat.
 
-{{< image classes="fig-100 center clear" src="planxa.jpg" >}}
-{{< image classes="fig-100 center clear" src="marcat.jpg" >}}
-{{< image classes="fig-100 center clear" src="marcat1.jpg" >}}
-{{< image classes="fig-100 center clear" src="marcat2.jpg" >}}
-{{< image classes="fig-100 center clear" src="retallat.jpg" >}}
+{{< figure src="planxa" >}}
+{{< figure src="marcat" >}}
+{{< figure src="marcat1" >}}
+{{< figure src="marcat2" >}}
+{{< figure src="retallat" >}}
 
 Després, es fan els doblecs sobre el cargol de ferrer ajudant-se d'un
 martell lleuger. Els darrers doblecs necessitaran ajudar-se d'alguns
 passamans que permetin passar dins la caixa tal i com es veu a les
 següents fotos.
 
-{{< image classes="fig-100 center clear" src="doblegat1.jpg" >}}
-{{< image classes="fig-100 center clear" src="doblegat2.jpg" >}}
-{{< image classes="fig-100 center clear" src="doblegat3.jpg" >}}
+{{< figure src="doblegat1" >}}
+{{< figure src="doblegat2" >}}
+{{< figure src="doblegat3" >}}
 
 El següent pas és soldar les arestes de la caixa. Ho fem amb el soplet
 d'autògena.
 
-{{< image classes="fig-100 center clear" src="soldat.jpg" >}}
+{{< figure src="soldat" >}}
 
 Finalment, es forada la caixa i es repoleixen les costures amb la
 llima. Només falten unes mans de pintura.
 
-{{< image classes="fig-100 center clear" src="pintat1.jpg" >}}
-{{< image classes="fig-100 center clear" src="pintat2.jpg" >}}
+{{< figure src="pintat1" >}}
+{{< figure src="pintat2" >}}
 
 La caixa la cargolarem per la banda interior de la màquina aprofitant
 els mateixos forats passants que es fan servir per collar el suport de
 la làmpada. Amb aquesta caixeta, la connexió queda més endreçada i el
 tub elèctric amb els cables molt més ben fixat.
 
-{{< image classes="fig-100 center clear" src="muntat2.jpg" >}}
-{{< image classes="fig-100 center clear" src="muntat3.jpg" >}}
-{{< image classes="fig-100 center clear" src="muntat4.jpg" >}}
+{{< figure src="muntat2" >}}
+{{< figure src="muntat3" >}}
+{{< figure src="muntat4" >}}

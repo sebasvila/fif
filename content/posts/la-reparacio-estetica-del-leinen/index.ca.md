@@ -53,14 +53,13 @@ El tractament que s'aplica segueix els següents passos:
 El procés és lent però el resultat és excepcional. Aquí podeu veure
 algunes manetes del devantal abans de set tractades:
 
-{{< image classes="fig-100 clear"
-src="P1040304.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040304" >}}
 
 i després de ser restaurades:
 
-{{< image classes="fig-100 clear"  src="P1040545.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040545" >}}
 
-{{< image classes="fig-100 clear"  src="P1040548.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040548" >}}
 
 
 # Repintat
@@ -84,6 +83,6 @@ El procés de pintat segueix els següents passos:
 
 El resultat són peces com aquestes:
 
-{{< image classes="fig-100 clear"  src="P1040449.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040449" >}}
 
-{{< image classes="fig-100 clear"  src="P1040450.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040450" >}}

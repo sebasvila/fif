@@ -81,17 +81,17 @@ Schaublin tone. The resulting match was rather good. Paint was applied
 by brush. The picture below shows the Z axis handle support after
 painted.
 
-{{< image classes="fig-100 center clear" src="brac-z.jpg" >}}
+{{< figure src="brac-z" >}}
 
 Other parts originally painted with hammered finish have been also
 newly painted. These include the apron and its auxiliary covers and
 boxes as shown in next pictures.
 
-{{< image classes="fig-100 center clear" src="davantal-1.jpg" >}}
+{{< figure src="davantal-1" >}}
 
-{{< image classes="fig-100 center clear" src="davantal-2.jpg" >}}
+{{< figure src="davantal-2" >}}
 
-{{< image classes="fig-100 center clear" src="peces-davantal.jpg" >}}
+{{< figure src="peces-davantal" >}}
 
 
 # The clear enamel of handles
@@ -101,7 +101,7 @@ Oxiron](https://www.titanlux.es/en/productos/producto/smooth-oxiron-indoors-outd
 of color «gris perla». The picture below shows the handle of the Z
 axis.
 
-{{< image classes="fig-100 center clear" src="z-handle.jpg" >}}
+{{< figure src="z-handle" >}}
 
 
 
@@ -112,12 +112,12 @@ sample collection by Torrents Autocolor, that is my usual provider of
 painting products. A very close, but not perfect, match was found. To
 test it, they prepared a small brush cap bottle of enamel:
 
-{{< image classes="fig-100 center clear" src="ampolleta.jpg" >}}
+{{< figure src="ampolleta" >}}
 
 Applied over the original pint, the result is realy close as can be
 seen in this picture:
 
-{{< image classes="fig-100 center clear" src="mostra-color.jpg" >}}
+{{< figure src="mostra-color" >}}
 
 Unfortunately, the precise hue cannot be shared because the provider
 use an internal reference instead of a standard color specification.
@@ -160,7 +160,7 @@ lasts some days---.
 The picture below shows the bottom of a on-time can: you can see the
 mechanism to destroy the internal bulkhead and activate the hardener.
 
-{{< image classes="fig-100 center clear" src="pot-2k.jpg" >}}
+{{< figure src="pot-2k" >}}
 
 After all these tests, I decided to fall back into the classical
 mix-yourself-and-gun-spray-it procedure.
@@ -188,18 +188,18 @@ suited to small and medium size machines we are used to overhaul. The
 transfer ratio is really good and almost no paint fog floats in the
 air. I really recommend it.
 
-{{< image classes="fig-100 center clear" src="iwata-az4.jpg" >}}
+{{< figure src="iwata-az4" >}}
 
 To test the gun, I have given a new layer of paint to the milling
 machine Waldmann lamp. I previously used it to test the on-time PUR
 can. The result was very satifying. It can be seen on the next
 pictures.
 
-{{< image classes="fig-100 center clear" src="waldmann-1.jpg" >}}
+{{< figure src="waldmann-1" >}}
 
-{{< image classes="fig-100 center clear" src="waldmann-2.jpg" >}}
+{{< figure src="waldmann-2" >}}
 
-{{< image classes="fig-100 center clear" src="waldmann-3.jpg" >}}
+{{< figure src="waldmann-3" >}}
 
 
 # Paint the main casting
@@ -209,16 +209,16 @@ prepared and painted. Then, all the casting ---including the bassin--
 is prepared and painted with two layers of 2K PU coating. Below, you
 can see some pictires of the overall process.
 
-{{< image classes="fig-100 center clear" src="bassa-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="bassa-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="bassa-3.jpg" >}}
+{{< figure src="bassa-1" >}}
+{{< figure src="bassa-2" >}}
+{{< figure src="bassa-3" >}}
 
-{{< image classes="fig-100 center clear" src="cos-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="cos-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="cos-3.jpg" >}}
-{{< image classes="fig-100 center clear" src="cos-4.jpg" >}}
-{{< image classes="fig-100 center clear" src="tapa-1.jpg" >}}
+{{< figure src="cos-1" >}}
+{{< figure src="cos-2" >}}
+{{< figure src="cos-3" >}}
+{{< figure src="cos-4" >}}
+{{< figure src="tapa-1" >}}
 
 This is the result.
 
-{{< image classes="fig-100 center clear" src="cos-6.jpg" >}}
+{{< figure src="cos-6" >}}

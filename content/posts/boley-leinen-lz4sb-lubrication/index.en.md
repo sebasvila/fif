@@ -3,7 +3,7 @@ title: 'Boley Leinen LZ4SB lubrication'
 date: 2016-08-15T14:48:00.003+02:00
 draft: false
 slug: "boley-leinen-lz4sb-lubrication"
-coverImage: /fotos/leinen-lz4sb/P1050417.JPG
+coverImage: P1050417.JPG
 tags:
 - leinen LZ4SB
 ---
@@ -30,8 +30,7 @@ I want to add some notes about lubrication:
   spare oil windows. Nice people.  Look at the sightglases
   transparency:
 
-  {{< image classes="fig-100 clear"
-  src="/fotos/leinen-lz4sb/P1050417.JPG" thumbnail-with="75%" >}}
+  {{< figure src="P1050417.JPG" >}}
 
 * It is not clear if detergent oil can be used in the wet
   clutch. However, [Ortlinghaus specifically recomends Renolin MR for
@@ -76,15 +75,15 @@ Replacing the old lubricant
 The headstock oil plugs are located in the following places. Note that
 I have seen headstocks without some of these plugs (??).
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050414.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050414.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050415.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050415.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050418.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050418.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050419.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050419.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050420.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050420.JPG" >}}
 
 
 
@@ -126,4 +125,4 @@ Original Boley Leinen instructions contain a lubrication plan
 sheet. In some specimens it is also attached to the lathe. I reedited
 one of these sheets to improve the image quality, translate it to
 english and actualize oil characteristics to ISO VG. You can download
-it from [this pdf](/pdfs/leinen-lubrication.pdf).
+it from [this pdf](leinen-lubrication.pdf).

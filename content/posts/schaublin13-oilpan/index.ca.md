@@ -60,7 +60,7 @@ apreciable.
 	>}}
 
 <!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 {{< youtube id="k38Vl8QqrZE" >}}
 -->

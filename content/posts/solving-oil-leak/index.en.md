@@ -3,7 +3,7 @@ title: 'Solving the oil leak'
 date: 2013-07-24T21:18:00.000+02:00
 draft: false
 slug: "solving-oil-leak"
-coverImage: /fotos/leinen-lz4sb/P1040841.JPG
+coverImage: P1040841.JPG
 tags:
 - leinen LZ4SB
 categories:
@@ -22,7 +22,7 @@ I waited to finish the lacquering of the lathe stand top. Now the
 headstock can be mounted again in the lathe ans it is easier to work
 on it:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040849.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040849.JPG" >}}
 
 After that I unscrewed the casing of the rear bearing. It seems that
 the oil leak problem was due to a couple of loose fasteners. Now I
@@ -37,6 +37,6 @@ bearing in opposition to the model LZ4S which is more usual.
 
 Here there are some pictures of the bearing assembly:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040841.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040841.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040845.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040845.JPG" >}}

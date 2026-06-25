@@ -43,29 +43,24 @@ These are the most salient characteristics of this project:
 After cutting the steel bar to required length, the part is rougly
 turned and the top hole drilled.
 
-{{< image classes="fig-100 clear"
-          src="turning-reglus-bushing.jpg" >}}
+{{< figure src="turning-reglus-bushing" >}}
 
 Then, the drill hole is pointed and drilled. The bushing is gripped
 using a fine collet. This guarantees concentricity up to 0.01mm. The
 drilling, however, should be done with care to remain concentric.
 
-{{< image classes="fig-100 clear"
-          src="drilling-reglus-bushing.jpg" >}}
+{{< figure src="drilling-reglus-bushing" >}}
 
-{{< image classes="fig-100 clear"
-          src="drilled-reglus-bushing.jpg" >}}
+{{< figure src="drilled-reglus-bushing" >}}
 
 After that, bushings where chamfered as required and stamp marked with
 the size. Next operation was hardening. The quenching medium was oil
 and the home owen were used to tempering them at 200ºC. This was the
 result:
 
-{{< image classes="fig-50"
-          src="hardened-bushing-1.jpg" >}}
+{{< figure src="hardened-bushing-1" >}}
 
-{{< image classes="fig-50 clear"
-          src="hardened-bushing-2.jpg" >}}
+{{< figure src="hardened-bushing-2" >}}
 
 Finally, the external diameter of the bushing is hard-turned to
 size. Doing this after hardening let's to manage the thermally induced
@@ -73,16 +68,12 @@ diameter changes and to provide an excellent surface finish to the
 gripping face. Below, you can see some pictures of the hard-turning
 process.
 
-{{< image classes="fig-50"
-          src="hard-turning-1.jpg" >}}
+{{< figure src="hard-turning-1" >}}
 
-{{< image classes="fig-50 clear"
-          src="hard-turning-2.jpg" >}}
+{{< figure src="hard-turning-2" >}}
 
 New bushings mounted on the drilling gig look as follows.
 
-{{< image classes="fig-50"
-          src="mounted-bushing-top.jpg" >}}
+{{< figure src="mounted-bushing-top" >}}
 
-{{< image classes="fig-50 clear"
-          src="mounted-bushing-bottom.jpg" >}}
+{{< figure src="mounted-bushing-bottom" >}}

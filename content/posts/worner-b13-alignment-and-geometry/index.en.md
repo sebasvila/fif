@@ -33,7 +33,7 @@ parameters. Testing tables exist that abridged the required measures for a
 kind of machine tool.
 
 
-The results obtained are shown [in this doc](/pdfs/taula-control-B13.pdf).
+The results obtained are shown [in this doc](taula-control-B13.pdf).
 
 
 You can see that runout of the spindle is perfectly under the
@@ -45,7 +45,7 @@ window to further investigate this issue.
 In the case you are interested to test your drilling machine with the
 same card, you can download this empty version (translated to catalan)
 that I prepared: [drilling machine testing
-card](/pdfs/aciera13-control.pdf).
+card](aciera13-control.pdf).
 
 
 Below, you will find a short video of the testing work of the MK2

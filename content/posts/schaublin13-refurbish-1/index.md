@@ -43,7 +43,7 @@ facilitate to remove the motors. The machine is really heavy amounting
 about 800 Kg. It was moved on a pallet truck and elevated by using
 chain hoist. The next picture shows it.
 
-{{< image classes="fig-100 center clear" src="elevation.jpg" >}}
+{{< figure src="elevation" >}}
 
 The machine was leveled, let it stabilize on the wood risers and
 leveled again. Then, I took apart the vertical milling head. It came
@@ -51,14 +51,14 @@ with the unusual head 13-10.400, with a quill that can be displaced 60
 mm. This head is heavy and weights around 37 Kg, not easy to move at
 hand. Following, there are a couple of pictures of the head:
 
-{{< image classes="fig-100 center clear" src="head1.jpg" >}}
-{{< image classes="fig-100 center clear" src="head2.jpg" >}}
+{{< figure src="head1" >}}
+{{< figure src="head2" >}}
 
 This is a general view of the machine without the head and with the
 horizontal milling arbor in place:
 
-{{< image classes="fig-100 center clear" src="no-head.jpg" >}}
-{{< image classes="fig-100 center clear" src="hor-arbor.jpg" >}}
+{{< figure src="no-head" >}}
+{{< figure src="hor-arbor" >}}
 
 # Dismantle the base elements
 
@@ -67,19 +67,19 @@ fast displacement motor) where located in the bottom of the machine
 body. You should get the space by an specific window in the back of
 the machine base.
 
-{{< image classes="fig-100 center clear" src="back-window.jpg" >}}
+{{< figure src="back-window" >}}
 
 The base interior is full of dirt as usual. After removing electrical
 conducts and unscrewing the motor from the plate I got it out without
 problems. The main motor is an IEC 90L of 1,5 Kw. It was absolutely
 covered by dirt and milling chips as it can be seen in next picture:
 
-{{< image classes="fig-100 center clear" src="main-motor.jpg" >}}
+{{< figure src="main-motor" >}}
 
 Now, the fast displacement motos should be dismantled. This is a small
 motor vertically screwed to the base.
 
-{{< image classes="fig-100 center clear" src="fast-motor.jpg" >}}
+{{< figure src="fast-motor" >}}
 
 Although not easy to reach the screws, finally I managed to get it
 out. Last, I dismantled also the fast displacements pedal and its
@@ -89,7 +89,7 @@ I discovered that the plastic cover of the electrical conducts were
 absolutely fragile after many hours soaked in oil spills. Thus, it
 will be required to replace all of the conducts.
 
-{{< image classes="fig-100 center clear" src="bad-conduct.jpg" >}}
+{{< figure src="bad-conduct" >}}
 
 # Clean the motors, suports and parts
 
@@ -100,7 +100,7 @@ liquid, a mix of hydrocarbons, is effective but solves the exterior
 paint. Probably exterior paint was weakened by years of oil
 contact. This is a picture of the dismantled switch:
 
-{{< image classes="fig-100 center clear" src="final-carrera.jpg" >}}
+{{< figure src="final-carrera" >}}
 
 Cleaning the motors was not a so simple task. In the one hand,
 choosing a water based cleaning fluid is not recommended because it
@@ -116,7 +116,7 @@ altered. Dismantling the motors allowed me to inspect the bearings,
 clean and regrease them. Below there is a picture of the main motor
 fully disassembled after being cleaned and dryed.
 
-{{< image classes="fig-100 center clear" src="clean-motor.jpg" >}}
+{{< figure src="clean-motor" >}}
 
 The electrical conducts should also be replaced. I choosed [Adaptaflex
 SP
@@ -126,10 +126,10 @@ means that the leftovers will not be easy to use. However, the new
 conducts and its fittings were really appealing as you can see in the
 following pictures:
 
-{{< image classes="fig-100 center clear" src="tubs1.jpg" >}}
-{{< image classes="fig-100 center clear" src="tubs2.jpg" >}}
+{{< figure src="tubs1" >}}
+{{< figure src="tubs2" >}}
 
 The fast forward pedal was also cleaned and its parts derusted. Here
 you can see the subset of pedal parts including its switch:
 
-{{< image classes="fig-100 center clear" src="pedal.jpg" >}}
+{{< figure src="pedal" >}}

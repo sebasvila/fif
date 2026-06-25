@@ -29,14 +29,14 @@ The first job is to take down the table slide. This isn't very
 difficult: loosen the spindle nut; put apart the right spindle handle
 box; finally pull the complete spindle and nut from the left.
 
-{{< image classes="fig-100 center clear" src="cargol-1.jpg" >}}
+{{< figure src="cargol-1" >}}
 
-{{< image classes="fig-100 center clear" src="cargol-2.jpg" >}}
+{{< figure src="cargol-2" >}}
 
 Now, we can pull the table slide after taking apart its wedge. The
 chain hoist is a good friend:
 
-{{< image classes="fig-100 center clear" src="treure-carro-x.jpg" >}}
+{{< figure src="treure-carro-x" >}}
 
 
 # Disassemble some parts of the knee
@@ -48,23 +48,23 @@ this cover is disassembled it reveals the two gears the transmit the
 power to the knee movement. The right gear includes an overload
 protection clutch.
 
-{{< image classes="fig-100 center clear" src="transmissio-avencos.jpg" >}}
+{{< figure src="transmissio-avencos" >}}
 
 We can also separate the aluminium cover that protects the internal
 gearing of the knee. Note that this cover is also part of the knee
 lubrication channels.
 
-{{< image classes="fig-100 center clear" src="tapa-frontal.jpg" >}}
+{{< figure src="tapa-frontal" >}}
 
-{{< image classes="fig-100 center clear" src="lubricacio-frontal.jpg" >}}
+{{< figure src="lubricacio-frontal" >}}
 
 Next step is to pull up the knee with the help of the hoist. First,
 you should exhaust the Z spindle travel until free. Also, some care
 should be put on the driving feed bar. It's easy to do:
 
-{{< image classes="fig-100 center clear" src="sortida-davantal-1.jpg" >}}
+{{< figure src="sortida-davantal-1" >}}
 
-{{< image classes="fig-100 center clear" src="sortida-davantal-2.jpg" >}}
+{{< figure src="sortida-davantal-2" >}}
 
 
 # The gearbox of the driving feeds
@@ -77,11 +77,11 @@ the responsible of:
    of the main motor.
 2. Give priority to the fast traversals motor when running.
 
-{{< image classes="fig-100 center clear" src="caixa-avencos.jpg" >}}
+{{< figure src="caixa-avencos" >}}
 
-{{< image classes="fig-100 center clear" src="caixa-avencos-2.jpg" >}}
+{{< figure src="caixa-avencos-2" >}}
 
-{{< image classes="fig-100 center clear" src="eng-avencos.jpg" >}}
+{{< figure src="eng-avencos" >}}
 
 We replaced the v-ring and the small o-rings of the oil circuit.
 
@@ -95,21 +95,21 @@ next pictures you can see the first gear and its powershaft together
 with its bearings assembly. The assembly is locked by a setscrew to
 its box.
 
-{{< image classes="fig-100 center clear" src="primer-eng-1.jpg" >}}
+{{< figure src="primer-eng-1" >}}
 
-{{< image classes="fig-100 center clear" src="primer-eng-2.jpg" >}}
+{{< figure src="primer-eng-2" >}}
 
 The second gear is more complex. It includes an overload clutch that
 lets the gear to noisily slide if to much torque is applied.
 
-{{< image classes="fig-100 center clear" src="segon-eng-1.jpg" >}}
+{{< figure src="segon-eng-1" >}}
 
 The clutch is made by a set of balls and springs that lock the gear to
 the shaft through a couple of discs. In the case of excesive torque,
 the balls slide over its supporting disks. The next picture shows this
 mechanism:
 
-{{< image classes="fig-100 center clear" src="segon-eng-2.jpg" >}}
+{{< figure src="segon-eng-2" >}}
 
 Note that the shaft is hollow and a wool wick goes through it. Its
 function is to get oil from the bottom of the shaft ---were it
@@ -128,7 +128,7 @@ supplies](https://www.heritagesteamsupplies.co.uk/worsted-wool-lubricator-kit.ht
 
 The reassemble of the clutch was not very difficult:
 
-{{< image classes="fig-100 center clear" src="muntatge-eng-1.jpg" >}}
+{{< figure src="muntatge-eng-1" >}}
 
 
 # Disassemble the X handle and dial
@@ -139,20 +139,20 @@ shaft. Taking it out is not easy because of the pressure made by the
 friction spring. We used a couple of hose clamps and a made to size
 support as shown in the pictures.
 
-{{< image classes="fig-100 center clear" src="brides-1.jpg" >}}
+{{< figure src="brides-1" >}}
 
-{{< image classes="fig-100 center clear" src="brides-2.jpg" >}}
+{{< figure src="brides-2" >}}
 
-{{< image classes="fig-100 center clear" src="brides-3.jpg" >}}
+{{< figure src="brides-3" >}}
 
 In the next picture you can see the dial journal and the locking
 device with the friction spring:
 
-{{< image classes="fig-100 center clear" src="fiador-nonius.jpg" >}}
+{{< figure src="fiador-nonius" >}}
 
 Finally, an exploded picture of the handle-dial assembly:
 
-{{< image classes="fig-100 center clear" src="peces-nonius.jpg" >}}
+{{< figure src="peces-nonius" >}}
 
 
 # The power feed control lever
@@ -165,8 +165,8 @@ active at the same time and, (b) has a couple of small levers that are
 actuated by the end of course blocks to deactivate the feed. We
 cleaned and relubed the box.
 
-{{< image classes="fig-100 center clear" src="palanca-1.jpg" >}}
+{{< figure src="palanca-1" >}}
 
-{{< image classes="fig-100 center clear" src="palanca-2.jpg" >}}
+{{< figure src="palanca-2" >}}
 
-{{< image classes="fig-100 center clear" src="palanca-3.jpg" >}}
+{{< figure src="palanca-3" >}}

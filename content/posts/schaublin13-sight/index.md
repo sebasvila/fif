@@ -30,7 +30,7 @@ This is the original oil level sight glass of the Schaublin 13
 needs to be cleaned. When I pulled it by threading a couple of screws
 it became chipped off.
 
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 Would be nice to make a new one. The original one was made of
 methacrylate, so I would replace it by a new one of the same
@@ -38,8 +38,8 @@ material. Just turn it to size from a sheet of methacrylate. The
 reflector is also made of (white) methacrylate, threaded and glued
 with cyanoacrylate to a setscrew of a suitable length.
 
-{{< image classes="fig-100 center clear" src="sight-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="sight-2.jpg" >}}
+{{< figure src="sight-1" >}}
+{{< figure src="sight-2" >}}
 
 Level lines where engraved by using a thin metal saw exactly at the
 same distance as the original ones. Now engraving should be filled
@@ -49,7 +49,7 @@ the fuels that can be used to clean time to time?
 I prepared a test with several engraved lines and filled them with
 distinct products.
 
-{{< image classes="fig-100 center clear" src="test.jpg" >}}
+{{< figure src="test" >}}
 
 These are the products tested:
 
@@ -89,13 +89,13 @@ shown in the next video:
 After this, the dryed paint is carefully scraped where needed and
 overall is polished by usen jewellers rouge and water:
 
-{{< image classes="fig-100 center clear" src="rouge.jpg" >}}
+{{< figure src="rouge" >}}
 
 This is the result:
 
-{{< image classes="fig-100 center clear" src="final.jpg" >}}
+{{< figure src="final" >}}
 
 Finally, I mount the sight glass in the milling machine. I used a
 small amount of liquid gasket to guarantee its oil tightness.
 
-{{< image classes="fig-100 center clear" src="sight-3.jpg" >}}
+{{< figure src="sight-3" >}}

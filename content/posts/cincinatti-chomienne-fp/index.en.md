@@ -3,7 +3,7 @@ title: 'Cincinnati-Chomienne FP30'
 date: 2018-08-28T22:19:00.000+02:00
 draft: false
 slug: "cincinatti-chomienne-fp"
-coverImage: /fotos/cincinnati/P1060050.JPG
+coverImage: P1060050.JPG
 tags:
 - tech.milling
 - sold-out
@@ -32,13 +32,13 @@ machine can be described as a vertical drilling/milling machine.
 
 The next pictures show the milling machine general character:
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060046.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060046.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060047.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060047.JPG" >}}
 
 This is its identification plate:
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060050.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060050.JPG" >}}
 
 And this are the main dimensions as provided by an original brochure:
 
@@ -70,9 +70,9 @@ spindle.
 
 Following there are a couple of pictures of the spindle drive system.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060054.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060054.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060055.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060055.JPG" >}}
 
 Note that belts were replaced recently and they are new. The range of
 speeds spans from 125 to 5000 rpm.
@@ -89,7 +89,7 @@ below shows the quill at maximum extension. Observe that the inferior
 depth stop includes an o-ring that avoids the quill to hit the bracket
 when returning because of the spring.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060060.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060060.JPG" >}}
 
 The quill can be actuated by two mechanisms. The first is an ordinary
 feed handle that directly actuates on the pinion and rack usual
@@ -103,7 +103,7 @@ rotating the eccentric suport of the worm until no play is
 appreciated. The hand wheel have a measuring drum graduated in
 0.02mm. The following picture shows ths slow mechanism.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060056.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060056.JPG" >}}
 
 The shaft of the pinion also contains, enclosed in a box, a spring to
 return the quill to its neutral position. This box is graduated in its
@@ -111,7 +111,7 @@ exterior and it allows  to read in a Vernier scale to a resolution of
 0.1 mm as it can be seen in the picture below. This is a really useful
 measuring device.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060057.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060057.JPG" >}}
 
 
 # The automatic X travel
@@ -124,7 +124,7 @@ a box. Each pair of gears can be reversed and thus three pairs of
 gears result in six traveling speeds as shown in the corresponding
 plate.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060049.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060049.JPG" >}}
 
 Unfortunately the machine was arrived with only two gears: 73 and
 20. With this pair of gears, only the maximum and the minimum
@@ -132,9 +132,9 @@ traveling speed can be achieved. What follows are some pictures of the
 advance mechanism. The last one shows the gearbox open. Note that
 travel speed is set at the lowest velocity.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060048.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060048.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060096.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060096.JPG" >}}
 
 
 # The rotation of the head
@@ -145,7 +145,7 @@ be rotated around the "pivot". In this case, the pivot is a heavy
 cilinder of about 120mm of diameter perfectly fitted. The inclination
 can be read in a scale as you can see in the next picture:
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060058.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060058.JPG" >}}
 
 To rotate the head is a heavy work given the weight of it. However,
 it's made easy by means of a worm that slowly rotates the head. The
@@ -154,7 +154,7 @@ head. Once rotated, the head can be locked in its position by a couple
 of clamps that are actuated through square ended studs. The next
 picture shows the head inclined 30 degrees:
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060084.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060084.JPG" >}}
 
 To return the head at the zero position, there is a positioning
 conical plunger that, when properly set up, gives a perfect vertical
@@ -162,7 +162,7 @@ position. Obviously, this plunger should extracted before turning the
 head. This is done by a useful nut that acts as an extractor. The
 picture below shows this plunger.
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060081.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060081.JPG" >}}
 
 
 # The quill and the spindle
@@ -172,33 +172,33 @@ replaced the bearings that support the driving pulley, cleaned and
 relubed the spindle bearings and readjusted them. What follows are
 some pictures obtained during this work.
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050994.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050994.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050992.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050992.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050988.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050988.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050984.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050984.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050985.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050985.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050986.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050986.JPG" >}}
 
 
 # Other pictures
 
 The table at maximum Z travel
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060065.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060065.JPG" >}}
 
 The Y graduated drum. In satin chrome
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/P1060068.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060068.JPG" >}}
 
 
 # The milling machine leaves the garage
 
-{{< image classes="fig-100 clear"  src="/fotos/cincinnati/fresa-senva.jpg" thumbnail-with="75%" >}}
+{{< figure src="fresa-senva.jpg" >}}
 
 
 # Some videos of the machine running
@@ -221,8 +221,8 @@ manuals of similar machines also built by Cincinnati-Chomienne (later
 as Cincinnati-Milacron) that share many building blocks withs this
 one. The most salient are:
 
-* [Cincinnati-Milacron PF26 manual](/pdfs/PF26complet.pdf)
-* [Cincinnati PF25 manual](/pdfs/cinncinati-pf25.pdf)
+* [Cincinnati-Milacron PF26 manual](PF26complet.pdf)
+* [Cincinnati PF25 manual](cinncinati-pf25.pdf)
 
 
 # Other references to the same machine

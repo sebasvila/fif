@@ -37,9 +37,9 @@ signes evidents de maltractament.
 
 L'aspecte de la maquina en arribar és aquest:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07637.jpg" >}}
+{{< figure src="dsc07637" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07644.jpg" >}}
+{{< figure src="dsc07644" >}}
 
 A primera vista la màquina no presenta deficiencies majors. Una
 inspecció acurada després d'arribar detecta els següents problemes:
@@ -74,7 +74,7 @@ En primer lloc es procedeix al desmuntar la màquina. La màquina (que
 té un pes notable) es mou sota un ternal de cadenes fent-la lliscar
 per sobre de passamans engreixats com es veu a la imatge.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07724.jpg" >}}
+{{< figure src="dsc07724" >}}
 
 Després, usant el ternal de cadena es desmonta la taula i la caixa de
 la serra. La taula va collada a l'armari per sota i s'arrepenja damunt
@@ -82,11 +82,11 @@ d'unes volanderes de goma que compensen les deformacions del suport
 sense afectar a la taula. Es diposita i es gira el conjunt sobre uns
 cavallets per poder separar el grup de la serra de la taula.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07730.jpg" >}}
+{{< figure src="dsc07730" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07732.jpg" >}}
+{{< figure src="dsc07732" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07752.jpg" >}}
+{{< figure src="DSC07752" >}}
 
 Es desmunta tot el grup de la serra i es netegen els visenfins, els
 coixinets, etc. Es treu el suport del motor i es desmunta el motor per
@@ -94,9 +94,9 @@ comprovar l'estat en que es troba. Els coixinets de l'eix de la serra
 resulten estar molt gastats. Es desmunta l'eix de la serra i se
 substitueixen per uns de nous:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07754.jpg" >}}
+{{< figure src="DSC07754" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07757.jpg" >}}
+{{< figure src="DSC07757" >}}
 
 
 # Recondicionat
@@ -109,9 +109,9 @@ parell de corretges. En les fotos següents hi podeu veure el motor
 antic (de fabricació italiana) i el nou ABB amb la doble politja ja
 muntada:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07797.jpg" >}}
+{{< figure src="DSC07797" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07798.jpg" >}}
+{{< figure src="DSC07798" >}}
 
 
 ## Eix de la serra
@@ -122,11 +122,11 @@ substituïr-los per uns de nous. En les següents fotografies hi ha
 l'eix en el seu suport, l'eix desmuntat i per ultim l'eix
 recondicionat i amb els nous coixinets:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07755.jpg" >}}
+{{< figure src="DSC07755" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07757.jpg" >}}
+{{< figure src="DSC07757" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07759.jpg" >}}
+{{< figure src="DSC07759" >}}
 
 
 ## Barra de bloqueig
@@ -138,11 +138,11 @@ d'acer suau rebaixant-la a mida al torn i donant-li tremp amb l'ajuda
 del bufador d'oxiacetilè. Les següents fotos mostren alguns aspectes
 del procés i la barra de bloqueig acabada:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07760.jpg" >}}
+{{< figure src="DSC07760" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07761.jpg" >}}
+{{< figure src="DSC07761" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07762.jpg" >}}
+{{< figure src="DSC07762" >}}
 
 
 ## Eix de la maneta d'inclinació
@@ -158,13 +158,13 @@ està en bones condicions. Es repassa el con fins deixar-lo immaculat i
 també la rosca que colla la maneta. Teniu algunes fotos d'aquest
 procés a continuació:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07764.jpg" >}}
+{{< figure src="DSC07764" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07765.jpg" >}}
+{{< figure src="DSC07765" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07766.jpg" >}}
+{{< figure src="DSC07766" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07767.jpg" >}}
+{{< figure src="DSC07767" >}}
 
 
 ## Suports del carro d'escairar
@@ -183,22 +183,22 @@ Martínez](http://fundicionmartinez.com/menu_cat.HTM), que s'avenen a
 fer sèries úniques sense cap inconvenient. En algunes apareixen els
 models de la maneta que mancava, que també es va haver de fondre.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07641.jpg" >}}
+{{< figure src="dsc07641" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07832.jpg" >}}
+{{< figure src="DSC07832" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07913.jpg" >}}
+{{< figure src="DSC07913" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07886.jpg" >}}
+{{< figure src="DSC07886" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="00001.jpg" >}}
+{{< figure src="00001" >}}
 
 
 ## Tapa de la caixa del disc
 
 La tapa de la caixa del disc no hi era. Se'n fa una a mida de planxa:
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07796.jpg" >}}
+{{< figure src="DSC07796" >}}
 
 
 ## Suports i rodes
@@ -209,9 +209,9 @@ es puguin treure quan la maquina ja està a lloc. En la foto es veu el
 mecanitzat a la llimadora dels plans per a la clau. La segona foto
 mostra els suports els peu si les rodes ja en el seu lloc.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07812.jpg" >}}
+{{< figure src="DSC07812" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07817.jpg" >}}
+{{< figure src="DSC07817" >}}
 
 
 # Pintura i acabats
@@ -226,9 +226,9 @@ colors: blanc trencat i lila.  A continuació hi ha algunes fotos del
 procés: primer el muntatge de la taula i després la maquina
 completament imprimada.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07821.jpg" >}}
+{{< figure src="DSC07821" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07901.jpg" >}}
+{{< figure src="DSC07901" >}}
 
 
 # La màquina completament restaurada
@@ -236,8 +236,8 @@ completament imprimada.
 Aquí teniu la màquina totalment restaurada. Funciona com un rellotge i
 és estable i precisa en els talls si s'ajusta convenientment.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020976.JPG" >}}
+{{< figure src="P1020976" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020971.JPG" >}}
+{{< figure src="P1020971" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020969.JPG" >}}
+{{< figure src="P1020969" >}}

@@ -51,7 +51,7 @@ grinding tool, and spotting ink.
 The first test concerned the orthogonality of the Y ways with the
 Z. Using the magnetic master square this was easy to check:
 
-{{< image classes="fig-100 center clear" src="yz-test.jpg" >}}
+{{< figure src="yz-test" >}}
 
 The result was the ram is climbing 0.01 mm over the square plane
 defined by Z ways. This is uninteresing. In fact, if the ram had beed
@@ -65,11 +65,11 @@ To add information a new test is made. A small surface plate is blued
 with spotting kink and the flat static ways spotted as shown in the
 next picture:
 
-{{< image classes="fig-100 center clear" src="spot-static.jpg" >}}
+{{< figure src="spot-static" >}}
 
 the result obtained is this:
 
-{{< image classes="fig-100 center clear" src="spot-static-result.jpg" >}}
+{{< figure src="spot-static-result" >}}
 
 Note the following:
 
@@ -101,8 +101,7 @@ The next test was to check the dovetail of the ram. Using the angular
 straight edge conveniently inked the result is shown in the next
 picture:
 
-{{< image classes="fig-100 center clear" src="dovetail-spotting.jpg"
->}}
+{{< figure src="dovetail-spotting" >}}
 
 The result is clear. There is a considerable wear on the central part
 of the dovetail. The result for the other side was similar to this
@@ -113,7 +112,7 @@ below). The result was that both gib and fix dovetail follow the
 "center depressed pattern" as seen on flats and both showed some
 degree of wear as expected.
 
-{{< image classes="fig-100 center clear" src="gib-wear.jpg" >}}
+{{< figure src="gib-wear" >}}
 
 From all this information I designed the next workplan.
 
@@ -158,7 +157,7 @@ shown in the next picture have been made. Note that measuring using
 pins is not possible due to the slot that contains the feed screw
 (slightly visible on the farthest flat).
 
-{{< image classes="fig-100 center clear" src="mes-paral.jpg" >}}
+{{< figure src="mes-paral" >}}
 
 Play in the horizontal plane has been reduced to 0.002 - 0.004 mm
 range. Play when changing the displacement direction of the ram
@@ -186,14 +185,14 @@ because of the influence of the flats on the dovetail adjustment. I do
 not reject to work on the flats in a future.
 
 
-# A fascinanting question about geometry
+# A fascinating question about geometry
 
 Assume that the Y ram is a 2-dimensional mechanism and that there is
 no way to get a perfect fit of the ways. Then, because the push/pull
 action of the feed screw i asymmetrical, a rotation of the ram exists
 when changing feed direction. Consider the next drawing:
 
-{{< image classes="fig-100 center clear" src="comp-hor.png" >}}
+{{< figure src="comp-hor" >}}
 
 On the left figure, you can see the ram position when moving back to
 front. The feed screw action is represented in orange. In blue, you

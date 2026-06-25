@@ -57,14 +57,14 @@ spilling over the motor. I wish it to be an improvement.
 	>}}
 
 <!--
-{{< image classes="fig-100 center clear" src="recollidor-2.jpg" >}}
+{{< figure src="recollidor-2" >}}
 
-{{< image classes="fig-100 center clear" src="recollidor-3.jpg" >}}
+{{< figure src="recollidor-3" >}}
 -->
 
 
 <!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 {{< youtube id="k38Vl8QqrZE" >}}
 -->

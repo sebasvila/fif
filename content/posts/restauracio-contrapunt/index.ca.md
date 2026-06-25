@@ -25,7 +25,7 @@ excèntrica. La fixació de l'eix usa dues mitges llunes clàssiques. La
 L'ajustat entre el suport i l'eix és molt bo, especialment en
 l'inici. Després de desmuntar-lo íntegrament:
 
-{{< image classes="fig-100 clear"  src="P1030601.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030601" >}}
 
 Una vegada desmuntat s'observen alguna petita anomalia. Especialment
 hi ha un cert desgast en la zona en la que les femelles d'ajustatge
@@ -60,8 +60,8 @@ comprovar el color original. La pintura s'ha de tintar exprofeso  amb
 una màquina tintomètrica. Després d'aplicar a brotxa la capa d'acabat
 i montar el contrapunt de nou:
 
-{{< image classes="fig-100 clear"  src="P1030744.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030744" >}}
 
-{{< image classes="fig-100 clear"  src="P1030747.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030747" >}}
 
-{{< image classes="fig-100 clear"  src="P1030743.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030743" >}}

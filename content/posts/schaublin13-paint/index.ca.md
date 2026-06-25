@@ -89,17 +89,17 @@ to original de Schaublin. El resultat és prou bo. Es va aplicar
 pintura amb pinzell. La imatge següent mostra el suport de la maneta
 de l'eix Z després del pintat.
 
-{{< image classes="fig-100 centre clar" src="brac-z.jpg" >}}
+{{< figure src="brac-z" >}}
 
 També s'han pintat les altres peces que originalment tenien acabat
 martelé.  Aquestes inclouen el davantal i les seves tapes i algunes
 caixes annexes com es mostra a les imatges següents.
 
-{{< image classes="fig-100 centre clear" src="davantal-1.jpg" >}}
+{{< figure src="davantal-1" >}}
 
-{{< image classes="fig-100 centre clear" src="davantal-2.jpg" >}}
+{{< figure src="davantal-2" >}}
 
-{{< image classes="fig-100 centre clear" src="peces-davantal.jpg" >}}
+{{< figure src="peces-davantal" >}}
 
 
 # L'esmalt de les manetes
@@ -108,7 +108,7 @@ Les manetes s'han pintat amb [Oxiron lluent
 llis](https://www.titanlux.es/en/productos/producto/smooth-oxiron-indoors-outdoors-gloss)
 de color «gris perla». La imatge següent mostra la maneta de l'eix Z.
 
-{{< image classes="fig-100 centre clar" src="z-handle.jpg" >}}
+{{< figure src="z-handle" >}}
 
 
 
@@ -120,12 +120,12 @@ màquina fent servir un mostruari extens. Es va trobar un to molt
 semblant, però no perfecte. Per prova-ho, van preparar una petita
 ampolla d'esmalt amb tapa de pinzell:
 
-{{< image classes="fig-100 centre clear" src="ampolleta.jpg" >}}
+{{< figure src="ampolleta" >}}
 
 Aplicat sobre la pintura original, el resultat és molt proper com es
 pot veure en la següent foto:
 
-{{< image classes="fig-100 center clear" src="mostra-color.jpg" >}}
+{{< figure src="mostra-color" >}}
 
 Malauradament, la tonalitat precisa no la puc compartir perquè el
 proveïdor utilitza una referència interna en lloc d'una especificació
@@ -175,7 +175,7 @@ La imatge següent mostra la part inferior d'un pot del darrer tipus:
 podeu veure el mecanisme per destruir la mampara interna i activar
 l'enduridor.
 
-{{< image classes="fig-100 centre clar" src="pot-2k.jpg" >}}
+{{< figure src="pot-2k" >}}
 
 Després de totes aquestes proves, vaig decidir tornar a caure en el
 clàssic procediment de barrejar-ho jo mateix i pintar amb pistola.
@@ -208,18 +208,18 @@ màquines petites i mitjanes com les que estem acostumats a revisar. La
 relació de transferència és molt bona i gairebé no fa boira de
 pintura. Realment és recomanable.
 
-{{< image classes="fig-100 centre clar" src="iwata-az4.jpg" >}}
+{{< figure src="iwata-az4" >}}
 
 Per a provar la pistola, he donat una nova capa de pintura a la
 làmpada Waldmann de la fresadora. Abans, ja l'havia fet servir per a
 provar el sprays de PUR. El resultat de la prova amb la pistola ha
 sigut molt satisfactori. Es pot veure a les següents imatges.
 
-{{< image classes="fig-100 centre clar" src="waldmann-1.jpg" >}}
+{{< figure src="waldmann-1" >}}
 
-{{< image classes="fig-100 centre clar" src="waldmann-2.jpg" >}}
+{{< figure src="waldmann-2" >}}
 
-{{< image classes="fig-100 centre clar" src="waldmann-3.jpg" >}}
+{{< figure src="waldmann-3" >}}
 
 
 # La pintura del cos principal
@@ -230,16 +230,16 @@ capes. Després, tot el cos ---inclosa la bassa--- que s'ha preparat i
 pintat amb un parell de capes de PU 2K. Tot seguit podeu veure algunes
 fotos del procés.
 
-{{< image classes="fig-100 center clear" src="bassa-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="bassa-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="bassa-3.jpg" >}}
+{{< figure src="bassa-1" >}}
+{{< figure src="bassa-2" >}}
+{{< figure src="bassa-3" >}}
 
-{{< image classes="fig-100 center clear" src="cos-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="cos-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="cos-3.jpg" >}}
-{{< image classes="fig-100 center clear" src="cos-4.jpg" >}}
-{{< image classes="fig-100 center clear" src="tapa-1.jpg" >}}
+{{< figure src="cos-1" >}}
+{{< figure src="cos-2" >}}
+{{< figure src="cos-3" >}}
+{{< figure src="cos-4" >}}
+{{< figure src="tapa-1" >}}
 
 Aquest és el resultat.
 
-{{< image classes="fig-100 center clear" src="cos-6.jpg" >}}
+{{< figure src="cos-6" >}}

@@ -3,7 +3,7 @@ title: 'Antoni Pujantell lathe'
 date: 2018-09-16T01:33:00.000+02:00
 draft: false
 slug: "antoni-pujantell-lathe"
-coverImage: /fotos/torn-AP/P1060160.JPG
+coverImage: P1060160.JPG
 tags:
 - sold-out
 categories:
@@ -33,7 +33,7 @@ exist yet and I don't have significant recordings of all this task
 other that my father working on the lathe few months after being
 recovered:
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060177.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060177.JPG" >}}
 
 This post is a tribute to all this work we enjoyed so much.
 
@@ -65,16 +65,16 @@ The spindle is driven by a gear train enclosed in the lathe
 headstock. Lubrication is provided by oil bath that also lubricates
 the spindle bearings. This is shown in the pictures below.
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060165.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060165.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060160.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060160.JPG" >}}
 
 The spindle speed selection is done by a combination of three front
 levers giving a total of 12 speeds ranging from 28 to 1100 rpm. The
 plate showing the speeds was removed during the refurbishing due to
 its bad state. The best image we have after treatment is this one:
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/placa-marxes.jpg" thumbnail-with="75%" >}}
+{{< figure src="placa-marxes.jpg" >}}
 
 
 ## The Norton box
@@ -97,34 +97,34 @@ a multiplier with the following factors A 1/2, B 1, C 2. Thus, the
 neutral position is achieved with the levers in position 1 and
 B. According to this, the original plate give these tables:
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/placa-roscar.jpg" thumbnail-with="75%" >}}
+{{< figure src="placa-roscar.jpg" >}}
 
 These are the pictures of the box:
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060151.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060151.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060152.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060152.JPG" >}}
 
 The third lever on the top of the box switches on/off the feed rod and the leadscrew.
 
 
 ## Other pictures
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060145.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060145.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060146.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060146.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060147.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060147.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060150.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060150.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060153.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060153.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060157.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060157.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060159.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060159.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/P1060148.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060148.JPG" >}}
 
 
 ## The AP leaves the garage
@@ -133,7 +133,7 @@ It's really sad. The Pujantell leaved the garage after so many years
 working with it. I wish many hours of joy to the new owner. This is a
 picture of the lathe being loaded by a tailgate.
 
-{{< image classes="fig-100 clear"  src="/fotos/torn-AP/tor-ap-sortida.jpg" thumbnail-with="75%" >}}
+{{< figure src="tor-ap-sortida.jpg" >}}
 
 
 ## Literature about this lathe
@@ -152,4 +152,4 @@ According to a kind reader, the AP lathes were made in
 family-owned business that closed some decades ago. The same person
 told me that the owners now own a farming business.
 
-[Antoni Pujantell AP E-2 lathe brochure](/pdfs/cataleg-torn-ap-e2.pdf)
+[Antoni Pujantell AP E-2 lathe brochure](cataleg-torn-ap-e2.pdf)

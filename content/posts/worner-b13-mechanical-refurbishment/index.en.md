@@ -2,7 +2,7 @@
 title: 'Wörner B13 mechanics finished'
 date: 2020-06-22T12:47:00.000+02:00
 slug: worner-b13-mechanical-refurbishment.html
-coverImage: "/fotos/worner-b13/20200621_195150.jpg"
+coverImage: "20200621_195150.jpg"
 draft: false
 tags:
 - Wörner B13
@@ -21,6 +21,6 @@ will be the next steps.
 
 There are a couple of pictures of the finished machine:
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200621_195150.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200621_195150.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200621_195206.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200621_195206.jpg" >}}

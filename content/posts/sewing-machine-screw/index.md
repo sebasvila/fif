@@ -48,8 +48,8 @@ After some work on the lathe, a new screw was made following the
 specifications that fitted satisfactorily to the machine. Following
 you can see some pictures of the screw and the sewing machine.
 
-{{< image classes="fig-100 clear"  src="singer-screw-1.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-2.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-3.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-4.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-5.jpg" >}}
+{{< figure src="singer-screw-1" >}}
+{{< figure src="singer-screw-2" >}}
+{{< figure src="singer-screw-3" >}}
+{{< figure src="singer-screw-4" >}}
+{{< figure src="singer-screw-5" >}}

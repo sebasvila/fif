@@ -48,4 +48,4 @@ that offered to me the best results. I choosed exactly [Loxeal
 74](https://www.loxeal.be/fr/produit/74/) and a made to size press
 make easy the glueing. The result was outstanding:
 
-{{< image classes="fig-100 center clear" src="encolat-banda.jpg" >}}
+{{< figure src="encolat-banda" >}}

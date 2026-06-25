@@ -32,15 +32,15 @@ ref "/posts/schaublin13-orings" >}}).
 
 The next picture shows the hole used to push the piston retaining pin.
 
-{{< image classes="fig-100 center clear" src="pisto1.jpg" >}}
+{{< figure src="pisto1" >}}
 
 After aligning the piston pass through hole, you can push the
 retaining pin.
 
-{{< image classes="fig-100 center clear" src="pisto2.jpg" >}}
-{{< image classes="fig-100 center clear" src="pisto3.jpg" >}}
+{{< figure src="pisto2" >}}
+{{< figure src="pisto3" >}}
 
 This is an exploded viwe of the pump piston and one of two ball valves
 inside.
 
-{{< image classes="fig-100 center clear" src="exploded.jpg" >}}
+{{< figure src="exploded" >}}

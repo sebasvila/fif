@@ -351,7 +351,7 @@ so easy thing. A big experience after all.
 
 
 <!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 {{< youtube id="k38Vl8QqrZE" >}}
 -->

@@ -3,7 +3,7 @@ title: 'Add a magnet to the oil drain plug'
 date: 2013-08-11T11:21:00.004+02:00
 draft: false
 slug: "add-magnet-to-oil-drain-plug"
-coverImage: /fotos/leinen-lz4sb/P1040861.JPG
+coverImage: P1040861.JPG
 tags:
 - leinen LZ4SB
 categories:
@@ -28,4 +28,4 @@ Th next picture shows lft to right the drain plug with the screwed
 magnet and its copper washer, the fill plug, a counterbored neodymium
 magnet and the special screwdriver made for the plugs.
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040861.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040861.JPG" >}}

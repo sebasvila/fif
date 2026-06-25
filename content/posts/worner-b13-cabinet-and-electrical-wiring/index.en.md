@@ -2,7 +2,7 @@
 title: 'Wörner B13 cabinet and electrical wiring'
 date: 2020-09-14T01:40:00.001+02:00
 slug: worner-b13-cabinet-and-electrical-wiring.html
-coverImage: "/fotos/moble-worner/20200913_194752.jpg"
+coverImage: "20200913_194752.jpg"
 tags:
 - Wörner B13
 - tech.electricity
@@ -32,7 +32,7 @@ After cutting the main panels, adjusting, and fasten them with
 interior screws the frame seems mostly covered:
 
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200823_210135.jpg" >}}
+{{< figure src="20200823_210135.jpg" >}}
 
 The next step is to provide an internal support to receive the drawers
 and also separate:
@@ -44,12 +44,12 @@ and also separate:
 
 After adding these elements this is how the cabinet looks:
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200824_204647.jpg" >}}
+{{< figure src="20200824_204647.jpg" >}}
 
 Some panels and a double hinged door than can be folded over the back
 of the cabinet make the final touches:
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200827_124357.jpg" >}}
+{{< figure src="20200827_124357.jpg" >}}
 
 
 # Wiring the machine
@@ -77,18 +77,18 @@ and painted to RAL Reseda Green to match the machine hue. The panel
 was attached to the cabinet front and made accessible through a window
 cut in the MDF:
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200830_124551.jpg" >}}
+{{< figure src="20200830_124551.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200828_195510.jpg" >}}
+{{< figure src="20200828_195510.jpg" >}}
 
 As seen in the last pictures, another aluminium panel was used as a
 support and as a cooling element of the VDF. This other panel was
 attached in a similar way to the back of the cabinet. The following
 pictures show the front and back with the wiring finished:
 
-{{< image classes="fig-50"  src="/fotos/moble-worner/20200831_172047.jpg" >}}
+{{< figure src="20200831_172047.jpg" >}}
 
-{{< image classes="fig-50 clear"  src="/fotos/moble-worner/20200901_183004.jpg" >}}
+{{< figure src="20200901_183004.jpg" >}}
 
 Note that the cabinet back was supported also by hinges. This allows
 for an easier work when adjusting or programming the
@@ -98,9 +98,9 @@ column to go over the VFD.
 This is how the machine looks with all the MDF varnished and the
 electrical panels mounted:
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200901_130307.jpg" >}}
+{{< figure src="20200901_130307.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200901_130312.jpg" >}}
+{{< figure src="20200901_130312.jpg" >}}
 
 
 # Adding a set of drawers
@@ -118,13 +118,13 @@ also used to precisely center the screws.
 
 Overall, the result was really satisfactory as you can see in these
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200907_210802.jpg" >}}
+{{< figure src="20200907_210802.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200913_140707.jpg" >}}
+{{< figure src="20200913_140707.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200909_113332.jpg" >}}
+{{< figure src="20200909_113332.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/moble-worner/20200913_194752.jpg" >}}
+{{< figure src="20200913_194752.jpg" >}}
 
 Note that the first drawer has a bigger space to allow the storage of
 vertically positioned drilling bits... but this will be the subject of

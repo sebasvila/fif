@@ -27,35 +27,35 @@ I began by accurately marking a medium thickness steel sheet and
 cutting it to size using a simple hand saw. Corners have been drilled
 previously to make easier the bending process.
 
-{{< image classes="fig-100 center clear" src="planxa.jpg" >}}
-{{< image classes="fig-100 center clear" src="marcat.jpg" >}}
-{{< image classes="fig-100 center clear" src="marcat1.jpg" >}}
-{{< image classes="fig-100 center clear" src="marcat2.jpg" >}}
-{{< image classes="fig-100 center clear" src="retallat.jpg" >}}
+{{< figure src="planxa" >}}
+{{< figure src="marcat" >}}
+{{< figure src="marcat1" >}}
+{{< figure src="marcat2" >}}
+{{< figure src="retallat" >}}
 
 After that, the  sheet is bent on the big blacksmith vice with the
 help of a hammer. The last bendins step needs some additional supports
 of a reduced size as can be seen on the pictures below.
 
-{{< image classes="fig-100 center clear" src="doblegat1.jpg" >}}
-{{< image classes="fig-100 center clear" src="doblegat2.jpg" >}}
-{{< image classes="fig-100 center clear" src="doblegat3.jpg" >}}
+{{< figure src="doblegat1" >}}
+{{< figure src="doblegat2" >}}
+{{< figure src="doblegat3" >}}
 
 Next step is to weld the new edges that form the box.
 
-{{< image classes="fig-100 center clear" src="soldat.jpg" >}}
+{{< figure src="soldat" >}}
 
 Finally, the box is drilled and finished by filing smoothly the weld
 seams. Just some coating and the box is ready,
 
-{{< image classes="fig-100 center clear" src="pintat1.jpg" >}}
-{{< image classes="fig-100 center clear" src="pintat2.jpg" >}}
+{{< figure src="pintat1" >}}
+{{< figure src="pintat2" >}}
 
 It will be screwed in the machine interior using the same through
 drills that are used to screw on the lamp support. The last pictures
 show the result. With this, the connection of the wiring pipe is much
 more nice and robust.
 
-{{< image classes="fig-100 center clear" src="muntat2.jpg" >}}
-{{< image classes="fig-100 center clear" src="muntat3.jpg" >}}
-{{< image classes="fig-100 center clear" src="muntat4.jpg" >}}
+{{< figure src="muntat2" >}}
+{{< figure src="muntat3" >}}
+{{< figure src="muntat4" >}}

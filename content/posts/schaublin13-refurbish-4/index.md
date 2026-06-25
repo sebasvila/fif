@@ -45,7 +45,7 @@ this, when you change the displacement direction of the ram a rocking
 movement appears that reveals the play of the guides. This is what is
 observed on the last video.
 
-{{< image classes="fig-75 center clear" src="ram-sv13.png" >}}
+{{< figure src="ram-sv13" >}}
 
 To face this issue I proceed by first making a good diagnosis of the
 problem, then understanding how to solve and finally solve it.
@@ -58,14 +58,14 @@ kind of dirt in the guides. Then I pulled apart the ram. This is a
 delicate work because you should be carefull not to destroy the gasket
 with the spindle gear. I used the crane as shown in this picture:
 
-{{< image classes="fig-100 center clear" src="ram-crane.jpg" >}}
+{{< figure src="ram-crane" >}}
 
 If you dismantle the locking handle and pull out the gib, the ram can
 be pushed to the front and then, lifting it with care, it goes over
 the leather gasket of the power gear. What follows is a picture of the
 ram after being surpased the gasquet.
 
-{{< image classes="fig-100 center clear" src="carro-sortint.jpg" >}}
+{{< figure src="carro-sortint" >}}
 
 Note the scraping pattern on top of static part of the guides, the
 leather gasket and the driver gear.
@@ -75,8 +75,8 @@ cleaned. No kind of dirt or scratch is found in the
 guides. Interesting to note, the ram guides are left grinded while
 the static part of the guides are manually adjusted by scraping.
 
-{{< image classes="fig-100 center clear" src="capçal-aixecat.jpg" >}}
-{{< image classes="fig-100 center clear" src="sota-capçal.jpg" >}}
+{{< figure src="capçal-aixecat" >}}
+{{< figure src="sota-capçal" >}}
 
 The cleaned parts are mounted again. I found an **interesting trick**
 to protect the gasket when the spindle gear surpases it: protect the
@@ -107,7 +107,7 @@ The test measures the play in the vertical plane of the ram. The ram
 is hand forced up and down while measuring the play as shown in this
 picture:
 
-{{< image classes="fig-100 center clear" src="test-vertical.jpg" >}}
+{{< figure src="test-vertical" >}}
 
 The result measured in every section (see the last picture
 where the sections are marked on the ram) is as follows:
@@ -136,7 +136,7 @@ The test measures the play in the horizontal plane of the ram. The ram
 is hand forced left and right while measuring the play just as shown
 on the next picture:
 
-{{< image classes="fig-100 center clear" src="test-horitzontal1.jpg" >}}
+{{< figure src="test-horitzontal1" >}}
 
 The result measured in every section is as follows:
 
@@ -151,7 +151,7 @@ The test measures the play in the horizontal plane of the ram. The ram
 is hand forced left and right while measuring the play in the back
 just as shown on the next picture:
 
-{{< image classes="fig-100 center clear" src="test-horitzontal2.jpg" >}}
+{{< figure src="test-horitzontal2" >}}
 
 The result measured in every section is as follows:
 

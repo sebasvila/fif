@@ -42,8 +42,8 @@ dimensioned panels I first designed the cabinets using
 the cabinets. The two pictures below show a general view of the
 drawer cabinet and an example of the (partial) cutlist.
 
-{{< image classes="fig-100 center clear" src="vista-general.png" >}}
-{{< image classes="fig-100 center clear" src="exemple-cutlist.png" >}}
+{{< figure src="vista-general" >}}
+{{< figure src="exemple-cutlist" >}}
 
 
 # Cut the panels
@@ -51,12 +51,12 @@ drawer cabinet and an example of the (partial) cutlist.
 Blindly following the cutlist, I sawed the panels and ge them stacked
 on the table as shown in this picture:
 
-{{< image classes="fig-100 center clear" src="set-of-panels.jpg" >}}
+{{< figure src="set-of-panels" >}}
 
 Then, all panels are moulded to form the right panel joints. This is
 the partial result:
 
-{{< image classes="fig-100 center clear" src="panel-joints.jpg" >}}
+{{< figure src="panel-joints" >}}
 
 # Assemble the parts
 
@@ -64,14 +64,14 @@ Next step was to assemble the parts to form the drawers and the
 cabinets. Assembling was done with glue and screws. The next pictures
 show some instants of the process.
 
-{{< image classes="fig-100 center clear" src="drawer1.jpg" >}}
-{{< image classes="fig-100 center clear" src="drawer2.jpg" >}}
-{{< image classes="fig-100 center clear" src="drawer3.jpg" >}}
-{{< image classes="fig-100 center clear" src="cabinet1.jpg" >}}
+{{< figure src="drawer1" >}}
+{{< figure src="drawer2" >}}
+{{< figure src="drawer3" >}}
+{{< figure src="cabinet1" >}}
 
 This is the set of drawers after being assembled:
 
-{{< image classes="fig-100 center clear" src="drawer-set.jpg" >}}
+{{< figure src="drawer-set" >}}
 
 # Install the drawers and its slides
 
@@ -85,25 +85,25 @@ manual](https://www.thomasregout-telescopicslides.com/IManager/MediaLink/822/862
 from Thomas Regout gives some advice about the tolerances. The first
 check of the slides showed a nice fitting.
 
-{{< image classes="fig-100 center clear" src="fitting-test.jpg" >}}
+{{< figure src="fitting-test" >}}
 
 To screw the slides in its right place, I made a jig from scrap MDF
 like  this one:
 
-{{< image classes="fig-100 center clear" src="jig.jpg" >}}
+{{< figure src="jig" >}}
 
 The jig suports the guide at the right height and in its precise
 depth to be screwed in place. The trick is to begin by the top slide
 and cut the jig every time you need. Of course you need to screw the
 slides top to bottom. The next images show the jig working.
 
-{{< image classes="fig-100 center clear" src="jig-working-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="jig-working-2.jpg" >}}
+{{< figure src="jig-working-1" >}}
+{{< figure src="jig-working-2" >}}
 
 After the slides are in place, drawers are ease to attach. In this
 case, the slides are L-shaped and the drawers just sit on the slides.
 
-{{< image classes="fig-100 center clear" src="drawers-onplace.jpg" >}}
+{{< figure src="drawers-onplace" >}}
 
 # Put the cabinets on the worktable
 
@@ -111,14 +111,13 @@ Once cabinets are ready, they are mounted and attached to the
 worktable structure. This is done by screwing each cabinet to the
 structure after align them.
 
-{{< image classes="fig-100 center clear" src="drawers-worktable.jpg"
->}}
+{{< figure src="drawers-worktable" >}}
 
 Next step is to fit the drawers faces ans attach them assuring an
 equal gap between all the faces and between the face and the
 cabinet. Faces where attached by screws. This the partial result:
 
-{{< image classes="fig-100 center clear" src="drawer-faces.jpg" >}}
+{{< figure src="drawer-faces" >}}
 
 # Home made handles
 
@@ -127,7 +126,7 @@ the handles: hard and very nice. Handles have been profiled on the
 table saw and then sanded to final shape. This is the batch of all the
 handles:
 
-{{< image classes="fig-100 center clear" src="handles.jpg" >}}
+{{< figure src="handles" >}}
 
 Handles were screwed on the drawer face.
 
@@ -146,9 +145,9 @@ long time ago. Result was good enough but:
 Nonetheless, the result was good enough and much more frindly to
 apply. Overall, a positive experience. This is the final result:
 
-{{< image classes="fig-100 center clear" src="final.jpg" >}}
+{{< figure src="final" >}}
 
 On some drawers, I also added separators. This is a laborious job but
 very rewarding when you store the tools:
 
-{{< image classes="fig-100 center clear" src="separators.jpg" >}}
+{{< figure src="separators" >}}

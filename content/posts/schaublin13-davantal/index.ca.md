@@ -29,14 +29,14 @@ grapa que prem la femella del cargol d'avançament, treure la caixa de
 la maneta de l'esquerra i treure d'una tirada tot el cargol
 d'avançament per l'esquerra.
 
-{{< image classes="fig-100 center clear" src="cargol-1.jpg" >}}
+{{< figure src="cargol-1" >}}
 
-{{< image classes="fig-100 center clear" src="cargol-2.jpg" >}}
+{{< figure src="cargol-2" >}}
 
 Ara es pot treure el carro afluixant el regle i amb l'ajuda del
 ternal:
 
-{{< image classes="fig-100 center clear" src="treure-carro-x.jpg" >}}
+{{< figure src="treure-carro-x" >}}
 
 
 # Alguns elements de la consola
@@ -46,22 +46,22 @@ la caixa de la maneta d'avenços per que no faci nosa. També la tapa de
 l'embragatge de seguretat, que deixa al descobert la transmissió dels
 avenços (a la dreta, l'embragament):
 
-{{< image classes="fig-100 center clear" src="transmissio-avencos.jpg" >}}
+{{< figure src="transmissio-avencos" >}}
 
 També es treu la tapa frontal d'alumini que protegeix els engranatges
 interns dels avenços. És interessant per que la tapa conté part del
 circuït de lubricació centralitzada de la consola:
 
-{{< image classes="fig-100 center clear" src="tapa-frontal.jpg" >}}
+{{< figure src="tapa-frontal" >}}
 
-{{< image classes="fig-100 center clear" src="lubricacio-frontal.jpg" >}}
+{{< figure src="lubricacio-frontal" >}}
 
 El següent pas és treure la consola sencera amb el ternal. Surt sense
 massa problemes:
 
-{{< image classes="fig-100 center clear" src="sortida-davantal-1.jpg" >}}
+{{< figure src="sortida-davantal-1" >}}
 
-{{< image classes="fig-100 center clear" src="sortida-davantal-2.jpg" >}}
+{{< figure src="sortida-davantal-2" >}}
 
 Cal anar acompanyant amb l'avenç Z i anar amb compte amb l'arbre dels
 avenços que surt de la caixa dels avenços que hi ha a la safata.
@@ -80,11 +80,11 @@ cobreix alguns engranatges dels avenços. A més del canvi de direcció
 Essencialment s'aconsegueix amb un mecanisme enginyós: uns engranatges
 muntats sobre uns cadells de corrons amb sentit de gir oposat.
 
-{{< image classes="fig-100 center clear" src="caixa-avencos.jpg" >}}
+{{< figure src="caixa-avencos" >}}
 
-{{< image classes="fig-100 center clear" src="caixa-avencos-2.jpg" >}}
+{{< figure src="caixa-avencos-2" >}}
 
-{{< image classes="fig-100 center clear" src="eng-avencos.jpg" >}}
+{{< figure src="eng-avencos" >}}
 
 Es reposen la junta v-ring i les tòriques del circuït de lubricació.
 
@@ -98,21 +98,21 @@ consola. Seguidament es pot veure tant desmuntat com muntat el paquet
 format pels coixinets i el primer engranatge del sistema. El paquet es
 fixa amb un vis sobre els anells separadors dels coixinets.
 
-{{< image classes="fig-100 center clear" src="primer-eng-1.jpg" >}}
+{{< figure src="primer-eng-1" >}}
 
-{{< image classes="fig-100 center clear" src="primer-eng-2.jpg" >}}
+{{< figure src="primer-eng-2" >}}
 
 El segon engranatge està muntat sobre un embragatge de seguretat i és
 solidari amb un visenfí.
 
-{{< image classes="fig-100 center clear" src="segon-eng-1.jpg" >}}
+{{< figure src="segon-eng-1" >}}
 
 L'embragatge de seguretat es basa en un seguit de boles pressionades
 per molles que, generalment, volten solidàries amb l'engranatge però
 que poden lliscar sorollosament si s'excedeix el parell pel que està
 dissenyat. La següent imatge mostra el mecanisme explosionat:
 
-{{< image classes="fig-100 center clear" src="segon-eng-2.jpg" >}}
+{{< figure src="segon-eng-2" >}}
 
 És interessant notar el fet que l'eix és foradat i el travessa una
 metxa de llana crua per la qual ascendeix l'oli que es diposita en al
@@ -128,7 +128,7 @@ supplies](https://www.heritagesteamsupplies.co.uk/worsted-wool-lubricator-kit.ht
 El muntatge de l'embragatge després de netejar-lo, que semblava
 delicat, no ha suposat massa complicacions:
 
-{{< image classes="fig-100 center clear" src="muntatge-eng-1.jpg" >}}
+{{< figure src="muntatge-eng-1" >}}
 
 
 # Desmuntar el nonius de l'eix Z
@@ -137,21 +137,21 @@ El paquet del nonius i la maneta de l'eix Z és sofisticat. Per
 facilitar el desmuntatge amb l'extractor ens hem ajudat d'un parell de
 brides de cremallera i un topall com mostren les següents fotos:
 
-{{< image classes="fig-100 center clear" src="brides-1.jpg" >}}
+{{< figure src="brides-1" >}}
 
-{{< image classes="fig-100 center clear" src="brides-2.jpg" >}}
+{{< figure src="brides-2" >}}
 
-{{< image classes="fig-100 center clear" src="brides-3.jpg" >}}
+{{< figure src="brides-3" >}}
 
 En la següent foto es veu el coixinet del nònius i el fiador amb la
 molla de pressió:
 
-{{< image classes="fig-100 center clear" src="fiador-nonius.jpg" >}}
+{{< figure src="fiador-nonius" >}}
 
 Finalment es pot observar l'explosionat del bloc del nònius. Ben
 sofisticat per ser un nònius:
 
-{{< image classes="fig-100 center clear" src="peces-nonius.jpg" >}}
+{{< figure src="peces-nonius" >}}
 
 
 # La palanca de comandament
@@ -166,8 +166,8 @@ avenços (Z i X) i implementa els topalls de seguretat que desconnecten
 la marxa si s'arriba al final de carrera. Es neteja i lubrica de nou
 tot el mecanisme:
 
-{{< image classes="fig-100 center clear" src="palanca-1.jpg" >}}
+{{< figure src="palanca-1" >}}
 
-{{< image classes="fig-100 center clear" src="palanca-2.jpg" >}}
+{{< figure src="palanca-2" >}}
 
-{{< image classes="fig-100 center clear" src="palanca-3.jpg" >}}
+{{< figure src="palanca-3" >}}

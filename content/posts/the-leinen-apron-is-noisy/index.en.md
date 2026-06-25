@@ -3,7 +3,7 @@ title: 'The Leinen apron is noisy'
 date: 2013-06-23T16:59:00.004+02:00
 draft: false
 slug: "the-leinen-apron-is-noisy"
-coverImage: /fotos/leinen-lz4sb/P1040767.JPG
+coverImage: P1040767.JPG
 tags:
 - leinen LZ4SB
 categories:
@@ -31,13 +31,13 @@ arranged to get a spare part. It arrived some weeks ago. The spare
 gear was finely grinded and of perfect dimensions. However, it has a
 small chip in a pair of teeth as shown in the next image:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040764.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040764.JPG" >}}
 
 After touching them with a file, we tested the new gear: the noise has
 disappeared. Here you can see some pictures of the parts disassembled
 together with the special wrenches:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1040767.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040767.JPG" >}}
 
 We assembled again the gears and the apron. We used some gasket
 sealer for the rod screw and the round nut. The apron is now ready to

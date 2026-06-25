@@ -2,7 +2,7 @@
 title: 'Blackening some steel parts'
 date: 2020-05-31T18:00:00.001+02:00
 draft: false
-coverImage: "/fotos/worner-b13/20200518_194605.jpg"
+coverImage: "20200518_194605.jpg"
 tags:
 - Wörner B13
 - tech.turning
@@ -34,7 +34,7 @@ days before. Following, there is a picture of the cleaned spring
 cover. This is not the original spring cover but a replacement made
 after some previous reparation.
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200507_173214.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200507_173214.jpg" >}}
 
 The cold blackening process I used was that sold by
 [GIMA](https://www.kbs-bruenieren.de/int/en/home/). I used the 100ml
@@ -51,12 +51,12 @@ previous expectatives.
 
 These are some pictures of the parts after being blackened.
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200507_175523.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200507_175523.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200518_194616.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200518_194616.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200518_194605.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200518_194605.jpg" >}}
 
 This is belt tensioning handle mounted on the drill head:
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200518_203356.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200518_203356.jpg" >}}

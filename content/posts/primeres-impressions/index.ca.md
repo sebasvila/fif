@@ -38,4 +38,4 @@ arribat:
 7.  Falten alguns espàrrecs que fan de tap en els forats roscats per
     accessoris sobre el carro
 
-{{< image classes="fig-100 clear"  src="P1030593.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030593" >}}

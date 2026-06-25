@@ -55,8 +55,8 @@ Després d'una mica de feina al torn, es va fer un cargol d'acord amb
 les especificacions de Singer que, feliçment, s'ajustava perfectament.
 A continuació podeu veure algunes fotos de la màquina i el nou cargol.
 
-{{< image classes="fig-100 clear"  src="singer-screw-1.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-2.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-3.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-4.jpg" >}}
-{{< image classes="fig-100 clear"  src="singer-screw-5.jpg" >}}
+{{< figure src="singer-screw-1" >}}
+{{< figure src="singer-screw-2" >}}
+{{< figure src="singer-screw-3" >}}
+{{< figure src="singer-screw-4" >}}
+{{< figure src="singer-screw-5" >}}

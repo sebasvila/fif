@@ -3,7 +3,7 @@ title: 'Klaiber WS2 universal cutter grinder'
 date: 2015-09-02
 draft: false
 slug: "klaiber-ws2-universal-cutter-grinder"
-coverImage: /fotos/klaiber-ws2/Lechler-WS3.jpg
+coverImage: Lechler-WS3.jpg
 tags: 
 - Klaiber WS2
 ---
@@ -17,12 +17,12 @@ The garage has a new guest. It is a small universal tool grinder. A [Klaiber](ht
   
 
 
-{{< figure src="/fotos/klaiber-ws2/P1050223.JPG" >}}
+{{< figure src="P1050223.JPG" >}}
 
   
 
 
-{{< figure src="/fotos/klaiber-ws2/P1050224.JPG" >}}
+{{< figure src="P1050224.JPG" >}}
 
   
 The grinder arrived with some attachments. As seen in the last
@@ -30,15 +30,15 @@ pictures a usual tailstock and a 2 axis divider head that mounts a
 Morse cone n4. More interesting, The pack also contained a relief
 grinding head as can be seen in this pictures:
 
-{{< figure src="/fotos/klaiber-ws2/P1050227.JPG" >}}
+{{< figure src="P1050227.JPG" >}}
 
-{{< figure src="/fotos/klaiber-ws2/P1050228.JPG" >}}
+{{< figure src="P1050228.JPG" >}}
   
 There was also a diamond dresser with several degrees of freedom that
 allows for shaping the grinding wheels to required radii. This is the
 part:
 
-{{< figure src="/fotos/klaiber-ws2/P1050232.JPG" >}}
+{{< figure src="P1050232.JPG" >}}
   
 I got also the guide of the spiral grinding attachment. Unfortunately,
 the head was not there. This is sad really. All seems to say that the
@@ -74,4 +74,4 @@ it was the last model sold. Following, there is a picture of a
 prospect of the WS3 model seen in Ebay some weeks ago. Note this model
 is also built by Lechler and it shows a more modern look.
   
-{{< figure src="/fotos/klaiber-ws2/Lechler-WS3.jpg" >}}
+{{< figure src="Lechler-WS3.jpg" >}}

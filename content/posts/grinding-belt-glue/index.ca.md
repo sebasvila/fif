@@ -53,4 +53,4 @@ juntes de la cola vella amb una pedra d'esmeril de gra molt gruixut i
 amb l'ajuda d'una premseta d'encolar feta a mida per alinear la banda
 correctament, el resultat és magnífic.
 
-{{< image classes="fig-100 center clear" src="encolat-banda.jpg" >}}
+{{< figure src="encolat-banda" >}}

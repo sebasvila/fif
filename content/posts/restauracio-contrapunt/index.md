@@ -25,7 +25,7 @@ bed using a lever that acts on a cam lock. The quill is locked by a
 usual half-moon clamps. The fit of the quill is very good, especially
 in the first part of the displacement.  After fully disassembling it:
 
-{{< image classes="fig-100 clear"  src="P1030601.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030601" >}}
 
 Once disassembled, we saw that there is some wear in the spindle screw
 nuts support. This is the bearing surface that gets most of the
@@ -57,8 +57,8 @@ after checking the original color. The paint must be tinted exprofeso
 with a tintometric machine. After applying the finishing layer with a
 brush and assemble the tailstock again this is the result:
 
-{{< image classes="fig-100 clear"  src="P1030744.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030744" >}}
 
-{{< image classes="fig-100 clear"  src="P1030747.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030747" >}}
 
-{{< image classes="fig-100 clear"  src="P1030743.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030743" >}}

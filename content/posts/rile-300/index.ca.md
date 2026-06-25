@@ -15,7 +15,7 @@ refert completament. Per això vaig vendre el torn Pujantell i el
 trepan-fresasora Cincinnati. Ara he venut també la meva llimadora. És
 una Rile-300, amb 300mm de cursa.
 
-{{< image classes="fig-100 clear"  src="20191201_143948.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_143948" >}}
 
 La màquina és molt semblant a la Sacia-30, que és molt freqüent a
 Espanya. No se si estan relacionades d'alguna forma. Malhauradament,
@@ -28,19 +28,19 @@ a tres velocitats que se seleccionen amb un canvi mecànic.
 
 Seguidament podeu veure algunes fotos de la màquina:
 
-{{< image classes="fig-100 clear"  src="20191201_144005.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144005" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144034.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144034" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144053.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144053" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144120.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144120" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144140.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144140" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144232.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144232" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144342.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144342" >}}
 
 I també un parell de vídeos de la màquina funcionant:
 

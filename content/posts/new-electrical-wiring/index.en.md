@@ -3,7 +3,7 @@ title: 'New electrical wiring'
 date: 2012-12-31T18:30:00.001+01:00
 draft: false
 slug: "new-electrical-wiring"
-coverImage: /fotos/unclass/P1030750.JPG
+coverImage: P1030750.JPG
 tags:
 - leinen LZ4SB
 - tech.electricity
@@ -26,7 +26,7 @@ to 380V. It has two speeds in a dahlander winding and an additional
 speed in an ordinary winding. Note how big and sturdy is the motor
 enclosure because of the number of speeds:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1030750.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030750.JPG" >}}
 
 We have 220 V monophase mains supply. So we decided to replace all the
 electromechanical control by a VFD. This will simplify the control
@@ -52,15 +52,14 @@ rotary switch and a terminal block that emulates the lathe spindle
 reverse switch. The test was absolutely succesfull. VFD's are
 something magic...
 
-{{< image classes="fig-100 clear" src="/fotos/unclass/P1030843.JPG"
-thumbnail-with="75%" >}}
+{{< figure src="P1030843.JPG" >}}
 
 After mounting the motor and the two speeds drive in the (cleaned)
 left leg housing we proceed to fully rewire the lathe. The next
 pictures show the result:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1040273.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040273.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1040272.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040272.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1040271.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040271.JPG" >}}

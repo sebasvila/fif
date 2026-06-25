@@ -30,7 +30,7 @@ Aquest és l'espiell del nivell d'oli original de la Schaublin 13
 l'oli. Calia netejar-lo. Hi varem roscar un parell de forats per
 extreure'l però es va escantonar.
 
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 Seria interessant fer-ne un de nou. L'original es fet de metacrilat,
 per tant el podem refer amb el mateix material. Només cal tornejat un
@@ -38,8 +38,8 @@ bocí de planxa de metacrilat d'un gruix escaient, en aquest cas 10
 mm. El reflector també el fem de metacrilat (blanc), el rosquem i
 l'encolem a un espàrrec amb cianocrilat.
 
-{{< image classes="fig-100 center clear" src="sight-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="sight-2.jpg" >}}
+{{< figure src="sight-1" >}}
+{{< figure src="sight-2" >}}
 
 Les línies de nivell les gravem amb una fulla de serra prou prima
 exactament a la mateixa posició que les originals. Ara cal omplir el
@@ -50,7 +50,7 @@ convenient fer servir esporàdicament per la neteja?
 La solució és preparar un test amb una placa i diverses línies
 gravades que omplim amb diferents productes:
 
-{{< image classes="fig-100 center clear" src="test.jpg" >}}
+{{< figure src="test" >}}
 
 Aquests són els productes que provem:
 
@@ -91,17 +91,17 @@ Quan la pintura és prou seca, retallem les vores amb cura mab una
 fulla de cutter i polim tot plegar fent servir roig de polir[^1] amb base
 aigua.
 
-{{< image classes="fig-100 center clear" src="rouge.jpg" >}}
+{{< figure src="rouge" >}}
 
 El resultat és aquest:
 
-{{< image classes="fig-100 center clear" src="final.jpg" >}}
+{{< figure src="final" >}}
 
 Per acabar muntem l'espiell a la fresadora. Hi apliquem una mínima
 quantitat de junta líquida (tipus silicona neutra) per garantir que la
 estanquitat a l'oli és correcta.
 
-{{< image classes="fig-100 center clear" src="sight-3.jpg" >}}
+{{< figure src="sight-3" >}}
 
 [^1]: El [roig de
     polir](https://www.termcat.cat/es/cercaterm/fitxa/Mjc1NjA2NQ%3D%3D)

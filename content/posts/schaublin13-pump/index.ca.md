@@ -35,15 +35,15 @@ entry about o-rings]({{< ref "/posts/schaublin13-orings" >}}).
 
 La següent foto mostra el forat pel que s'empeny el passador.
 
-{{< image classes="fig-100 center clear" src="pisto1.jpg" >}}
+{{< figure src="pisto1" >}}
 
 Després d'alinear el forat passant del pistó, es pot empènyer el
 passador:
 
-{{< image classes="fig-100 center clear" src="pisto2.jpg" >}}
-{{< image classes="fig-100 center clear" src="pisto3.jpg" >}}
+{{< figure src="pisto2" >}}
+{{< figure src="pisto3" >}}
 
 Aquí es pot veure una vista explosionada de la bomba. Observeu una de
 les dues vàlvules de bola que van dins del pistó.
 
-{{< image classes="fig-100 center clear" src="exploded.jpg" >}}
+{{< figure src="exploded" >}}

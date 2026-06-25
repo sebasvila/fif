@@ -21,9 +21,9 @@ steel sheet, for which we have no material or tools, was made by
 [Lázaro Metalpress](http://www.lazarometalpres.com/). The result, once
 painted is this:
 
-{{< image classes="fig-100 clear"  src="P1040298.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040298" >}}
 
-{{< image classes="fig-100 clear"  src="P1040297.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040297" >}}
 
 The tray was covered by a neoprene sheet of [Plàstics
 Pujol](http://www.tiendadeplasticos.es/).

@@ -3,7 +3,7 @@ title: 'Unusual square for the tool grinder '
 date: 2016-09-04T21:11:00.000+02:00
 draft: false
 slug: "unusual-precision-square-for-tool"
-coverImage: /fotos/leinen-lz4sb/P1050433.JPG
+coverImage: P1050433.JPG
 tags:
 - tech.turning
 - klaiber-ws2
@@ -26,7 +26,7 @@ or the protractor, for instance. This is a picture of the finished
 square:
 
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050435.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050435.JPG" >}}
 
 As you can see in the picture, the queue of the square is a 317E
 collet fitting the Klaiber nose. A bigger disk was attached to this
@@ -42,9 +42,9 @@ The queue was turned according to collet dimensions and lapped to
 it is a bit undersized despite being an original one. The following
 two pictures show the result of the lapping:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050434.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050434.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050433.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050433.JPG" >}}
 
 You can see that the shank tapers off 0.006mm. I considered it's
 enough for the purpose. I guess that it would have diminished by a
@@ -55,8 +55,8 @@ to chatter. After that, the plate was lapped to a smooth and flat
 surface. I end this entry with couple more of pictures of the square
 and a final picture of the square fitted in the grinder head.
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050432.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050432.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050424.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050424.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050437.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050437.JPG" >}}

@@ -29,9 +29,8 @@ garage. The lathe come with some tools: a three jaws chuck, some live
 and dead centers, a drill chuck and, most notably, a fast change
 toolholder and a follower and a steady rest.
 
-{{< image classes="fig-100 clear" src="P1030572.JPG"
-thumbnail-with="75%" >}}
+{{< figure src="P1030572" >}}
 
-{{< image classes="fig-100 clear"  src="P1030576.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030576" >}}
 
-{{< image classes="fig-100 clear"  src="P1030585.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030585" >}}

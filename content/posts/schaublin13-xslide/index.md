@@ -32,8 +32,7 @@ The first ocular inspection of the slide evidenced that there is not
 too much wear on it. Most of the flats reveal consistent grinding
 marks as shown in the next picture:
 
-{{< image classes="fig-100 center clear" src="long-slide-grinded.jpg"
->}}
+{{< figure src="long-slide-grinded" >}}
 
 This pattern of grinding was of most interest. It seems that replaced
 the traditionally scraped surfaces on many high quality machines of
@@ -52,13 +51,13 @@ straight edge reveals the wear is very slight. Also testing the
 paralelism with the indicator and the jig shown on next picture
 results in a mostly paralel faces.
 
-{{< image classes="fig-100 center clear" src="mesura-paral.jpg" >}}
+{{< figure src="mesura-paral" >}}
 
 The last test done was to check the paralelism between the working
 face of the slide and the ways. This was done by laying the slide on
 the precision surface as you can see on the picture below.
 
-{{< image classes="fig-100 center clear" src="on-surface.jpg" >}}
+{{< figure src="on-surface" >}}
 
 This test concluded that working face and ways are paralel. It also
 discovered that the top slide is more or less 3µm lower. This is
@@ -66,7 +65,7 @@ consistent with the preferred inclination of the milling machine
 working table: slightly higher on the front side, to compensate for
 the load of the tooling it supports.
 
-{{< image classes="fig-100 center clear" src="mesures-taula.jpg" >}}
+{{< figure src="mesures-taula" >}}
 
 With all the info I decided to be conservative and not work on the
 longitudinal slide. If necessary, it is easy to put aside and work on
@@ -84,14 +83,14 @@ top side of the way. The following drawing sketches this pattern. In
 this drawing, the green hatched zone shows the weared zone of the
 fixed top way.
 
-{{< image classes="fig-100 center clear" src="desgast-guia.jpg" >}}
+{{< figure src="desgast-guia" >}}
 
 This pattern is consistent with the loads of the usual work.
 
 To further understand how loads are related to wear, look at the
 following drawings.
 
-{{< image classes="fig-100 center clear" src="causa-desgast.jpg" >}}
+{{< figure src="causa-desgast" >}}
 
 On the left (front view) the small rectangle represents the steady
 ways of the longitudinal slide. The longitudinal slide itself is drawn
@@ -116,7 +115,7 @@ reference. Usually the gibs are slightly bent and only when they are
 in its seat have the real geometry. In this case I relied on measuring
 the rocking of the slide using this simple lever bolted to the slide.
 
-{{< image classes="fig-100 center clear" src="palanca.jpg" >}}
+{{< figure src="palanca" >}}
 
 The indicator measure the rocking of the slide. I used my own weight
 to force the table simulating a real load. With this, is easy to
@@ -141,5 +140,5 @@ pin revealed broken. I had to mak a new one with the same radious anb
 heat treat it. Last pictures shows it. I will explain in a future post
 how the radius was turned.
 
-{{< image classes="fig-100 center clear" src="pin-2.jpg" >}}
+{{< figure src="pin-2" >}}
 

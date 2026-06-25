@@ -87,25 +87,22 @@ suporta la maneta de sobre el capçal. L'eix acaba en un engranatge
 cònic espiroidal que condueix el cargol. L'engranatge helicoidal del
 mig, és conduït (o condueix) per l'eix de la maneta lateral.
 
-{{< image classes="fig-100 center clear" src="maneta-superior-1.jpg"
->}}
+{{< figure src="maneta-superior-1" >}}
 
 La següent foto correspon a l'eix impusat per la maneta
 lateral. Aquest eix surt per cada banda del capçal i permet muntar la
 maneta en aquesta posició.
 
-{{< image classes="fig-100 center clear" src="maneta-travessera.jpg"
->}}
+{{< figure src="maneta-travessera" >}}
 
 Els engranatges anteriors acaben servint per girar el cargol. El
 conjunt del cargol en una foto especejada és aquest:
 
-{{< image classes="fig-100 center clear" src="especejat-cargol.jpg"
->}}
+{{< figure src="especejat-cargol" >}}
 
 D'aquesta foto, és especialment interessant aquest anell separador:
 
-{{< image classes="fig-100 center clear" src="anell-ajustatge.jpg" >}}
+{{< figure src="anell-ajustatge" >}}
 
 Cargolant l'interior d'aquest anell la seva longitut augmenta. Això
 permet desplaçar sobre l'eix del cargol l'engranatge cònic a fi i
@@ -114,8 +111,8 @@ joc. L'espàrrec de retenció és accessible per sota de capçal encara
 que estigui muntat a la guia. Això permet ajustar el joc amb el capçal
 a lloc. A tal efecte cal una clau especial com aquesta:
 
-{{< image classes="fig-100 center clear" src="clau-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="clau-2.jpg" >}}
+{{< figure src="clau-1" >}}
+{{< figure src="clau-2" >}}
 
 Amb aquest mecanisme, el joc dels pinyons es pot deixar perfecte.
 
@@ -135,7 +132,7 @@ horitzonatal. S'empasta i repinta adequadament restituïnt l'aspecte
 original. La següent fotografia mostra el capçal just després
 d'haver-lo repintat a pistola.
 
-{{< image classes="fig-100 center clear" src="pintant-1.jpg" >}}
+{{< figure src="pintant-1" >}}
 
 # Manteniment dels rodaments de l'eix portafreses
 
@@ -173,7 +170,7 @@ menor que 2µm com s'aprecia en el següent video:
 
 
 <!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 {{< youtube id="k38Vl8QqrZE" >}}
 -->

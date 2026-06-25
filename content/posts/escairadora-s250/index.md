@@ -70,24 +70,24 @@ I first dismantle the machine. The saw, which is rather heavy, is
 moved using a chain hoist and using greased flat bars to slide it
 over. See the next picture.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07724.jpg" >}}
+{{< figure src="dsc07724" >}}
 
 Helped by the hoist, I take out the saw table. The table is bolted to
 the cabinet with rubber washes between both parts to compensate for
 deformities. The table is turned over a couple of sawhorses.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07730.jpg" >}}
+{{< figure src="dsc07730" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07732.jpg" >}}
+{{< figure src="dsc07732" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07752.jpg" >}}
+{{< figure src="DSC07752" >}}
 
 Next, the saw moving mechanism is taken apart and cleaned. I separate
 the motor and the saw shaft. The saw shaft bearings are replaced.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07754.jpg" >}}
+{{< figure src="DSC07754" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07757.jpg" >}}
+{{< figure src="DSC07757" >}}
 
 # Motor
 
@@ -95,9 +95,9 @@ Motor was burned as the seller told me before. A new ABB motor and a
 set of new belts where mounted. The pictures below show the original
 (italian made) motor an the new one.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07797.jpg" >}}
+{{< figure src="DSC07797" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07798.jpg" >}}
+{{< figure src="DSC07798" >}}
 
 
 # The saw shaft
@@ -106,11 +106,11 @@ The saw shaft was supported by two closed bearings. I replaced them by
 a couple of new ones. Next pictures show the saw shaft in distinct
 phases.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07755.jpg" >}}
+{{< figure src="DSC07755" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07757.jpg" >}}
+{{< figure src="DSC07757" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07759.jpg" >}}
+{{< figure src="DSC07759" >}}
 
 
 # Shaft lock bar
@@ -120,11 +120,11 @@ specific bar that fits some holes over the shaft pulley. I turned a
 lock bar from steel and heat treated it using the oxiacetilene
 blowtorch. The following pictures illustrate this process.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07760.jpg" >}}
+{{< figure src="DSC07760" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07761.jpg" >}}
+{{< figure src="DSC07761" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07762.jpg" >}}
+{{< figure src="DSC07762" >}}
 
 
 # Repair the tilt handle shaft
@@ -138,13 +138,13 @@ straighten it by heating it and hammering it straight again on the
 anvil. Then, I turn it perfect again with the same geometry that the
 elevation shaft. See the next pictures.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07764.jpg" >}}
+{{< figure src="DSC07764" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07765.jpg" >}}
+{{< figure src="DSC07765" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07766.jpg" >}}
+{{< figure src="DSC07766" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07767.jpg" >}}
+{{< figure src="DSC07767" >}}
 
 
 # Sliding carriage supports
@@ -163,22 +163,22 @@ precisely mechanized on the milling machine. Next pictures document
 all this process. Note that it will show also the pattern for the
 missing tilt handle.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="dsc07641.jpg" >}}
+{{< figure src="dsc07641" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07832.jpg" >}}
+{{< figure src="DSC07832" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07913.jpg" >}}
+{{< figure src="DSC07913" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07886.jpg" >}}
+{{< figure src="DSC07886" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="00001.jpg" >}}
+{{< figure src="00001" >}}
 
 
 # Blade box cover plate
 
 The blade box cover plate was missing. I cut a new one from steel plate.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07796.jpg" >}}
+{{< figure src="DSC07796" >}}
 
 
 # Feet and wheels
@@ -188,9 +188,9 @@ shafts can be screwed in and ou to allow wheels to be removed
 easily. In the pictures you will see the shaper cutting some flats to
 the wheel shafts.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07812.jpg" >}}
+{{< figure src="DSC07812" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07817.jpg" >}}
+{{< figure src="DSC07817" >}}
 
 
 # Finishing and paint
@@ -200,15 +200,15 @@ painting process includes applying primer, sanding it, and lackering
 with two colors. This ends the project with an fully operating
 machine.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07821.jpg" >}}
+{{< figure src="DSC07821" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="DSC07901.jpg" >}}
+{{< figure src="DSC07901" >}}
 
 This is the finished machine, It works like a clock. It's stable ans
 precise. A pleasure to work with.
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020976.JPG" >}}
+{{< figure src="P1020976" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020971.JPG" >}}
+{{< figure src="P1020971" >}}
 
-{{< image classes="fig-100 clear" thumbnail-with="75%" src="P1020969.JPG" >}}
+{{< figure src="P1020969" >}}

@@ -35,4 +35,4 @@ The first impresions just after the machine arrived:
 7. The carriage has some threaded holes to attach tooling that lack
    the protection setscrews.
 
-{{< image classes="fig-100 clear"  src="P1030593.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1030593" >}}

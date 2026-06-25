@@ -3,7 +3,7 @@ title: 'Setting up the Wörner quill'
 date: 2020-05-31T18:40:00.000+02:00
 slug: 'setting-up-worner-quill'
 draft: false
-coverImage: "/fotos/worner-b13/20200524_211705.jpg"
+coverImage: "20200524_211705.jpg"
 tags:
 - Wörner B13
 categories:
@@ -44,12 +44,12 @@ one minute things were at place.
 Here there are some pictures of the parts while being assembled:
 
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200524_193308.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200524_193308.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200524_201745.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200524_201745.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200524_211714.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200524_211714.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200524_211741.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200524_211741.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200524_211705.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200524_211705.jpg" >}}

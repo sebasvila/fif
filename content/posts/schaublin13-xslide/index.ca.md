@@ -30,8 +30,7 @@ La primera inspecció ocular del carro va evidenciar que no hi havia un
 desgast excessiu. La majoria de plans mostraven les marques del
 rectificat d'una forma consistent com es pot veure a la següent foto:
 
-{{< image classes="fig-100 center clear" src="long-slide-grinded.jpg"
->}}
+{{< figure src="long-slide-grinded" >}}
 
 Aquesta textura de rectificat és d'allò més interessant. Sembla que
 substitueix les superfícies rasquetejades en molta màquinària de
@@ -49,13 +48,13 @@ desgast. També es va comprovar el paral·lelisme de les cares petites
 de l'oronella amb l'utillatge de la següent fotografia i un
 comparador. El resultat va mostrar un molt bon paral·lelisme.
 
-{{< image classes="fig-100 center clear" src="mesura-paral.jpg" >}}
+{{< figure src="mesura-paral" >}}
 
 L'última prova que es va fer va ser comprovar el paral·lelisme entre
 el pla de treball i els plans de la guia. Això es va fer posant el
 carro sobre marbre de mesura com podeu veure a la imatge següent.
 
-{{< image classes="fig-100 center clear" src="on-surface.jpg" >}}
+{{< figure src="on-surface" >}}
 
 Aquesta prova va concloure que el pla de treball i la guia són
 paral·les. També es va descobrir que el pla superior de la guia és més
@@ -63,7 +62,7 @@ o menys 3μm més baixa. Això és coherent amb la inclinació preferida de
 la taula de treball de la fresadora: lleugerament més alta a la part
 frontal, per compensar la càrrega de l'utillatge que suporta.
 
-{{< image classes="fig-100 center clear" src="mesures-taula.jpg" >}}
+{{< figure src="mesures-taula" >}}
 
 Amb tota la informació vaig decidir ser conservador i no alterar el
 carro longitudinal. Si fos necessari, seria fàcil modificar el carro
@@ -81,7 +80,7 @@ alhora, a la part superior del camí. El següent dibuix esbossa aquesta
 circumstància. En aquest dibuix, la zona ratllada en verd, mostra
 la zona desgastada.
 
-{{< image classes="fig-100 center clear" src="desgast-guia.jpg" >}}
+{{< figure src="desgast-guia" >}}
 
 Aquest patró de desgast és coherent amb els esforços del treball
 habitual.
@@ -89,7 +88,7 @@ habitual.
 Per entendre millor com es relacionen les càrregues amb el desgast,
 mireu el següents dibuixos.
 
-{{< image classes="fig-100 center clear" src="causa-desgast.jpg" >}}
+{{< figure src="causa-desgast" >}}
 
 A l'esquerra (vista frontal) el petit rectangle representa la guia
 fixa del carro longitudinal. El carro pròpiamnet s'ha dibuixat com un
@@ -115,7 +114,7 @@ l'ajustament és complicat. S'opta per muntar el carro i emprar una
 palanca per forçar un moviment de balanceig que permeti intuïr el
 ajustat del regle. La següent fotografia mostra el muntatge:
 
-{{< image classes="fig-100 center clear" src="palanca.jpg" >}}
+{{< figure src="palanca" >}}
 
 El comparador mesura el balanceig al final de la guia. Simulem la
 càrrega de la taula amb el propis pes ajudats del braç de palanca. Amb
@@ -142,4 +141,4 @@ el tremp escaient. La darrera foto ensenya el vell i el nou abans del
 tractament tèrmic. En un post futur explicarem com es va tornejar el
 radi precís sense utillatge de radis.
 
-{{< image classes="fig-100 center clear" src="pin-2.jpg" >}}
+{{< figure src="pin-2" >}}

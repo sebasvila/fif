@@ -48,9 +48,9 @@ be locked in its position through a partially split housing and a
 bolt. The folowing two pictures show this support after being
 throughfully cleaned.
 
-{{< image classes="fig-100 center clear" src="support1.jpg" >}}
+{{< figure src="support1" >}}
 
-{{< image classes="fig-100 center clear" src="support2.jpg" >}}
+{{< figure src="support2" >}}
 
 Note the superb finish on the bearing shaft. It is through its central
 bore that oil comes to the bearing. The handle shaft is lubricated by
@@ -59,7 +59,7 @@ shaft falls over the bevel gears and accumulates on a small oil sink
 on top of the mechanism top. This sink can be seen in the next
 picture:
 
-{{< image classes="fig-100 center clear" src="pool.jpg" >}}
+{{< figure src="pool" >}}
 
 Note that (on top of the picture) the sink has a small hole that
 drains the sink oil over the supporting cylinder and the screw
@@ -90,7 +90,7 @@ constrained by the fixed position of the upper pulley (not shown on
 the drawing). The axial displacement amounts approximately half of the
 belt width.
 
-{{< image classes="fig-100 center clear" src="scheme.jpg" >}}
+{{< figure src="scheme" >}}
 
 The middle part slides over the bronze bushing exterior and
 oil becomes enclosed by two o-rings. The bronze bushing interior
@@ -98,7 +98,7 @@ implements the hydrostatic plain bearing. A lip seal avoids oil
 flowing out the bearing. In the picture below you can see all the
 parts that are included in the central pulley.
 
-{{< image classes="fig-100 center clear" src="pulley2.jpg" >}}
+{{< figure src="pulley2" >}}
 
 To service the pulley, the o-rings and the seal should be replaced
 conveniently. A problem arouses with o-rings: the maintenance manual
@@ -115,7 +115,7 @@ difficult to find. Someone, in a previous service, did a good job
 modifying the seal seat to receive a more standard modern seal. Look
 at the next picture:
 
-{{< image classes="fig-100 center clear" src="seal1.jpg" >}}
+{{< figure src="seal1" >}}
 
 With this repair, the seal needed is a single or double lip 22 x 35 x
 7 seal. I replaced it by a Simmerring BASL 22 x 35 x 7 of NBR 72.
@@ -124,9 +124,9 @@ To mount the sliding middle part with the new o-rings I made a jig to
 save the shaft step and do not dent the o-rings. The next pictures show
 the gig.
 
-{{< image classes="fig-100 center clear" src="jig1.jpg" >}}
-{{< image classes="fig-100 center clear" src="jig2.jpg" >}}
-{{< image classes="fig-100 center clear" src="jig3.jpg" >}}
+{{< figure src="jig1" >}}
+{{< figure src="jig2" >}}
+{{< figure src="jig3" >}}
 
 In one of the axle ends, there is an special plug sealed with an
 o-ring of 27 x 2,5 mm. This plug has a suspicious allen screw in the
@@ -135,8 +135,8 @@ that it was abused time ago. I managed to get out the screw from the
 plug and discovered that it is really a mechanized screw to act as a
 valve. I made a new replacement as you can see below.
 
-{{< image classes="fig-100 center clear" src="screw.jpg" >}}
-{{< image classes="fig-100 center clear" src="screw2.jpg" >}}
+{{< figure src="screw" >}}
+{{< figure src="screw2" >}}
 
 When you slightly loosen this screw, its small bore allows air on the
 bearing inside to go out. I guess that this is its utility: to allow
@@ -144,9 +144,9 @@ air go out while fitting the pulley into its shaft.
 
 Finally, the result of mounting the pulley again is this one:
 
-{{< image classes="fig-100 center clear" src="pulley1.jpg" >}}
-{{< image classes="fig-100 center clear" src="pulley3.jpg" >}}
-{{< image classes="fig-100 center clear" src="pulley4.jpg" >}}
+{{< figure src="pulley1" >}}
+{{< figure src="pulley3" >}}
+{{< figure src="pulley4" >}}
 
 
 # Speeds handwheel mechanism
@@ -159,9 +159,9 @@ with a sliding collar that copes with the non centered movements of the
 planetary gear. It follows an exploded picture of this mechanism
 followed by a picture of the mechanism mounted on the machine.
 
-{{< image classes="fig-100 center clear" src="planetary1.jpg" >}}
+{{< figure src="planetary1" >}}
 
-{{< image classes="fig-100 center clear" src="planetary2.jpg" >}}
+{{< figure src="planetary2" >}}
 
 Note the polygonal profile of the shaft ---usual on Schaublin
 machines. It seems to be a DIN 32711-1 P3G profile, which seems to be

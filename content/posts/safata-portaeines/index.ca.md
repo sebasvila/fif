@@ -21,9 +21,9 @@ planxa, per a la que no tenim material ni eines, la fan a [Làzaro
 Metalpress](http://www.lazarometalpres.com/). El resultat, una vegada
 pintat és aquest:
 
-{{< image classes="fig-100 clear"  src="P1040298.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040298" >}}
 
-{{< image classes="fig-100 clear"  src="P1040297.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040297" >}}
 
 La safata la recobrim amb una làmina de neoprè de [Plàstics
 Pujol](http://www.tiendadeplasticos.es/).

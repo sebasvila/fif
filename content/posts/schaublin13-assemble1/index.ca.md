@@ -24,7 +24,7 @@ començar el (re)muntatge.
 La caixa, que té forma de pot, s'he de muntar abans que els motor dels
 avenços. De moent la muntem sense els engranatges que posarem més endavant.
 
-{{< image classes="fig-100 center clear" src="gear-box.jpg" >}}
+{{< figure src="gear-box" >}}
 
 
 # Muntem els motors
@@ -34,20 +34,20 @@ ràpids. Prèviamen li hem canviat els coixinets, principalment per que
 el modto va muntat en un espai molt inaccessible i és interessant
 garantir que no fallarà.
 
-{{< image classes="fig-100 center clear" src="motor-xic-1.jpg" >}}
+{{< figure src="motor-xic-1" >}}
 
 EL motor el posem a lloc amb l'ajuda d'alguns gruixos de fusta per
 aguantar-lo. La junta elàstica ha d'estar manegada al motor.
 
-{{< image classes="fig-100 center clear" src="motor-xic-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="motor-xic-3.jpg" >}}
-{{< image classes="fig-100 center clear" src="motor-xic-4.jpg" >}}
+{{< figure src="motor-xic-2" >}}
+{{< figure src="motor-xic-3" >}}
+{{< figure src="motor-xic-4" >}}
 
 Després ens barallem amb el motor principal. No és senzill de
 muntar. L'espai és molt ajustat i en certes posicions frega amb el
 motor dels avenços. Amb un cove de paciència el deixem muntat.
 
-{{< image classes="fig-100 center clear" src="motors-1.jpg" >}}
+{{< figure src="motors-1" >}}
 
 
 # Muntem el variador
@@ -58,7 +58,7 @@ actual. Contràriament al que semblava, és molt sencill posar-la a
 temps de manera que el recorregut coincideixi amb el desplaçament de
 la politja del variador.
 
-{{< image classes="fig-100 center clear" src="variator.jpg" >}}
+{{< figure src="variator" >}}
 
 També netegem els tubs del circuit d'engreix. Fent circular
 [WD-40](https://wd40.es) i ambl'ajuda d'un raspall per tubs netejem
@@ -72,28 +72,28 @@ condicions.  Tot plegat ho acabem amb aire a pressió.
 i centrem l'embragatge almenat dels avenços en l'eix X. Solament hi ha
 0,1 mm per banda de joc!
 
-{{< image classes="fig-100 center clear" src="play-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="play-2.jpg" >}}
+{{< figure src="play-1" >}}
+{{< figure src="play-2" >}}
 
 Posem les tapes i el màstic de les juntes.
 
-{{< image classes="fig-100 center clear" src="tapa-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="tapa-2.jpg" >}}
+{{< figure src="tapa-1" >}}
+{{< figure src="tapa-2" >}}
 
 I movem la consola a la seva guis fent servir el ternal.
 
-{{< image classes="fig-100 center clear" src="davantal-1.jpg" >}}
+{{< figure src="davantal-1" >}}
 
 Una vegada a lloc, muntem la maneta de l'eix Z, la barra i la palanca
 de fixar l'eix Z i finalment la caixa de la palanca d'avenços. També
 collem la tapa de la transmissió i l'embragatge de seguretat dels
 avenços.
 
-{{< image classes="fig-100 center clear" src="junta-1.jpg" >}}
+{{< figure src="junta-1" >}}
 
-{{< image classes="fig-100 center clear" src="davantal-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="davantal-3.jpg" >}}
-{{< image classes="fig-100 center clear" src="davantal-4.jpg" >}}
+{{< figure src="davantal-2" >}}
+{{< figure src="davantal-3" >}}
+{{< figure src="davantal-4" >}}
 
 Fixeu-vos que també hem afegit un rasquet de protecció a la part
 superior de la consola que protegeix al guia. Aquesta peça no hi era a

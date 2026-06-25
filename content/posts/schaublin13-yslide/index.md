@@ -53,14 +53,14 @@ The next picture shows the gib contact during one iteration of the
 scraping procedure (the contact is not yet perfect). It's clear that
 the center is slightly depressed.
 
-{{< image classes="fig-100 center clear" src="regle.jpg" >}}
+{{< figure src="regle" >}}
 
 Following, there are two pictures of the orthogonality measuring
 technique. In this case, a master square against the table slots sets
 the reference.
 
-{{< image classes="fig-100 center clear" src="escaire-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="escaire-1.jpg" >}}
+{{< figure src="escaire-2" >}}
+{{< figure src="escaire-1" >}}
 
 Finally a very good fitting and geometry is achieved: no more than 2µm
 of deviation can be measured as shown in the next video:
@@ -85,23 +85,21 @@ subassembly that supports the top handle. It ends with a spiral miter
 gear that drives the feed screw. In the middle of the shaft, a small
 screw gear is drived by (or drives) the side handle shaft.
 
-{{< image classes="fig-100 center clear" src="maneta-superior-1.jpg" >}}
+{{< figure src="maneta-superior-1" >}}
 
 What follows is the horizontal shaft that is rotated by the side
 handle. It protrudes on each side of the horizontal head.
 
-{{< image classes="fig-100 center clear" src="maneta-travessera.jpg"
->}}
+{{< figure src="maneta-travessera" >}}
 
 All the above gears are used to rotate the feed screw. This screw
 assembly is shown in the next picture:
 
-{{< image classes="fig-100 center clear" src="especejat-cargol.jpg"
->}}
+{{< figure src="especejat-cargol" >}}
 
 From this, it is interesting to observe this ring:
 
-{{< image classes="fig-100 center clear" src="anell-ajustatge.jpg" >}}
+{{< figure src="anell-ajustatge" >}}
 
 By turning the slotted screw, the length of this separator ring
 increases or decreases. This allows to slightly move the feed screw
@@ -110,8 +108,8 @@ this ring is turned from the bottom side of the head slideway. The
 adjusting procedure should be done with all the gearing assembled. A
 special key should be made to ajust the ring:
 
-{{< image classes="fig-100 center clear" src="clau-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="clau-2.jpg" >}}
+{{< figure src="clau-1" >}}
+{{< figure src="clau-2" >}}
 
 With this mechanism, the play of the gears can be adjusted nicely.
 
@@ -130,7 +128,7 @@ As usual, the horizontal head is beautyfied by smoothing its surface
 and later on spraying the lacker. Next picture shows the head just
 after spraying the color coat.
 
-{{< image classes="fig-100 center clear" src="pintant-1.jpg" >}}
+{{< figure src="pintant-1" >}}
 
 
 # Spindle bearings maintenance
@@ -165,7 +163,7 @@ of less than 2µm. The next video shows the test:
 
 
 <!--
-{{< image classes="fig-100 center clear" src="original.jpg" >}}
+{{< figure src="original" >}}
 
 {{< youtube id="k38Vl8QqrZE" >}}
 -->

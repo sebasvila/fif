@@ -3,7 +3,7 @@ title: 'Boley Leinen collet closer repair'
 date: 2016-03-23T19:05:00.001+01:00
 draft: false
 slug: "boley-leinen-collet-closer-repair"
-coverImage: /fotos/leinen-lz4sb/P1050392.JPG
+coverImage: P1050392.JPG
 tags:
 - leinen LZ4SB
 categories:
@@ -27,31 +27,30 @@ Some months ago I bought an old Boley-Leinen collet closer. The gadget is almost
 
 The following picture shows the collet closer assembled as usual:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050326.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050326.JPG" >}}
 
 Below, you can see some details of the parts. In the first picture, you can see the closer body. Note how the levers are broken and the ball plungers lost the steel ball.
 
-{{< image classes="fig-100 clear"
-src="/fotos/leinen-lz4sb/P1050328.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050328.JPG" >}}
 
 The closer ring moves over the levers and locks them in place. The
 bronze ring is perfectly adjusted.
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050330.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050330.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050332.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050332.JPG" >}}
 
 The drawbar has a hard and thick washer at the bottom. This is the
 place where the levers actuate and pull the collet to close it. In
 addition, the interior of the drawbar handgrip has a steel ring
 attached to locate the plungers.
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050327.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050327.JPG" >}}
 
 As you can see, the hand lever has an oil cup to grease the bronze
 during the work.
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050329.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050329.JPG" >}}
 
 
 # Get a pair of spare levers
@@ -59,7 +58,7 @@ during the work.
 First I get a pair of spare levers from
 [Kilgenstein](http://www.fkw.info/). They arrived in some days:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050366.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050366.JPG" >}}
 
 
 # Remake the ball plungers
@@ -69,18 +68,18 @@ course), I pulled the plungers box using a screw extractor without
 damaging them. Later on I made a couple of springs in the lathe using
 steel wire of appropiate size. The following pictures show this:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050353.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050353.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050359.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050359.JPG" >}}
 
 Then, I put the sprint and the ball in the package while closing the
 pack at the lathe. See it in this picture:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050362.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050362.JPG" >}}
 
 The result is this:
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050361.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050361.JPG" >}}
 
 
 # Make the supporting bars
@@ -90,18 +89,18 @@ of them acts as a hinge and the other limits the movement of the
 closer to the right range. I turn a couple of 18mm CrNi steel first to
 fit the lathe. Then I milled the bars to mate the handle:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050383.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050383.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050386.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050386.JPG" >}}
 
 After adjusting the bars and drill the hinge, this is the result:
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050388.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050388.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050389.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050389.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050390.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050390.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/leinen-lz4sb/P1050392.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050392.JPG" >}}
 
 Now it remains to take care of the cosmetic details ...

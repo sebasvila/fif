@@ -48,13 +48,13 @@ The procedure applied to recover the shiny surfaces is as follows:
 The procedure is slow but really good results are achieved. Note the
 following picture of the apron:
 
-{{< image classes="fig-100 clear"  src="P1040304.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040304" >}}
 
 and then, some of the parts of the apron after being recovered:
 
-{{< image classes="fig-100 clear"  src="P1040545.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040545" >}}
 
-{{< image classes="fig-100 clear"  src="P1040548.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040548" >}}
 
 
 # Paint works
@@ -79,6 +79,6 @@ The procedure to overhaul the painted parts follows the next steps:
 
 The result are parts as follow:
 
-{{< image classes="fig-100 clear"  src="P1040449.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040449" >}}
 
-{{< image classes="fig-100 clear"  src="P1040450.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1040450" >}}

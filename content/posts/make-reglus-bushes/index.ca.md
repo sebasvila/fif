@@ -46,8 +46,7 @@ El primer pas ---després de tallar la barra d'acer a mida--- va ser
 tornejar la forma principal i foradar el forat superior, que dóna
 accés al forat de centrat.
 
-{{< image classes="fig-100 clear"
-          src="turning-reglus-bushing.jpg" >}}
+{{< figure src="turning-reglus-bushing" >}}
 
 Després, es practica el centrat del forat crític i es forada. La guia
 es mecanitza usant una pinça per mantenir la precisió de centrat i no
@@ -55,22 +54,18 @@ marcar la peça se subjecta la guia de nou. La concentricitat es manté
 al voltant dels 0,01mm d'excentricitat màxima. Per mantenir el centrat
 del forat guia cal ser curós amb aquesta operació.
 
-{{< image classes="fig-100 clear"
-          src="drilling-reglus-bushing.jpg" >}}
+{{< figure src="drilling-reglus-bushing" >}}
 
-{{< image classes="fig-100 clear"
-          src="drilled-reglus-bushing.jpg" >}}
+{{< figure src="drilled-reglus-bushing" >}}
 
 El següent pas consisteix en xamfranar els cantos necessaris i marcar
 amb els números de cop la dimensió. Posteriorment, es trempa a uns 800
 ºC i es revé en el forn a 200 ºC. El resultat es pot apreciar en
 aquestes imatges:
 
-{{< image classes="fig-50"
-          src="hardened-bushing-1.jpg" >}}
+{{< figure src="hardened-bushing-1" >}}
 
-{{< image classes="fig-50 clear"
-          src="hardened-bushing-2.jpg" >}}
+{{< figure src="hardened-bushing-2" >}}
 
 Per acabar, es torneja la guia entre puntes al diàmetre exterior
 corresponent. En ser una operació de tornejat dur (amb eina de
@@ -80,16 +75,12 @@ requereix la guia malgrat les variacions que introdueix el tractament
 tèrmic. A continuació podeu veure algunes imatges del procés de
 tornejar dur.
 
-{{< image classes="fig-50"
-          src="hard-turning-1.jpg" >}}
+{{< figure src="hard-turning-1" >}}
 
-{{< image classes="fig-50 clear"
-          src="hard-turning-2.jpg" >}}
+{{< figure src="hard-turning-2" >}}
 
 Les noves guies muntades en l'utillatge de foradar Reglus:
 
-{{< image classes="fig-50"
-          src="mounted-bushing-top.jpg" >}}
+{{< figure src="mounted-bushing-top" >}}
 
-{{< image classes="fig-50 clear"
-          src="mounted-bushing-bottom.jpg" >}}
+{{< figure src="mounted-bushing-bottom" >}}

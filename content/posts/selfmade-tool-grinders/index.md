@@ -26,7 +26,7 @@ workshop. Any suggestion about a missing design will be considered ;-).
 The Quorn design
 ----------------
 
-{{< image classes="fig-100 clear"  src="./quorn-full.png" thumbnail-with="75%" >}}
+{{< figure src="quorn-full" >}}
 
 This "the" classic home made grinder. Designed by D. H. Chaddock and
 published through his book ["The Quorn tool and cutter
@@ -48,7 +48,7 @@ The majority of Quorn grinders are made using specific castings. These
 castings are mostly bought at specialized providers. However, some of
 the Quorns are built from stock bar. Bonelle design is one of these:
 
-{{< image classes="fig-100 clear"  src="bonelle-grinder.jpg" thumbnail-with="75%" >}}
+{{< figure src="bonelle-grinder" >}}
 
 
 *   [http://madmodder.net/index.php?topic=4052.0](http://madmodder.net/index.php?topic=4052.0)
@@ -64,7 +64,7 @@ This design looks like a miniaturized [Clarkson
 grinder](http://www.lathes.co.uk/clarkson). Brooks grinder was
 published in Model Engineering Workshop numbers 16 and 17.
 
-{{< image classes="fig-100 clear"  src="stent-tcg.jpg" thumbnail-with="75%" >}}
+{{< figure src="stent-tcg" >}}
 
 *   [http://www.gadgetbuilder.com/Brooks\_Grinder.html](http://www.gadgetbuilder.com/Brooks_Grinder.html)
 *   [http://www.lathes.co.uk/stent](http://www.lathes.co.uk/stent)

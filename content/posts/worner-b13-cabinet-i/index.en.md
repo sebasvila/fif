@@ -3,7 +3,7 @@ title: 'Wörner B13 cabinet (I)'
 date: 2020-03-18T09:52:00.005+01:00
 draft: false
 slug: "worner-b13-cabinet-i"
-coverImage: /fotos/worner-b13/20200207_174320.jpg
+coverImage: 20200207_174320.jpg
 tags:
 - Wörner B13
 - tech.welding
@@ -31,13 +31,12 @@ coating is Reseda Green (RAL 6011) enamel, which matches the original
 drill press color.
 
 
-{{< image classes="fig-100 clear"
-src="/fotos/worner-b13/20200207_174320.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200207_174320.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200208_142343.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200208_142343.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200210_193544.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200210_193544.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200215_184930.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200215_184930.jpg" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/worner-b13/20200215_175154.jpg" thumbnail-with="75%" >}}
+{{< figure src="20200215_175154.jpg" >}}

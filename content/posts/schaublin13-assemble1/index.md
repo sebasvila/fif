@@ -26,7 +26,7 @@ The box should be mounted first, to let the fast feeds motor to be
 mounted after. This box is mounted without the gearing, that will be
 setup later.
 
-{{< image classes="fig-100 center clear" src="gear-box.jpg" >}}
+{{< figure src="gear-box" >}}
 
 
 # Re-assemble the motors
@@ -36,20 +36,20 @@ motor. Previously, I decided to replace the bearings, mostly because
 the motor was in a very unaccessible place and, I preferred to assure
 I will not nedd to set apart in the future.
 
-{{< image classes="fig-100 center clear" src="motor-xic-1.jpg" >}}
+{{< figure src="motor-xic-1" >}}
 
 Then, the motor is put in place with the help of some wood plates to
 support it in place. The elastic joint should be in place.
 
-{{< image classes="fig-100 center clear" src="motor-xic-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="motor-xic-3.jpg" >}}
-{{< image classes="fig-100 center clear" src="motor-xic-4.jpg" >}}
+{{< figure src="motor-xic-2" >}}
+{{< figure src="motor-xic-3" >}}
+{{< figure src="motor-xic-4" >}}
 
 After that, the power motor is put in place. Not easy to set up. It
 has a single position where it do not clashes with the feeds
 motor. Lots of patience.
 
-{{< image classes="fig-100 center clear" src="motors-1.jpg" >}}
+{{< figure src="motors-1" >}}
 
 
 # Re-assemble the variator
@@ -59,7 +59,7 @@ includes the mechanism to rotate the drum that displays the current
 speed. Despite the intuition, it was very easy to mount ans syncronize
 with the variator position.
 
-{{< image classes="fig-100 center clear" src="variator.jpg" >}}
+{{< figure src="variator" >}}
 
 The lube pipes have been also cleaned. Mostly by circulating
 [WD-40](https://wd40.com) through them. In some cases also a pipe
@@ -71,27 +71,27 @@ brush was used. Pressurized air was also useful.
 Time to assemble the knee. Make the last settings: set the centering
 off the horizontal clutch driver. It has just 0.1 mm of play to each side!
 
-{{< image classes="fig-100 center clear" src="play-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="play-2.jpg" >}}
+{{< figure src="play-1" >}}
+{{< figure src="play-2" >}}
 
 Put the covers of the knee:
 
-{{< image classes="fig-100 center clear" src="tapa-1.jpg" >}}
-{{< image classes="fig-100 center clear" src="tapa-2.jpg" >}}
+{{< figure src="tapa-1" >}}
+{{< figure src="tapa-2" >}}
 
 Finally, the knee is moved to place with the hoist help.
 
-{{< image classes="fig-100 center clear" src="davantal-1.jpg" >}}
+{{< figure src="davantal-1" >}}
 
 Then, I mounted the Z feed handle assembly, after that the Z lock bar
 and handle and, finally the feeds lever box. Also, the cover of the
 feed security clutch mechanism was screwed on.
 
-{{< image classes="fig-100 center clear" src="junta-1.jpg" >}}
+{{< figure src="junta-1" >}}
 
-{{< image classes="fig-100 center clear" src="davantal-2.jpg" >}}
-{{< image classes="fig-100 center clear" src="davantal-3.jpg" >}}
-{{< image classes="fig-100 center clear" src="davantal-4.jpg" >}}
+{{< figure src="davantal-2" >}}
+{{< figure src="davantal-3" >}}
+{{< figure src="davantal-4" >}}
 
 Note that I also added a dirt protection in the top of the knee. It
 was a missing part. The spare has been bought at [Quality

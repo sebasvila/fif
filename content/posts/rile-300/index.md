@@ -16,7 +16,7 @@ reorganized. Because of this, I sold the Pujantell lathe and a
 Milling/drilling Cincinnati machine. Now I sold also my shaper. It's a
 Rile-300 shaper, 300mm being the stroke length.
 
-{{< image classes="fig-100 clear"  src="20191201_143948.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_143948" >}}
 
 The machine is very similar to other of the same dimensions. Actually,
 it's almost identical to Sacia-300, a very usual spanish shaper. I
@@ -30,19 +30,19 @@ handle.
 
 Below, you will found some pictures of it.
 
-{{< image classes="fig-100 clear"  src="20191201_144005.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144005" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144034.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144034" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144053.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144053" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144120.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144120" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144140.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144140" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144232.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144232" >}}
 
-{{< image classes="fig-100 clear"  src="20191201_144342.jpg" thumbnail-with="75%" >}}
+{{< figure src="20191201_144342" >}}
 
 There are also a couple of short vids with the machine working:
 

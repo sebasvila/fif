@@ -3,7 +3,8 @@ title: 'Isoma centering microscope tail'
 date: 2017-05-12T17:50:00.001+02:00
 draft: false
 slug: "isoma-centering-microscope-tail"
-coverImage: /fotos/unclass/P1050995.JPG
+coverImage: P1050995.JPG
+
 tags:
 - tools
 - schaublin-13
@@ -33,14 +34,14 @@ tail.
 Following you can see some pictures of the original part (the ISO cone
 was cut away), the microscope, and the new cylindric tail.
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1060001.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060001.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050999.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050999.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050998.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050998.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050997.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050997.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1050995.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1050995.JPG" >}}
 
-{{< image classes="fig-100 clear"  src="/fotos/unclass/P1060002.JPG" thumbnail-with="75%" >}}
+{{< figure src="P1060002.JPG" >}}
