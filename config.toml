@@ -45,6 +45,10 @@ assetDir = "static"
   taxonomy = ['html']
   term = ['html']
 
+[imaging]
+  quality = 82
+  resampleFilter = "linear"
+  hint = "photo"
 
 #
 # Menu Configuration

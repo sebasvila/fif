@@ -4,18 +4,37 @@
 {{- $title := .Get "title" -}}
 {{- $class := .Get "class" -}}
 {{- $link := .Get "link" -}}
+{{- $attr := .Get "attr" -}}
+{{- $attrlink := .Get "attrlink" -}}
 
-{{/* Busquem la imatge dins del Page Bundle */}}
+{{/* 1. Try an exact match in the Page Bundle first */}}
 {{- $img := .Page.Resources.GetMatch $src -}}
+
+{{/* 2. If not found, try matching any extension in the Page Bundle (e.g., "foto.*") */}}
+{{- if not $img -}}
+  {{- $img = .Page.Resources.GetMatch (printf "%s.*" $src) -}}
+{{- end -}}
+
+{{/* 3. Fallback: Try an exact match in the global assets/ directory */}}
 {{- if not $img -}}
   {{- $img = resources.Get $src -}}
+{{- end -}}
+
+{{/* 4. Fallback: Loop through common extensions in the global assets/ directory */}}
+{{- if not $img -}}
+  {{- $exts := slice ".jpg" ".jpeg" ".png" ".webp" ".gif" ".JPG" ".JPEG" ".PNG" -}}
+  {{- range $exts -}}
+    {{- if not $img -}}
+      {{- $img = resources.Get (printf "%s%s" $src .) -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 
 <figure{{ with $class }} class="{{ . }}"{{ end }}>
   {{ if $link }}<a href="{{ $link }}">{{ end }}
   
   {{- if $img -}}
-    {{/* --- LÒGICA D'IMATGES RESPONSIVES --- */}}
+    {{/* --- RESPONSIVE IMAGES LOGIC --- */}}
     {{- $widths := slice 480 768 1024 -}}
     {{- $srcset := slice -}}
     
@@ -26,7 +45,7 @@
       {{- end -}}
     {{- end -}}
     
-    {{/* Imatge per defecte (mida màxima de seguretat) */}}
+    {{/* Default fallback image */}}
     {{- $fallback := $img.Resize "1024x webp" -}}
     {{- $srcset = $srcset | append (printf "%s %dw" $fallback.RelPermalink $fallback.Width) -}}
 
@@ -38,17 +57,17 @@
          loading="lazy"
          decoding="async">
   {{- else -}}
-    {{/* Fallback si és una imatge externa (URL de fora) o si no es troba */}}
+    {{/* Absolute fallback if it is a remote external URL or completely missing */}}
     <img src="{{ $src | safeURL }}" {{ with $alt }}alt="{{ . }}"{{ end }} {{ with $title }}title="{{ . }}"{{ end }}>
   {{- end -}}
 
   {{ if $link }}</a>{{ end }}
   
-  {{- if or $caption (.Get "attr") -}}
+  {{- if or $caption $attr -}}
     <figcaption>
       {{ with $caption }}<p>{{ . | markdownify }}</p>{{ end }}
-      {{ with (.Get "attr") }}
-        <span>{{ if (.Get "attrlink") }}<a href="{{ .Get "attrlink" }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}</span>
+      {{ with $attr }}
+        <span>{{ if $attrlink }}<a href="{{ $attrlink }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}</span>
       {{ end }}
     </figcaption>
   {{- end -}}

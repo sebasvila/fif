@@ -1,3 +1,43 @@
+/* 1. Container alignment */
+figure {
+    margin: 2rem auto;
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* 2. Fix the inline image bug causing the overlap */
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 0.75rem auto; /* Creates a clean gap below the image */
+}
+
+/* 3. Typographic styling for the caption */
+figcaption {
+    font-size: 1.3rem;      /* Slightly smaller than body text for hierarchy */
+    line-height: 1.5;       /* Comfortable reading spacing */
+    color: #555555;         /* Soften the tone (use #aaaaaa if on a dark theme) */
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* 4. Reset paragraph margins inside the shortcode */
+figcaption p {
+    margin: 0;
+    display: inline;           /* Prevents theme paragraph blocks from breaking layout */
+}
+
+/* 5. Attribution text styling (if you use the 'attr' field) */
+figcaption span {
+    display: block;
+    font-size: 1rem;
+    color: #777777;
+    margin-top: 0.25rem;
+}
+
+/*
 div#blog article .post-content figure figcaption h4 {
   font-size: 1.4rem;
   font-style: normal;
@@ -13,6 +53,7 @@ div#blog article .post-content figure figcaption p {
   line-height: 2.2ex;
 }
 
+*/
 
 body #blog #header .header-title .header-title-link {
     font-weight: 800;
