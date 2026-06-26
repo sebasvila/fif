@@ -50,7 +50,7 @@ assume that site coverimage is always dark enough (don't filter it)
         {{/* Safely step through processing to avoid passing nil to the filter */}}
         {{ $processed := $coverimg.Fill (printf "%dx%d webp" $width 250) }}
         {{ if $processed }}
-          {{ $coverimg = $processed.Filter (images.Brightness -40) }}
+          {{ $coverimg = $processed.Filter (images.Brightness -33) }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -59,25 +59,6 @@ assume that site coverimage is always dark enough (don't filter it)
     {{- .Scratch.Set "coverImgObj" $coverimg -}}
   {{- end -}}
 {{- end -}}
-
-{{/*****
-{{- if .Params.coverimage -}}
-  {{ $coverimg := .Resources.GetMatch .Params.coverimage |
-                  default (resources.Get .Params.coverimage) }}
-  {{- .Scratch.Set "coverImage" ($coverimg.RelPermalink) -}}
-  {{ $width := $coverimg.Width }}
-
-  {{ if eq (path.BaseName $coverimg.RelPermalink) 
-           (path.BaseName .Site.Params.coverimage) }}
-    {{ $coverimg := $coverimg.Fill (printf "%dx%d webp" $width 250) }}
-    {{- .Scratch.Set "coverImgObj" $coverimg -}} 
-  {{ else }} 
-    {{ $coverimg := $coverimg.Fill (printf "%dx%d webp" $width 250) |
-                    images.Filter (images.Brightness -40) }}
-    {{- .Scratch.Set "coverImgObj" $coverimg -}}
-  {{ end }}
-{{- end -}}
-*********/}}
 
 {{/***************************
 Common paginator environment.
