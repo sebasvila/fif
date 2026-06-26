@@ -115,15 +115,16 @@ gran qualitat.
 El microscopi està en bon estat, no sembla que hagi tingut un mal us a
 primera vista. No és clar si ha tingut poc o molt ús. Per l'estat
 d'alguns caps de cargol alguna vegada s'ha desmuntat, segurament per
-fer manteniment. El problema principal que pateix rau en la
-solidificació dels greixos lubricants originals. Aquest és un problema
-típic dels instruments de precissió fabricats sota l'òrbita soviètica
-(i potser altres també): la durabilitat dels greixos lubricants és
-finita i es degraden formant un engrut extremadament enganxós o, fins
-i tot, una mena de laca dura que acaba bloquejant tots els
-mecanismes. De tots els mecanismes lliscants del microscopi, només les
-taules XY i la guia Z del microscopi es mouen amb certa
-llibertat. Resten bloquejats:
+fer manteniment. 
+
+El primer problema que pateix rau en la solidificació dels greixos
+lubricants originals. Aquest sembla ser un problema típic dels
+instruments de precissió fabricats sota l'òrbita soviètica (i potser
+altres també): la durabilitat dels greixos lubricants és finita i es
+degraden formant un engrut extremadament enganxós o, fins i tot, una
+mena de laca dura que acaba bloquejant tots els mecanismes. De tots
+els mecanismes lliscants del microscopi, només les taules XY i la guia
+Z del microscopi es mouen amb certa llibertat. Resten bloquejats:
 
 * Els micròmetres
 * El tub del microscopi (per a l'ajustat fi del focus)
@@ -131,18 +132,19 @@ llibertat. Resten bloquejats:
 * La taula rotativa
 * El botó de fixació de la taula rotativa
   
-Alguns dels accessoris també pateixen els mateixos problemes però
-aquests es tractaran en un altre nota.
+Alguns accessoris pateixen del mateix mal però aquests es tractaran en
+una altra nota.
 
-L'altre problema rellevant és la obsolescència del sistema
-d'enllumenat. A més de que el microscopi es va comprar sense la font
-d'alimentació original, està dissenyat per a fer servir bombetes
-hal·lògenes «de precissió» ---que ara mateix són difícils
-d'aconseguir--- i tenen una vida útil afitada. Fóra interessant,
-doncs, actualitzar el sistema d'il·luminació a tecnologia lED.
+El segon problema rellevant és l'obsolescència del sistema
+d'enllumenat. Més enllà que el microscopi es va comprar sense la font
+d'alimentació original, el seu sistema d'enllumenat està dissenyat per
+a fer servir bombetes halògenes «de precissió» ---que ara mateix són
+difícils d'aconseguir--- i tenen una vida útil molt reduïda. Fóra
+interessant, doncs, actualitzar el sistema d'il·luminació amb
+tecnologia LED.
 
 
-# Treballs de reconstrucció
+# Consideracions prèvies
 
 ## El greix solidificat
 
@@ -159,16 +161,15 @@ restauració d'un microscopi LOMO:
   diaphragm.](http://www.microscopy-uk.org.uk/mag/indexmag.html?http://www.microscopy-uk.org.uk/mag/artmar06/iw-lomooblique.html)
 
 En el cas dels aparells òptics, aquest problema és especialment
-empipador. La presència de lens ---potser amb recobriments---, que són
-delicades a nivell mecànic i químic i que no admeten la brutícia,
+empipador. La presència de lents ---potser amb recobriments---, que
+són delicades a nivell mecànic i químic i que no admeten la brutícia,
 dificulten els mètodes més habituals de neteja, que sovint passen per
 la immersió en banys de productes dissolvents o l'aplicació de
-calor. Un problema afegit és el dels acabats cosmètics i les marques i
-grabats en escales.  Cal, doncs, actuar amb extrema suavitat i tacte
-en la neteja. No hi ha una recepta universal sinó una tècnica concreta
-per a cada situació.
-
-
+calor. Un problema afegit és el dels acabats cosmètics; les marques i
+grabats en escales i el vidre òptic grabat ---per exemple amb
+gratícules---.  Cal, doncs, actuar amb extrema suavitat i tacte en la
+neteja. No hi ha una recepta universal sinó una tècnica concreta per a
+cada situació.
 
 La regla fonamental és aplicar les tècniques més suaus possibles i
 incrementar l'agressivitat només si és imprescindible. Per exemple, en
@@ -176,7 +177,17 @@ el cas de productes dissolvents, la seqüència (de menys a més) podria
 ser alcohol isopropílic--white spirit--acetona. Pero no és
 generalitzable! en algunes laques poden ser sensibles a l'alcohol i no
 pel white spirit, per exemple. Sempre és prudent provar amb cura
-abans.
+abans. Si l'espai ho permet, l'actuació amb medis mecànics no
+agressius com ara els bastonets de fusta dura és un complement
+important. A vegades, el treball amb la lupa de rellotger permet veure
+clarament on hi ha les restes minúscules de greix solidificat i
+netejar-les puntualment.
+
+{{< figure src="detall-vernis"
+           caption=`Detall del greix solidificat que dificultava el
+		           decollat d'un anell`
+				   >}}
+
 
 ## Greix esmorteïdor
 
@@ -195,25 +206,115 @@ En el cas que ens ocupa, són imprescindibles per lubricar els tubs
 la taula circular.
 
 En tot el projecte s'han fet servir els greixos sintètics Tribosyn 320
-comprats a [NewgateSimms](https://newgatesimms.com). Es interessant el
+comprats a [Newgate Simms](https://newgatesimms.com). Es interessant el
 «Damping Grease Trial Pack», que permet adquirir una petita quantitat
----però suficient--- de diferents viscositats. 
+---però suficient--- de greix sintètic de diferents viscositats. 
 
 {{< figure src="tribosyn-320.webp" >}}
 
 Les viscositats emprades són més aviat les lleugeres. Depèn del
-mecanisme i la seva funció s'han triat viscositats més grans o més
+mecanisme i la seva funció es trien viscositats més grans o més
 petites.
+
 
 ## Neteja del vidre òptic
 
+La neteja dels vidres òptics és tota una disciplina. Deixar uns vidres
+sense cap traça de brutícia i, a la vegada, respectar recobriments i
+gratícules és un art.
 
+El principi general indica que com menys es netegin millor. Així
+doncs, el consell és no netejar-los llevat que la brutícia dificulti
+la feina que han de fer.
+
+En cas que s'hagin de netejar, és millor fer-ho amb els vides
+desmuntats dels seus suports si és possible. Netejar una lent en el
+fons d'un tub òptic és una feina difícil i sovint només es pot fer una
+neteja parcial.
+
+Per a vidres sense grabats el procediment sempre comença per un bufat,
+ja sigui amb un spray d'aire, amb un bufador de pera específic per
+òptica i rellotgeria o amb el pizell suau de pèl de camell. L'objectiu
+és fer fora fins la més petita traça de sòlids que puguin ratllar o
+esmerilar el vidre en la neteja posterior.
+
+A continuació es pot procedir de diferents maneres. El més simple és
+fer servir paper de neteja òptica humectat amb algun tipus de
+líquid. El paper de neteja es pot aconseguir en le botigues d'òptica
+tipus [Edmunds Optics](https://www.edmundoptics.com) o
+[MeetOptics](https://www.meetoptics.com) i també a Amazon (en
+particular el de la marca Hama). Són uns petits fulls de paper molt
+fi, sense sòlids i sense borra. Per humectar-lo es poden fer servir
+líquids dissenyats específicament com ara el de Zeiss o bé alcohol
+isopropílic o acetona. La idea és fer servir el menys agressiu
+possible. El paper només s'ha d'humitejar i es frega suaument el vidre
+circularment de dins cap a fora. Cal poder sostenir el vidre sense
+deixar-hi rastre. Sovint uns guants sense talc ajuden.
+
+Una tècnica efectiva per a deixar el vidre impecable sense ser
+agressiu consisteix a mullar notablement el paper amb acetona pura,
+tapar amb el paper tota la lent fent «que s'hi enganxi» i, poc a poc,
+anar enretirant el paper de la lent tibant-lo de forma que llisqui
+suaument per la superfície sense desenganzar-se. La zona que va quedat
+al descober evapora l'acetona molt depressa sense deixar rastres i el
+paper es va enduent la brutícia minúscula. El resultat es una
+superfície molt neta sense haver fregat excessivament.
+
+Fregar amb intensitat la superfície és mala idea: sempre provocarà
+petites microratllades que escurcen la vida de la lent.
+
+Quan el vidre té elements grabats les coses són molt més
+complicades. Els gravats són extremadament fins i delicats. Si es pot
+passar amb una simple bufada mol millor. Altrament, no es pot fregar
+si nó és de forma extremadament suau i no es poden fer servir
+productes humectants agressius.
+
+Les lents cementades ---fetes de dues lents enganxades--- cal
+mimar-les una mica. Cal evitar que els líquids de neteja no penetrin
+per capilaritat en la zona cementada.
+
+El cas dels miralls necessita un comentari específic. No són
+resistents com els vidres òptics, sovint són miralls exposats: la capa
+reflectant ---que acostuma a ser un material metàl·lic--- està exposat
+en la superfície. És tremendament fàcil ratllar-los. L'únic segur es
+actuar bufant.
+
+Finalment, si l'element a netejar no es pot treure i cal netejar-lo
+muntat, es procedeix igual però amb la dificultat afegida d'accedir
+fins l'element. Els bastonets de neteja lliures de borra que es poden
+trobar en botigues especialitzades poden ajudar. No són escaients per
+netejar però poden ajudar a netejar primer les zones adjacents i
+després, embolicats de paper òptic, el vidre en qüestió.
+
+{{< figure src="eines-neteja-1" 
+           caption=`Eines de neteja. S'hi veu el paper òptic, el 
+		           bufador de pera i el pinzell de pèl de camell`
+				   >}}
 
 
 ## Eines especials
 
+És imporescindible poder treballar amb tornavisos de rellotger, pinces
+i lupa de rellotger. Les peces són plenes de petits cargols i
+espàrrecs diminuts. També caixetes i bosses de cremallera són útils
+per desar les petites peces.
 
+Els tubs òptics són plens d'anells de retenció i altres elements
+roscats sovint només extraïbles amb claus de tetons. Unes claus de
+tetons per òptica regulables són molt útils.
 
+{{< figure src="eines-especials-2" 
+           caption=`Eines especials. Algunes són fetes a mida` >}}
+
+Tot i això, alguns elements es manipulen molt millor amb claus fetes a
+mida. La foto anterior en mostra algunes: puntes de tornavís de mides
+exactes; claus de tetons amb guies; etc. Quan ha fet falta desmuntar
+algun element fent força o amb risc de marcar-lo s'han fet eines a
+mida, sovint amb tractament tèrmic inclòs.
+
+{{< figure src="clau-1" caption="Punta de tornavís especial" >}}
+
+{{< figure src="clau-2" caption="Clau de got amb tetons" >}}
 
 
 <!--
