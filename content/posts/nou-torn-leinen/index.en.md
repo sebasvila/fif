@@ -2,7 +2,7 @@
 title: 'A new machine: Leinen lathe LZ4SB'
 date: 2012-09-05T00:15:00.001+02:00
 draft: false
-slug: "nou-torn-leinen"
+slug: "new-leinen-lathe"
 coverImage: P1030576.JPG
 tags:
 - leinen LZ4SB
@@ -13,7 +13,7 @@ categories:
 
 
 After having read many times about the Boley Leinen LZ4SB in
-[lathes.uk](http://www.lathes.co.uk/leinen/) and being sure that It
+[lathes.uk](http://www.lathes.co.uk/leinen/) and being sure that it
 would be impossible to get one of them here in Catalunya, unexpectly I
 found one of them in the Hospitalet del Llobregat used machine dealer
 [Ferrimaq](http://www.ferrimaq.com/Maquinaria-de-ocasion.html). That

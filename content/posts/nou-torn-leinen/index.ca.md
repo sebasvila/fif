@@ -2,7 +2,7 @@
 title: 'Nova màquina: torn Leinen LZ4SB'
 date: 2012-09-05T00:15:00.001+02:00
 draft: false
-slug: "nou-torn-leinen"
+slug: "new-leinen-lathe"
 coverImage: P1030576.JPG
 tags:
 - leinen-lz4sb
