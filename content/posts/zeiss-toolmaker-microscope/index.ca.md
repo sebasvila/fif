@@ -317,6 +317,10 @@ mida, sovint amb tractament tèrmic inclòs.
 {{< figure src="clau-2" caption="Clau de got amb tetons" >}}
 
 
+# La reconstrucció
+
+
+
 <!--
 {{< figure src="original.jpg" loading="lazy">}}
 
