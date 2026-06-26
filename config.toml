@@ -50,6 +50,11 @@ assetDir = "static"
   resampleFilter = "linear"
   hint = "photo"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+
 #
 # Menu Configuration
 #
