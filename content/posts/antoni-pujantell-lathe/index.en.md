@@ -14,74 +14,78 @@ keywords:
 - overhauling
 ---
 
+For many years, I was the proud owner of an AP lathe (AP being the
+initials of its maker, Antoni Pujantell). This lathe was the very
+first machine tool I brought home, and after many years of loyal
+service, I sold it a few days ago.
 
-# The Antoni Pujantell AP lathe
+<!--more-->
 
-I have been a proud owner of an AP lathe (AP being the initials of the
-maker: Antoni Pujantell). This lathe is the first machine tool that
-arrived at home and, after many years of service, I sold it some days
-ago.
+When it first arrived from a scrap dealer, it was in poor condition:
+several parts were broken, it was completely rusted, and its geometry
+was badly worn from years of use. My father and I spent countless
+hours restoring it. We repaired broken components, fabricated missing
+parts like the way wipers, and thoroughly cleaned and lacquered the
+machine.
 
-It arrived from a scrap dealer in a bad condition: some parts broken,
-absolutly rusty, geometry worn out because of the use. My father and
-myself together spend many hours to recover it. We repaired some
-broken parts, build some lost parts like the guide scrapers, cleaned
-and lackered the machine, etc. However, the really biggest effort was
-to adjust the main guides. This was done carefully by my father
-spending many many efforts. Unfortunately, digital photography didn't
-exist yet and I don't have significant recordings of all this task
-other that my father working on the lathe few months after being
-recovered:
+However, the greatest effort went into scraping and aligning the main
+bed ways. My father did this meticulously, putting an immense amount
+of work into the process. Unfortunately, digital photography didn't
+exist yet, so I don't have many records of the restoration, other than
+this photo of my father working on the lathe a few months after it was
+brought back to life:
 
 {{< figure src="P1060177.JPG" >}}
 
-This post is a tribute to all this work we enjoyed so much.
+This post is a tribute to all that hard work, a project we enjoyed
+immensely.
 
 
-# The lathe characteristics
+# Lathe Specifications
 
-The AP lathe is a production machine heavily built. Main dimensions
-are:
+The AP lathe is a heavily built production machine. Its main
+specifications are:
 
-*   1000mm between centers
-*   250mm turn over the carriage
-*   400mm turn over the guides
-*   600mm with the gap bed removed
-*   3HP motor power
-*   Morse cone 3 tailstock
-*   Imperial threaded nose with morse 5 cone
-*   40mm spindle pass-thru
-*   300mm prismatic guide width
-*   All geared spindle drive. 12 speeds
-*   Spindle supported by two adjustable tapered roller bearings
-*   8 slots Norton box for imperial threading
+* 1000 mm distance between centers
+* 250 mm swing over the carriage
+* 400 mm swing over the bed ways
+* 600 mm swing with the gap block removed
+* 3 HP motor
+* Morse taper 3 (MT3) tailstock
+* Imperial threaded spindle nose with a Morse taper 5 (MT5) internal taper
+* 40 mm spindle bore (pass-through)
+* 300 mm bed width (prismatic V-ways)
+* All-geared headstock drive (12 speeds)
+* Spindle supported by two adjustable tapered roller bearings
+* 8-position Norton quick-change gearbox for Imperial threading
 
 
-# Some illustrated notes
+# Illustrated Notes
 
-## The spindle drive
+## The Headstock and Spindle Drive
 
-The spindle is driven by a gear train enclosed in the lathe
-headstock. Lubrication is provided by oil bath that also lubricates
-the spindle bearings. This is shown in the pictures below.
+The spindle is driven by a gear train enclosed within the
+headstock. An oil bath provides lubrication for both the gears and the
+spindle bearings, as shown in the pictures below.
 
 {{< figure src="P1060165.JPG" >}}
 
 {{< figure src="P1060160.JPG" >}}
 
-The spindle speed selection is done by a combination of three front
-levers giving a total of 12 speeds ranging from 28 to 1100 rpm. The
-plate showing the speeds was removed during the refurbishing due to
-its bad state. The best image we have after treatment is this one:
+Spindle speeds are selected using a combination of three front-mounted
+levers, offering a total of 12 speeds ranging from 28 to 1100 rpm. The
+speed chart plate had to be removed during restoration because it was
+in poor condition. The best image we have of it after cleaning and
+treatment is this one:
 
 {{< figure src="placa-marxes.jpg" >}}
 
 
-## The Norton box
+## The Norton Gearbox
 
-The lathe comes with a imperial leadscrew driven by a Norton box
-providing the following relations (the item number corresponds to the
-lever position):
+The lathe features an Imperial leadscrew driven by a Norton
+quick-change gearbox, providing the following ratios (the item number
+corresponds to the lever position):
 
 1.  1
 2.  8/9
@@ -92,23 +96,24 @@ lever position):
 7.  8/13
 8.  4/7
 
-In addition, a lever with three positions marked as A, B and C acts as
-a multiplier with the following factors A 1/2, B 1, C 2. Thus, the
-neutral position is achieved with the levers in position 1 and
-B. According to this, the original plate give these tables:
+In addition, a three-position lever marked A, B, and C acts as a
+multiplier with the following factors: A = 1/2, B = 1, and C = 2. The
+standard ratio is achieved with the levers in position 1 and B. Based
+on this, the original chart plate provides these thread tables:
 
 {{< figure src="placa-roscar.jpg" >}}
 
-These are the pictures of the box:
+Here are some close-up pictures of the gearbox:
 
 {{< figure src="P1060151.JPG" >}}
 
 {{< figure src="P1060152.JPG" >}}
 
-The third lever on the top of the box switches on/off the feed rod and the leadscrew.
+The third lever on top of the gearbox engages and disengages the feed
+rod and the leadscrew.
 
 
-## Other pictures
+## Additional Photos
 
 {{< figure src="P1060145.JPG" >}}
 
@@ -127,29 +132,35 @@ The third lever on the top of the box switches on/off the feed rod and the leads
 {{< figure src="P1060148.JPG" >}}
 
 
-## The AP leaves the garage
+## The AP Leaves the Garage
 
-It's really sad. The Pujantell leaved the garage after so many years
-working with it. I wish many hours of joy to the new owner. This is a
-picture of the lathe being loaded by a tailgate.
+It was a bittersweet moment. The Pujantell lathe finally left the
+garage after so many years of reliable service. I wish the new owner
+many hours of successful machining. Here is a picture of the lathe
+being loaded onto a truck using a hydraulic liftgate.
 
 {{< figure src="tor-ap-sortida.jpg" >}}
 
 
-## Literature about this lathe
+## Historical Documentation and Literature
 
-I know no printed literature of this lathe. Any hint will be
-welcome. It's worth to note that exists a brochure for a next
-generation machine built also by the same maker. This is the AP model
-E-2 lathe. By its look, I think it should be a machine of the late
-60's or firsts 70's. Thus, I guess that the lathe shown in this post
-should be fabricated in the early 50's. As you can see, the E-2 shares
-some building blocks and design characteristics with the older lathe.
+I am not aware of any printed literature or manuals for this specific
+lathe, so any information or leads would be highly appreciated. It is
+worth noting, however, that a brochure exists for a next-generation
+machine built by the same manufacturer --- the AP model E-2
+lathe. Judging by its appearance, I believe it dates back to the late
+1960s or early 1970s. Consequently, I suspect that the lathe featured
+in this post was manufactured in the early 1950s. As you can see, the
+E-2 shares several core components and design characteristics with its
+predecessor.
 
-According to a kind reader, the AP lathes were made in
-[Lleida](https://en.wikipedia.org/wiki/Lleida)
-([Catalunya](https://en.wikipedia.org/wiki/Catalonia)). It was a
-family-owned business that closed some decades ago. The same person
-told me that the owners now own a farming business.
+According to a helpful reader, AP lathes were manufactured in
+[Lleida](https://en.wikipedia.org/wiki/Lleida),
+[Catalonia](https://en.wikipedia.org/wiki/Catalonia). It was a
+family-owned business that closed down several decades ago. The same
+source mentioned that the former owners have since transitioned into a
+farming business.
 
-[Antoni Pujantell AP E-2 lathe brochure](cataleg-torn-ap-e2.pdf)
+[Antoni Pujantell AP E-2 Lathe Brochure](cataleg-torn-ap-e2.pdf)
+
+
