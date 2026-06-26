@@ -2,7 +2,7 @@
 title: 'Repair the compound rest of the Leinen LZ4SB'
 date: 2012-12-19T20:21:00.002+01:00
 draft: false
-slug: "repair-compound-rest-of-leinen-lz4sb"
+slug: "leinen-compound-rest"
 coverImage: P1030772.JPG
 tags:
 - leinen LZ4SB
@@ -14,58 +14,71 @@ keywords:
 - straightening
 ---
 
+The compound rest of a Leinen lathe was inspected and subsequently
+overhauled. This blog entry explains the details of the restoration
+process.
 
-After being adjusted, the compound rest shows two issues:
+<!--more-->
 
-*   The motion screw exhibits a play that cannot be
-    decreased. Provably the adjustable nut is severely worn.
-*   The crank has a fixed friction point when turning. No hints about
-    the causes.
+# Overhauling a Leinen Lathe Compound Rest
 
-The compound rest has been dismantled and thoughtfully cleaned. First
-it was necessary to make a special socket wrench for the adjusting
-nuts of the compound gib. Next picture shows the wrench.
+Before the overhaul, evaluating the adjusted compound rest revealed
+two main issues:
+
+* The lead screw exhibited significant backlash that could not be
+  reduced, likely due to a severely worn adjustable nut.
+* The crank had a noticeable tight spot at a fixed point in its
+  rotation, with no obvious initial clues as to the cause.
+
+The compound rest was completely dismantled and thoroughly
+cleaned. First, it was necessary to fabricate a custom socket wrench
+to adjust the locking nuts on the compound gib. The picture below
+shows the finished wrench:
 
 {{< figure src="P1030757.JPG" >}}
 
-The following picture shows the parts that compose the compound rest:
+The following picture shows all the individual components that make up
+the compound rest assembly:
 
 {{< figure src="P1030763.JPG" >}}
 
-There are three notable things to remark about the beautiful build
-compound rest: the small adjustable nut; the gib, which is guided by a
-couple of pins instead of being guided by the adjusting screws as
-usual; and the design of the micrometer block. The following pictures
-show the details of these parts.
+There are three notable features to highlight regarding the excellent
+build quality of this compound rest: the compact adjustable nut, the
+gib design—which is located by a pair of pins rather than being held
+solely by the adjusting screws as is typical—and the design of the
+micrometer dial block. The following pictures show these details
+closely:
 
 {{< figure src="P1030764.JPG" >}}
 
 {{< figure src="P1030769.JPG" >}}
 
-Note that the compound has a pair of pins that avoid the displacement
-of the gib and relieves the adjusting screws of this
-responsibility. The micrometer block discovers some marks which are
-produced by an uneven rotation of the motion screw.
+As noted, the compound slide utilizes a pair of pins to prevent the
+gib from shifting, relieving the adjusting screws of lateral
+forces. Inspection of the micrometer block revealed wear marks caused
+by the uneven rotation of the lead screw.
 
-After analyze the screw we discovered that it is slightly
-bent. Possibly it is a consequence of an excessive thrust applied to
-it. We proceed to straighten it by mounting it between centers to
-measure the runout and correct it using a home made small
-press. Patiently using this procedure we achieve a maximum 0,05 mm of
-TIR. The following images illustrate the procedure.
+Upon analyzing the lead screw, we discovered that it was slightly
+bent, possibly due to excessive thrust load or an accidental impact in
+the past. To correct this, we mounted the screw between centers to
+measure the runout with a dial indicator and straightened it using a
+small, homemade press. Through patient adjustment, we managed to bring
+the maximum Total Indicator Reading (TIR) down to 0.05 mm. The
+following images illustrate the setup:
 
 {{< figure src="P1030759.JPG" >}}
 
 {{< figure src="P1030760.JPG" >}}
 
-We also repaired the adjusting nut, which was severely worn. The nut
-has two parts, one of them being the mobile nut. We made a new mobile
-nut to replace the worn one. After that it was possible to adjust the
-nut again.
+We also repaired the adjustable nut, which was severely worn. This nut
+consists of two parts, one of which is a movable section used to take
+up backlash. We machined a new movable section to replace the worn
+original, making it possible to properly adjust the play once again.
 
-The compound rest was mounted again and adjusted. Now it has a very
-smooth and repeatable feel. The metal was cleaned with vinegar, dried
-and carefully buffed with a smooth buffing wheel and fine buffing
-compound.  This is the result before painting it:
+Finally, the compound rest was reassembled and adjusted. It now has an
+incredibly smooth and repeatable feel across its entire travel. The
+bare metal parts were cleaned with vinegar, thoroughly dried, and
+carefully polished using a soft buffing wheel with fine compound. This
+is the final result before painting:
 
 {{< figure src="P1030772.JPG" >}}
