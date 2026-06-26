@@ -1,8 +1,8 @@
 ---
-title: 'Review the two speed reduction gearbox'
+title: 'Overhauling the Leinen Lathe Reduction Gearbox'
 date: 2012-12-26T11:49:00.003+01:00
 draft: false
-slug: "review-two-speed-reduction-gear"
+slug: "review-reduction-gearbox"
 coverImage: P1030852.JPG
 tags:
 - leinen LZ4SB
@@ -17,44 +17,50 @@ keywords:
 - reduction gearbox
 ---
 
+The Leinen lathe features a two-speed (1:1 and 1:8) reduction gearbox
+that can be operated while the machine is running, utilizing a
+multi-disk oil-bath clutch.
 
-The Leinen lathe comes with a two speed 1:1/1:8 reduction gearbox that
-can be operated while the machine is running. It works by using a
-multiple disks oil bath clutch.
+<!--more-->
 
-We disassembled the gearbox to check its condition. The reduction has
-a very thick deposit of oil after years without maintenance. Disks are
-in good condition and shaft seals are a bit worn.
+We disassembled the gearbox to inspect its overall condition. Due to
+years of neglected maintenance, the reduction unit had a very thick
+layer of oil sludge and deposits inside. Fortunately, the clutch disks
+were still in good condition, though the shaft seals were a bit worn.
 
-The following image shows the reduction set of parts after
-unassembling it.
+The image below shows all the individual components of the reduction
+unit after disassembly:
 
 {{< figure src="P1030852.JPG" >}}
 
-To disassemble the reduction we build a couple of pin keys to turn
-some retaining nuts:
+To dismantle the assembly, we fabricated a couple of custom pin
+spanner wrenches to remove the retaining nuts:
 
 {{< figure src="P1030848.JPG" >}}
 
-We cleaned carefully all the dirty oil deposits and replace the two
-shaft seals by new ones. Seals were first frozen to facilitate the
-mounting. New seals where exact replacements of the old ones from
-[Simrit](http://www.simritna.com/), bought at
-[INDICOM](http://www.indicom.es/). This is the gear case after
+We carefully cleaned away all the dirty oil deposits and replaced the
+two shaft seals with new ones. The new seals were frozen beforehand to
+shrink them slightly and ease the installation process. These were
+exact replacements for the original parts from
+[Simrit](http://www.simritna.com/), purchased through
+[INDICOM](http://www.indicom.es/). Here is the gear case after
 cleaning:
 
 {{< figure src="P1030802.JPG" >}}
 
-Aluminum motor pulley was slightly broken. It seems to be the result
-of a bad old repair. [David
-Arnau](http://www.solucionesdesoldadura.es/) weld it again. After
-welding we mechanized it to the right profile in our other lathe.
+The aluminum motor pulley was slightly damaged, which appeared to be
+the result of a poor repair job in the past. [David
+Arnau](http://www.solucionesdesoldadura.es/) welded it for us, and
+after welding, we machined it back to its correct profile on our other
+lathe.
 
-The flat belt pulley that transmits the power to the lathe spindle was
-unevenly worn. We attach it to our big old lathe and rebuild it to a
-new correct profile.
+Additionally, the flat belt pulley that transmits power to the lathe
+spindle was unevenly worn. We mounted it on our large vintage lathe
+and turned it to restore a true, correct profile.
 
-After that, reduction was ready to be mounted again. We do it sealing
-all the joints. This the final result:
+With those repairs completed, the reduction gearbox was ready for
+reassembly. We put it back together, ensuring all the mating surfaces
+and joints were properly sealed. This is the final result:
 
 {{< figure src="P1030855.JPG" >}}
+
