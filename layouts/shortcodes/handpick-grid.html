@@ -1,0 +1,56 @@
+{{- $filtered := slice -}}
+{{- $pages := .Site.RegularPages -}}
+
+{{/* Fetch each specific page by its slug or filename */}}
+{{- range .Params -}}
+  {{- $target_slug := lower (trim . " ") -}}
+  {{- $found_page := "" -}}
+  
+  {{- range $pages -}}
+    {{/* Get the front matter slug, or fallback to the filename/folder name */}}
+    {{- $page_slug := .Slug | default .File.ContentBaseName -}}
+    
+    {{- if eq (lower $page_slug) $target_slug -}}
+      {{- $found_page = . -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if $found_page -}}
+    {{- $filtered = $filtered | append $found_page -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Render the Grid */}}
+{{- if $filtered -}}
+  <div class="post-card-grid">
+    {{- range $filtered -}}
+      <article class="post-card">
+        
+        {{- if .Params.coverImage -}}
+          {{- $image := .Resources.GetMatch .Params.coverImage -}}
+          {{- if $image -}}
+            <div class="post-card-thumbnail">
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+              </a>
+            </div>
+          {{- end -}}
+        {{- end -}}
+        
+        <div class="post-card-body">
+          {{ if .Date }}
+            <time class="post-card-date">{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{ end }}
+          <h3 class="post-card-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          <p class="post-card-summary">{{ .Summary | truncate 100 }}</p>
+        </div>
+
+      </article>
+    {{- end -}}
+  </div>
+{{- else -}}
+  <p class="no-pages-found">No handpicked pages were found. Check your slugs.</p>
+{{- end -}}
+

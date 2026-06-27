@@ -1,0 +1,38 @@
+{{- $filtered := slice -}}
+{{- $pages := .Site.RegularPages -}}
+
+{{/* Fetch each specific page by its slug or filename */}}
+{{- range .Params -}}
+  {{- $target_slug := lower (trim . " ") -}}
+  {{- $found_page := "" -}}
+  
+  {{- range $pages -}}
+    {{/* Get the front matter slug, or fallback to the filename/folder name */}}
+    {{- $page_slug := .Slug | default .File.ContentBaseName -}}
+    
+    {{- if eq (lower $page_slug) $target_slug -}}
+      {{- $found_page = . -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if $found_page -}}
+    {{- $filtered = $filtered | append $found_page -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Render a Simple List */}}
+{{- if $filtered -}}
+  <ul class="handpicked-post-list">
+    {{- range $filtered -}}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- if .Date }}
+          <span class="list-date">({{ .Date.Format "Jan 2, 2006" }})</span>
+        {{- end -}}
+      </li>
+    {{- end -}}
+  </ul>
+{{- else -}}
+  <p class="no-pages-found">No handpicked pages were found. Check your slugs.</p>
+{{- end -}}
+  
