@@ -1,37 +1,56 @@
 {{- $pages := .Site.RegularPages -}}
-{{- $input_tags := .Params -}}
+{{- $input_terms := .Params -}}
 {{- $filtered := slice -}}
 
-{{/* Safely filter pages, ignoring pages missing the tags parameter */}}
+{{/* Safely filter pages checking structured tags and categories */}}
 {{- range $pages -}}
   {{- $page := . -}}
+  {{- $matches_all := true -}}
   
-  {{- if $page.Params.tags -}}
-    {{- $matches_all := true -}}
+  {{- range $input_terms -}}
+    {{- $term := lower (trim . " ") -}}
+    {{- $found := false -}}
     
-    {{- range $input_tags -}}
-      {{- if not (in $page.Params.tags .) -}}
-        {{- $matches_all = false -}}
+    {{/* 1. Check Tags strictly using .GetTerms */}}
+    {{- range $page.GetTerms "tags" -}}
+      {{- if eq (lower (trim .Title " ")) $term -}}
+        {{- $found = true -}}
       {{- end -}}
     {{- end -}}
     
-    {{/* If the page has every single requested tag, add it to the slice */}}
-    {{- if $matches_all -}}
-      {{- $filtered = $filtered | append $page -}}
+    {{/* 2. Check Categories strictly using .GetTerms */}}
+    {{- range $page.GetTerms "categories" -}}
+      {{- if eq (lower (trim .Title " ")) $term -}}
+        {{- $found = true -}}
+      {{- end -}}
     {{- end -}}
+    
+    {{/* If the term is missing from BOTH, discard the page */}}
+    {{- if not $found -}}
+      {{- $matches_all = false -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{/* If all terms were found, keep the page */}}
+  {{- if $matches_all -}}
+    {{- $filtered = $filtered | append $page -}}
   {{- end -}}
 {{- end -}}
 
-{{/* Render the simple bulleted list */}}
+{{/* Render Standard List - Sorted by Date Descending */}}
 {{- if $filtered -}}
-  <ul class="tagged-pages-list">
-    {{- range $filtered -}}
+  <ul class="match-tags-list">
+    {{- range sort $filtered "Date" "desc" -}}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ if .Date }}<span class="page-date">({{ .Date.Format "2006-01-02" }})</span>{{ end }}
+        {{ if .Date }}
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="match-tags-date">
+            {{ .Date.Format " - Jan 2, 2006" }}
+          </time> 
+        {{ end }}
       </li>
     {{- end -}}
   </ul>
 {{- else -}}
-  <p class="no-pages-found">No pages found matching all specified tags.</p>
+  <p class="no-pages-found">No pages found matching the specified tags/categories.</p>
 {{- end -}}

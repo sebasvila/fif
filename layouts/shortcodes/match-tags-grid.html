@@ -1,33 +1,45 @@
 {{- $pages := .Site.RegularPages -}}
-{{- $input_tags := .Params -}}
+{{- $input_terms := .Params -}}
 {{- $filtered := slice -}}
 
-{{/* Filter pages by tags safely */}}
 {{- range $pages -}}
   {{- $page := . -}}
+  {{- $matches_all := true -}}
   
-  {{- if $page.Params.tags -}}
-    {{- $matches_all := true -}}
+  {{- range $input_terms -}}
+    {{- $term := lower (trim . " ") -}}
+    {{- $found := false -}}
     
-    {{- range $input_tags -}}
-      {{- if not (in $page.Params.tags .) -}}
-        {{- $matches_all = false -}}
+    {{/* 1. Check Tags strictly */}}
+    {{- range $page.GetTerms "tags" -}}
+      {{- if eq (lower (trim .Title " ")) $term -}}
+        {{- $found = true -}}
       {{- end -}}
     {{- end -}}
     
-    {{- if $matches_all -}}
-      {{- $filtered = $filtered | append $page -}}
+    {{/* 2. Check Categories strictly */}}
+    {{- range $page.GetTerms "categories" -}}
+      {{- if eq (lower (trim .Title " ")) $term -}}
+        {{- $found = true -}}
+      {{- end -}}
     {{- end -}}
+    
+    {{- if not $found -}}
+      {{- $matches_all = false -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if $matches_all -}}
+    {{- $filtered = $filtered | append $page -}}
   {{- end -}}
 {{- end -}}
 
-{{/* Render Grid */}}
+{{/* Render Grid - Sorted by Date Descending */}}
 {{- if $filtered -}}
   <div class="post-card-grid">
-    {{- range $filtered -}}
+    {{- range sort $filtered "Date" "desc" -}}
       <article class="post-card">
         
-        {{/* Fetch the image from the Page Bundle resources */}}
         {{- if .Params.coverImage -}}
           {{- $image := .Resources.GetMatch .Params.coverImage -}}
           {{- if $image -}}
@@ -53,5 +65,5 @@
     {{- end -}}
   </div>
 {{- else -}}
-  <p class="no-pages-found">No pages found matching all specified tags.</p>
-{{- end -}}  
+  <p class="no-pages-found">No pages found matching the specified tags/categories.</p>
+{{- end -}}

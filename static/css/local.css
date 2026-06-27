@@ -1,3 +1,13 @@
+
+
+.match-tags-date {
+    color: #9eabb3;
+}
+
+/*
+ POST-CARD LISTS OS SHORTCODES
+*/
+
 /* Reduce the bottom margin of the title */
 .post .post-content .post-card-title {
   margin-bottom: 0.25rem !important; 
@@ -125,7 +135,9 @@
   }
 }
 
-/********************************************************/
+/*
+ FIGURES AND CAPTIONS
+ */
 
 /* 1. Container alignment */
 figure {
@@ -155,7 +167,7 @@ figcaption {
 /* 4. Reset paragraph margins inside the shortcode */
 figcaption p {
     margin: 0;
-    display: inline;           /* Prevents theme paragraph blocks from breaking layout */
+    display: inline;  /* Prevents theme paragraph blocks from breaking layout */
 }
 
 /* 5. Attribution text styling (if you use the 'attr' field) */
@@ -167,20 +179,6 @@ figcaption span {
 }
 
 /*
-div#blog article .post-content figure figcaption h4 {
-  font-size: 1.4rem;
-  font-style: normal;
-  font-weight: 600;
-  margin-top: 0.5em;
-}
-
-div#blog article .post-content figure figcaption p {
-  font-size: 1.3rem;
-  font-style: normal;
-  font-weight: lighter;
-  margin-top: -0.5em;
-  line-height: 2.2ex;
-}
 
 */
 
