@@ -1,3 +1,132 @@
+/* Reduce the bottom margin of the title */
+.post .post-content .post-card-title {
+  margin-bottom: 0.25rem !important; 
+}
+
+/* Force the summary paragraph to ignore the theme's default top margin */
+.post .post-content .post-card-summary {
+  margin-top: 0 !important; 
+}
+
+/* Override the theme's default image constraints inside the post content */
+.post .post-content .post-card-grid .post-card-thumbnail img {
+  width: 100% !important;        /* Overrides 'width: auto' */
+  max-width: none !important;    /* Overrides 'max-width: 100%' */
+  height: 220px !important;      /* Enforces the uniform card height */
+  object-fit: cover !important;  /* Ensures it crops beautifully instead of skewing */
+  margin: 0 !important;          /* Removes any default theme margins */
+}
+
+/* Container Grid - Perfectly responsive on mobile and desktop */
+.post-card-grid {
+  display: grid;
+  /* Automatically switches from 1 column on mobile to multiple columns on desktop */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+/* Individual Card */
+.post-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px; /* Slightly rounder for a modern look */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Card Hover effect */
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Thumbnail Wrapper */
+.post-card-thumbnail {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background-color: #f7fafc;
+}
+
+/* The Anchor tag inside the thumbnail needs to be full width too */
+.post-card-thumbnail a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Crucial Image Fixes */
+.post-card-thumbnail img {
+  width: 100%;          /* Forces image to stretch across the whole card width */
+  height: 220px;        /* Consistent height across all cards */
+  object-fit: cover;    /* Crops the image perfectly without distortion */
+  object-position: center;
+  display: block;       /* Eliminates any weird inline tracking spacing below the image */
+  transition: transform 0.5s ease;
+}
+
+/* Subtly zoom the image on card hover */
+.post-card:hover .post-card-thumbnail img {
+  transform: scale(1.03);
+}
+
+/* Content Area styling */
+.post-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.post-card-date {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a0aec0;
+  margin-bottom: 0.5rem;
+}
+
+.post-card-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.post-card-title a {
+  color: #1a202c;
+  text-decoration: none;
+}
+
+.post-card-title a:hover {
+  color: #3182ce;
+}
+
+.post-card-summary {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Mobile-specific fine-tuning */
+@media (max-width: 480px) {
+  .post-card-grid {
+    grid-template-columns: 1fr; /* Strict single column on small phones */
+    gap: 1.5rem;
+  }
+  
+  .post-card-thumbnail img {
+    height: 180px; /* Slightly shorter image heights on mobile screens */
+  }
+}
+
+/********************************************************/
+
 /* 1. Container alignment */
 figure {
     margin: 2rem auto;

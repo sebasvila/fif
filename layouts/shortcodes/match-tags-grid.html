@@ -1,0 +1,57 @@
+{{- $pages := .Site.RegularPages -}}
+{{- $input_tags := .Params -}}
+{{- $filtered := slice -}}
+
+{{/* Filter pages by tags safely */}}
+{{- range $pages -}}
+  {{- $page := . -}}
+  
+  {{- if $page.Params.tags -}}
+    {{- $matches_all := true -}}
+    
+    {{- range $input_tags -}}
+      {{- if not (in $page.Params.tags .) -}}
+        {{- $matches_all = false -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- if $matches_all -}}
+      {{- $filtered = $filtered | append $page -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Render Grid */}}
+{{- if $filtered -}}
+  <div class="post-card-grid">
+    {{- range $filtered -}}
+      <article class="post-card">
+        
+        {{/* Fetch the image from the Page Bundle resources */}}
+        {{- if .Params.coverImage -}}
+          {{- $image := .Resources.GetMatch .Params.coverImage -}}
+          {{- if $image -}}
+            <div class="post-card-thumbnail">
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+              </a>
+            </div>
+          {{- end -}}
+        {{- end -}}
+        
+        <div class="post-card-body">
+          {{ if .Date }}
+            <time class="post-card-date">{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{ end }}
+          <h3 class="post-card-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          <p class="post-card-summary">{{ .Summary | truncate 100 }}</p>
+        </div>
+
+      </article>
+    {{- end -}}
+  </div>
+{{- else -}}
+  <p class="no-pages-found">No pages found matching all specified tags.</p>
+{{- end -}}  

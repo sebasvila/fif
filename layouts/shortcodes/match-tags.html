@@ -1,0 +1,37 @@
+{{- $pages := .Site.RegularPages -}}
+{{- $input_tags := .Params -}}
+{{- $filtered := slice -}}
+
+{{/* Safely filter pages, ignoring pages missing the tags parameter */}}
+{{- range $pages -}}
+  {{- $page := . -}}
+  
+  {{- if $page.Params.tags -}}
+    {{- $matches_all := true -}}
+    
+    {{- range $input_tags -}}
+      {{- if not (in $page.Params.tags .) -}}
+        {{- $matches_all = false -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{/* If the page has every single requested tag, add it to the slice */}}
+    {{- if $matches_all -}}
+      {{- $filtered = $filtered | append $page -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Render the simple bulleted list */}}
+{{- if $filtered -}}
+  <ul class="tagged-pages-list">
+    {{- range $filtered -}}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Date }}<span class="page-date">({{ .Date.Format "2006-01-02" }})</span>{{ end }}
+      </li>
+    {{- end -}}
+  </ul>
+{{- else -}}
+  <p class="no-pages-found">No pages found matching all specified tags.</p>
+{{- end -}}
