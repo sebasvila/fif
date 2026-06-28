@@ -9,12 +9,15 @@ coverImage: P1050142.JPG
 tags:
   - màquina.leinen-lz4sb
   - tecnologia.electricitat
+  - eines.mecànica
+  - treball.reparació
 categories:
-  - Maquinària i mecànica de precisió
+  - maquinària i mecànica de precisió
 keywords:
   - Waldmann luminaire WD 306
   - industrial luminaires
 ---
+
 S'ha afegit una antiga lluminària Waldmann WD 306 al torn Boley
 Leinen. El llum és antic, però encara manté un disseny molt
 interessant. Es pot trobar a un preu raonable i, després de fer-li un

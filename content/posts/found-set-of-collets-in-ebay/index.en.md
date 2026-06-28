@@ -7,7 +7,8 @@ coverImage: "P1040878.JPG"
 tags:
   - machine.leinen-lz4sb
   - tools.metalworking
-categories: []
+categories:
+  - machines and metalworking
 keywords:
   - 363E collets
   - s25 collets

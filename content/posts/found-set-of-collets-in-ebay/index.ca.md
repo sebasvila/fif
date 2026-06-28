@@ -6,8 +6,9 @@ slug: "found-set-of-collets-in-ebay"
 coverImage: "P1040878.JPG"
 tags:
   - màquina.leinen-lz4sb
+  - eines.mecànica
 categories:
-  - Maquinària i mecànica de precisió
+  - maquinària i mecànica de precisió
 keywords:
   - pinces 363E
   - pinces s25

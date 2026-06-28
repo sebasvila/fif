@@ -5,8 +5,9 @@ date: 2025-03-07
 coverImage: "kaiser-sliding-stop.jpg"
 tags:
   - tecnologia.mesura
+  - eines.mecànica
 categories:
-  - Documentació i plànols
+  - documentació i plànols
 keywords: [Big Kaiser, capçal mandrinar, esbós]
 draft: false
 ---
@@ -16,7 +17,7 @@ algú altre.
 
 <!--more-->
 
-{{< figure src="kaiser-sliding-stop.jpg" caption="Esbós del topall mòbil del capçal Kaiser Piccolo" loading="lazy">}}
+{{< figure src="kaiser-sliding-stop.jpg" caption="Esbós del topall mòbil del capçal Kaiser Piccolo" >}}
 
 <!--
 {{< figure src="original.jpg" loading="lazy">}}

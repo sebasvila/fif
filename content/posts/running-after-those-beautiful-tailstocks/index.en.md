@@ -9,12 +9,18 @@ tags:
   - tools.metalworking
 keywords:
   - 113E collets
-categories: []
+categories:
+  - machines and metalworking
 ---
+
 I was obsessed with those beautiful optional tailstocks built by
 Leinen that appear in the lathe parts catalog. An intense surveillance
-in ebay has given some partial results. The first attempt achieved
-this nice capstan-handle tailstock that admits the 25 mm 363E collets:
+in ebay has given some partial results. 
+
+<!--more-->
+
+The first attempt achieved this nice capstan-handle tailstock that
+admits the 25 mm 363E collets:
 
 {{< figure src="P1050343.JPG" >}}
 

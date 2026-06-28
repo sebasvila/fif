@@ -6,9 +6,12 @@ coverImage: "head-4.jpg"
 tags:
   - tecnologia.tornejat
   - tecnologia.fresat
+  - tecnologia.foradat
+  - tecnologia.mesura
+  - eines.mecànica
   - treball.reparació
 categories:
-  - Maquinària i mecànica de precisió
+  - maquinària i mecànica de precisió
 keywords:
   - kaiser piccolo
   - capçal mandrinar

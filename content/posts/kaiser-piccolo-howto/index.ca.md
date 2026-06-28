@@ -5,9 +5,13 @@ date: 2024-11-01
 coverImage: caixa1.jpg
 tags:
   - tecnologia.fresat
+  - eines.mecànica
 categories:
-  - Documentació i plànols
-keywords: [capçal mandrinar, mandrinat, planejat]
+  - documentació i plànols
+keywords:
+  - capçal mandrinar
+  - mandrinat
+  - planejat
 draft: false
 ---
 Aquest article mostra el tipus de treballs que es poden realitzar amb

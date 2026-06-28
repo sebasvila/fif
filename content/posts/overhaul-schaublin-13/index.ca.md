@@ -5,7 +5,7 @@ date: 2024-09-28
 coverImage: check-top-surface.jpg
 tags:
 categories:
-  - Recull de projectes
+  - reculls i índexos de projectes
 keywords:
 ---
 Aqui es recullen les anotacions que descriuen tot el treball de

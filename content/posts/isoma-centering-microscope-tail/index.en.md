@@ -7,8 +7,9 @@ coverImage: P1050995.JPG
 
 tags:
   - tools.metalworking
-  - machine.schaublin-13
-categories: []
+  - technology.measuring
+categories:
+  - machines and metalworking
 keywords:
   - Isoma
   - Centering microscope

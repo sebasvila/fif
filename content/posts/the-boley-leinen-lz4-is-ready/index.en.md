@@ -4,22 +4,23 @@ date: 2013-09-29T23:08:00.001000+02:00
 draft: false
 slug: "the-boley-leinen-lz4-is-ready"
 coverImage: P1050051.JPG
+categories:
+  - machines and metalworking
 tags:
   - machine.leinen-lz4sb
+  - work.overhauling
 ---
-Before and after
-----------------
 
+This is the classical «before and after» picturesof the Boley Leinen
+LZ4SB once overhauling works ended. Happy with it!
 
-  
-Before:  
+<!--more-->
 
+Before:
 
 {{< figure src="P1030574.JPG" >}}
-
   
-After:  
-
+After:
 
 {{< figure src="P1050051.JPG" >}}
 

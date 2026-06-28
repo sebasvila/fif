@@ -4,6 +4,8 @@ date: 2015-09-02
 draft: false
 slug: "klaiber-ws2-universal-cutter-grinder"
 coverImage: Lechler-WS3.jpg
+categories:
+  - machines and metalworking
 tags:
   - machine.klaiber-ws2
 ---
@@ -11,10 +13,14 @@ A new guest
 -----------
 
 
-The garage has a new guest. It is a small universal tool grinder. A [Klaiber](http://www.lathes.co.uk/frikla) WS2 maybe of the last models built by Lechler. Below, there are some pictures. As you can see the overall state is good. Finishing is original. I only appreciated a very slight  wear in the table lineal bearings.  You guess it: the table of this machine is supported by lineal bearings. I think this is not very usual on Klaiber machines.  
+The garage has a new guest. It is a small universal tool grinder. A
+[Klaiber](http://www.lathes.co.uk/frikla) WS2 maybe of the last models
+built by Lechler. Below, there are some pictures. As you can see the
+overall state is good. Finishing is original. I only appreciated a
+very slight wear in the table lineal bearings. You guess it: the
+table of this machine is supported by lineal bearings. I think this is
+not very usual on Klaiber machines.
   
-
-
 {{< figure src="P1050223.JPG" >}}
 
   

@@ -4,8 +4,11 @@ date: 2021-10-23T20:20:35+02:00
 coverImage: "/fotos/foneria/cargol-1.jpg.jpg"
 tags:
   - technology.casting
-  - tools.metalworking
-categories: []
+  - work.making
+  - technology.woodworking
+  - technology.painting
+categories:
+  - machines and metalworking
 keywords:
   - foundry
   - pattern

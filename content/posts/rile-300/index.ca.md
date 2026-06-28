@@ -7,7 +7,7 @@ coverImage: 20191201_144342.jpg
 tags:
   - estat.venuda
 categories:
-  - Maquinària i mecànica de precisió
+  - maquinària i mecànica de precisió
 keywords:
   - Llimadora
   - Mordassa
@@ -17,6 +17,8 @@ Com vaig explicar fa un temps, el garatge està essent reorganitzat i
 refert completament. Per això vaig vendre el torn Pujantell i el
 trepan-fresasora Cincinnati. Ara he venut també la meva llimadora. És
 una Rile-300, amb 300mm de cursa.
+
+<!--more-->
 
 {{< figure src="20191201_143948" >}}
 

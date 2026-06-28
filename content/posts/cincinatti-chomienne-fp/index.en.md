@@ -5,12 +5,14 @@ slug: "cincinatti-chomienne-fp"
 coverImage: P1060050.JPG
 tags:
   - status.sold-out
-categories: []
+categories:
+  - machines and metalworking
 keywords:
   - cincinnati chomienne
   - FP30
   - milling machine
 ---
+
 This entry describes the Cincinnati-Chomienne model FP30 milling
 machine. It has served me well for a number of years, but it is now up
 for sale. Literature on this machine is scarce; I have only managed to

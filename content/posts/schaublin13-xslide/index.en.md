@@ -8,6 +8,7 @@ tags:
   - technology.scraping
   - machine.schaublin-13
   - work.overhauling
+  - technology.turning
 categories:
   - machines and metalworking
 keywords:

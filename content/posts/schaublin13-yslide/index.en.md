@@ -6,6 +6,7 @@ coverImage: "runout-spindle.jpg"
 tags:
   - technology.painting
   - technology.measuring
+  - technology.scraping
   - machine.schaublin-13
   - work.overhauling
 categories:

@@ -8,12 +8,16 @@ tags:
   - machine.leinen-lz4sb
   - technology.woodworking
   - tools.metalworking
-categories: []
+categories:
+  - machines and metalworking
 ---
+
 The Leinen LZ4SB lathe cabinet has a drawer that is usually used to
 store the collets set. This requires to make a wood support to
 organize the set. I want also to store some usual tools: some live and
 dead centers and the wrenches needed to operate the lathe.
+
+<!--more-->
 
 I begin by cutting  a couple of plywood pieces to the approximate size
 of the drawer. I glue them to obtain a thicker plywood support.

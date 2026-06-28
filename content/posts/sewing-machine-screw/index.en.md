@@ -4,8 +4,9 @@ date: 2021-07-25T00:21:01+02:00
 coverImage: "singer-screw-5.jpg"
 tags:
   - technology.turning
-  - tools.metalworking
-categories: []
+  - work.making
+categories:
+  - machines and metalworking
 keywords:
   - Sewing machine
   - Screw

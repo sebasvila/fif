@@ -4,9 +4,21 @@ date: 2016-08-15T14:48:00.003000+02:00
 draft: false
 slug: "boley-leinen-lz4sb-lubrication"
 coverImage: P1050417.JPG
+categories:
+  - documentation and drawings
 tags:
   - machine.leinen-lz4sb
+  - work.analysis
 ---
+
+This post is the result of analysing the lubrication requirements,
+data in the machine manual and availability of oils and greases. It
+recommends how to lubricate the Boley Leinen LZ4SB. Surely, it could
+be used for other Leinen lathes close enough to this.
+
+<!--more-->
+
+
 The lubricants to be used
 -------------------------
 

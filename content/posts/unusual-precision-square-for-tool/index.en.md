@@ -8,7 +8,9 @@ tags:
   - technology.turning
   - machine.klaiber-ws2
   - tools.metalworking
-categories: []
+  - work.making
+categories:
+  - machines and metalworking
 keywords:
   - Precision square
   - Grinding jigs

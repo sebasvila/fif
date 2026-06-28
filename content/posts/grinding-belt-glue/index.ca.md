@@ -5,8 +5,9 @@ date: 2022-10-31T10:00:00
 coverImage: "encolat-banda.jpg"
 tags:
   - tecnologia.fusteria
+  - treball.reparació
 categories:
-  - Fusteria i ebenisteria
+  - fusteria i ebenisteria
 keywords:
   - Banda d'esmeril
   - Polidora

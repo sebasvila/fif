@@ -5,8 +5,9 @@ date: 2022-10-31T10:00:00
 coverImage: "encolat-banda.jpg"
 tags:
   - technology.woodworking
+  - work.repairing
 categories:
-  - Woodworking and cabinetmaking
+  - woodworking and cabinetmaking
 keywords:
   - Grinding belt
   - Woodworking

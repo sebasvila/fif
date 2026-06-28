@@ -6,12 +6,12 @@ coverImage: "head-4.jpg"
 tags:
   - technology.turning
   - technology.milling
+  - technology.drilling
   - technology.measuring
-  - machine.leinen-lz4sb
-  - machine.schaublin-13
-  - machine.wörner-b13
   - tools.metalworking
-categories: []
+  - work.repairing
+categories:
+  - machines and metalworking
 keywords:
   - Kaiser Piccolo
   - boring head

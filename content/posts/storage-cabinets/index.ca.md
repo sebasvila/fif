@@ -6,7 +6,7 @@ slug: calaixera-banc
 tags:
   - tecnologia.fusteria
 categories:
-  - Fusteria i ebenisteria
+  - fusteria i ebenisteria
 keywords:
   - Desar eines
   - Armaris de calaixos

@@ -7,7 +7,8 @@ coverImage: P1050392.JPG
 tags:
   - machine.leinen-lz4sb
   - tools.metalworking
-categories: []
+categories:
+  - machines and metalworking
 keywords:
   - Boley Leinen LZ4SB
   - Lathe collet closer

@@ -4,16 +4,16 @@ date: 2021-01-17
 slug: reglus-bushings
 coverImage: hard-turning-2.jpg
 tags:
-  - màquina.altres
+  - eines.mecànica
   - tecnologia.tornejat
   - treball.fabricació
 categories:
-  - Maquinària i mecànica de precisió
+  - maquinària i mecànica de precisió
 keywords:
   - Reglus
   - acer O2
   - tornejat dur
-  - PCBN
+  - PCB
   - Polycristaline Boron Nitride
 
 draft: false

@@ -5,11 +5,13 @@ coverImage: 20211030_122850_1.jpg
 tags:
   - technology.welding
   - machine.klaiber-ws2
-  - tools.metalworking
-categories: []
+  - work.making
+categories:
+  - machines and metalworking
 keywords:
-  - Klaiber WS2
-  - Welding
+  - klaiber WS2
+  - stick welding
+  - pallet truck
 draft: false
 ---
 I made a solid platform from welded steel profiles to allow the
@@ -18,5 +20,5 @@ just for others inspiration :smile:.
 
 <!--more-->
 
-{{< figure classes="fig-100 clear"  src="20211030_121221_1.jpg" >}}
-{{< figure classes="fig-100 clear"  src="20211030_122850_1.jpg" >}}
+{{< figure src="20211030_121221_1.jpg" >}}
+{{< figure src="20211030_122850_1.jpg" >}}

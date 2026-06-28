@@ -10,7 +10,9 @@ tags:
   - machine.leinen-lz4sb
   - technology.electricity
   - tools.metalworking
-categories: []
+  - work.repairing
+categories:
+  - machines and metalworking
 keywords:
   - Waldmann luminaire WD 306
   - industrial luminaires

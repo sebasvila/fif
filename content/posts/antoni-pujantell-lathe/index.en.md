@@ -6,7 +6,8 @@ slug: "antoni-pujantell-lathe"
 coverImage: P1060160.JPG
 tags:
   - status.sold-out
-categories: []
+categories:
+  - machines and metalworking
 keywords:
   - Antoni Pujantell
   - lathe

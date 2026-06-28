@@ -6,12 +6,16 @@ slug: "rile-300"
 coverImage: 20191201_144342.jpg
 tags:
   - status.sold-out
-categories: []
+categories:
+  - machines and metalworking
 ---
+
 As I explained some posts ago, my garage is being fully overhauled and
 reorganized. Because of this, I sold the Pujantell lathe and a
 Milling/drilling Cincinnati machine. Now I sold also my shaper. It's a
 Rile-300 shaper, 300mm being the stroke length.
+
+<!--more-->
 
 {{< figure src="20191201_143948" >}}
 

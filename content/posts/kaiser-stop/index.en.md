@@ -16,7 +16,7 @@ drawed it after Erik asked me about. Maybe it could be useful for
 someone else.
 
 
-{{< figure src="kaiser-sliding-stop.jpg" title="Kaiser Piccolo boring head sliding stop sketch"	loading="lazy">}}
+{{< figure src="kaiser-sliding-stop.jpg" caption="Kaiser Piccolo boring head sliding stop sketch"	>}}
 
 <!--
 {{< figure src="original.jpg" loading="lazy">}}

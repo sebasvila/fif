@@ -8,8 +8,10 @@ tags:
   - tecnologia.tornejat
   - tecnologia.fresat
   - tecnologia.mesura
+  - eines.mecànica
+  - treball.reacondicionat
 categories:
-  - Documentació i plànols
+  - maquinària i mecànica de precisió
 keywords:
   - microscopi de mesura zeiss
   - microscopi de taller zeiss

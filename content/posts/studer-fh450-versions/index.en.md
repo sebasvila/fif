@@ -7,8 +7,9 @@ tags:
   - technology.grinding
   - machine.studer-fh450
   - work.analysis
+  - status.work-in-progress
 categories:
-  - machines and metalworking
+  - documentation and drawings
 keywords:
   - Studer grinding machines
   - surface grinding

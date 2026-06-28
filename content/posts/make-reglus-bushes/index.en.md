@@ -6,7 +6,9 @@ coverImage: hard-turning-2.jpg
 tags:
   - tools.metalworking
   - technology.turning
-categories: []
+  - work.making
+categories:
+  - machines and metalworking
 keywords:
   - Reglus
   - O2 steel

@@ -5,8 +5,11 @@ date: 2025-03-20
 coverImage: ""
 tags:
   - màquina.studer-fh450
+  - treball.anàlisi
+  - estat.treball-en-curs
+  - tecnologia.rectificat
 categories:
-  - Documentació i plànols
+  - documentació i plànols
 keywords:
 draft: true
 ---

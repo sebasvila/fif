@@ -5,7 +5,7 @@ coverImage: "separators.jpg"
 tags:
   - technology.woodworking
 categories:
-  - Woodworking and cabinetmaking
+  - woodworking and cabinetmaking
 keywords:
   - Tool storage
   - Drawer cabinets

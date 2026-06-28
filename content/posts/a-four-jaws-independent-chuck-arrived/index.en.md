@@ -8,7 +8,8 @@ tags:
   - machine.leinen-lz4sb
   - technology.milling
   - tools.metalworking
-categories: []
+categories:
+  - machines and metalworking
 keywords:
   - Röhm chuck
   - Worn guide repair

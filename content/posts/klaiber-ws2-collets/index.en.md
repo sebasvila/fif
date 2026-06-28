@@ -4,8 +4,11 @@ date: 2016-01-17T23:46:00.002000+01:00
 draft: false
 slug: "klaiber-ws2-collets"
 coverImage: pinca-klaiber.jpg
+categories:
+  - machines and metalworking
 tags:
   - machine.klaiber-ws2
+  - tools.metalworking
 ---
 Which are the collets that uses the Klaiber WS2 tool grinder? I found
 the answer few days ago while looking at ebay.de. A seller was
