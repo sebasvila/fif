@@ -37,7 +37,7 @@
 {{/* Render Grid - Sorted by Date Descending */}}
 {{- if $filtered -}}
   <div class="post-card-grid">
-    {{- range sort $filtered "Date" "desc" -}}
+    {{- range sort $filtered "Date" "asc" -}}
       <article class="post-card">
         
         {{- if .Params.coverImage -}}

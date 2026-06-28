@@ -40,7 +40,7 @@
 {{/* Render Standard List - Sorted by Date Descending */}}
 {{- if $filtered -}}
   <ul class="match-tags-list">
-    {{- range sort $filtered "Date" "desc" -}}
+    {{- range sort $filtered "Date" "asc" -}}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ if .Date }}

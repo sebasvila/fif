@@ -1,14 +1,14 @@
 {{ partial "head.html" . }}
   <body>
     <div id="blog" class="home">
-     {{ partial "header.html" . }}
+      {{ partial "header.html" . }}
       {{ partial "sidebar.html" . }}
 <!--      {{ if or (not (isset .Site.Params "tagPagination")) (.Site.Params.tagPagination) }} -->
-        {{ partial "post/header-cover-taxonomy.html" . }}
+      {{ partial "post/header-cover-taxonomy.html" . }}
      <!--      {{ end }} -->
-       <div id="main" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}"
-        class="{{ with .Params.coverimage }}hasCover{{ end }}
-               {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
+      <div id="main" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}"
+           class="{{ with .Params.coverimage }}hasCover{{ end }}
+                  {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
         {{ if or (not (isset .Site.Params "tagPagination")) (.Site.Params.tagPagination) }}
           <section class="postShorten-group main-content-wrap">
