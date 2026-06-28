@@ -4,18 +4,18 @@ slug: sv13-conbox
 date: 2023-06-05T19:52:00
 coverImage: "marcat2.jpg"
 tags:
-- schaublin-13
-- tech.electricity
-- tech.welding
+  - machine.schaublin-13
+  - technology.electricity
+  - technology.welding
+  - work.overhauling
 categories:
-- machine overhauling
+  - machines and metalworking
 keywords:
-- Milling machine
-- Steel sheet box making
-- Junction box making
+  - Milling machine
+  - Steel sheet box making
+  - Junction box making
 draft: false
 ---
-
 In the way of renovate the Schaublin 13, it is time to manage the lamp
 support and its connection. Lamp is attached to the side of the
 machine and, in the interior, a small junction box would be

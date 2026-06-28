@@ -4,21 +4,20 @@ slug: sv13-lslide
 date: 2023-09-26T19:17:09+02:00
 coverImage: "long-slide-grinded.jpg"
 tags:
-- tech.tornejat
-- tech.mesura
-- tech.rasquetat
-- schaublin-13
+  - tecnologia.tornejat
+  - tecnologia.mesura
+  - tecnologia.rasquetat
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Fresadora
-- Schaublin 13
-- Reconstrucció de la geometria
-- Rasquetat de les guies
+  - Fresadora
+  - Schaublin 13
+  - Reconstrucció de la geometria
+  - Rasquetat de les guies
 draft: false
 ---
-
 En aquest post s'explica com es va comprovar el carro longitudinal i
 com es va refer les seves guies.
 

@@ -1,22 +1,20 @@
 ---
 title: 'New electrical wiring'
-date: 2012-12-31T18:30:00.001+01:00
+date: 2012-12-31T18:30:00.001000+01:00
 draft: false
 slug: "new-electrical-wiring"
 coverImage: P1030750.JPG
 tags:
-- leinen LZ4SB
-- tech.electricity
+  - machine.leinen-lz4sb
+  - technology.electricity
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- electrical motor
-- Altivar VFD
-- Dahlander
+  - electrical motor
+  - Altivar VFD
+  - Dahlander
 ---
-
-
 [Altivar
 312](https://www.se.com/ww/en/product-range/2656-altivar-312/)The
 lathe comes with an classical electromechanical wiring. It has an

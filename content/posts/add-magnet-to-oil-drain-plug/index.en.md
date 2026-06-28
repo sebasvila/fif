@@ -1,17 +1,15 @@
 ---
 title: 'Add a magnet to the oil drain plug'
-date: 2013-08-11T11:21:00.004+02:00
+date: 2013-08-11T11:21:00.004000+02:00
 draft: false
 slug: "add-magnet-to-oil-drain-plug"
 coverImage: P1040861.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
-
 The two speed driver of the lathe runs in an oil bath. Two plugs let
 to replace the oil when needed. We made two operations with them:
 

@@ -5,14 +5,13 @@ draft: false
 slug: "a-sketch-of-drawbar-for-sam-kowalski"
 coverImage: P1050097.JPG
 tags:
-- leinen LZ4SB
+  - màquina.leinen-lz4sb
 categories:
-- biblioteca
+  - Documentació i plànols
 keywords:
-- Boley Leinen LZ4SB
-- tirant per pinces
+  - Boley Leinen LZ4SB
+  - tirant per pinces
 ---
-
 Fa uns dies, en Sam Kowalski, un propietari satisfet d'un torn
 Boley-Leinen, em va demanar les dimensions de la barra de subjecció de
 la pinça. Està publicant unes fotos molt bones de la restauració del

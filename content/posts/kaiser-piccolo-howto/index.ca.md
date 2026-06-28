@@ -3,12 +3,13 @@ title: Kaiser Piccolo Howto
 slug: kaiser-piccolo-howto
 date: 2024-11-01
 coverImage: caixa1.jpg
-tags: [tech.fresat, eines]
-categories: [biblioteca]
+tags:
+  - tecnologia.fresat
+categories:
+  - Documentació i plànols
 keywords: [capçal mandrinar, mandrinat, planejat]
 draft: false
 ---
-
 Aquest article mostra el tipus de treballs que es poden realitzar amb
 un capçal de mandrinar Kaiser Piccolo. Inclou els treballs de mandrinat
 habituals, però també el treball de planejat utilitzant el

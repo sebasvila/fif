@@ -3,14 +3,13 @@ title: "Schaublin 13 library"
 date: 2021-12-08
 coverImage: "old-catalogue.png"
 tags:
-- schaublin-13
+  - machine.schaublin-13
 categories:
-- library
+  - documentation and drawings
 keywords:
-- Schaublin 13
+  - Schaublin 13
 draft: false
 ---
-
 A list of interesting resources around the net about Schaublin 13
 milling machines. Permanent work in progress :smile:.
 

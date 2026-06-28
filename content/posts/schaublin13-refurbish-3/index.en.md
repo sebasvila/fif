@@ -4,17 +4,16 @@ slug: sv13-ref-3
 date: 2021-12-21T20:26:00
 coverImage: "knob2.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Schaublin 13
-- Automatic table feed
-- Feed gearbox
+  - Schaublin 13
+  - Automatic table feed
+  - Feed gearbox
 draft: false
 ---
-
 In this post I talk about the maintenance of the Schaublin 13 table
 feed gearbox. It is easy to identify because it protrudes the back of
 the machine in an unusual way.

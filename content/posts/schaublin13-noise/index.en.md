@@ -4,23 +4,20 @@ slug: sv13-gearnoise
 date: 2024-01-14
 coverImage: "gear-train-1.jpg"
 tags:
-- tech.turning
-- tech.measuring
-- schaublin-13
-
+  - technology.turning
+  - technology.measuring
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
-
+  - machines and metalworking
 keywords:
-- milling machine
-- gear noise
-- gear rattle
-- variable speed driver
-- belt tension
+  - milling machine
+  - gear noise
+  - gear rattle
+  - variable speed driver
+  - belt tension
 draft: false
 ---
-
 By some reason I thought since the begining of the overhauling that
 the gearbox was in a nice condition. Thus, I didn't reviewed it. In
 fact, I didn't even emptied the oil. During the overhauling of the

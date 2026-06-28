@@ -4,19 +4,17 @@ date: 2021-01-17
 slug: reglus-bushings
 coverImage: hard-turning-2.jpg
 tags:
-- reglus
-- tech.turning
-categories:
-- projects
+  - tools.metalworking
+  - technology.turning
+categories: []
 keywords:
-- Reglus
-- O2 steel
-- hard-turning
-- PCBN
-- Polycristaline Boron Nitride
+  - Reglus
+  - O2 steel
+  - hard-turning
+  - PCBN
+  - Polycristaline Boron Nitride
 draft: false
 ---
-
 Because of reasons, I needed to cross drill some shafts with some
 weird diameters. I own an old imperial Reglus drilling jig but I
 didn't have the required bushings. I decided to make some of them. This

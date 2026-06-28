@@ -1,19 +1,18 @@
 ---
 title: 'Reparació del xariot del Leinen LZ4SB'
-date: 2012-12-19T20:21:00.002+01:00
+date: 2012-12-19T20:21:00.002000+01:00
 draft: false
 slug: "leinen-compound-rest"
 coverImage: P1030772.JPG
 tags:
-- leinen LZ4SB
-- tech.tornejat
+  - màquina.leinen-lz4sb
+  - tecnologia.tornejat
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- adreçat d'eixos
+  - adreçat d'eixos
 ---
-
 Es va inspeccionar i posteriorment es va restaurar el xariot del torn
 Leinen. En aquesta entrada del blog s'expliquen els detalls del procés
 de restauració.

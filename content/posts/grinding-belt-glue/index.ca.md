@@ -4,18 +4,16 @@ slug: encolar-banda
 date: 2022-10-31T10:00:00
 coverImage: "encolat-banda.jpg"
 tags:
-- tech.fusteria
+  - tecnologia.fusteria
 categories:
-- projectes
+  - Fusteria i ebenisteria
 keywords:
-- Banda d'esmeril
-- Polidora
-- Fusteria
-- Cola
-- Loxeal
+  - Banda d'esmeril
+  - Polidora
+  - Cola
+  - Loxeal
 draft: false
 ---
-
 Els darrers dies he descobert que les bandes d'esmeril tenen la
 tendència a trencar-se per la junta. És empipador però es pot
 resoldre.

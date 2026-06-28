@@ -1,22 +1,21 @@
 ---
 title: 'Overhauling the Leinen Lathe Reduction Gearbox'
-date: 2012-12-26T11:49:00.003+01:00
+date: 2012-12-26T11:49:00.003000+01:00
 draft: false
 slug: "review-reduction-gearbox"
 coverImage: P1030852.JPG
 tags:
-- leinen LZ4SB
-- tech.welding
-- tech.turning
+  - machine.leinen-lz4sb
+  - technology.welding
+  - technology.turning
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- aluminium welding
-- clutch
-- reduction gearbox
+  - aluminium welding
+  - clutch
+  - reduction gearbox
 ---
-
 The Leinen lathe features a two-speed (1:1 and 1:8) reduction gearbox
 that can be operated while the machine is running, utilizing a
 multi-disk oil-bath clutch.

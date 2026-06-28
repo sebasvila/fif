@@ -4,20 +4,17 @@ slug: template
 date: 2025-03-20
 coverImage: ""
 tags:
-- tech.grinding
-- studer-fh450
-
+  - technology.grinding
+  - machine.studer-fh450
+  - work.analysis
 categories:
-- machine overhauling
-- studer-fh450
-
+  - machines and metalworking
 keywords:
-- Studer grinding machines
-- surface grinding
-- Studer FH 450
+  - Studer grinding machines
+  - surface grinding
+  - Studer FH 450
 draft: true
 ---
-
 <!--more-->
 
 The Studer FH 450 flat grinding machine was manufactured between 1946

@@ -3,16 +3,15 @@ title: "Storage drawer cabinets"
 date: 2021-12-23T11:59:00
 coverImage: "separators.jpg"
 tags:
-- tech.woodworking
+  - technology.woodworking
 categories:
-- projects
+  - Woodworking and cabinetmaking
 keywords:
-- Tool storage
-- Drawer cabinets
-- Drawer slide guides
+  - Tool storage
+  - Drawer cabinets
+  - Drawer slide guides
 draft: false
 ---
-
 Last summer, I spent some time designing and building a few cabinets
 to store my materials under the workbench. I hadn't found the time to
 write about it until now, but in this post, I will share some details

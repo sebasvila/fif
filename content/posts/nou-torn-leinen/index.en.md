@@ -1,17 +1,15 @@
 ---
 title: 'A new machine: Leinen lathe LZ4SB'
-date: 2012-09-05T00:15:00.001+02:00
+date: 2012-09-05T00:15:00.001000+02:00
 draft: false
 slug: "new-leinen-lathe"
 coverImage: P1030576.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
-
 After having read many times about the Boley Leinen LZ4SB in
 [lathes.uk](http://www.lathes.co.uk/leinen/) and being sure that it
 would be impossible to get one of them here in Catalunya, unexpectly I

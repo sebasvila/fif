@@ -1,20 +1,18 @@
 ---
 title: 'Wörner B13 paint works (and III)'
 slug: 'worner-b13-paint-works-and-iii'
-date: 2020-05-14T00:18:00.002+02:00
+date: 2020-05-14T00:18:00.002000+02:00
 draft: false
 coverImage: "20200510_202652.jpg"
 tags:
-- Wörner B13
-- tech.painting
+  - machine.wörner-b13
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- Painting surface preparation
+  - Painting surface preparation
 ---
-
-
 # Joan's advices
 
 Final steps on paint works. I last post I wrote about the problems

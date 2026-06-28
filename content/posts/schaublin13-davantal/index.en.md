@@ -4,18 +4,17 @@ slug: sv13-ref-6
 date: 2022-11-30T18:00:00
 coverImage: "sense-carro-x.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- Traverse feeds
-- Sliding guides
+  - Milling machine
+  - Schaublin 13
+  - Traverse feeds
+  - Sliding guides
 draft: false
 ---
-
 This post explains the disassembly of the milling machine knee
 together with the mechanisms related to the automatic traverse
 feeds. This includes the assembly that drives the traverses from the

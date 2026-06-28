@@ -1,25 +1,20 @@
 ---
-title: 'Escairadora S250'
-date: 2010-07-18T10:48:00.000+02:00
+title: "Reacondicionat de l'escairadora S250"
+date: 2010-07-18T10:48:00+02:00
 draft: false
 slug: "escairadors-s250"
 coverImage: DSC07761.jpg
 tags:
-- tech.fusteria
-- tech.pintura
-- tech.foneria
-- tech.tornejat
+  - tecnologia.fusteria
+  - tecnologia.pintura
+  - tecnologia.foneria
+  - tecnologia.tornejat
 categories:
-- restauració de màquines
-- altres
+  - Maquinària i mecànica de precisió
 keywords:
-- Escairadora
-- Serra de disc
+  - Escairadora
+  - Serra de disc
 ---
-
-
-# Restauració de l'escairadora S250
-
 L'escairadora S250 va ser comprada pràcticament per desballestar a
 l'empresa de maquinària per a la fusta [Miquel
 Martínez](http://www.miquelmartinez.com/cat_00.php). El tracte va ser
@@ -32,6 +27,7 @@ una capacitat de 300mm. El bloc de la serra se sosté mecànicament a la
 taula de treball. La màquina no és excessivament antiga però presenta
 signes evidents de maltractament.
 
+<!--more-->
 
 # Estat de la màquina
 

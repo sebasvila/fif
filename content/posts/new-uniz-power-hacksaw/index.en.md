@@ -5,15 +5,14 @@ draft: false
 slug: "new-uniz-power-hacksaw"
 coverImage: P1040392.JPG
 tags:
-- uniz hacksaw
+  - machine.uniz-14
+  - work.overhauling
 categories:
-- machine overhauling
-- uniz hacksaw
+  - machines and metalworking
 keywords:
-- metal saw
-- hacksaw
+  - metal saw
+  - hacksaw
 ---
-
 This Feb 21 we have been in [Juncosa (Les
 Garrigues)](https://en.wikipedia.org/wiki/Juncosa) to buy an old Uniz
 power hacksaw. This is the smaller of several Uniz saws. It is labeled

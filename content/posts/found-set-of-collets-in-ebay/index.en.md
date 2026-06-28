@@ -5,17 +5,15 @@ draft: false
 slug: "found-set-of-collets-in-ebay"
 coverImage: "P1040878.JPG"
 tags:
-- leinen LZ4SB
-- tools
-categories:
-- tools
+  - machine.leinen-lz4sb
+  - tools.metalworking
+categories: []
 keywords:
-- 363E collets
-- s25 collets
-- Boley Leinen collets
-- draw-in collet
+  - 363E collets
+  - s25 collets
+  - Boley Leinen collets
+  - draw-in collet
 ---
-
 The Boley Leinen collets have been a controversial issue. Sometimes
 difficult to find in a good condition but available time to
 time. There are no public Boley Leinen information about the right

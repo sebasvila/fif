@@ -1,19 +1,17 @@
 ---
 title: 'Solving the oil leak'
-date: 2013-07-24T21:18:00.000+02:00
+date: 2013-07-24T21:18:00+02:00
 draft: false
 slug: "solving-oil-leak"
 coverImage: P1040841.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- precision bearings
+  - precision bearings
 ---
-
-
 In the last post I explained that, after filing the rear spindle oil
 reservoir a leak appeared. The leakage was big enough to empty the
 reservoir in some days. It needs to be repaired :-/.

@@ -1,17 +1,15 @@
 ---
 title: 'A new return spring'
-date: 2020-06-22T10:37:00.001+02:00
+date: 2020-06-22T10:37:00.001000+02:00
 draft: false
 slug: a-new-return-spring.html
 coverImage: "20200216_122902.jpg"
 tags:
-- Wörner B13
+  - machine.wörner-b13
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 ---
-
-
 This is how the drilling machine return spring looks when I opened the
 cover:
 

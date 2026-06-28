@@ -4,17 +4,16 @@ slug: encolar-banda
 date: 2022-10-31T10:00:00
 coverImage: "encolat-banda.jpg"
 tags:
-- tech.woodworking
+  - technology.woodworking
 categories:
-- projects
+  - Woodworking and cabinetmaking
 keywords:
-- Grinding belt
-- Woodworking
-- Glue
-- Loxeal
+  - Grinding belt
+  - Woodworking
+  - Glue
+  - Loxeal
 draft: false
 ---
-
 Last days, I discovered that old grinding belts are prone to break by
 the scarf joint. This is an annoying but solvable issue.
 

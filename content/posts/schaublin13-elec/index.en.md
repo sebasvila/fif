@@ -5,21 +5,15 @@ date: 2024-05-26T20:35:24+02:00
 coverImage: "placa-entrada.jpg"
 tags:
 # technologies used
-- tech.electricity
-
-# main machines
-- schaublin-13
-
-
+  - technology.electricity
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
-
+  - machines and metalworking
 keywords:
--
+  - 
 draft: false
 ---
-
 The last step in rebuilding the Schaublin 13 has focused in th
 electrical cabinet and wiring. The machine has been adapted to
 ordinary 230V monophasic mains by using VFD's and all the control

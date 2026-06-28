@@ -1,20 +1,18 @@
 ---
 title: 'Wörner B13 paint works (II)'
-date: 2020-05-03T10:47:00.002+02:00
+date: 2020-05-03T10:47:00.002000+02:00
 draft: false
 slug: "worner-b13-paint-works-ii"
 coverImage: 20200428_194222.jpg
 tags:
-- Wörner B13
-- tech.painting
+  - machine.wörner-b13
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- painting defects
+  - painting defects
 ---
-
-
 Painting works are coming to the end. Last days I finally got some
 lack cans to do the final coating. Not an easy task due to COVID'19
 lock down. I sprayed most the prepared parts and this is the result:

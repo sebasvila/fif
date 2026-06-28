@@ -1,16 +1,13 @@
 ---
 title: 'The RILE-300 shaper'
-date: 2019-12-02T00:50:00.001+01:00
+date: 2019-12-02T00:50:00.001000+01:00
 draft: false
 slug: "rile-300"
 coverImage: 20191201_144342.jpg
 tags:
-- sold-out
-categories:
-- sold-out machines
+  - status.sold-out
+categories: []
 ---
-
-
 As I explained some posts ago, my garage is being fully overhauled and
 reorganized. Because of this, I sold the Pujantell lathe and a
 Milling/drilling Cincinnati machine. Now I sold also my shaper. It's a

@@ -3,12 +3,14 @@ title: Kaiser Piccolo Howto
 slug: kaiser-piccolo-howto
 date: 2024-11-01
 coverImage: caixa1.jpg
-tags: [tech.milling, tools]
-categories: [library]
+tags:
+  - technology.milling
+  - tools.metalworking
+categories:
+  - documentation and drawings
 keywords: [boring head, boring, facing]
 draft: false
 ---
-
 This post shows the kind of works that can be done with a Kaiser
 Piccolo boring head. It includes the usual boring work but also the
 facing work usind the automatic travel of the head and an example of

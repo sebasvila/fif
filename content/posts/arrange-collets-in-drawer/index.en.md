@@ -1,17 +1,15 @@
 ---
 title: 'Arrange the collets in the drawer'
-date: 2013-09-08T01:00:00.000+02:00
+date: 2013-09-08T01:00:00+02:00
 draft: false
 slug: "arrange-collets-in-drawer"
 coverImage: P1040991.JPG
 tags:
-- leinen LZ4SB
-- tech.woodworking
-categories:
-- projects
+  - machine.leinen-lz4sb
+  - technology.woodworking
+  - tools.metalworking
+categories: []
 ---
-
-
 The Leinen LZ4SB lathe cabinet has a drawer that is usually used to
 store the collets set. This requires to make a wood support to
 organize the set. I want also to store some usual tools: some live and

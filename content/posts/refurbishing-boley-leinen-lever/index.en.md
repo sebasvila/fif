@@ -1,19 +1,16 @@
 ---
 title: 'Refurbishing the Boley Leinen lever tailstock (I)'
-date: 2016-09-04T15:06:00.001+02:00
+date: 2016-09-04T15:06:00.001000+02:00
 draft: false
 slug: "refurbishing-boley-leinen-lever"
 coverImage: P1050416.JPG
 tags:
-- leinen-lz4sb
-- tools
-categories:
-- projects
+  - machine.leinen-lz4sb
+  - tools.metalworking
+categories: []
 keywords:
-- 323E collets
+  - 323E collets
 ---
-
-
 # The tailstock
 
 Some time ago I bought an old series Boley Leinen lever tailstock to

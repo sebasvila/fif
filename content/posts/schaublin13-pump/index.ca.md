@@ -4,18 +4,17 @@ slug: sv13-pump
 date: 2023-05-06T14:11:00
 coverImage: "bomba.jpg"
 tags:
-- schaublin-13
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Fresadora
-- Bomba d'engreix
-- Bomba d'oli
-- Junta tòrica
+  - Fresadora
+  - Bomba d'engreix
+  - Bomba d'oli
+  - Junta tòrica
 draft: false
 ---
-
 A la bomba de l'oli de la fresadora Schaublin 13 li cal un
 manteniment. Ara que el diposit d'oli és buit i és fàcil de treure és
 un bon moment.

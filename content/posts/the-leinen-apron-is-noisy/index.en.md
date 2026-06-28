@@ -1,17 +1,15 @@
 ---
 title: 'The Leinen apron is noisy'
-date: 2013-06-23T16:59:00.004+02:00
+date: 2013-06-23T16:59:00.004000+02:00
 draft: false
 slug: "the-leinen-apron-is-noisy"
 coverImage: P1040767.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
-
 After mounting again the lathe apron we tested it and find a slight
 chatter when turning the hand wheel in one direction. Some time of
 careful inspection convinced us that the the source of the noise is

@@ -1,17 +1,15 @@
 ---
 title: 'Install the flat belt'
-date: 2013-08-11T00:47:00.003+02:00
+date: 2013-08-11T00:47:00.003000+02:00
 draft: false
 slug: "install-flat-belt"
 coverImage: P1040853.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
-
 The lathe uses a flat belt to transmit power from the speed change to
 the spindle. After painting the stand it is now time to install the
 belt. The belt installed was a 42mm [Esbelt

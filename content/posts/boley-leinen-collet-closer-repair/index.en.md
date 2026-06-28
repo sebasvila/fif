@@ -1,20 +1,18 @@
 ---
 title: 'Boley Leinen collet closer repair'
-date: 2016-03-23T19:05:00.001+01:00
+date: 2016-03-23T19:05:00.001000+01:00
 draft: false
 slug: "boley-leinen-collet-closer-repair"
 coverImage: P1050392.JPG
 tags:
-- leinen LZ4SB
-categories:
-- projects
+  - machine.leinen-lz4sb
+  - tools.metalworking
+categories: []
 keywords:
-- Boley Leinen LZ4SB
-- Lathe collet closer
-- Collet 363E
+  - Boley Leinen LZ4SB
+  - Lathe collet closer
+  - Collet 363E
 ---
-
-
 Some months ago I bought an old Boley-Leinen collet closer. The gadget is almost complete but:
 
 *   It lacks the supporting bars

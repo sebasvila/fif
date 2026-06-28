@@ -4,21 +4,19 @@ slug: sv13-horispindle
 date: 2023-09-26T19:17:37+02:00
 coverImage: "runout-spindle.jpg"
 tags:
-- tech.painting
-- tech.measuring
-- schaublin-13
+  - technology.painting
+  - technology.measuring
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
-
+  - machines and metalworking
 keywords:
-- Schaublin 13
-- Milling machine
-- Spindle head
+  - Schaublin 13
+  - Milling machine
+  - Spindle head
 
 draft: false
 ---
-
 Next step in the SV13 overhauling path has been to end the horizontal
 spindle head and mount it into its ways definitively. Some works
 remain to be done: finish the fitting of the slideways, clean and

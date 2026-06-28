@@ -1,18 +1,16 @@
 ---
 title: 'Clean and inspect the Leinen lathe apron'
-date: 2013-04-13T15:57:00.002+02:00
+date: 2013-04-13T15:57:00.002000+02:00
 draft: false
 slug: "cleaning-and-inspectiion-of-leinen-apron"
 coverImage: P1040540.JPG
 tags:
-- leinen LZ4SB
-- tech.painting
+  - machine.leinen-lz4sb
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
-
 # The apron
 
 Following with the overhauling of the Leinen LZ4SB now the star is the

@@ -5,50 +5,34 @@ date: 2026-04-12
 coverImage: ""
 tags:
 # technologies used
-- tech.woodworking
-- tech.painting
-- tech.turning
-- tech.electricity
-- tech.milling
-- tech.welding
-- tech.casting
-- tech.grinding
-- tech.slotting
-- tech.measuring
-- tech.scraping
-- tech.drilling
-
-# main machines
-- leinen-lz4sb
-- schaublin-13
-- wörner-b13
-- klaiber-ws2
-- uniz-hacksaw
-
-# other tags
-- sold-out
-- projects
-- tools
-
+  - technology.woodworking
+  - technology.painting
+  - technology.turning
+  - technology.electricity
+  - technology.milling
+  - technology.welding
+  - technology.casting
+  - technology.grinding
+  - technology.slotting
+  - technology.measuring
+  - technology.scraping
+  - technology.drilling
+  - machine.leinen-lz4sb
+  - machine.schaublin-13
+  - machine.wörner-b13
+  - machine.klaiber-ws2
+  - machine.uniz-14
+  - status.sold-out
+  - tools.metalworking
+  - work.overhauling
 categories:
 # simples
-- library
-- projects
-- sold-out machines
-- tools
-# dos nivells
-- machine overhauling
-- boley leinen LZ4SB
-- schaublin 13
-- uniz hacksaw
-- wörner B13
-- other
-
+  - documentation and drawings
+  - machines and metalworking
 keywords:
--
+  - 
 draft: true
 ---
-
 Preface
 
 <!--more-->

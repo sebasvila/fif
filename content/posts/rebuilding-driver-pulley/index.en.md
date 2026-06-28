@@ -1,20 +1,18 @@
 ---
 title: 'Rebuilding the driver pulley'
-date: 2020-06-21T01:05:00.006+02:00
+date: 2020-06-21T01:05:00.006000+02:00
 draft: false
 slug: "rebuilding-driver-pulley"
 coverImage: "20200601_200902.jpg"
 tags:
-- Wörner B13
-- tech.turning
+  - machine.wörner-b13
+  - technology.turning
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- aluminium
+  - aluminium
 ---
-
-
 The drilling press was modified by a previous owner. As it can be seen
 in the picture below, someone added an intermediate pulley in the
 driving train to reduce the rotation speeds. What was the motor pulley

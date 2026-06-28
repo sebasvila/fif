@@ -1,23 +1,21 @@
 ---
 title: 'Overhauling the cabinet saw S250'
-date: 2010-07-18T10:48:00.000+02:00
+date: 2010-07-18T10:48:00+02:00
 draft: false
 slug: "escairadors-s250"
 coverImage: DSC07761.jpg
 tags:
-- tech.woodworking
-- tech.painting
-- tech.casting
-- tech.turning
+  - technology.woodworking
+  - technology.painting
+  - technology.casting
+  - technology.turning
 categories:
-- machine overhauling
-- other
+  - machines and metalworking
 keywords:
-- Contractor's cabinet saw
-- Foundry works
-- Machine rebuilding
+  - Contractor's cabinet saw
+  - Foundry works
+  - Machine rebuilding
 ---
-
 The contractor's cabinet saw with sliding table S250 ---made in
 Italy--- was bought to the woodworking tools trader [Miquel
 Martínez](http://www.miquelmartinez.com) almost as scrap. The seller
@@ -27,14 +25,12 @@ dimensions and overall buildin quality.
 
 <!-- more -->
 
-Moving the machine at home was
-done by the seller itself.  This machine is mainly built as a sturdy
-steel plate cabinet that supports a cast iron top where the 250mm saw
-tilting mechanisms are attached. The machine was clearly abused and
-some parts are obviously broken. The motor is burned as the selles
-told me. Overhauling it will be a nice project.
-
-<!-- more -->
+Moving the machine at home was done by the seller itself.  This
+machine is mainly built as a sturdy steel plate cabinet that supports
+a cast iron top where the 250mm saw tilting mechanisms are
+attached. The machine was clearly abused and some parts are obviously
+broken. The motor is burned as the selles told me. Overhauling it will
+be a nice project.
 
 
 # Saw state

@@ -1,18 +1,17 @@
 ---
 title: 'Finding the lathe manuals'
-date: 2012-09-15T23:31:00.001+02:00
+date: 2012-09-15T23:31:00.001000+02:00
 draft: false
 slug: "cerca-manuals"
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- Manuals
-- lathe
+  - Manuals
+  - lathe
 ---
-
 The lathe arrived, as usual, without any kind of documentation. In
 some pages on the net there are partial copies of documentation of
 similar models.

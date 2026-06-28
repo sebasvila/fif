@@ -1,19 +1,17 @@
 ---
 title: 'Nova màquina: torn Leinen LZ4SB'
-date: 2012-09-05T00:15:00.001+02:00
+date: 2012-09-05T00:15:00.001000+02:00
 draft: false
 slug: "new-leinen-lathe"
 coverImage: P1030576.JPG
 tags:
-- leinen-lz4sb
+  - màquina.leinen-lz4sb
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- torn mecànic
+  - torn mecànic
 ---
-
-
 Després d'haver admirat aquesta màquina moltes vegades a
 [lathes.uk](http://www.lathes.co.uk/leinen/) i estar convençut de que
 seria impossible trobar-ne cap al nostre país, un dia d'aquests

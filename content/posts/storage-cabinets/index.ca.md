@@ -4,15 +4,14 @@ date: 2021-12-23T11:59:00
 coverImage: "separators.jpg"
 slug: calaixera-banc
 tags:
-- tech.fusteria
+  - tecnologia.fusteria
 categories:
-- projectes
+  - Fusteria i ebenisteria
 keywords:
-- Desar eines
-- Armaris de calaixos
-- Guies de calaixos
+  - Desar eines
+  - Armaris de calaixos
+  - Guies de calaixos
 ---
-
 L'estiu passat vaig dedicar un temps a dissenyar i construir uns
 armaris per guardar el meu material sota el banc de treball. Fins ara
 no havia trobat el moment d'escriure, però en aquesta entrada us en

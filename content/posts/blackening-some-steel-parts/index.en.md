@@ -1,19 +1,17 @@
 ---
 title: 'Blackening some steel parts'
-date: 2020-05-31T18:00:00.001+02:00
+date: 2020-05-31T18:00:00.001000+02:00
 draft: false
 coverImage: "20200518_194605.jpg"
 tags:
-- Wörner B13
-- tech.turning
+  - machine.wörner-b13
+  - technology.turning
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- steel blackening
+  - steel blackening
 ---
-
-
 Some of the parts of the Wörner B13 were originally blackened. Rust
 have ruined most of those finishings. Thus I was faced to polish them
 to clear metal or try to recover original black coating. I found

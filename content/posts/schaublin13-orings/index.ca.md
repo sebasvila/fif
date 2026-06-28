@@ -5,16 +5,15 @@ date: 2023-05-02
 lastmod: 2024-10-17
 coverImage: "orings.jpg"
 tags:
-- schaublin-13
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Schaublin 13
-- Estàndart de juntes tòriques
+  - Schaublin 13
+  - Estàndart de juntes tòriques
 draft: false
 ---
-
 Al anar restaurant la fresadora Schaublin 13, també aprofitem per
 canviar les tòriques més importants. Els plànols originals les
 referencien d'una forma críptica. Finalment trobem la relació entre

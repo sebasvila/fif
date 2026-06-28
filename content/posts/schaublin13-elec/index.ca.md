@@ -4,17 +4,16 @@ slug: sv13elect
 date: 2024-05-26
 coverImage: "placa-entrada.jpg"
 tags:
-- tech.electricitat
-- schaublin-13
+  - tecnologia.electricitat
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Schaublin 13
-- Instal·lació elèctrica
+  - Schaublin 13
+  - Instal·lació elèctrica
 draft: false
 ---
-
 L'últim pas en la reconstrucció de la Schaublin 13 s'ha centrat en el
 quadre elèctric i el cablejat. La màquina ha estat adaptada a la xarxa
 ordinària monofàsica de 230V utilitzant variadors de freqüència (VFD),

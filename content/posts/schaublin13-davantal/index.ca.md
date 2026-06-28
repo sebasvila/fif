@@ -4,18 +4,17 @@ slug: sv13-ref-6
 date: 2022-11-30T18:00:00
 coverImage: "sense-carro-x.jpg"
 tags:
-- schaublin-13
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Fresadora
-- Schaublin 13
-- Avenç automàtic
-- Guies
+  - Fresadora
+  - Schaublin 13
+  - Avenç automàtic
+  - Guies
 draft: false
 ---
-
 En aquesta entrada comento el desmuntat de la consol de la fresadora i
 l'estructura dels mecanismes d'avenç automàtic. En especial el bloc
 d'engranatges que alimenta els avenços i l'embragatge de seguretat.

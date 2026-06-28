@@ -3,14 +3,13 @@ title: "Biblioteca Schaublin 13"
 date: 2021-12-08
 coverImage: "old-catalogue.png"
 tags:
-- schaublin-13
+  - màquina.schaublin-13
 categories:
-- biblioteca
+  - Documentació i plànols
 keywords:
-- Schaublin 13
+  - Schaublin 13
 draft: false
 ---
-
 Aqui hi trobareu una llista de recursos interessants sobre la
 fresadora Schaublin 13. Permanentment «en construcció» :smile:.
 

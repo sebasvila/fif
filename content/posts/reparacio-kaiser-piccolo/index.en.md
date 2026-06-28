@@ -4,24 +4,21 @@ slug: kaiser-piccolo-repair
 date: 2024-10-14
 coverImage: "head-4.jpg"
 tags:
-- tech.turning
-- tech.milling
-- tech.measuring
-- leinen-lz4sb
-- schaublin-13
-- wörner-b13
-- tools
-categories:
-- projects
+  - technology.turning
+  - technology.milling
+  - technology.measuring
+  - machine.leinen-lz4sb
+  - machine.schaublin-13
+  - machine.wörner-b13
+  - tools.metalworking
+categories: []
 keywords:
-- Kaiser Piccolo
-- boring head
-- automatic facing
-- diacator
+  - Kaiser Piccolo
+  - boring head
+  - automatic facing
+  - diacator
 draft: false
 ---
-
-
 The Kaiser Piccolo is an exquisitely made mid sized boring head with
 boring and automatic facing functions. I got a ISO30 one in a very
 nice condition together with a bunch of tooling. When tested it

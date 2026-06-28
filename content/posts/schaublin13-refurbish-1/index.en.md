@@ -4,18 +4,17 @@ slug: sv13-ref-1
 date: 2021-11-21T00:56:13+01:00
 coverImage: "elevation.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Schaublin 13
-- Motor servicing
-- Electrical conduct
-- Schaublin BL number
+  - Schaublin 13
+  - Motor servicing
+  - Electrical conduct
+  - Schaublin BL number
 draft: false
 ---
-
 Long time ago I bought a Schaublin 13 milling machine to Peter at
 [Veltman Machines](http://veltmanmachines.nl). This was to replace my
 [Cincinatti

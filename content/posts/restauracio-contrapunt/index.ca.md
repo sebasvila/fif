@@ -1,21 +1,20 @@
 ---
 title: 'Restauració del contrapunt'
-date: 2012-09-16T18:42:00.001+02:00
+date: 2012-09-16T18:42:00.001000+02:00
 draft: false
 slug: "restaurar-contrapunt"
 coverImage: P1030743.JPG
 tags:
-- leinen-lz4sb
-- tech.pintura
+  - màquina.leinen-lz4sb
+  - tecnologia.pintura
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- torn mecànic
-- pintura
-- contrapunt
+  - torn mecànic
+  - pintura
+  - contrapunt
 ---
-
 Comencem per restaurar el contrapunt, que sembla estar en prou bon
 estat. El contrapunt no és habitual atès que està construït de manera
 que en qualsevol posició s'arrepenja totalment en el suport. És una

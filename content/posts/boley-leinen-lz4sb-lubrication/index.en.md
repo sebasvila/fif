@@ -1,14 +1,12 @@
 ---
 title: 'Boley Leinen LZ4SB lubrication'
-date: 2016-08-15T14:48:00.003+02:00
+date: 2016-08-15T14:48:00.003000+02:00
 draft: false
 slug: "boley-leinen-lz4sb-lubrication"
 coverImage: P1050417.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
 ---
-
-
 The lubricants to be used
 -------------------------
 

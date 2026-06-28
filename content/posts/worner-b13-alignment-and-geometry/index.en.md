@@ -1,22 +1,21 @@
 ---
 title: 'Wörner B13 alignment and geometry'
-date: 2020-10-14T20:20:00.002+02:00
+date: 2020-10-14T20:20:00.002000+02:00
 draft: false
 slug: "worner-b13-alignment-and-geometry"
 coverImage: "taula-control-B13.png"
 tags:
-- Wörner B13
-- tech.measuring
+  - machine.wörner-b13
+  - technology.measuring
+  - work.overhauling
 categories:
-- machine overhauling
-- wörner B13
+  - machines and metalworking
 keywords:
-- machine tool testing
-- Schlesinger
-- inspection chart
-- Wörner
+  - machine tool testing
+  - Schlesinger
+  - inspection chart
+  - Wörner
 ---
-
 In this post I show the result of carrying a sequence of tests to the
 rebuild Wörner drilling press to check its accuracy. I took an Aciera
 10 drilling machine inspection chart as a reference. Both machines are

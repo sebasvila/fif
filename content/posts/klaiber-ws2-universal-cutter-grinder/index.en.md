@@ -4,11 +4,9 @@ date: 2015-09-02
 draft: false
 slug: "klaiber-ws2-universal-cutter-grinder"
 coverImage: Lechler-WS3.jpg
-tags: 
-- Klaiber WS2
+tags:
+  - machine.klaiber-ws2
 ---
-
-
 A new guest
 -----------
 

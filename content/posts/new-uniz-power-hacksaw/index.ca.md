@@ -5,16 +5,15 @@ draft: false
 slug: "new-uniz-power-hacksaw"
 coverImage: P1040392.JPG
 tags:
-- serra uniz
+  - màquina.uniz-14
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- serra uniz
+  - Maquinària i mecànica de precisió
 keywords:
-- serra mecànica
-- serra de vaivé
-- Uniz 14
+  - serra mecànica
+  - serra de vaivé
+  - Uniz 14
 ---
-
 Aquest 21 de febrer hem estat a [Juncosa (Les
 Garrigues)](https://en.wikipedia.org/wiki/Juncosa) per comprar una
 antiga serra mecànica de la marca Uniz. Aquesta és la més petita de

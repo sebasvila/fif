@@ -4,15 +4,14 @@ slug: sv13-ref-8
 date: 2023-04-30T11:36:00
 coverImage: "motors-1.jpg"
 tags:
-- schaublin-13
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Schaublin 13
+  - Schaublin 13
 draft: false
 ---
-
 La  fresadora Schaublin  13 ja  és neta  i pintada.  Tots els  detalls
 mecànics  que  feia falta  resoldre  s'han  resolt.  És el  moment  de
 començar el (re)muntatge.

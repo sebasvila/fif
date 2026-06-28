@@ -1,20 +1,18 @@
 ---
 title: 'A four jaws independent chuck arrived'
-date: 2015-08-30T21:18:00.002+02:00
+date: 2015-08-30T21:18:00.002000+02:00
 draft: false
 slug: "a-four-jaws-independent-chuck-arrived"
 coverImage: P1050148.JPG
 tags:
-- leinen LZ4SB
-- tech.milling
-- tools
-categories:
-- projects
+  - machine.leinen-lz4sb
+  - technology.milling
+  - tools.metalworking
+categories: []
 keywords:
-- Röhm chuck
-- Worn guide repair
+  - Röhm chuck
+  - Worn guide repair
 ---
-
 I bought in german ebay a four jaws independent chuck with DIN 55022
 number 4 fitting. This was not the kind of independent chuck I prefer
 for the Leinen lathe. I would prefered those kind of "old" chucks

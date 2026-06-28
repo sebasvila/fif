@@ -3,14 +3,13 @@ title: "Recull d'enllaços sobre Boley Leinen LZ4"
 date: 2021-07-13T15:32:24+02:00
 coverImage: ""
 tags:
-- Leinen LZ4SB
+  - màquina.leinen-lz4sb
 categories:
-- biblioteca
+  - Documentació i plànols
 keywords:
-- boley leinen LZ4
+  - boley leinen LZ4
 draft: false
 ---
-
 Recull d'enllaços a informació interessant sobre la gama de torns
 Boley Leinen LZ4.
 

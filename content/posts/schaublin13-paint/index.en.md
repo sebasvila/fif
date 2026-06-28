@@ -4,20 +4,19 @@ slug: sv13-ref-7
 date: 2023-01-07T10:05:00
 coverImage: "mostra-color.jpg"
 tags:
-- schaublin-13
-- tech.painting
+  - machine.schaublin-13
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- Paint
-- Schaublin color
-- Iwata
+  - Milling machine
+  - Schaublin 13
+  - Paint
+  - Schaublin color
+  - Iwata
 draft: false
 ---
-
 Here I face to recover the original aspect of the Schaublin 13. I will
 try to preserve original colors and distributions and, to some extent,
 the original coating where possible.

@@ -1,19 +1,17 @@
 ---
 title: 'Cercant els manuals del torn'
-date: 2012-09-15T23:31:00.001+02:00
+date: 2012-09-15T23:31:00.001000+02:00
 draft: false
 slug: "cerca-manuals"
 tags:
-- leinen LZ4SB
+  - màquina.leinen-lz4sb
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- torn mecànic
-- Manuals
+  - torn mecànic
+  - Manuals
 ---
-
-
 El torn ha arribat, com és habitual, sense cap tipus de
 documentació. En alguns llocs de la xarxa hi ha còpies parcials de
 documentacions d'altres torns similars.

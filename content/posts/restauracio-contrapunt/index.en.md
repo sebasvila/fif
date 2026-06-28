@@ -1,22 +1,20 @@
 ---
 title: 'Overhauling the tailstock'
-date: 2012-09-16T18:42:00.001+02:00
+date: 2012-09-16T18:42:00.001000+02:00
 draft: false
 slug: "restaurar-contrapunt"
 coverImage: P1030743.JPG
 tags:
-- leinen-lz4sb
-- tech.painting
+  - machine.leinen-lz4sb
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- lathe
-- Polyurethane coating
-- tailstock
+  - lathe
+  - Polyurethane coating
+  - tailstock
 ---
-
-
 Let's start by refurbishing the tailstock, which seems to be in pretty
 good condition. The tailstock is designed in such a way that its quill
 remains fully supported despite its position. It's a typical

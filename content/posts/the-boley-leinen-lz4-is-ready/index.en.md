@@ -1,14 +1,12 @@
 ---
 title: 'The Boley-Leinen LZ4 is ready'
-date: 2013-09-29T23:08:00.001+02:00
+date: 2013-09-29T23:08:00.001000+02:00
 draft: false
 slug: "the-boley-leinen-lz4-is-ready"
 coverImage: P1050051.JPG
-tags: 
-- leinen LZ4SB
+tags:
+  - machine.leinen-lz4sb
 ---
-
-
 Before and after
 ----------------
 

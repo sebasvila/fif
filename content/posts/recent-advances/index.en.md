@@ -1,17 +1,15 @@
 ---
 title: 'Recent advances'
-date: 2013-07-19T01:30:00.000+02:00
+date: 2013-07-19T01:30:00+02:00
 draft: false
 slug: "recent-advances"
 coverImage: P1040815.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
-
 There has been not many advances during last weeks, However, the lathe
 bed has been cleaned and prepared to be lacquered as show in the
 following pictures.

@@ -4,19 +4,18 @@ slug: sv13-ref-5
 date: 2022-09-02T18:21:00
 coverImage: "portada.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- Ram alignment and geometry
-- Measuring geometry
-- Scraping
+  - Milling machine
+  - Schaublin 13
+  - Ram alignment and geometry
+  - Measuring geometry
+  - Scraping
 draft: false
 ---
-
 The last post discovered the Y axis ram problems. In this post I
 explain how the aligment problems were (partially) solved. This is the
 result of a long journey through geometry and aligment testing,

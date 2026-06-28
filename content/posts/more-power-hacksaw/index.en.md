@@ -5,18 +5,16 @@ draft: false
 slug: "more-power-hacksaw"
 coverImage: P1040394.JPG
 tags:
-- uniz hacksaw
-- tech.painting
-- tech.turning
+  - machine.uniz-14
+  - technology.painting
+  - technology.turning
+  - work.overhauling
 categories:
-- machine overhauling
-- uniz hacksaw
+  - machines and metalworking
 keywords:
-- O2 steel
-- Uniz 14" hacksaw
+  - O2 steel
+  - Uniz 14" hacksaw
 ---
-
-
 The work on the power hacksaw is slowly moving forward. The saw was
 completely disassembled and cleaned. It was really dirty, full of
 chips and old grease. Just to show the state, look at the cutting

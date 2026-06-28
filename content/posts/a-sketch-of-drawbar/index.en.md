@@ -5,14 +5,13 @@ draft: false
 slug: "a-sketch-of-drawbar-for-sam-kowalski"
 coverImage: P1050097.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
 categories:
-- library
+  - documentation and drawings
 keywords:
-- Boley Leinen LZ4SB
-- collet drawbar
+  - Boley Leinen LZ4SB
+  - collet drawbar
 ---
-
 Some days ago Sam Kowalski, a happy owner of a Boley-Leinen lathe
 asked me for the dimensions of the collet's drawbar. He is posting
 some nice pictures of his lathe restoration in the [Old Wood Working

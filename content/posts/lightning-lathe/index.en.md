@@ -4,18 +4,17 @@ date: 2014-02-05
 draft: false
 slug: "light-up-the-lathe"
 aliases:
-- "lightning-lathe"
+  - "lightning-lathe"
 coverImage: P1050142.JPG
 tags:
-- leinen LZ4SB
-- tech.electricity
-categories:
-- tools
+  - machine.leinen-lz4sb
+  - technology.electricity
+  - tools.metalworking
+categories: []
 keywords:
-- Waldmann luminaire WD 306
-- industrial luminaires
+  - Waldmann luminaire WD 306
+  - industrial luminaires
 ---
-
 An old Waldmann WD 306 luminaire is added to the Boley Leinen
 lathe. The luminaire is nowadays old but it is still a very good
 design. Can be found at a reasonable price and, after servicing it,

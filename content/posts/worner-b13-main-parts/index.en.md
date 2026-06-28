@@ -1,17 +1,15 @@
 ---
 title: 'Wörner B13 main assemblies'
-date: 2020-04-29T07:55:00.001+02:00
+date: 2020-04-29T07:55:00.001000+02:00
 draft: false
 slug: "worner-b13-main-parts"
 coverImage: /fotos/worner-b13/20200422_182150.jpg.jpg
 tags:
-- Wörner B13
+  - machine.wörner-b13
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 ---
-
-
 The Wörner B13 has a notable building quality. It's not cheap machine
 at all. After the disassembly, al mechanical elements were cleaned of
 debris and this olde grease that forms a kind of hard lack with

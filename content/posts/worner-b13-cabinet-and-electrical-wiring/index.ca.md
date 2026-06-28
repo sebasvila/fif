@@ -1,22 +1,21 @@
 ---
 title: 'Armari i cablejat elèctric de la Wörner B13'
-date: 2020-09-14T01:40:00.001+02:00
+date: 2020-09-14T01:40:00.001000+02:00
 slug: worner-b13-cabinet-and-electrical-wiring
 coverImage: "20200913_194752.jpg"
 tags:
-- Wörner B13
-- tech.electricitat
-- tech.fusteria
+  - màquina.wörner-b13
+  - tecnologia.electricitat
+  - tecnologia.fusteria
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- Wörner B13
+  - Maquinària i mecànica de precisió
 keywords:
-- guies de boles per calaixos
-- bastiment d'acer
-- VFD
+  - guies de boles per calaixos
+  - bastiment d'acer
+  - VFD
 draft: false
 ---
-
 Un dels meus projectes d'aquest estiu ha estat acabar l'armari per al
 taladre de columna Wörner B13. El treball ha consistit principalment a
 revestir l'estructura de suport d'acer amb panells de DM

@@ -1,19 +1,17 @@
 ---
 title: 'Torn Antoni Pujantell'
-date: 2018-09-16T01:33:00.000+02:00
+date: 2018-09-16T01:33:00+02:00
 slug: "antoni-pujantell-lathe"
 coverImage: P1060160.JPG
 tags:
-- venudes
+  - estat.venuda
 categories:
-- maquines venudes
+  - Maquinària i mecànica de precisió
 keywords:
-- Antoni Pujantell
-- torn
-- reconstrucció
+  - Antoni Pujantell
+  - torn
+  - reconstrucció
 ---
-
-
 Durant molts anys, vaig ser el orgullós propietari d'un torn AP
 (essent AP les inicials del seu creador, Antoni Pujantell). Aquest
 torn va ser la primeríssima màquina eina que vaig portar a casa i,

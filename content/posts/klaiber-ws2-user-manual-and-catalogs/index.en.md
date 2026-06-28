@@ -4,12 +4,10 @@ date: 2015-09-08
 draft: false
 slug: "klaiber-ws2-user-manual-and-catalogs"
 tags:
-- Klaiber WS2
+  - machine.klaiber-ws2
 categories:
-- library
+  - documentation and drawings
 ---
-
-
 I found somewhere the user manual of the Klaiber WS2 and some brochures. Here they are:
 
 

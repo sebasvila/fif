@@ -3,18 +3,18 @@ title: "Cargols per Màquina de Cosir"
 date: 2021-07-25T00:21:01+02:00
 coverImage: "singer-screw-5.jpg"
 tags:
-- tech.tornejat
+  - tecnologia.tornejat
+  - treball.fabricació
 categories:
-- projectes
+  - Maquinària i mecànica de precisió
 keywords:
-- Màquina de cosir
-- Cargol
-- Singer
-- Kohler
-- Nähnorm 100
+  - Màquina de cosir
+  - Cargol
+  - Singer
+  - Kohler
+  - Nähnorm 100
 draft: false
 ---
-
 Les màquines de cosir antigues són una joia: robustes, elegants,
 efectives i útils. Reconstruir-les, però, no és senzill. Els cargols
 que usen, particularment, són fabricats a mida seguint normes antigues

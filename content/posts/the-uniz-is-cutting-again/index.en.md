@@ -5,13 +5,11 @@ draft: false
 slug: "the-uniz-is-cutting-again"
 coverImage: P1040696.JPG
 tags:
-- uniz hacksaw
+  - machine.uniz-14
+  - work.overhauling
 categories:
-- machine overhauling
-- uniz hacksaw
+  - machines and metalworking
 ---
-
-
 The overhauling of the UNIZ power hacksaw is finished and the saw is
 cutting steel again :smile:. In the next picture you can see the new
 electrical controls that are working really smoothly:

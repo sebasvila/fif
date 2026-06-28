@@ -5,16 +5,14 @@ draft: false
 slug: "found-set-of-collets-in-ebay"
 coverImage: "P1040878.JPG"
 tags:
-- leinen LZ4SB
-- eines
+  - màquina.leinen-lz4sb
 categories:
-- eines
+  - Maquinària i mecànica de precisió
 keywords:
-- pinces 363E
-- pinces s25
-- pinces Boley Leinen
+  - pinces 363E
+  - pinces s25
+  - pinces Boley Leinen
 ---
-
 Les pinces Boley Leinen són un tema controvertit. A vegades, són
 difícils de trobar en bon estat, però estan disponibles de tant en
 tant. No hi ha informació pública de Boley Leinen sobre les pinces i

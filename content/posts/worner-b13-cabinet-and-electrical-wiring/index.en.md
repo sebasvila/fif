@@ -1,22 +1,21 @@
 ---
 title: 'Wörner B13 Cabinet and Electrical Wiring'
-date: 2020-09-14T01:40:00.001+02:00
+date: 2020-09-14T01:40:00.001000+02:00
 slug: worner-b13-cabinet-and-electrical-wiring
 coverImage: "20200913_194752.jpg"
 tags:
-- Wörner B13
-- tech.electricity
-- tech.woodworking
+  - machine.wörner-b13
+  - technology.electricity
+  - technology.woodworking
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- ball bearing drawer slides
-- steel frame
-- VFD
+  - ball bearing drawer slides
+  - steel frame
+  - VFD
 draft: false
 ---
-
 One of my projects this summer was to finish the cabinet for the
 Wörner B13 drill press. The work mainly consisted of cladding the
 steel support frame with MDF. The ultimate goal was to prepare it for

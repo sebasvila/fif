@@ -4,17 +4,16 @@ slug: sv13-ref-8
 date: 2023-04-30T11:36:00
 coverImage: "motors-1.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- Assemble
+  - Milling machine
+  - Schaublin 13
+  - Assemble
 draft: false
 ---
-
 The SV13 is clean and painted. All the mechanical issues have benn
 solved. Now it's time to reassemble it.
 

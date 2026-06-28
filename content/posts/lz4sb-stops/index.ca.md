@@ -1,15 +1,14 @@
 ---
 title: 'Topalls del carro del Boley-Leinen LZ4SB'
-date: 2019-05-14T13:47:00.000+02:00
+date: 2019-05-14T13:47:00+02:00
 draft: false
 slug: "lz4sb-stops"
 coverImage: P1060264.JPG
 tags:
- - leinen-lz4sb
+  - màquina.leinen-lz4sb
 categories:
- - biblioteca
+  - Documentació i plànols
 ---
-
 Després que Chris Maron m'ho demanés, en aquesta nota publico la
 informació sobre els topalls del carro del Boley Leinen LZ4SB. La idea
 és que hi hagi prou detall com per a poder replicar els topalls

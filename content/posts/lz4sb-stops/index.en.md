@@ -5,12 +5,10 @@ draft: false
 slug: "lz4sb-stops"
 coverImage: P1060264.JPG
 tags:
- - leinen-lz4sb
+  - machine.leinen-lz4sb
 categories:
- - library
+  - documentation and drawings
 ---
-
-
 After a request from Chris Maron, in this entry I report about the
 Boley-Leinen LZ4SB carriage stops. I would like the entry to be
 sufficiently detailed to allow anyone to reproduce the original stops.

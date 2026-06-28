@@ -3,18 +3,17 @@ title: "Foundry Works 1"
 date: 2021-10-23T20:20:35+02:00
 coverImage: "/fotos/foneria/cargol-1.jpg.jpg"
 tags:
-- tech.casting
-categories:
-- projects
+  - technology.casting
+  - tools.metalworking
+categories: []
 keywords:
-- foundry
-- pattern
-- thermal treatment
-- pattern plate
-- straight edge
+  - foundry
+  - pattern
+  - thermal treatment
+  - pattern plate
+  - straight edge
 draft: false
 ---
-
 During the last months I've been helping Luke Rickert ---of
 [Elisenberg Engineering](https://www.elisenbergengineering.com)--- to move
 forward a foundry project. I had a limited experience on foundry

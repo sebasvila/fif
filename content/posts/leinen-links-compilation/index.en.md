@@ -3,15 +3,14 @@ title: "Boley Leinen LZ4 lathes links compilation"
 date: 2021-07-13T15:32:24+02:00
 coverImage: ""
 tags:
-- Leinen LZ4SB
+  - machine.leinen-lz4sb
 categories:
-- library
+  - documentation and drawings
 keywords:
-- Boley Leinen LZ4
-- Lathe
+  - Boley Leinen LZ4
+  - Lathe
 draft: false
 ---
-
 This is a compilation of interesting sites and documents around
 Internet about Boley Leinen LZ4 lathes series.
 

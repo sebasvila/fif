@@ -1,18 +1,16 @@
 ---
 title: 'Cincinnati-Chomienne FP30'
-date: 2018-08-28T22:19:00.000+02:00
+date: 2018-08-28T22:19:00+02:00
 slug: "cincinatti-chomienne-fp"
 coverImage: P1060050.JPG
 tags:
-- sold-out
-categories:
-- sold-out machines
+  - status.sold-out
+categories: []
 keywords:
-- cincinnati chomienne
-- FP30
-- milling machine
+  - cincinnati chomienne
+  - FP30
+  - milling machine
 ---
-
 This entry describes the Cincinnati-Chomienne model FP30 milling
 machine. It has served me well for a number of years, but it is now up
 for sale. Literature on this machine is scarce; I have only managed to

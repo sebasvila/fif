@@ -1,15 +1,18 @@
 ---
 title: 'La llimadora RILE-300'
-date: 2019-12-02T00:50:00.001+01:00
+date: 2019-12-02T00:50:00.001000+01:00
 draft: false
 slug: "rile-300"
 coverImage: 20191201_144342.jpg
 tags:
-- venudes
+  - estat.venuda
 categories:
-- maquines venudes
+  - Maquinària i mecànica de precisió
+keywords:
+  - Llimadora
+  - Mordassa
+  - Sacia
 ---
-
 Com vaig explicar fa un temps, el garatge està essent reorganitzat i
 refert completament. Per això vaig vendre el torn Pujantell i el
 trepan-fresasora Cincinnati. Ara he venut també la meva llimadora. És

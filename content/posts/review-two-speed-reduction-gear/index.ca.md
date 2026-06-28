@@ -1,22 +1,21 @@
 ---
 title: 'Restauració de la caixa reductora del torn Leinen'
-date: 2012-12-26T11:49:00.003+01:00
+date: 2012-12-26T11:49:00.003000+01:00
 draft: false
 slug: "review-reduction-gearbox"
 coverImage: P1030852.JPG
 tags:
-- leinen LZ4SB
-- tech.soldadura
-- tech.tornejat
+  - màquina.leinen-lz4sb
+  - tecnologia.soldadura
+  - tecnologia.tornejat
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- soldadura d'alumini
-- embragatge
-- caixa reductora
+  - soldadura d'alumini
+  - embragatge
+  - caixa reductora
 ---
-
 El torn Leinen compta amb una caixa reductora de dues velocitats (1:1
 i 1:8) que es pot accionar amb la màquina en funcionament, utilitzant
 un embragatge multidisc en bany d'oli.

@@ -1,21 +1,19 @@
 ---
 title: 'Wörner B13 paint works (I)'
-date: 2020-04-29T00:53:00.000+02:00
+date: 2020-04-29T00:53:00+02:00
 draft: false
 slug: "worner-b13-paint-works"
 coverImage: 20200315_135051.jpg
 tags:
-- Wörner B13
-- tech.painting
+  - machine.wörner-b13
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- enamel spraying
-- RAL colors
+  - enamel spraying
+  - RAL colors
 ---
-
-
 During the COVID'19 lockdown I spent part of my time disassembling the
 drilling press. In this post I will show the cosmetic works. The
 machine arrived with a nasty layer of lack over the original one. I

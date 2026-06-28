@@ -4,17 +4,16 @@ slug: sv13-oilpan
 date: 2023-11-28T19:58:07+01:00
 coverImage: "recollidor-1.jpg"
 tags:
-- tech.tornejat
-- schaublin-13
+  - tecnologia.tornejat
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- fresadora metall
-- reciclat de plàstic
+  - fresadora metall
+  - reciclat de plàstic
 draft: false
 ---
-
 No hi ha res que molesti més en una màquina que les pèrdues d'oli que
 vessen a terra. Tot i això, hi ha moltes màquines dissenyades sense
 massa preocupació per aquest detall i els mecanismes lubricats a

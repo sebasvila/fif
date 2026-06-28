@@ -4,18 +4,18 @@ slug: sv13-conbox
 date: 2023-06-05T19:52:00
 coverImage: "marcat2.jpg"
 tags:
-- schaublin-13
-- tech.electricitat
-- tech.soldadura
+  - màquina.schaublin-13
+  - tecnologia.electricitat
+  - tecnologia.soldadura
+  - treball.reacondicionat
 categories:
-- restauració de màquines
+  - Maquinària i mecànica de precisió
 keywords:
-- Fresadora
-- Fer caixa de planxa
-- Fer caixa connexions
+  - Fresadora
+  - Fer caixa de planxa
+  - Fer caixa connexions
 draft: false
 ---
-
 En el camí de renova la Schaublin 13, és bon moment per endreçar el
 suport de la làmpada i la seva connexió. La làmpada es fixa en el
 lateral de la màquina i, a l'interior, una caixeta de connexions fóra

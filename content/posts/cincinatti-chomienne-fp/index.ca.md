@@ -1,18 +1,17 @@
 ---
 title: 'Cincinnati-Chomienne FP30'
-date: 2018-08-28T22:19:00.000+02:00
+date: 2018-08-28T22:19:00+02:00
 slug: "cincinatti-chomienne-fp"
 coverImage: P1060050.JPG
 tags:
-- venudes
+  - estat.venuda
 categories:
-- maquines venudes
+  - Maquinària i mecànica de precisió
 keywords:
-- cincinnati chomienne
-- FP30
-- fresadora vertical
+  - cincinnati chomienne
+  - FP30
+  - fresadora vertical
 ---
-
 Aquesta entrada descriu la fresadora Cincinnati-Chomienne model
 FP30. Ha fet molt bon serveu bé durant uns quants anys, però ara és
 a la venda. La documentació sobre aquesta màquina és escassa; només he

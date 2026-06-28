@@ -5,15 +5,14 @@ draft: false
 slug: "the-uniz-power-hacksaw-advances"
 coverImage: P1040628.JPG
 tags:
-- serra uniz
+  - màquina.uniz-14
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- serra uniz
+  - Maquinària i mecànica de precisió
 keywords:
-- serra Uniz 14"
-- serra mecànica
+  - serra Uniz 14"
+  - serra mecànica
 ---
-
 La feina amb la serra elèctrica UNIZ de 14" continua! Gairebé tots els
 elements estan ja nets, ajustats i repintats. La majoria de les peces
 estan de nou muntades, i la serra comença a mostrar el seu millor

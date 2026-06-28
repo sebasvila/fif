@@ -4,21 +4,19 @@ slug: sv13-ref-9
 date: 2023-04-30T21:36:00
 coverImage: "final.jpg"
 tags:
-- schaublin-13
-- projects
-- tech.turning
-- tech.painting
+  - machine.schaublin-13
+  - technology.turning
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- Make oil level sight glass
-- Oil resistant marking
+  - Milling machine
+  - Schaublin 13
+  - Make oil level sight glass
+  - Oil resistant marking
 draft: false
 ---
-
 The Schaubling 13 oil level sight glass should be replaced because the
 original one was chipped off after pulling it out. Which materials and
 how to mark it?

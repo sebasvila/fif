@@ -4,16 +4,15 @@ slug: sv13-orings
 date: 2023-05-02T08:00:00
 coverImage: "orings.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Schaublin 13
-- O-ring standards
+  - Schaublin 13
+  - O-ring standards
 draft: false
 ---
-
 While overhauling the Schaublin 13, some o-rings are to be
 replaced. The original plans show a cryptic reference for the
 parts. We found how they relate to o-ring sizes.

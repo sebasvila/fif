@@ -4,18 +4,17 @@ date: 2014-02-05
 draft: false
 slug: "light-up-the-lathe"
 aliases:
-- "lightning-lathe"
+  - "lightning-lathe"
 coverImage: P1050142.JPG
 tags:
-- leinen LZ4SB
-- tech.electricitat
+  - màquina.leinen-lz4sb
+  - tecnologia.electricitat
 categories:
-- projectes
+  - Maquinària i mecànica de precisió
 keywords:
-- Waldmann luminaire WD 306
-- industrial luminaires
+  - Waldmann luminaire WD 306
+  - industrial luminaires
 ---
-
 S'ha afegit una antiga lluminària Waldmann WD 306 al torn Boley
 Leinen. El llum és antic, però encara manté un disseny molt
 interessant. Es pot trobar a un preu raonable i, després de fer-li un

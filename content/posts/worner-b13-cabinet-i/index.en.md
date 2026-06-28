@@ -1,23 +1,21 @@
 ---
 title: 'Wörner B13 cabinet (I)'
-date: 2020-03-18T09:52:00.005+01:00
+date: 2020-03-18T09:52:00.005000+01:00
 draft: false
 slug: "worner-b13-cabinet-i"
 coverImage: 20200207_174320.jpg
 tags:
-- Wörner B13
-- tech.welding
-- tech.painting
+  - machine.wörner-b13
+  - technology.welding
+  - technology.painting
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- Wörner B13
-- Steel profile cabinet
-- Stick welding
+  - Wörner B13
+  - Steel profile cabinet
+  - Stick welding
 ---
-
-
 The first work we do is a specific cabinet to support the drill press,
 to protect the electrical wiring and, to store the drill tooling. The
 cabinet structure is maid from steel L profile of 50mm conveniently

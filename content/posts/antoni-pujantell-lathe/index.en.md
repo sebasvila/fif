@@ -1,19 +1,17 @@
 ---
 title: 'Antoni Pujantell lathe'
-date: 2018-09-16T01:33:00.000+02:00
+date: 2018-09-16T01:33:00+02:00
 draft: false
 slug: "antoni-pujantell-lathe"
 coverImage: P1060160.JPG
 tags:
-- sold-out
-categories:
-- sold-out machines
+  - status.sold-out
+categories: []
 keywords:
-- Antoni Pujantell
-- lathe
-- overhauling
+  - Antoni Pujantell
+  - lathe
+  - overhauling
 ---
-
 For many years, I was the proud owner of an AP lathe (AP being the
 initials of its maker, Antoni Pujantell). This lathe was the very
 first machine tool I brought home, and after many years of loyal

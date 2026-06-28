@@ -4,21 +4,19 @@ slug: sv13-ref-7
 date: 2023-01-07T10:05:00
 coverImage: "mostra-color.jpg"
 tags:
-- schaublin-13
-- tech.pintura
+  - màquina.schaublin-13
+  - tecnologia.pintura
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Fresadora
-- Schaublin 13
-- Pintura
-- Iwata
-- Color Schaublin
+  - Fresadora
+  - Schaublin 13
+  - Pintura
+  - Iwata
+  - Color Schaublin
 draft: false
 ---
-
-
 En aquest post parlem de com recuperar l'aspecte original de la
 fresadora Schaublin 13. Ho farem mirant de preservar els colors i les
 distribucions originals i, fins a cert punt, la pintura original

@@ -4,20 +4,20 @@ date: 2021-01-17
 slug: reglus-bushings
 coverImage: hard-turning-2.jpg
 tags:
-- reglus
-- tech.tornejat
+  - màquina.altres
+  - tecnologia.tornejat
+  - treball.fabricació
 categories:
-- projectes
+  - Maquinària i mecànica de precisió
 keywords:
-- Reglus
-- acer O2
-- tornejat dur
-- PCBN
-- Polycristaline Boron Nitride
+  - Reglus
+  - acer O2
+  - tornejat dur
+  - PCBN
+  - Polycristaline Boron Nitride
 
 draft: false
 ---
-
 Per diverses raons, necessitava fer uns forats de diàmetres no
 convencionals en uns eixos. Al taller hi ha un utillatge universal
 Reglus per aquest tipus de feines, però no hi havia les guies de la

@@ -5,12 +5,11 @@ draft: false
 slug: "the-uniz-is-cutting-again"
 coverImage: P1040696.JPG
 tags:
-- serra uniz
+  - màquina.uniz-14
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- serra uniz
+  - Maquinària i mecànica de precisió
 ---
-
 La reparació de la serra mecànica UNIZ està acabada, i la serra ja
 torna a tallar acer :smile:. A la següent imatge podeu veure els nous
 controls elèctrics, que funcionen amb molta suavitat:

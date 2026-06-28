@@ -3,18 +3,17 @@ title: "Sewing Machine Screw"
 date: 2021-07-25T00:21:01+02:00
 coverImage: "singer-screw-5.jpg"
 tags:
-- tech.turning
-categories:
-- projects
+  - technology.turning
+  - tools.metalworking
+categories: []
 keywords:
-- Sewing machine
-- Screw
-- Singer
-- Kohler
-- Nähnorm 100
+  - Sewing machine
+  - Screw
+  - Singer
+  - Kohler
+  - Nähnorm 100
 draft: false
 ---
-
 Old mechanical sewing machines are a true gift: robust, nice,
 effective and useful. Refurbishing them is, however, not so
 easy. Screws, particulary, are most of them made following old norms

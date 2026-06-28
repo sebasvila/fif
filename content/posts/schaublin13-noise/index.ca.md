@@ -4,21 +4,20 @@ slug: sv13-gearnoise
 date: 2024-01-14
 coverImage: "gear-train-1.jpg"
 tags:
-- tech.tornejat
-- tech.mesura
-- schaublin-13
+  - tecnologia.tornejat
+  - tecnologia.mesura
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- fresadora metall
-- soroll canvi marxes
-- soroll engranatge
-- variador de velocitat
-- tensió de la corretja
+  - fresadora metall
+  - soroll canvi marxes
+  - soroll engranatge
+  - variador de velocitat
+  - tensió de la corretja
 draft: false
 ---
-
 Per alguna raó, des del principi de la restauració, vaig pensar que el
 canvi de marxes estava en bon estat. De fet, no el vaig revisar ni
 tant sols vaig buidar l'oli del càrter. Quan ha arribat el moment

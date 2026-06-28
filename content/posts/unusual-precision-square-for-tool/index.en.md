@@ -1,21 +1,18 @@
 ---
 title: 'Unusual square for the tool grinder '
-date: 2016-09-04T21:11:00.000+02:00
+date: 2016-09-04T21:11:00+02:00
 draft: false
 slug: "unusual-precision-square-for-tool"
 coverImage: P1050433.JPG
 tags:
-- tech.turning
-- klaiber-ws2
-- tools
-categories:
-- projects
+  - technology.turning
+  - machine.klaiber-ws2
+  - tools.metalworking
+categories: []
 keywords:
-- Precision square
-- Grinding jigs
+  - Precision square
+  - Grinding jigs
 ---
-
-
 One of the jobs done this summer is a special square intended to
 facilitate the alignment of the grinder axis. I own a Klaiber WSII
 tool grinder. This grinder has a head with several degrees of freedom

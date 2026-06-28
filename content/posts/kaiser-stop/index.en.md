@@ -3,12 +3,14 @@ title: "Kaiser Piccolo Sliding Stop"
 slug: kaiser-stop
 date: 2025-03-07
 coverImage: "kaiser-sliding-stop.jpg"
-tags: [tech.measuring, tools]
-categories: [library]
+tags:
+  - technology.measuring
+  - tools.metalworking
+categories:
+  - documentation and drawings
 keywords: [Big Kaiser, boring head parts, sketch]
 draft: false
 ---
-
 This is an annotated sketch of the Kaiser Piccolo sliding stop. I
 drawed it after Erik asked me about. Maybe it could be useful for
 someone else.

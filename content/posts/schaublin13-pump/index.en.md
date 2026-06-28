@@ -4,17 +4,16 @@ slug: sv13-pump
 date: 2023-05-06T14:11:00
 coverImage: "bomba.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Lubrication pump
-- o-ring
+  - Milling machine
+  - Lubrication pump
+  - o-ring
 draft: false
 ---
-
 The Schaublin 13 lubrication pump deserves a service now that there is
 no oil in circuit and it is easy to disassemble.
 

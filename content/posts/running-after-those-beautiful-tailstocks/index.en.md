@@ -1,19 +1,16 @@
 ---
 title: 'Looking for these beautiful Leinen tailstocks'
-date: 2015-08-31T15:46:00.003+02:00
+date: 2015-08-31T15:46:00.003000+02:00
 draft: false
 slug: "running-after-those-beautiful-tailstocks"
 coverImage: P1050343.JPG
 tags:
-- leinen LZ4SB
-- tools
+  - machine.leinen-lz4sb
+  - tools.metalworking
 keywords:
-- 113E collets
-categories:
-- tools
+  - 113E collets
+categories: []
 ---
-
-
 I was obsessed with those beautiful optional tailstocks built by
 Leinen that appear in the lathe parts catalog. An intense surveillance
 in ebay has given some partial results. The first attempt achieved

@@ -1,23 +1,22 @@
 ---
 title: 'Recover the Leinen lathe original look'
-date: 2013-03-15T18:51:00.001+01:00
+date: 2013-03-15T18:51:00.001000+01:00
 draft: false
 slug: "estetica-del-leinen"
 coverImage: P1040545.JPG
 tags:
-- leinen LZ4SB
-- tech.painting
+  - machine.leinen-lz4sb
+  - technology.painting
+  - work.overhauling
 keywords:
-- Boley Leinen LZ4SB
-- Drehbank
-- Lathe
-- Paint
+  - Boley Leinen LZ4SB
+  - Drehbank
+  - Lathe
+  - Paint
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 lastmod: 2024-05-13
 ---
-
 An important task during the Leinen lathe refurbishing is to recover
 it's original aesthetics. This a time consuming process if you want a
 quality result. These are the main tasks:

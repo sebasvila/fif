@@ -1,23 +1,22 @@
 ---
 title: 'La reparació estètica del Leinen '
-date: 2013-03-15T18:51:00.001+01:00
+date: 2013-03-15T18:51:00.001000+01:00
 draft: false
 slug: "estetica-del-leinen"
 coverImage: P1040545.JPG
 tags:
-- leinen LZ4SB
-- tech.pintura
+  - màquina.leinen-lz4sb
+  - tecnologia.pintura
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- Boley Leinen LZ4SB
-- Torn
-- Restauració
-- Pintura poliuretà
+  - Boley Leinen LZ4SB
+  - Torn
+  - Restauració
+  - Pintura poliuretà
 lastmod: 2024-05-13
 ---
-
 Entre altres feines de restauració, una feina fonamental en el torn
 Leinen és l'acabat estètic. El procés de restauració estètic és
 laboriós si es vol un acabat durable, fidel i de primera qualitat.

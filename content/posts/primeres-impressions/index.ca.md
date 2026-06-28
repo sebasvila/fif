@@ -1,20 +1,18 @@
 ---
 title: 'Primeres impressions'
-date: 2012-09-15T17:59:00.001+02:00
+date: 2012-09-15T17:59:00.001000+02:00
 draft: false
 slug: "primeres-impressions"
 coverImage: P1030593.JPG
 tags:
-- leinen-lz4sb
+  - màquina.leinen-lz4sb
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- boley leinen LZ4SB
+  - Maquinària i mecànica de precisió
 keywords:
-- torn
-- torn mecànic
+  - torn
+  - torn mecànic
 ---
-
-
 Les primeres impressions després d'explorar la màquina tal i com ha
 arribat:
 

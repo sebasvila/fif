@@ -4,21 +4,19 @@ slug: sv13-ref-9
 date: 2023-04-30T21:36:00
 coverImage: "final.jpg"
 tags:
-- schaublin-13
-- projectes
-- tech.tornejat
-- tech.pintat
+  - màquina.schaublin-13
+  - tecnologia.tornejat
+  - tecnologia.pintura
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
+  - Maquinària i mecànica de precisió
 keywords:
-- Fresadora
-- Schaublin 13
-- Fer un espiell de nivell d'oli
-- Resistència a l'oli
+  - Fresadora
+  - Schaublin 13
+  - Fer un espiell de nivell d'oli
+  - Resistència a l'oli
 draft: false
 ---
-
 Cal canviar l'espiell del nivell d'oli de la Schaublin 13. L'original
 estava molt brut, gairebé opac pels anys de servei i es va escantonar
 al treure'l. Amb quins materials com hi fem les marques?

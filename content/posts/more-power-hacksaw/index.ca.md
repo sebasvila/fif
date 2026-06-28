@@ -5,17 +5,16 @@ draft: false
 slug: "more-power-hacksaw"
 coverImage: P1040394.JPG
 tags:
-- serra uniz
-- tech.pintura
-- tech.tornejat
+  - màquina.uniz-14
+  - tecnologia.pintura
+  - tecnologia.tornejat
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- serra uniz
+  - Maquinària i mecànica de precisió
 keywords:
-- acer O2 
-- serra Uniz 14"
+  - acer O2
+  - serra Uniz 14"
 ---
-
 El treball amb la serra mecànica avança lentament. La serra es va
 desmuntar completament i es va netejar. Estava realment bruta, plena
 de ferritja i greix antic. Per mostrar-ne l’estat, només cal veure el

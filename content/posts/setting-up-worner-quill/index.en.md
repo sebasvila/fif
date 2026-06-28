@@ -1,21 +1,19 @@
-    ---
+---
 title: 'Setting up the Wörner quill'
-date: 2020-05-31T18:40:00.000+02:00
+date: 2020-05-31T18:40:00+02:00
 slug: 'setting-up-worner-quill'
 draft: false
 coverImage: "20200524_211705.jpg"
 tags:
-- Wörner B13
+  - machine.wörner-b13
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 keywords:
-- precision bearings
-- bearings greasing
-- Wörner B13
+  - precision bearings
+  - bearings greasing
+  - Wörner B13
 ---
-
-
 The Wörner quill is again on the drilling press. After being
 completely cleaned and disassembled, the quill rack was touched up to
 correct the damage that probably was made while assembling the pinion

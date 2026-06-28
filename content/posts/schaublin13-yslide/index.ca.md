@@ -4,20 +4,18 @@ slug: sv13-horispindle
 date: 2023-09-26T19:17:37+02:00
 coverImage: "runout-spindle.jpg"
 tags:
-- tech.pintura
-- tech.mesura
-- schaublin-13
-
+  - tecnologia.pintura
+  - tecnologia.mesura
+  - tecnologia.rasquetat
+  - màquina.schaublin-13
+  - treball.reacondicionat
 categories:
-- restauració de màquines
-- schaublin 13
-
+  - Maquinària i mecànica de precisió
 keywords:
-- Schaublin 13
-- Fresadora
-- Capçal
+  - Schaublin 13
+  - Fresadora
+  - Capçal
 ---
-
 El següent pas en la reparació de la SV13 ha estat acabar el capçal
 horitzontal i muntar-lo definitivament en les seves guies. Mancàven
 alguns treballs per fer: acabar l'ajustat de les guies, netejar i

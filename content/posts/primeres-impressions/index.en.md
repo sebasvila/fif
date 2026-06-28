@@ -1,19 +1,18 @@
 ---
 title: 'First impressions'
-date: 2012-09-15T17:59:00.001+02:00
+date: 2012-09-15T17:59:00.001000+02:00
 draft: false
 slug: "primeres-impressions"
 coverImage: P1030593.JPG
 tags:
-- leinen-lz4sb
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- Lathe
-- Boley Leinen
+  - Lathe
+  - Boley Leinen
 ---
-
 The first impresions just after the machine arrived:
 
 <!--more-->

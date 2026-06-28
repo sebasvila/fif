@@ -1,16 +1,16 @@
 ---
-title: Reacondicionat de la fresadora Schaublin 13
+title: Overhauling Schaublin 13 Milling Machine
 slug: overhaul-schaublin-13
-date: 2026-06-28
-coverImage: ""
+date: 2024-09-28
+coverImage: check-top-surface.jpg
 tags:
 categories:
-  - Recull de projectes
+  - project collection
 keywords:
 ---
 
-Aqui es recullen les anotacions que descriuen tot el treball de
-reacondicionat de la fresadora Schaublin 13.
+This post contains the notes describing the complete refurbishment
+process of the Schaublin 13 milling machine.  
 
 <!--more-->
 

@@ -4,18 +4,17 @@ slug: sv13-ref-4
 date: 2021-12-29T12:21:00
 coverImage: "test-horitzontal1.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- Ram alignment and geometry
-- Measuring geometry
+  - Milling machine
+  - Schaublin 13
+  - Ram alignment and geometry
+  - Measuring geometry
 draft: false
 ---
-
 The first tests done when machine arrived at the workshop discovered
 an issue on the geometry of the ram ---Y axis---. The ram has a
 sensible play in some positions that can be measured when moving it on

@@ -1,21 +1,19 @@
 ---
 title: 'Isoma centering microscope tail'
-date: 2017-05-12T17:50:00.001+02:00
+date: 2017-05-12T17:50:00.001000+02:00
 draft: false
 slug: "isoma-centering-microscope-tail"
 coverImage: P1050995.JPG
 
 tags:
-- tools
-- schaublin-13
-categories:
-- projects
+  - tools.metalworking
+  - machine.schaublin-13
+categories: []
 keywords:
-- Isoma
-- Centering microscope
-- Locating
+  - Isoma
+  - Centering microscope
+  - Locating
 ---
-
 Some time ago I bougth an Isoma centering microscope with ans SK40
 adaptor. However I have no SK40 machine at all. During the last days I
 have been turning a cylindric tail which let me to use the microscope

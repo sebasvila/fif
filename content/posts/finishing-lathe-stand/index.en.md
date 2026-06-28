@@ -1,16 +1,15 @@
 ---
 title: 'Finishing the lathe stand'
-date: 2013-08-11T00:23:00.002+02:00
+date: 2013-08-11T00:23:00.002000+02:00
 draft: false
 slug: "finishing-lathe-stand"
 coverImage: P1040856.JPG
 tags:
-- leinen LZ4SB
+  - machine.leinen-lz4sb
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 ---
-
 Leinen lathe works face the arrival line. Now we painted the lathe
 stand and installed three anti-vibration rubber supports. Although it
 was an easy job the overall result was really impressive. Below there

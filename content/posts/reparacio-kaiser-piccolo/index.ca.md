@@ -4,23 +4,18 @@ slug: kaiser-piccolo-repair
 date: 2024-10-14
 coverImage: "head-4.jpg"
 tags:
-- tech.tornejat
-- tech.fresat
-- leinen-lz4sb
-- schaublin-13
-- wörner-b13
-- projectes
-- eines
+  - tecnologia.tornejat
+  - tecnologia.fresat
+  - treball.reparació
 categories:
-- projectes
+  - Maquinària i mecànica de precisió
 keywords:
-- kaiser piccolo
-- capçal mandrinar
-- refrentat automàtic
-- diacator
+  - kaiser piccolo
+  - capçal mandrinar
+  - refrentat automàtic
+  - diacator
 draft: false
 ---
-
 El Kaiser Piccolo és un capçal de mandrinar mitjà exquisidament
 fabricat amb funcions de mandrinat i refrentat automàtic. Tinc un
 capçal amb un con ISO30 en molt bon estat, juntament amb un bon
@@ -53,9 +48,9 @@ STP. Aquesta és una tija específica de Kaiser utilitzada com a
 interfície amb altres tiges estàndard. En aquest cas, munta una tija
 ISO30.
 
-{{< figure src="head-1.jpg" loading="lazy" title="Una imatge del capçal de mandrinar Kaiser Piccolo" >}}
+{{< figure src="head-1.jpg"  caption="Una imatge del capçal de mandrinar Kaiser Piccolo" >}}
 
-{{< figure src="head-3.jpg" loading="lazy" title="Detall del capçal de mandrinar Kaiser Piccolo" >}}
+{{< figure src="head-3.jpg"  caption="Detall del capçal de mandrinar Kaiser Piccolo" >}}
 
 
 ## El commutador P-A del capçal està bloquejat 
@@ -86,7 +81,7 @@ del capçal. Els forats estan plens amb un passador que reté la femella
 a la part inferior. Aquests passadors s'han de foradar completament i
 retirar. Necessitaràs una broca extrallarga o una extensió casolana.
 
-{{< figure src="forat-fiador-1.jpg" link="forat-fiador-1.jpg" loading="lazy" title="Foradat dels passadors de la femella del capçal" >}}
+{{< figure src="forat-fiador-1.jpg" link="forat-fiador-1.jpg"  caption="Foradat dels passadors de la femella del capçal" >}}
 
 El diàmetre del forat és d'1,5mm i s'ha de foradar uns 6 mm de
 profunditat. De vegades, una broca de diàmetre més petit, d'uns
@@ -94,9 +89,9 @@ profunditat. De vegades, una broca de diàmetre més petit, d'uns
 passadors. Notaràs quan el trepant impacta amb la part dura al
 fons. Sigues suau i procura no marcar la part inferior amb la broca.
 
-{{< figure src="forat-fiador-2.jpg" loading="lazy" title="Detall del procés de foradat d'un passador" >}}
+{{< figure src="forat-fiador-2.jpg"  caption="Detall del procés de foradat d'un passador" >}}
 
-{{< figure src="forat-allargador.jpg" loading="lazy" title="Treballant una extensió per a la broca a la fresadora" >}}
+{{< figure src="forat-allargador.jpg"  caption="Treballant una extensió per a la broca a la fresadora" >}}
 
 
 ## Fabricar la clau especial per als passadors
@@ -112,9 +107,9 @@ parell de broques com a passadors de referència, es pot mesurar la
 distància amb un peu de rei o un micròmetre. Després, una mica de
 trigonometria farà la resta.
 
-{{< figure src="mesura-cc.jpg" loading="lazy" title="Mesura de la distància entre forats amb broques" >}}
+{{< figure src="mesura-cc.jpg"  caption="Mesura de la distància entre forats amb broques" >}}
 	
-{{< figure src="calcul.jpg" loading="lazy" title="Càlcul de les distàncies principals de la clau especial" >}}
+{{< figure src="calcul.jpg"  caption="Càlcul de les distàncies principals de la clau especial" >}}
 
 El resultat és que els centres dels forats dels passadors es troben en
 un cercle de 30mm centrat en l'eix del capçal. Amb això al cap, vaig
@@ -122,13 +117,13 @@ tornejar un anell gruixut d'alumini. En aquest, es van foradar tres
 forats d'1,5mm sobre el diàmetre 30mm fent servir un divisor a la
 fresadora Schaublin 13.
 
-{{< figure src="centrant-clau-2.jpg" loading="lazy" title="Alineació del centre de la peça amb el calibrador Diacator" >}}
+{{< figure src="centrant-clau-2.jpg"  caption="Alineació del centre de la peça amb el calibrador Diacator" >}}
 
-{{< figure src="centrant-clau-1.jpg" loading="lazy" title="Detall del procés d'alineació" >}}
+{{< figure src="centrant-clau-1.jpg"  caption="Detall del procés d'alineació" >}}
 
-{{< figure src="puntejant.jpg" loading="lazy" title="Puntejat dels punts de foradat de la clau" >}}
+{{< figure src="puntejant.jpg"  caption="Puntejat dels punts de foradat de la clau" >}}
 	
-{{< figure src="foradant.jpg" loading="lazy" title="Foradat dels forats per als passadors de la clau" >}}
+{{< figure src="foradant.jpg"  caption="Foradat dels forats per als passadors de la clau" >}}
 	
 Un cop trepat l'anell, talla alguns passadors llargs d'acer blau de
 rellotger de 1,5 mm. Aquest tipus de barres petites d'acer utilitzades
@@ -137,14 +132,14 @@ i endurides a un nivell interessant: són dures però es poden treballar
 prou bé. Els passadors han de sobresortir uns 4 mm de l'anell. Es
 poden fixar a l'anell amb una mica de cola de cianoacrilat.
 
-{{< figure src="clau-1.jpg" loading="lazy" title="La clau especial per al Kaiser Piccolo (costat de la femella)" >}}
+{{< figure src="clau-1.jpg"  caption="La clau especial per al Kaiser Piccolo (costat de la femella)" >}}
 
 Si la clau s'adapta a la femella, forada a l'altre costat uns forats
 de 4mm per girar-la amb una clau de pius estàndard. La següent imatge
 ho mostra. Recorda que la clau de pius no ha de fregar amb el con STP
 del capçal.
 
-{{< figure src="clau-2.jpg" loading="lazy" title="La clau especial per al Kaiser Piccolo (costat superior)" >}}
+{{< figure src="clau-2.jpg"  caption="La clau especial per al Kaiser Piccolo (costat superior)" >}}
 
 
 
@@ -168,7 +163,7 @@ només cal descollar la femella, els anells del capçal quedaran
 alliberats i apareixerà el coixinet superior. Guarda les boles d'acer
 en un pot segur fent servir unes pinces. Hi ha 54 boles de 2 mm.
 
-{{< figure src="femella-superior.jpg" loading="lazy" title="La femella descollada i el coixinet superior" >}}
+{{< figure src="femella-superior.jpg"  caption="La femella descollada i el coixinet superior" >}}
 
 Un cop l'anell superior s'ha enretirat, apareixerà la part superior
 del segon anell. Aquest és l'anell que es pot subjectar amb un
@@ -179,8 +174,8 @@ l'embragatge (marcada com A a la següent figura). La segona és una
 bola i una molla que retenen l'anell superior en una posició
 específica (marcada com B).
 
-{{< figure src="rodament-superior.jpg" loading="lazy" title="Part superior del segon anell" 
-	caption=`Marcat com (A) hi ha l'eix de l'embragatge. Marcat com (B) hi ha la molla de retenció de l'anell superior.` >}}
+{{< figure src="rodament-superior.jpg"  
+    caption=`Part superior del segon anell. Marcat com (A) hi ha l'eix de l'embragatge. Marcat com (B) hi ha la molla de retenció de l'anell superior.` >}}
 
 El segon anell es pot treure fàcilment. Només cal estirar-lo a través
 de la tija. Descobriràs els engranatges interns que mouen el carro en
@@ -188,37 +183,39 @@ mode automàtic. A la part inferior d'aquest anell hi ha el coixinet
 inferior de boles, vés amb compte. Aquest coixinet té 90 boles de 2
 mm.
 
-{{< figure src="anell-pinyons.jpg" loading="lazy" title="Part inferior del segon anell" >}}
+{{< figure src="anell-pinyons.jpg"  title="Part inferior del segon anell" >}}
 
-{{< figure src="rodament-inferior.jpg" loading="lazy" 
-	title="El capçal després de treure el segon anell" 
-	caption=`A l'esquerra, hi ha el segon anell. A la dreta pots veure el coixinet inferior i els dos
+{{< figure src="rodament-inferior.jpg"  caption=`El
+	capçal després de treure el segon anell. A l'esquerra, hi ha el
+	segon anell. A la dreta pots veure el coixinet inferior i els dos
 	engranatges centrals. L'engranatge superior està unit a l'eix
-	mitjançant una petita claveta. Fixat' en el petit forat utilitzat per
-    bloquejar la femella superior introduint els passadors. L'engranatge
-	inferior, tot just visible sota l'engranatge superior, està unit al
-	tercer anell i gira lliurement.` >}}
+	mitjançant una petita claveta. Fixat' en el petit forat utilitzat
+	per bloquejar la femella superior introduint els
+	passadors. L'engranatge inferior, tot just visible sota
+	l'engranatge superior, està unit al tercer anell i gira
+	lliurement.` >}}
 
 Si treus amb cura el tercer anell, descobriràs l'engranatge intern que
 fa girar l'engranatge principal del capçal. L'engranatge principal del
 capçal desplaça el carro. Mira les imatges a continuació.
 
-{{< figure src="anell-inferior.jpg" loading="lazy" 
-	title="El tercer anell" 
-	caption=`A l'interior pots apreciar l'engranatge intern que engrana amb l'engranatge principal. 
-	L'engranatge principal es veu lleugerament a la part superior dreta.`>}}
+{{< figure src="anell-inferior.jpg"  caption=`El tercer
+	anell. A l'interior pots apreciar l'engranatge intern que engrana
+	amb l'engranatge principal.  L'engranatge principal es veu
+	lleugerament a la part superior dreta.`>}}
 
-{{< figure src="conjunt.jpg" loading="lazy" title="El Kaiser Piccolo completament desmuntat" >}}
+{{< figure src="conjunt.jpg"  caption=`El Kaiser Piccolo completament desmuntat` >}}
 
-{{< figure src="engranatge-carro.jpg" loading="lazy" title="Detall de l'engranatge principal" caption=`Aquest engranatge és mogut pel tercer anell i mou el carro del capçal.` >}}
+{{< figure src="engranatge-carro.jpg"  caption=`Detall de l'engranatge principal. Aquest engranatge és mogut pel tercer anell i mou el carro del capçal.` >}}
 	
-{{< figure src="guia-portaeines.jpg" loading="lazy" title="L'engranatge principal on engrana el carro del capçal" >}}
+{{< figure src="guia-portaeines.jpg"  caption="L'engranatge principal on engrana el carro del capçal" >}}
 
-{{< figure src="portaeines.jpg" loading="lazy" 
-	title="La cara oculta del carro on engrana l'engranatge principal" 
-	caption=`Fixa't que l'engranatge principal està compost per engranatges de 
-	diàmetres diferents en el mateix conjunt. Només els petits engranatges laterals
-	mouen el carro. L'engranatge principal és mogut pel tercer anell.` >}}
+{{< figure src="portaeines.jpg"  caption=`La cara oculta
+	del carro on engrana l'engranatge principal. Fixa't que
+	l'engranatge principal està compost per engranatges de diàmetres
+	diferents en el mateix conjunt. Només els petits engranatges
+	laterals mouen el carro. L'engranatge principal és mogut pel
+	tercer anell.` >}}
 
 
 ## Solució del bloqueig del Kaiser Piccolo
@@ -248,7 +245,7 @@ nou si cal.
 
 ## Com funciona el capçal
 
-{{< figure src="gearing.jpg" loading="lazy" title="Esbós dels mecanismes interns del Kaiser Piccolo" >}}
+{{< figure src="gearing.jpg"  caption="Esbós dels mecanismes interns del Kaiser Piccolo" >}}
 
 L'engranatge principal és un engranatge escalonat. Els engranatges
 exteriors engranen amb la cremallera del carro del capçal. Quan

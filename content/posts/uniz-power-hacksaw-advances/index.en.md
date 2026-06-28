@@ -5,15 +5,13 @@ draft: false
 slug: "the-uniz-power-hacksaw-advances"
 coverImage: P1040628.JPG
 tags:
-- uniz hacksaw
+  - machine.uniz-14
+  - work.overhauling
 categories:
-- machine overhauling
-- uniz hacksaw
+  - machines and metalworking
 keywords:
-- Uniz 14" saw
+  - Uniz 14" saw
 ---
-
-
 The work on the UNIZ 14" power hacksaw goes on! Almost all the elements
 are now cleaned, adjusted ans painted again. Most of the parts are
 reassembled again and the saw begins to show its best.

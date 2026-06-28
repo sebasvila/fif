@@ -5,17 +5,15 @@ draft: false
 slug: "facing-leadscrew-bearing"
 coverImage: P1040963.JPG
 tags:
-- leinen LZ4SB
-- tech.milling
+  - machine.leinen-lz4sb
+  - technology.milling
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- boring head
-- Wohlhaupter
+  - boring head
+  - Wohlhaupter
 ---
-
-
 The Leinen LZ4SB leadscrew is supported by two bearings. One of them,
 the corresponding to the adjusting end, has been eroded maybe for a
 deficient lubrication. This need to be faced again to recover the

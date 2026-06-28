@@ -4,23 +4,20 @@ slug: sv13-lslide
 date: 2023-09-26T19:17:09+02:00
 coverImage: "long-slide-grinded.jpg"
 tags:
-- tech.measuring
-- tech.scraping
-- schaublin-13
-
+  - technology.measuring
+  - technology.scraping
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
-
+  - machines and metalworking
 keywords:
-- Milling machine
-- Schaublin 13
-- geometry overhauling
-- scraping slideways
+  - Milling machine
+  - Schaublin 13
+  - geometry overhauling
+  - scraping slideways
 
 draft: false
 ---
-
 The Schaublin 13 longitudinal slide geometry was checked and its ways
 overhauled. This post explains how it was done.
 

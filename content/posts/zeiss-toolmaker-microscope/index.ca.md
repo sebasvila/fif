@@ -4,30 +4,19 @@ slug: zeiss-tm-micro
 date: 2026-04-12
 coverImage: "rosca-iso.webp"
 tags:
-- tech.pintura
-- tech.tornejat
-- tech.fresat
-- tech.mesura
-- eines
+  - tecnologia.pintura
+  - tecnologia.tornejat
+  - tecnologia.fresat
+  - tecnologia.mesura
 categories:
-- biblioteca
-- projectes
-- màquines venudes
-- eines
-# bi-nivells (primer item obligat)
-- restauració de màquines
-- boley leinen LZ4SB
-- schaublin 13
-- uniz hacksaw
-- wörner B13
-- altres
+  - Documentació i plànols
 keywords:
-- microscopi de mesura zeiss
-- microscopi de mecànic zeiss
-- greix esmorteïdor
+  - microscopi de mesura zeiss
+  - microscopi de taller zeiss
+  - greix esmorteïdor
+  - Carl Zeiss
 draft: true
 ---
-
 El microscopi de mesura Zeiss és una eina versàtil per a mesurar les
 més diverses peces mecàniques de mida petita i mitjana. És un
 dispositiu híbrid en el que les mides es prenen tant mecànicament com

@@ -1,19 +1,18 @@
 ---
 title: 'Repair the compound rest of the Leinen LZ4SB'
-date: 2012-12-19T20:21:00.002+01:00
+date: 2012-12-19T20:21:00.002000+01:00
 draft: false
 slug: "leinen-compound-rest"
 coverImage: P1030772.JPG
 tags:
-- leinen LZ4SB
-- tech.turning
+  - machine.leinen-lz4sb
+  - technology.turning
+  - work.overhauling
 categories:
-- machine overhauling
-- boley leinen LZ4SB
+  - machines and metalworking
 keywords:
-- straightening
+  - straightening
 ---
-
 The compound rest of a Leinen lathe was inspected and subsequently
 overhauled. This blog entry explains the details of the restoration
 process.

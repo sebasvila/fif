@@ -4,17 +4,16 @@ slug: sv13-ref-2
 date: 2021-12-03T00:56:13+01:00
 coverImage: "pulley1.jpg"
 tags:
-- schaublin-13
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
+  - machines and metalworking
 keywords:
-- Schaublin 13
-- Reeves drive
-- o-ring
+  - Schaublin 13
+  - Reeves drive
+  - o-ring
 draft: false
 ---
-
 In this post I show the maintenance of the Schaublin 13 Reeves drive.
 Together with the main gearbox, it constitutes the milling machine
 power drive. You will see how I dismantle, clean, examine and service

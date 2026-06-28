@@ -1,17 +1,15 @@
 ---
 title: 'Wörner B13: The new machine at home'
-date: 2020-02-03T17:10:00.001+01:00
+date: 2020-02-03T17:10:00.001000+01:00
 draft: false
 slug: "worner-b13-new-machine-at-home"
 coverImage: IMG_1568827884263_73830.jpg
 tags:
-- Wörner B13
+  - machine.wörner-b13
+  - work.overhauling
 categories:
-- machine overhauling
-- Wörner B13
+  - machines and metalworking
 ---
-
-
 Some months ago I bought a serious drilling press. I was investigating
 for months looking for a good quality drill press after The Cincinnati
 was sold. Finally, I favoured a Wörner B13. Although unusual, it's a

@@ -4,19 +4,16 @@ slug: sv13-oilpan
 date: 2023-11-28T19:58:07+01:00
 coverImage: "recollidor-1.jpg"
 tags:
-- tech.turning
-- schaublin-13
-
+  - technology.turning
+  - machine.schaublin-13
+  - work.overhauling
 categories:
-- machine overhauling
-- schaublin 13
-
+  - machines and metalworking
 keywords:
-- milling machine
-- plastic recycling
+  - milling machine
+  - plastic recycling
 draft: false
 ---
-
 Nothing annoys more to me that a machine loosing oil and spilling it
 on the floor. Despite this, many machines are designed with not too
 much attention to this detail and lost oil mechanisms are usual. The
