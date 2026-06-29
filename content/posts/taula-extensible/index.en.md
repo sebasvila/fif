@@ -1,7 +1,7 @@
 ---
 title: "Extendable Table"
 slug: ext-table
-date: 2026-06-28
+date: 2025-09-28
 coverImage: sobre-motllurat-3.jpg
 tags:
   - technology.woodworking
