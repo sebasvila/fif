@@ -14,7 +14,6 @@ keywords:
  - roure americà
  - cedre bossé
  - tacs Rampa
-draft: true
 ---
 
 Aquest estiu ens hem dedicat a fer una taula extensible per un

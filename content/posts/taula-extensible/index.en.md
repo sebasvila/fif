@@ -10,7 +10,6 @@ tags:
 categories:
   - woodworking and cabinetmaking
 keywords:
-draft: true
 ---
 
 This summer we have been working on an extendable table for a
