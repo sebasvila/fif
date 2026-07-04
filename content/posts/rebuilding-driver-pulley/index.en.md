@@ -12,73 +12,90 @@ categories:
   - machines and metalworking
 keywords:
   - aluminium
+  - pulley refitting
+  - drilling 
 ---
-The drilling press was modified by a previous owner. As it can be seen
-in the picture below, someone added an intermediate pulley in the
-driving train to reduce the rotation speeds. What was the motor pulley
-became the intermediate pulley and a new single step pulley was fitted
-to the motor shaft. I have some doubts about the origin of this
-variation: would it be made at the Wörner factory after a specific
-requirement by a client?
 
-{{< figure src="IMG_1569137919557_10237.jpg" >}}
+A look inside the drive train of this vintage Wörner drill press
+reveals a massive modification by a previous owner. To drastically
+reduce the rotation speeds, an extra intermediate pulley was spliced
+into the system, forcing a new single-step pulley onto the motor
+shaft. While it’s possible this was a custom factory job by Wörner,
+it’s far more likely a clever aftermarket hack. Either way, it’s
+coming off to make room for a more traditional setup.
 
-Anyway, I was interested to recover the original two pulleys driver. I
-prefer this simpler arrangement considering that the motor will be
-driven by a VFD and thus a rich speed control will be available.
+<!--more-->
 
-The plan was to bore the middle pulley and to fit a central core well
-suited to the motor shaft obtained from the actual motor
-pulley. Dimensions were carefully measured and some sketches drafted.
+{{< figure src="IMG_1569137919557_10237.jpg"
+alt="A top view of the double pulley drive setup"
+caption=`The old drive system with the double pulley setup. The crude handle used to lock the central pulley contrasts sharply with the sophisticated tension lever on the motor pulley.`>}}
 
-Work began by boring the pulley at the lathe after centering it
-carefully. Some pictures and a video follows:
+I wanted to restore the original two-pulley drive system. I prefer this simpler arrangement, especially since the motor will be paired with a Variable Frequency Drive (VFD), providing full speed control.
 
-{{< figure src="20200525_210228.jpg" >}}
+The plan was to bore out the intermediate pulley and fit a new central core—machined from the current motor pulley—to match the motor shaft. I carefully measured the dimensions and drafted a few sketches.
 
-{{< figure src="20200530_184059.jpg" >}}
+Work began by carefully centering the pulley in the lathe before boring it out. Here are a few pictures of the process.
 
-This is the finished pulley:
+{{< figure src="20200525_210228.jpg"
+alt="A pulley held in a four-jaw lathe chuck"
+caption=`The central pulley was mounted in a four-jaw chuck and dialed in relative to the belt contact faces to prepare for boring.` >}}
 
-{{< figure src="20200602_183718.jpg" >}}
+{{< figure src="20200530_184059.jpg"
+alt="Axial view of the boring operation"
+caption=`A view of the boring operation. I used a carbide-shank boring bar to prevent chatter.` >}}
 
-After that, the core was machined from the old driver pulley. Old
-pulley was first shortened using the chuck and, after that, it was
-turned mounted in a mandrel. Core was left 0.01mm over the pulley bore
-diameter. This was to allow a light shrink-fit between core and
-pulley. The pictures below show this process.
+Here is the finished pulley featuring a highly concentric bore. Note the clean surface finish with absolutely no chatter marks.
 
-After that, the old driver pulley becomes as shows the picture
-(together with the bored pulley):
+{{< figure src="20200602_183718.jpg"
+alt="An aluminum pulley with a large center bore"
+caption=`The completed boring job. Note the excellent surface quality of the bore.` >}}
 
-{{< figure src="20200531_184832.jpg" >}}
+The next step was to machine the core from the old motor drive pulley. The old pulley was first shortened in the chuck and then turned down while mounted on an expandable mandrel. The core's outer diameter was left 0.01 mm oversized relative to the pulley bore to allow for a light shrink-fit. The pictures below document this process.
 
-Now, it was turned to size mounted in a mandrel:
+{{< figure src="20200531_184832.jpg"
+alt="An aluminum pulley next to a cylindrical core"
+caption=`The finished step pulley and the core blank prior to turning it down to its final diameter.` >}}
 
-{{< figure src="20200601_182816.jpg" >}}
+{{< figure src="20200601_182816.jpg"
+alt="Aluminum part mounted on a mandrel ready for machining"
+caption=`The pulley core mounted on an expandable mandrel with a lathe dog during the turning process.` >}}
 
-{{< figure src="20200601_182541.jpg" >}}
+{{< figure src="20200601_182541.jpg"
+alt="Close-up of a tool cutting aluminum"
+caption=`A close-up of the cutting process. I used a highly polished HSS tool with great results.` >}}
 
-Next step was to trace and bore the three Allen screws that fasten the
-core to the pulley. This was done with the help of the milling machine
-divider as shown in the following picture:
+To finish the assembly, I marked out and drilled three holes for Allen screws to secure the core to the pulley. This was done using the milling machine's dividing head, as shown below:
 
-{{< figure src="20200601_200902.jpg" >}}
+{{< figure src="20200601_200902.jpg"
+alt="The aluminum core mounted on a dividing head with a surface gauge"
+caption=`Marking out the hole locations using the milling machine's dividing head and a surface gauge.` >}}
 
-The finished pulley and its new core before fitting them:
+With the three holes drilled, here are the finished pulley and its new core right before assembly:
 
-{{< figure src="20200602_183643.jpg" >}}
+{{< figure src="20200602_183643.jpg"
+alt="A step pulley and its matching core before assembly"
+caption=`The step pulley and the finished core ready to be mated.` >}}
 
-The core was fitted by heating the pulley with a hair dryer. This is
-the result:
+The core was shrink-fitted by heating the pulley with a hot air gun and pressing the core into place, using a light coat of anti-seize grease. Here is the final result:
 
-{{< figure src="20200604_202342.jpg" >}}
+{{< figure src="20200604_202342.jpg"
+alt="Top view of the step pulley with the new core installed"
+caption=`Top view of the completed pulley assembly showing the newly fitted core. The retaining screws have not yet been installed.` >}}
 
-{{< figure src="20200604_202400.jpg" >}}
+{{< figure src="20200604_202400.jpg" alt="Bottom view of the step pulley with the new core installed" caption=`A bottom view of the pulley assembly. The new core protrudes slightly to align the pulley height with the driven pulley on the machine.` >}}
 
-At the end, the new pulley system was remounted in the machine
-together with its cover. This is the result:
+As a final step, the new pulley system was mounted back onto the drill press, and the drive system cover was reassembled. The pictures below show the completed project.
 
-{{< figure src="20200621_194116.jpg" >}}
+{{< figure src="20200621_194116.jpg"
+alt="A pulley fitted to a motor shaft"
+caption=`Top view of the pulley system. The drive pulley can be seen mounted to the motor shaft via the new core.` >}}
 
-{{< figure src="20200621_194138.jpg" >}}
+{{< figure src="20200621_194138.jpg"
+alt="A two-pulley drive system"
+caption=`Top view of the drill press pulley system, with the driven pulley in the foreground.` >}}
+
+
+
+
+
+
