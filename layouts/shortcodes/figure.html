@@ -10,7 +10,7 @@
 {{/* 1. Try an exact match in the Page Bundle first */}}
 {{- $img := .Page.Resources.GetMatch $src -}}
 
-{{/* 2. If not found, try matching any extension in the Page Bundle (e.g., "foto.*") */}}
+{{/* 2. If not found, try matching any extension in the Page Bundle */}}
 {{- if not $img -}}
   {{- $img = .Page.Resources.GetMatch (printf "%s.*" $src) -}}
 {{- end -}}
@@ -45,13 +45,20 @@
       {{- end -}}
     {{- end -}}
     
-    {{/* Default fallback image */}}
-    {{- $fallback := $img.Resize "1024x webp" -}}
+    {{/* Prevent upscaling: Only shrink to 1024px if larger; otherwise, just convert to WebP at natural width */}}
+    {{- $fallback := $img -}}
+    {{- if gt $img.Width 1024 -}}
+      {{- $fallback = $img.Resize "1024x webp" -}}
+    {{- else -}}
+      {{- $fallback = $img.Resize (printf "%dx webp" $img.Width) -}}
+    {{- end -}}
     {{- $srcset = $srcset | append (printf "%s %dw" $fallback.RelPermalink $fallback.Width) -}}
 
     <img src="{{ $fallback.RelPermalink }}"
-         srcset="{{ delimit $srcset ", " }}"
-         sizes="(max-width: 768px) 100vw, 1024px"
+         {{ if gt (len $srcset) 0 }}srcset="{{ delimit $srcset ", " }}"{{ end }}
+         sizes="(max-width: 768px) 100vw, min({{ $fallback.Width }}px, 100vw)"
+         width="{{ $fallback.Width }}"
+         height="{{ $fallback.Height }}"
          {{ with $alt }}alt="{{ . }}"{{ end }}
          {{ with $title }}title="{{ . }}"{{ end }}
          loading="lazy"

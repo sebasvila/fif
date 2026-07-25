@@ -147,10 +147,12 @@ figure {
     text-align: center;
 }
 
-/* 2. Fix the inline image bug causing the overlap */
+
+/* 2. Fix the inline image bug causing the overlap and prevent overscaling */
 figure img {
     display: block;
     max-width: 100%;
+    width: auto;                 /* Ensures small images don't stretch to fill the column */
     height: auto;
     margin: 0 auto 0.75rem auto; /* Creates a clean gap below the image */
 }
