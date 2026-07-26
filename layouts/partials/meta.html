@@ -46,101 +46,11 @@
 <meta name="keywords" content="{{ delimit (partial "kwlist.html" .) "," }}">
 <meta name="description" content="{{ $desc }}">
 
-<!-- OpenGraph Metadata -->
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta property="og:title" content="{{ .Title | default .Site.Title }}">
-<meta property="og:url" content="{{ $href }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:description" content="{{ $desc }}">
-<meta property="og:locale" content="{{ .Lang }}">
-{{- if $page.IsPage }}
-  {{- with $coverImage }}
-    {{- with $page.Resources.GetMatch . }}
-      {{- $socialImage := .Fill "1200x630 Center jpg q85" }}
 
-      <meta property="og:image" content="{{ $socialImage.Permalink }}">
-      <meta property="og:image:secure_url" content="{{ $socialImage.Permalink }}">
-      <meta property="og:image:type" content="{{ $socialImage.MediaType.Type }}">
-      <meta property="og:image:width" content="{{ $socialImage.Width }}">
-      <meta property="og:image:height" content="{{ $socialImage.Height }}">
-      <meta property="og:image:alt" content="{{ $page.Title }}">
-    {{- else }}
-      {{- warnf "Open Graph image %q not found for page %q" $coverImage $page.RelPermalink }}
-    {{- end }}
-  {{- end }}
-{{- end }}
-
-Resources.GetMatch converts the matching file in the page bundle into a resource object. Image methods such as .Fill, .Width, .Height, and .Permalink can then be used.
-
-Given a bundle such as:
-
-content/posts/kaiser-stop/
-├── index.en.md
-├── index.ca.md
-└── image.jpg
-
-and:
-
-coverImage: image.jpg
-
-this should work.
-
-Simpler version
-
-Because your filename appears to be exact rather than a glob pattern, you can use .Resources.Get:
-
-{{- $page := . }}
-
-{{- with $page.Resources.Get $coverImage }}
-  {{- $socialImage := .Fill "1200x630 Center jpg q85" }}
-  <meta property="og:image" content="{{ $socialImage.Permalink }}">
-  <meta property="og:image:type" content="{{ $socialImage.MediaType.Type }}">
-  <meta property="og:image:width" content="{{ $socialImage.Width }}">
-  <meta property="og:image:height" content="{{ $socialImage.Height }}">
-{{- end }}
-
-Use GetMatch when $coverImage can contain wildcards or when matching behaviour is desirable; use Get for an exact resource path.
-
-Better design: keep $coverImage as a resource
-
-The cleanest solution is to make $coverImage a resource when it is initially assigned.
-
-Instead of:
-
-{{- $coverImage := .Params.coverImage }}
-
-use:
-
-{{- $coverImage := false }}
-
-{{- with .Params.coverImage }}
-  {{- $coverImage = $.Resources.GetMatch . }}
-{{- end }}
-
-Then your metadata code can operate directly on it:
-
-{{- with $coverImage }}
-  {{- $socialImage := .Fill "1200x630 Center jpg q85" }}
-
-  <meta property="og:image" content="{{ $socialImage.Permalink }}">
-  <meta property="og:image:secure_url" content="{{ $socialImage.Permalink }}">
-  <meta property="og:image:type" content="{{ $socialImage.MediaType.Type }}">
-  <meta property="og:image:width" content="{{ $socialImage.Width }}">
-  <meta property="og:image:height" content="{{ $socialImage.Height }}">
-  <meta property="og:image:alt" content="{{ $.Title }}">
-{{- end }}
-
-Be careful with $.Title: depending on nested template scopes, $ may not always represent the page you expect. Saving the page first is safer:
-
-{{- $page := . }}
-
-and then using:
-
-<meta property="og:image:alt" content="{{ $page.Title }}">
-Minimal correction to your complete block
-{{- $page := . }}
 
 <!-- OpenGraph Metadata -->
+{{- $page := . -}}
+
 <meta property="og:type" content="{{ if $page.IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ $page.Title | default $page.Site.Title }}">
 <meta property="og:url" content="{{ $href }}">
