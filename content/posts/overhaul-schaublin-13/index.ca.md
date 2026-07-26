@@ -6,8 +6,8 @@ coverImage: check-top-surface.jpg
 tags:
 categories:
   - reculls i índexos de projectes
-keywords:
 ---
+
 Aqui es recullen les anotacions que descriuen tot el treball de
 reacondicionat de la fresadora Schaublin 13.
 

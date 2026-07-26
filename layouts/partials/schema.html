@@ -1,146 +1,136 @@
-{{ $href := .Permalink }}
-{{ with .Store.Get "paginator" }}
-  {{ $href = .URL | absURL }}
-{{ end }}
+{{- $href := .Permalink -}}
+{{- with .Store.Get "paginator" -}}
+  {{- $href = .URL | absURL -}}
+{{- end -}}
+
+{{- /* 1. Precompute static author & publisher data once at the top */ -}}
+{{- $authorName := .Site.Author.name | default "Author" -}}
+{{- $authorUrl := "https://www.practicalmachinist.com/forum/members/sbs.149146/" -}}
+{{- $logo := $.Scratch.Get "authorPicture" -}}
+
+{{- /* 2. THE BOTTLENECK FIX: Prioritize front-matter descriptions to avoid triggering .Summary */ -}}
+{{- $desc := .Description | default .Params.summary -}}
+{{- if not $desc -}}
+  {{- if .IsPage -}}
+    {{- $desc = .Summary | plainify -}}
+  {{- else -}}
+    {{- $desc = .Site.Params.description -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. Precompute Breadcrumb dictionaries cleanly in Go memory */ -}}
+{{- $breadcrumbs := slice -}}
+{{- if or ($.Scratch.Get "taxonomy_home") (eq .Section "posts") -}}
+  {{- $i := 1 -}}
+  {{- range after 1 .Ancestors.Reverse -}}
+    {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $i "name" .Title "item" .Permalink) -}}
+    {{- $i = add $i 1 -}}
+  {{- end -}}
+  {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $i "name" .Title "item" .Permalink) -}}
+{{- end -}}
 
 <script type="application/ld+json">
 {{- if .IsHome -}}
-  {{/* this is home page(s) of site */}}
+  {{- /* Home page(s) of site */ -}}
   {  
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": {{ $href }},
+    "url": {{ $href | jsonify }},
     "author": {
       "@type": "Person",
-      "name": {{ .Site.Author.name }},
-      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
+      "name": {{ $authorName | jsonify }},
+      "url": {{ $authorUrl | jsonify }}
     },
-    "name":"{{ .Site.Title }}",
-    "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "name": {{ .Site.Title | jsonify }},
+    "description": {{ $desc | jsonify }},
     "keywords": {{ partial "kwlist.html" . }}
   }
 {{- else if .Scratch.Get "taxonomy_home" -}}
-  {{/* this is home page of a taxonomy term */}}
+  {{- /* Home page of a taxonomy term */ -}}
   {  
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "url": {{ $href }},
-    "inLanguage": {{ .Lang }},
-    "name":"{{ .Title }}",
-    "description":"{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "url": {{ $href | jsonify }},
+    "inLanguage": {{ .Lang | jsonify }},
+    "name": {{ .Title | jsonify }},
+    "description": {{ $desc | jsonify }},
     "keywords": {{ partial "kwlist.html" . }},
     "author": {
       "@type": "Person",
-      "name": {{ .Site.Author.name }},
-      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
+      "name": {{ $authorName | jsonify }},
+      "url": {{ $authorUrl | jsonify }}
     },
     "publisher": {
       "@type": "Organization",
-      "name": "{{ .Site.Title }}",
-      "url": {{ absURL "/" }},
-      {{- with ($.Scratch.Get "authorPicture") }}
-      "logo": {{ . }}
+      "name": {{ .Site.Title | jsonify }},
+      "url": {{ absURL "/" | jsonify }}
+      {{- with $logo }},
+      "logo": {{ . | jsonify }}
       {{- end }}
     },
     "breadcrumb": {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "itemListElement":
-      [
-        {{- $i := 1 }}
-        {{- range after 1 .Ancestors.Reverse }}
-          {
-            "@type": "ListItem",
-            "position": {{ $i }},
-            "name": "{{ .Title | safeJS }}",
-            "item": {{ .Permalink }}
-          },
-          {{- $i = add $i 1 -}}
-        {{ end }}
-          {
-            "@type": "ListItem",
-            "position": {{ $i }},
-            "name": "{{ .Title | safeJS }}",
-            "item": {{ .Permalink }}
-          }
-        ]
-      }
+      "itemListElement": {{ $breadcrumbs | jsonify }}
+    }
   }
-{{- else if eq .Section "posts" }}
-  {{/* this a post page */}}
+{{- else if eq .Section "posts" -}}
+  {{- /* Post page */ -}}
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "{{ .Title }}",
-    {{- if .Params.coverimage }}
-    "image": {{ $.Scratch.Get "coverImage" | absURL }},
+    "headline": {{ .Title | jsonify }},
+    {{- with $.Scratch.Get "coverImage" }}
+    "image": {{ . | absURL | jsonify }},
     {{- end }}
-    "datePublished": {{ .PublishDate }},
-    "dateModified": {{ .Lastmod }},
-    "inLanguage": {{ .Lang }},
+    "datePublished": {{ .PublishDate | jsonify }},
+    "dateModified": {{ .Lastmod | jsonify }},
+    "inLanguage": {{ .Lang | jsonify }},
     "author": {
       "@type": "Person",
-      "name": "{{ .Site.Author.name }}",
-      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
+      "name": {{ $authorName | jsonify }},
+      "url": {{ $authorUrl | jsonify }}
     },
     "mainEntityOfPage": { 
       "@type": "WebPage",
-      "@id": {{ .Permalink }}
+      "@id": {{ .Permalink | jsonify }}
     },
     "publisher": {
       "@type": "Organization",
-      "name": "{{ .Site.Title }}",
-      "url": {{ absURL "/" }},
-      {{- with ($.Scratch.Get "authorPicture") }}
-      "logo": {{ . }},
+      "name": {{ .Site.Title | jsonify }},
+      "url": {{ absURL "/" | jsonify }}
+      {{- with $logo }},
+      "logo": {{ . | jsonify }}
       {{- end }}
     },
-    "description": {{ .Summary | plainify | safeHTML }},
-    "keywords" : {{ partial "kwlist.html"  . }},
+    "description": {{ $desc | jsonify }},
+    "keywords": {{ partial "kwlist.html" . }},
     "breadcrumb": {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "itemListElement":
-      [
-        {{- $i := 1 }}
-        {{- range after 1 .Ancestors.Reverse }}
-          {
-            "@type": "ListItem",
-            "position": {{ $i }},
-            "name": "{{ .Title | safeJS }}",
-            "item": {{ .Permalink }}
-          },
-          {{- $i = add $i 1 -}}
-        {{ end }}
-          {
-            "@type": "ListItem",
-            "position": {{ $i }},
-            "name": "{{ .Title | safeJS }}",
-            "item": {{ .Permalink }}
-          }
-        ]
-      }
+      "itemListElement": {{ $breadcrumbs | jsonify }}
+    }
   }
 {{- else -}}
-  {{/* other pages */}}
+  {{- /* Other pages */ -}}
   {  
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "url": {{ $href }},
-    "name": {{ .Title }},
+    "url": {{ $href | jsonify }},
+    "name": {{ .Title | jsonify }},
     "author": {
       "@type": "Person",
-      "name": {{ .Site.Author.name }},
-      "url": "https://www.practicalmachinist.com/forum/members/sbs.149146/"
+      "name": {{ $authorName | jsonify }},
+      "url": {{ $authorUrl | jsonify }}
     },
     "publisher": {
       "@type": "Organization",
-      "name": "{{ .Site.Title }}",
-      "url": {{ absURL "/" }},
-      {{- with ($.Scratch.Get "authorPicture") }}
-      "logo": {{ . }}
+      "name": {{ .Site.Title | jsonify }},
+      "url": {{ absURL "/" | jsonify }}
+      {{- with $logo }},
+      "logo": {{ . | jsonify }}
       {{- end }}
-     }
+    }
   }
-{{- end }}
+{{- end -}}
 </script>

@@ -1,64 +1,73 @@
-{{ $href := .Permalink }}
-{{ with .Store.Get "paginator" }}
-  {{ $href = .URL | absURL }}
-{{ end }}
+{{- $href := .Permalink -}}
+{{- with .Store.Get "paginator" -}}
+  {{- $href = .URL | absURL -}}
+{{- end -}}
 
-{{/*******************************************
-Mark noindex pages
-********************************************/}}
-{{- if and (not .IsHome) (ne .Kind "term") (ne .Section "posts") }}
+{{- /* 1. THE BOTTLENECK FIX: Precompute description once and prioritize front matter */ -}}
+{{- $desc := .Description | default .Params.summary -}}
+{{- if not $desc -}}
+  {{- if .IsPage -}}
+    {{- $desc = .Summary | plainify -}}
+  {{- else -}}
+    {{- $desc = .Site.Params.description -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 2. Precompute author, image, and social variables locally */ -}}
+{{- $authorName := .Site.Author.name -}}
+{{- $authorTwitter := .Params.twitter | default .Site.Author.twitter -}}
+{{- $coverImage := .Scratch.Get "coverImage" -}}
+{{- $authorPicture := .Scratch.Get "authorPicture" -}}
+
+{{- /* Mark noindex pages */ -}}
+{{- if and (not .IsHome) (ne .Kind "term") (ne .Section "posts") -}}
 <meta name="robots" content="noindex">
-{{- end }}
+{{- end -}}
 
 <!-- preload images -->
 {{- with .Site.Author.picture -}}
-<link rel="preload" fetchpriority="high" as="image" href="{{ .|absURL }}" type="image/webp">
-{{- end }}
-{{ with .Scratch.Get "coverImgObj" -}}
+<link rel="preload" fetchpriority="high" as="image" href="{{ . | absURL }}" type="image/webp">
+{{- end -}}
+{{- with .Scratch.Get "coverImgObj" -}}
 <link rel="preload" fetchpriority="high" as="image" href="{{ .Permalink }}" type="image/webp">
-{{- end }}
+{{- end -}}
 
 <!-- RSS for home pages only -->
 {{- if .IsHome -}}
-{{ printf `<link rel=%q type=%q href=%q title=%q>` "alternate" "application/rss+xml" ("index.xml"| absLangURL) site.Title | safeHTML }}
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absLangURL }}" title="{{ site.Title }}">
 {{- end -}}
 
-
 <!-- Base metainfo -->
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo {{ hugo.Version }} with theme Tranquilpeak 0.5.3-BETA-tunned">
-<meta name="author" content="{{ .Site.Author.name }}">
+{{ with $authorName }}<meta name="author" content="{{ . }}">{{ end }}
 <meta name="keywords" content="{{ delimit (partial "kwlist.html" .) "," }}">
-<meta name="description" content="{{- if .Description -}}{{- .Description -}}{{- else if .IsPage -}}{{- .Summary -}}{{- else -}}{{- .Site.Params.description -}}{{- end -}}">
+<meta name="description" content="{{ $desc }}">
 
 <!-- OpenGraph Metadata -->
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta property="og:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:title" content="{{ .Title | default .Site.Title }}">
 <meta property="og:url" content="{{ $href }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:locale" content="{{ .Lang }}">
-{{ if .IsPage }}
-  {{- if .Params.coverimage -}}
-    <meta property="og:image" content="{{ $.Scratch.Get "coverImage" | absLangURL }}">
+{{- if .IsPage -}}
+  {{- with $coverImage -}}
+  <meta property="og:image" content="{{ . | absLangURL }}">
   {{- end -}}
 {{- else -}}
-  {{- if .Site.Author.picture -}}
-    <meta property="og:image" content="{{ .Scratch.Get "authorPicture" }}">
+  {{- with $authorPicture -}}
+  <meta property="og:image" content="{{ . }}">
   {{- end -}}
-{{- end }}
+{{- end -}}
 
 <!-- twitter info -->
 <meta name="twitter:card" content="summary">
-{{- with .Site.Author.twitter }}
+{{- with .Site.Author.twitter -}}
 <meta name="twitter:site" content="@{{ . }}">
-{{ end -}}
-{{- if .Params.twitter }}
-<meta name="twitter:creator" content="@{{ .Params.twitter }}">
-{{- else if .Site.Author.twitter -}}
-<meta name="twitter:creator" content="@{{ .Site.Author.twitter }}">
-{{ end -}}
-
+{{- end -}}
+{{- with $authorTwitter -}}
+<meta name="twitter:creator" content="@{{ . }}">
+{{- end -}}

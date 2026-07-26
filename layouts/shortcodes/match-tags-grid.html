@@ -1,4 +1,4 @@
-{{- $pages := .Site.RegularPages -}}
+{{- $pages := site.RegularPages -}}
 
 {{/* 1. Normalize and deduplicate input terms ONCE outside the loop */}}
 {{- $input_terms := slice -}}
@@ -10,55 +10,59 @@
 
 {{- $filtered := slice -}}
 
-{{/* 2. Loop through pages and collect raw string taxonomy terms */}}
+{{/* 2. Optimized Page Filtering: Combine arrays directly with 'union' instead of manual inner loops */}}
 {{- range $pages -}}
-  {{- $page_terms := slice -}}
+  {{- $raw_terms := union (.Params.tags | default slice) (.Params.categories | default slice) -}}
   
-  {{/* Read raw strings directly from .Params instead of calling .GetTerms */}}
-  {{- with .Params.tags -}}
-    {{- range . -}}
-      {{- $page_terms = $page_terms | append (lower (trim . " ")) -}}
+  {{- if $raw_terms -}}
+    {{- $page_terms := slice -}}
+    {{- range $raw_terms -}}
+      {{- $page_terms = $page_terms | append (lower .) -}}
     {{- end -}}
-  {{- end -}}
-  
-  {{- with .Params.categories -}}
-    {{- range . -}}
-      {{- $page_terms = $page_terms | append (lower (trim . " ")) -}}
+    
+    {{/* Set intersection check */}}
+    {{- if eq (len (intersect $input_terms $page_terms)) $target_count -}}
+      {{- $filtered = $filtered | append . -}}
     {{- end -}}
-  {{- end -}}
-  
-  {{/* 3. Set intersection: if all input terms exist in the page's terms, keep the page */}}
-  {{- if eq (len (intersect $input_terms $page_terms)) $target_count -}}
-    {{- $filtered = $filtered | append . -}}
   {{- end -}}
 {{- end -}}
 
 {{/* Render Grid - Sorted by Date Descending */}}
 {{- if $filtered -}}
   <div class="post-card-grid">
-    {{/* Note: Changed "asc" to "desc" to match your comment's intent */}}
     {{- range sort $filtered "Date" "desc" -}}
+      
+      {{/* Precompute safe summary WITHOUT triggering shortcode cascades */}}
+      {{- $summary := .Params.summary | default .Description -}}
+      {{- if not $summary -}}
+        {{- $summary = .Summary -}}
+      {{- end -}}
+
       <article class="post-card">
         
-        {{- if .Params.coverImage -}}
-          {{- $image := .Resources.GetMatch .Params.coverImage -}}
+        {{/* Safely check both lower and camelCase coverimage params */}}
+        {{- $cover := .Params.coverimage | default .Params.coverImage -}}
+        {{- if $cover -}}
+          {{- $image := .Resources.GetMatch $cover -}}
           {{- if $image -}}
+            {{/* Generate a lightweight WebP thumbnail instead of serving the raw file */}}
+            {{- $thumb := $image.Fill "350x200 webp q80" -}}
             <div class="post-card-thumbnail">
               <a href="{{ .RelPermalink }}">
-                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+                <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ .Title }}" loading="lazy" decoding="async">
               </a>
             </div>
           {{- end -}}
         {{- end -}}
         
         <div class="post-card-body">
-          {{ if .Date }}
+          {{- if .Date -}}
             <time class="post-card-date">{{ .Date.Format "Jan 2, 2006" }}</time>
-          {{ end }}
+          {{- end -}}
           <h3 class="post-card-title">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </h3>
-          <p class="post-card-summary">{{ .Summary | truncate 100 }}</p>
+          <p class="post-card-summary">{{ $summary | plainify | htmlUnescape | truncate 100 }}</p>
         </div>
 
       </article>

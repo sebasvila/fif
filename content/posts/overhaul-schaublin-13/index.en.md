@@ -6,7 +6,6 @@ coverImage: check-top-surface.jpg
 tags:
 categories:
   - project collections and indexes
-keywords:
 ---
 
 This post contains the notes describing the complete refurbishment

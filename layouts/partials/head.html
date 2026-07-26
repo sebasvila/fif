@@ -1,83 +1,53 @@
-{{- $.Scratch.Set "isTypeInMainSections" false -}}
-{{- if .IsPage -}}
-  {{- if in site.Params.mainSections .Type -}}
-    {{- $.Scratch.Set "isTypeInMainSections" true -}}
-  {{- end -}}
-{{- end -}}
+{{/* 1. Calculate Sidebar Behavior using native Go variables instead of heavy .Scratch map lookups */}}
+{{- $isMainSection := and .IsPage (in .Site.Params.mainSections .Type) -}}
+{{- $clearReading := .Params.clearReading | default .Site.Params.clearReading -}}
+{{- $sidebarBehavior := .Site.Params.sidebarBehavior -}}
 
-{{- if and (and ($.Scratch.Get "isTypeInMainSections") (lt .Site.Params.sidebarBehavior 3)) (or (and .Site.Params.clearReading (not .Params.clearReading)) .Params.clearReading) -}}
-  {{- .Scratch.Set "sidebarBehavior" (add .Site.Params.sidebarBehavior 3) -}}
-{{- else -}}
-  {{- .Scratch.Set "sidebarBehavior" .Site.Params.sidebarBehavior -}}
+{{- if and $isMainSection (lt $sidebarBehavior 3) $clearReading -}}
+  {{- $sidebarBehavior = add $sidebarBehavior 3 -}}
 {{- end -}}
+{{- .Scratch.Set "sidebarBehavior" $sidebarBehavior -}}
 
-<!-- Fix hugo 0.17 expects ".Site.Author.gravatarEmail" whereas hugo 0.18 expects ".Site.Author.gravataremail" -->
-{{- if .Site.Author.gravatarEmail -}}
-  {{- .Scratch.Set "gravatarEmail" .Site.Author.gravatarEmail -}}
-{{- end -}}
-
-{{- if .Site.Author.gravataremail -}}
-  {{- .Scratch.Set "gravatarEmail" .Site.Author.gravataremail -}}
-{{- end -}}
-
-{{- if .Scratch.Get "gravatarEmail" -}}
-  {{- .Scratch.Set "authorPicture" (printf "https://www.gravatar.com/avatar/%s" (urlize (md5 (.Scratch.Get "gravatarEmail")))) -}}
+{{/* 2. Streamlined Gravatar & Author Picture resolution */}}
+{{- $email := .Site.Author.gravatarEmail | default .Site.Author.gravataremail -}}
+{{- if $email -}}
+  {{- .Scratch.Set "authorPicture" (printf "https://www.gravatar.com/avatar/%s" (urlize (md5 $email))) -}}
 {{- else if .Site.Author.picture -}}
-  {{- .Scratch.Set "authorPicture" (absURL .Site.Author.picture) -}}
+  {{- $.Scratch.Set "authorPicture" (absURL .Site.Author.picture) -}}
 {{- end -}}
 
-{{/**********************************************************************
-prepare the good path for cover-image: global or in a bundle
-get the rel-link into 'coverImage' and the image resource in 'coverImgObj'
-assume that site coverimage is always dark enough (don't filter it)
-***********************************************************************/}}
-{{- if .Params.coverimage -}}
-  {{ $coverimg := .Resources.GetMatch .Params.coverimage | default (resources.Get .Params.coverimage) }}
-  
-  {{- if $coverimg -}}
-    {{- .Scratch.Set "coverImage" ($coverimg.RelPermalink) -}}
+{{/* 3. Optimized Cover Image Processing: Cap max width and enforce q80 WebP */}}
+{{- with .Params.coverimage -}}
+  {{- $coverImg := $.Resources.GetMatch . | default (resources.Get .) -}}
+  {{- if $coverImg -}}
+    {{- $.Scratch.Set "coverImage" $coverImg.RelPermalink -}}
     
-    {{/* 1. Ensure it is an image and NOT an SVG before processing */}}
-    {{ $isProcessable := and (eq $coverimg.MediaType.MainType "image") (ne $coverimg.MediaType.SubType "svg") }}
-    
-    {{ if $isProcessable }}
-      {{ $width := $coverimg.Width }}
+    {{- if and (eq $coverImg.MediaType.MainType "image") (ne $coverImg.MediaType.SubType "svg") -}}
+      {{/* Cap processing width at 1600px to prevent massive CPU spikes on raw 4K/3K images */}}
+      {{- $targetWidth := $coverImg.Width -}}
+      {{- if gt $targetWidth 1600 -}}{{ $targetWidth = 1600 -}}{{- end -}}
       
-      {{ if eq (path.BaseName $coverimg.RelPermalink) (path.BaseName .Site.Params.coverimage) }}
-        {{/* Notice the '=' instead of ':=' to modify the outer variable */}}
-        {{ $coverimg = $coverimg.Fill (printf "%dx%d webp" $width 250) }}
-      {{ else }} 
-        {{/* Safely step through processing to avoid passing nil to the filter */}}
-        {{ $processed := $coverimg.Fill (printf "%dx%d webp" $width 250) }}
-        {{ if $processed }}
-          {{ $coverimg = $processed.Filter (images.Brightness -33) }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
+      {{- $isSiteDefault := eq (path.BaseName $coverImg.RelPermalink) (path.BaseName $.Site.Params.coverimage) -}}
+      {{- $processed := $coverImg.Fill (printf "%dx250 webp q80" $targetWidth) -}}
+      
+      {{- if and $processed (not $isSiteDefault) -}}
+        {{- $coverImg = $processed.Filter (images.Brightness -33) -}}
+      {{- else if $processed -}}
+        {{- $coverImg = $processed -}}
+      {{- end -}}
+    {{- end -}}
     
-    {{/* Saves the fully processed image (or the original SVG/fallback if unprocessable) */}}
-    {{- .Scratch.Set "coverImgObj" $coverimg -}}
+    {{- $.Scratch.Set "coverImgObj" $coverImg -}}
   {{- end -}}
 {{- end -}}
 
-{{/***************************
-Common paginator environment.
-Precomputes a paginator if needed. Can be used to know
-templates are rendering a list.
-******************************/}}
-{{- if eq .Kind "home" -}}
-  {{- $pages := where site.RegularPages "Section" "posts" -}}
-  {{- $paginator := (.Paginate $pages 6) -}}
+{{/* 4. Streamlined Paginator Instantiation without dummy variables */}}
+{{- if or (eq .Kind "home") (eq .Kind "term") -}}
+  {{- $pages := where (cond (eq .Kind "home") site.RegularPages .Data.Pages) "Section" "posts" -}}
+  {{- $paginator := .Paginate $pages 6 -}}
   {{- .Store.Set "paginator" $paginator -}}
-  {{- $tmp := or (eq $paginator.PageNumber 1) (.Store.Set "paged" true)  -}}
-{{- else if eq .Kind "term" -}}
-  {{- $pages := where .Data.Pages "Section" "posts" -}}
-  {{- $paginator := (.Paginate $pages 6) -}}
-  {{- .Store.Set "paginator" $paginator -}}
-  {{- $tmp := or (eq $paginator.PageNumber 1) (.Store.Set "paged" true)  -}}
+  {{- if eq $paginator.PageNumber 1 -}}{{- .Store.Set "paged" true -}}{{- end -}}
 {{- end -}}
-
-
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
@@ -87,38 +57,23 @@ templates are rendering a list.
     {{ partial "meta.html" . }}
     <title>{{- with .Title -}}{{ . }}{{ else }}{{ .Site.Title }}{{- end -}}</title>
 
-    <link rel="icon" type="image/png" href="/favic/favicon-48x48.png"
-	  sizes="48x48" />
-    <link rel="icon" type="image/svg+xml"
-	  href="/favic/favicon.svg" />
-    <link rel="shortcut icon"
-	  href="/favic/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180"
-	  href="/favic/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title"
-	  content="Fusta i Ferro Blog"/>
+    <link rel="icon" type="image/png" href="/favic/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favic/favicon.svg" />
+    <link rel="shortcut icon" href="/favic/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favic/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Fusta i Ferro Blog"/>
     <link rel="manifest" href="/favic/site.webmanifest" />
-
-    {{/*
-    {{- with .OutputFormats.Get "RSS" -}}
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .RelPermalink }}">
-      {{- end -}}
-    */}}
 
     {{ $href := .Permalink }}
     {{ with .Store.Get "paginator" }}
       {{ $href = .URL | absURL }}
-      {{ with .Next }}
-        <link rel="next" href="{{ .URL }}">
-      {{ end }}
-      {{ with .Prev }}
-        <link rel="prev" href="{{ .URL }}">
-      {{ end }}
+      {{ with .Next }}<link rel="next" href="{{ .URL }}">{{ end }}
+      {{ with .Prev }}<link rel="prev" href="{{ .URL }}">{{ end }}
     {{ end }}
     <link rel="canonical" href="{{ $href }}">      
 
     <!-- HREFLANG (not for paginated pages)-->
-    {{- if and (.IsTranslated) (not (.Store.Get "paginator")) -}}
+    {{- if and .IsTranslated (not (.Store.Get "paginator")) -}}
        {{ range .AllTranslations }}
           <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
        {{- end -}}
