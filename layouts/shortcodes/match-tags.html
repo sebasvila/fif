@@ -1,46 +1,42 @@
 {{- $pages := .Site.RegularPages -}}
-{{- $input_terms := .Params -}}
+
+{{/* 1. Normalize and deduplicate input terms ONCE outside the loop */}}
+{{- $input_terms := slice -}}
+{{- range .Params -}}
+  {{- $input_terms = $input_terms | append (lower (trim . " ")) -}}
+{{- end -}}
+{{- $input_terms = $input_terms | uniq -}}
+{{- $target_count := len $input_terms -}}
+
 {{- $filtered := slice -}}
 
-{{/* Safely filter pages checking structured tags and categories */}}
+{{/* 2. Safely collect raw taxonomy strings directly from front-matter */}}
 {{- range $pages -}}
-  {{- $page := . -}}
-  {{- $matches_all := true -}}
+  {{- $page_terms := slice -}}
   
-  {{- range $input_terms -}}
-    {{- $term := lower (trim . " ") -}}
-    {{- $found := false -}}
-    
-    {{/* 1. Check Tags strictly using .GetTerms */}}
-    {{- range $page.GetTerms "tags" -}}
-      {{- if eq (lower (trim .Title " ")) $term -}}
-        {{- $found = true -}}
-      {{- end -}}
-    {{- end -}}
-    
-    {{/* 2. Check Categories strictly using .GetTerms */}}
-    {{- range $page.GetTerms "categories" -}}
-      {{- if eq (lower (trim .Title " ")) $term -}}
-        {{- $found = true -}}
-      {{- end -}}
-    {{- end -}}
-    
-    {{/* If the term is missing from BOTH, discard the page */}}
-    {{- if not $found -}}
-      {{- $matches_all = false -}}
+  {{- with .Params.tags -}}
+    {{- range . -}}
+      {{- $page_terms = $page_terms | append (lower (trim . " ")) -}}
     {{- end -}}
   {{- end -}}
   
-  {{/* If all terms were found, keep the page */}}
-  {{- if $matches_all -}}
-    {{- $filtered = $filtered | append $page -}}
+  {{- with .Params.categories -}}
+    {{- range . -}}
+      {{- $page_terms = $page_terms | append (lower (trim . " ")) -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{/* 3. Set intersection: if all input terms exist in the page's terms, keep the page */}}
+  {{- if eq (len (intersect $input_terms $page_terms)) $target_count -}}
+    {{- $filtered = $filtered | append . -}}
   {{- end -}}
 {{- end -}}
 
 {{/* Render Standard List - Sorted by Date Descending */}}
 {{- if $filtered -}}
   <ul class="match-tags-list">
-    {{- range sort $filtered "Date" "asc" -}}
+    {{/* Note: Changed "asc" to "desc" to match your comment's intent */}}
+    {{- range sort $filtered "Date" "desc" -}}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ if .Date }}
