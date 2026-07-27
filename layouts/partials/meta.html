@@ -47,7 +47,84 @@
 <meta name="description" content="{{ $desc }}">
 
 
+<!-- OpenGraph Metadata -->
+{{- $page := . -}}
+{{- $locale := replace $page.Site.Language.LanguageCode "-" "_" -}}
 
+<meta property="og:type"
+      content="{{ if $page.IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title"
+      content="{{ $page.Title | default $page.Site.Title }}">
+<meta property="og:url"
+      content="{{ $href }}">
+<meta property="og:site_name"
+      content="{{ $page.Site.Title }}">
+<meta property="og:description"
+      content="{{ $desc }}">
+<meta property="og:locale"
+      content="{{ $locale }}">
+
+{{- if $page.IsPage }}
+
+  {{- $coverResource := false -}}
+
+  {{/*
+     Use the original source filename from front matter.
+     Change .Params.coverImage if your parameter has another name.
+  */}}
+  {{- with $page.Params.coverImage }}
+    {{- $coverResource = $page.Resources.GetMatch . -}}
+  {{- end }}
+
+  {{- with $coverResource }}
+    {{- $socialImage := .Fill "1200x630 Smart jpg q85" -}}
+
+    <meta property="og:image"
+          content="{{ $socialImage.Permalink }}">
+    <meta property="og:image:url"
+          content="{{ $socialImage.Permalink }}">
+    <meta property="og:image:secure_url"
+          content="{{ $socialImage.Permalink }}">
+    <meta property="og:image:type"
+          content="{{ $socialImage.MediaType.Type }}">
+    <meta property="og:image:width"
+          content="{{ $socialImage.Width }}">
+    <meta property="og:image:height"
+          content="{{ $socialImage.Height }}">
+    <meta property="og:image:alt"
+          content="{{ $page.Title }}">
+  {{- else }}
+
+    {{/*
+       Fallback: use the existing image URL.
+       This fallback does not guarantee a 1200x630 ratio.
+    */}}
+    {{- with $coverImage }}
+      <meta property="og:image"
+            content="{{ . | absURL }}">
+      <meta property="og:image:secure_url"
+            content="{{ . | absURL }}">
+      <meta property="og:image:alt"
+            content="{{ $page.Title }}">
+    {{- end }}
+
+  {{- end }}
+
+{{- else }}
+
+  {{- with $authorPicture }}
+    <meta property="og:image"
+          content="{{ . | absURL }}">
+    <meta property="og:image:secure_url"
+          content="{{ . | absURL }}">
+    <meta property="og:image:alt"
+          content="{{ $page.Site.Title }}">
+  {{- end }}
+
+{{- end }}
+
+    {{/*
+    Material anulat a esborrar
 <!-- OpenGraph Metadata -->
 {{- $page := . -}}
 
@@ -70,6 +147,9 @@
   {{- end }}
 {{- end }}
 
+*/}}
+
+    
 <!-- twitter info -->
 <meta name="twitter:card" content="summary">
 {{- with .Site.Author.twitter -}}
