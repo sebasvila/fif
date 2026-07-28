@@ -1,136 +1,233 @@
-{{- $href := .Permalink -}}
+{{- /*
+  JSON-LD schema partial.
+
+  Expected optional Scratch values:
+    coverImage    URL/path to the article image
+    authorPicture URL/path to the publisher logo
+    taxonomy_home true on custom taxonomy landing pages
+
+  The kwlist.html partial must return valid JSON (a string or an array).
+*/ -}}
+
+{{- $pageURL := .Permalink -}}
 {{- with .Store.Get "paginator" -}}
-  {{- $href = .URL | absURL -}}
+  {{- $pageURL = .URL | absURL -}}
 {{- end -}}
 
-{{- /* 1. Precompute static author & publisher data once at the top */ -}}
-{{- $authorName := .Site.Author.name | default "Author" -}}
-{{- $authorUrl := "https://www.practicalmachinist.com/forum/members/sbs.149146/" -}}
-{{- $logo := $.Scratch.Get "authorPicture" -}}
+{{- $homeURL := .Site.Home.Permalink -}}
+{{- $websiteID := printf "%s#website" $homeURL -}}
+{{- $publisherID := printf "%s#publisher" $homeURL -}}
 
-{{- /* 2. THE BOTTLENECK FIX: Prioritize front-matter descriptions to avoid triggering .Summary */ -}}
-{{- $desc := .Description | default .Params.summary -}}
-{{- if not $desc -}}
+{{- $language := .Lang -}}
+{{- with .Language.LanguageCode -}}
+  {{- $language = . -}}
+{{- end -}}
+
+{{- /* Author and publisher. Prefer configuration values, retaining the old URL as fallback. */ -}}
+{{- $authorName := .Site.Params.authorName | default .Site.Author.name | default "Author" -}}
+{{- $authorURL := .Site.Params.authorURL | default "https://www.practicalmachinist.com/forum/members/sbs.149146/" -}}
+
+{{- $author := dict
+  "@type" "Person"
+  "name" $authorName
+-}}
+{{- with $authorURL -}}
+  {{- $author = merge $author (dict "url" .) -}}
+{{- end -}}
+
+{{- $publisher := dict
+  "@type" "Organization"
+  "@id" $publisherID
+  "name" .Site.Title
+  "url" $homeURL
+-}}
+
+{{- $logo := .Site.Params.logo | default ($.Scratch.Get "authorPicture") -}}
+{{- with $logo -}}
+  {{- $logoURL := . | absURL -}}
+  {{- $publisher = merge $publisher (dict
+    "logo" (dict
+      "@type" "ImageObject"
+      "@id" (printf "%s#logo" $homeURL)
+      "url" $logoURL
+      "contentUrl" $logoURL
+    )
+  ) -}}
+{{- end -}}
+
+{{- /* Prefer explicit descriptions; only calculate .Summary as a last resort. */ -}}
+{{- $description := .Description | default .Params.summary -}}
+{{- if not $description -}}
   {{- if .IsPage -}}
-    {{- $desc = .Summary | plainify -}}
+    {{- $description = .Summary -}}
   {{- else -}}
-    {{- $desc = .Site.Params.description -}}
+    {{- $description = .Site.Params.description -}}
+  {{- end -}}
+{{- end -}}
+{{- $description = strings.Trim ($description | default "" | plainify) " \t\r\n" -}}
+
+{{- /* kwlist.html returns a Hugo value (typically []string), so use it directly.
+      The complete schema is serialized later with jsonify. */ -}}
+{{- $keywords := partial "kwlist.html" . -}}
+
+{{- /* Collect article images. The cover image is placed first, then any
+      front-matter images. All URLs are absolute and duplicates are removed. */ -}}
+{{- $images := slice -}}
+{{- with ($.Scratch.Get "coverImage") -}}
+  {{- $imageURL := . | absURL -}}
+  {{- $images = $images | append $imageURL -}}
+{{- end -}}
+{{- with .Params.images -}}
+  {{- if reflect.IsSlice . -}}
+    {{- range . -}}
+      {{- $imageURL := . | absURL -}}
+      {{- if not (in $images $imageURL) -}}
+        {{- $images = $images | append $imageURL -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $imageURL := . | absURL -}}
+    {{- if not (in $images $imageURL) -}}
+      {{- $images = $images | append $imageURL -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
-{{- /* 3. Precompute Breadcrumb dictionaries cleanly in Go memory */ -}}
-{{- $breadcrumbs := slice -}}
-{{- if or ($.Scratch.Get "taxonomy_home") (eq .Section "posts") -}}
-  {{- $i := 1 -}}
-  {{- range after 1 .Ancestors.Reverse -}}
-    {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $i "name" .Title "item" .Permalink) -}}
-    {{- $i = add $i 1 -}}
+{{- /*
+  Breadcrumbs.
+
+  Build a complete, ordered path with non-empty names and absolute URLs.
+  The final ListItem intentionally omits `item`, matching Google's documented
+  JSON-LD example; Google then uses the URL of the containing page.
+*/ -}}
+{{- $breadcrumbItems := slice -}}
+{{- if not .IsHome -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- $name := .LinkTitle | default .Title -}}
+    {{- if .IsHome -}}
+      {{- $name = .Site.Title -}}
+    {{- end -}}
+    {{- $breadcrumbItems = $breadcrumbItems | append (dict
+      "@type" "ListItem"
+      "position" (add (len $breadcrumbItems) 1)
+      "name" $name
+      "item" .Permalink
+    ) -}}
   {{- end -}}
-  {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $i "name" .Title "item" .Permalink) -}}
+
+  {{- $breadcrumbItems = $breadcrumbItems | append (dict
+    "@type" "ListItem"
+    "position" (add (len $breadcrumbItems) 1)
+    "name" (.LinkTitle | default .Title)
+  ) -}}
+{{- end -}}
+
+{{- $breadcrumb := dict -}}
+{{- if ge (len $breadcrumbItems) 2 -}}
+  {{- $breadcrumb = dict
+    "@type" "BreadcrumbList"
+    "@id" (printf "%s#breadcrumb" $pageURL)
+    "itemListElement" $breadcrumbItems
+  -}}
+{{- end -}}
+
+{{- $schema := dict "@context" "https://schema.org" -}}
+
+{{- if .IsHome -}}
+
+  {{- $schema = merge $schema (dict
+    "@type" "WebSite"
+    "@id" $websiteID
+    "url" $pageURL
+    "name" .Site.Title
+    "description" $description
+    "inLanguage" $language
+    "author" $author
+    "publisher" $publisher
+  ) -}}
+
+  {{- with $keywords -}}
+    {{- $schema = merge $schema (dict "keywords" .) -}}
+  {{- end -}}
+
+{{- else if or ($.Scratch.Get "taxonomy_home") (in (slice "taxonomy" "term") .Kind) -}}
+
+  {{- $schema = merge $schema (dict
+    "@type" "CollectionPage"
+    "@id" (printf "%s#webpage" $pageURL)
+    "url" $pageURL
+    "name" .Title
+    "description" $description
+    "inLanguage" $language
+    "isPartOf" (dict "@type" "WebSite" "@id" $websiteID)
+    "author" $author
+    "publisher" $publisher
+  ) -}}
+
+  {{- with $keywords -}}
+    {{- $schema = merge $schema (dict "keywords" .) -}}
+  {{- end -}}
+
+{{- else if and .IsPage (eq .Section "posts") -}}
+
+  {{- $schema = merge $schema (dict
+    "@type" "BlogPosting"
+    "@id" (printf "%s#article" $pageURL)
+    "url" $pageURL
+    "headline" .Title
+    "description" $description
+    "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "inLanguage" $language
+    "mainEntityOfPage" (dict
+      "@type" "WebPage"
+      "@id" $pageURL
+    )
+    "author" $author
+    "publisher" $publisher
+    "isAccessibleForFree" true
+  ) -}}
+
+  {{- with $images -}}
+    {{- $schema = merge $schema (dict "image" .) -}}
+  {{- end -}}
+  {{- with $keywords -}}
+    {{- $schema = merge $schema (dict "keywords" .) -}}
+  {{- end -}}
+  {{- with .CurrentSection.Title -}}
+    {{- $schema = merge $schema (dict "articleSection" .) -}}
+  {{- end -}}
+
+{{- else -}}
+
+  {{- $schema = merge $schema (dict
+    "@type" "WebPage"
+    "@id" (printf "%s#webpage" $pageURL)
+    "url" $pageURL
+    "name" (.Title | default .Site.Title)
+    "description" $description
+    "inLanguage" $language
+    "isPartOf" (dict "@type" "WebSite" "@id" $websiteID)
+    "author" $author
+    "publisher" $publisher
+  ) -}}
+
+
 {{- end -}}
 
 <script type="application/ld+json">
-{{- if .IsHome -}}
-  {{- /* Home page(s) of site */ -}}
-  {  
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": {{ $href | jsonify }},
-    "author": {
-      "@type": "Person",
-      "name": {{ $authorName | jsonify }},
-      "url": {{ $authorUrl | jsonify }}
-    },
-    "name": {{ .Site.Title | jsonify }},
-    "description": {{ $desc | jsonify }},
-    "keywords": {{ partial "kwlist.html" . }}
-  }
-{{- else if .Scratch.Get "taxonomy_home" -}}
-  {{- /* Home page of a taxonomy term */ -}}
-  {  
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "url": {{ $href | jsonify }},
-    "inLanguage": {{ .Lang | jsonify }},
-    "name": {{ .Title | jsonify }},
-    "description": {{ $desc | jsonify }},
-    "keywords": {{ partial "kwlist.html" . }},
-    "author": {
-      "@type": "Person",
-      "name": {{ $authorName | jsonify }},
-      "url": {{ $authorUrl | jsonify }}
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": {{ .Site.Title | jsonify }},
-      "url": {{ absURL "/" | jsonify }}
-      {{- with $logo }},
-      "logo": {{ . | jsonify }}
-      {{- end }}
-    },
-    "breadcrumb": {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": {{ $breadcrumbs | jsonify }}
-    }
-  }
-{{- else if eq .Section "posts" -}}
-  {{- /* Post page */ -}}
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": {{ .Title | jsonify }},
-    {{- with $.Scratch.Get "coverImage" }}
-    "image": {{ . | absURL | jsonify }},
-    {{- end }}
-    "datePublished": {{ .PublishDate | jsonify }},
-    "dateModified": {{ .Lastmod | jsonify }},
-    "inLanguage": {{ .Lang | jsonify }},
-    "author": {
-      "@type": "Person",
-      "name": {{ $authorName | jsonify }},
-      "url": {{ $authorUrl | jsonify }}
-    },
-    "mainEntityOfPage": { 
-      "@type": "WebPage",
-      "@id": {{ .Permalink | jsonify }}
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": {{ .Site.Title | jsonify }},
-      "url": {{ absURL "/" | jsonify }}
-      {{- with $logo }},
-      "logo": {{ . | jsonify }}
-      {{- end }}
-    },
-    "description": {{ $desc | jsonify }},
-    "keywords": {{ partial "kwlist.html" . }},
-    "breadcrumb": {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": {{ $breadcrumbs | jsonify }}
-    }
-  }
-{{- else -}}
-  {{- /* Other pages */ -}}
-  {  
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "url": {{ $href | jsonify }},
-    "name": {{ .Title | jsonify }},
-    "author": {
-      "@type": "Person",
-      "name": {{ $authorName | jsonify }},
-      "url": {{ $authorUrl | jsonify }}
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": {{ .Site.Title | jsonify }},
-      "url": {{ absURL "/" | jsonify }}
-      {{- with $logo }},
-      "logo": {{ . | jsonify }}
-      {{- end }}
-    }
-  }
-{{- end -}}
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
 </script>
+
+{{- /*
+  Emit BreadcrumbList as its own top-level JSON-LD object. This follows
+  Google's documented JSON-LD shape directly and avoids attaching the
+  WebPage-only `breadcrumb` property to BlogPosting.
+*/ -}}
+{{- if $breadcrumb -}}
+  {{- $breadcrumbSchema := merge (dict "@context" "https://schema.org") $breadcrumb -}}
+<script type="application/ld+json">
+{{ $breadcrumbSchema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- end -}}
+
